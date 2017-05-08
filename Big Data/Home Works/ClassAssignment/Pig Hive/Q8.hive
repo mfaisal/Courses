@@ -1,0 +1,19 @@
+
+drop table whitehouse;
+create table whitehouse (NAMELAST STRING,NAMEFIRST STRING,NAMEMID STRING,UIN STRING,BDGNBR STRING,ACCESS_TYPE STRING,TOA STRING,POA STRING,TOD STRING,POD STRING,APPT_MADE_DATE STRING) partitioned by (year_partition string)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/white_house/partition/2009' INTO TABLE whitehouse Partition (year_partition = '2009');
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/white_house/partition/2010' INTO TABLE whitehouse Partition (year_partition = '2010');
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/white_house/partition/2011' INTO TABLE whitehouse Partition (year_partition = '2011');
+
+
+
+create table Visitor2009(NAMELAST STRING,NAMEFIRST STRING) partitioned by (year_partition string);
+create table Visitor2010(NAMELAST STRING,NAMEFIRST STRING) partitioned by (year_partition string);
+create table Visitor2011(NAMELAST STRING,NAMEFIRST STRING) partitioned by (year_partition string);
+
+
+INSERT OVERWRITE TABLE Visitor2009 partition (year_partition = '2009') SELECT whitehouse.namelast, whitehouse.namefirst from whitehouse where year_partition = '2009';
+INSERT OVERWRITE TABLE Visitor2010 partition (year_partition = '2010') SELECT whitehouse.namelast, whitehouse.namefirst from whitehouse where year_partition = '2010';
+INSERT OVERWRITE TABLE Visitor2011 partition (year_partition = '2011') SELECT whitehouse.namelast, whitehouse.namefirst from whitehouse where year_partition = '2011';

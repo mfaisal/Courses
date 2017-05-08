@@ -1,0 +1,24 @@
+cd /usr/local/mahout-0.7/bin/
+
+hadoop fs -rmr proj
+hadoop fs -rmr bigdata
+hadoop fs -mkdir bigdata
+
+hadoop fs -put /people/cs/m/mxs121731/bigdata/benign/* bigdata
+
+
+./mahout seqdirectory -c UTF-16 -i bigdata -o proj/kmeans
+
+./mahout seq2sparse -i proj/kmeans/ -o proj/kmeans-vector/ -ow -chunk 100 -x 80
+
+./mahout kmeans -i proj/kmeans-vector/tfidf-vectors/ -c proj/kmeans-centroids -cl -o proj/kmeans-clusters -k 5 -ow -x 10 -dm org.apache.mahout.common.distance.CosineDistanceMeasure
+
+./mahout clusterdump -d proj/kmeans-vector/dictionary.file-0 -dt sequencefile -i proj/kmeans-clusters/clusters-*-final/part-r-00000 -n 20 -b 100 -o /people/cs/m/mxs121731/bigdata/kmeans.out -p proj/kmeans-clusters/clusteredPoints/
+
+ more /people/cs/m/mxs121731/bigdata/kmeans.out
+
+./mahout seqdumper -i proj/kmeans-clusters/clusteredPoints/part-m-00000 | more
+
+
+
+

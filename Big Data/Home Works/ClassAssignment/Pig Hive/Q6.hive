@@ -1,0 +1,24 @@
+
+create table nasa (IP STRING,VALUE STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
+
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/nasa/NASA_HTTP.txt' into table nasa;
+
+
+
+create table host (IP STRING,COUNTRY_ABBREVIATION STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
+
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/nasa/HOST_COUNTRY.txt' into table host;
+
+
+create table country(COUNTRY_ABBREVIATION STRING, COUNTRY_NAME STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t';
+
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/nasa/COUNTRY_NAME.txt' into table country;
+
+
+select * from nasa join host on (nasa.ip = host.ip) join country on (country.country_abbreviation = host.country_abbreviation);
+
+
+
+
+
+

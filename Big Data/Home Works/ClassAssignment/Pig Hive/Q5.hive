@@ -1,0 +1,7 @@
+create table visitor (NAMELAST STRING,NAMEFIRST STRING,NAMEMID STRING,UIN STRING,BDGNBR STRING,ACCESS_TYPE STRING,TOA STRING,POA STRING,TOD STRING,POD STRING,APPT_MADE_DATE STRING )ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+
+LOAD DATA local INPATH '/people/cs/k/kma041000/BigData/hive/white_house/White_House.txt' into table visitor;
+
+select NAMELAST, NAMEFIRST, count(*) as visitor_count   from visitor  group by NAMELAST, NAMEFIRST order by visitor_count desc limit 10;
+
+

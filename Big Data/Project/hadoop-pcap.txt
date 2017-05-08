@@ -1,0 +1,19 @@
+add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar;
+
+SET hive.input.format=org.apache.hadoop.hive.ql.io.CombineHiveInputFormat;
+SET mapred.max.split.size=1048576000;
+
+SET net.ripe.hadoop.pcap.io.reader.class=net.ripe.hadoop.pcap.PcapReader;
+
+CREATE EXTERNAL TABLE pcaps1 (ts bigint,
+                             protocol string,
+                             src string,
+                             src_port int,
+                             dst string,
+                             dst_port int,
+                             len int,
+                             ttl int)
+ROW FORMAT SERDE 'net.ripe.hadoop.pcap.serde.PcapDeserializer'
+STORED AS INPUTFORMAT 'net.ripe.hadoop.pcap.io.PcapInputFormat'
+          OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION 'hdfs://localhost:9001/pcaps1/';

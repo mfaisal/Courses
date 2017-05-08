@@ -1,0 +1,29 @@
+hive -e "add jar hadoop-pcap-serde-0.1-jar-with-dependencies.jar; select src,dst,count(*) from pcaps group by src, dst" > /home/mustafa/Spring2015/BigData/Project/Results/srcdstcount.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select src,dst,count(*) from pcaps group by src, dst order by src" > /home/mustafa/Spring2015/BigData/Project/Results/srcdstcountoby.csv
+
+
+=======
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select protocol,count(*) from pcaps group by protocol order by protocol" > /home/mustafa/Spring2015/BigData/Project/Results/protocolnew.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select src,count(*) from pcaps group by src order by src" > /home/mustafa/Spring2015/BigData/Project/Results/sources.csv
+ 
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select dst,count(*) from pcaps group by dst order by dst" > /home/mustafa/Spring2015/BigData/Project/Results/destination.csv
+
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select src_port,count(*) from pcaps group by src_port order by src_port" > /home/mustafa/Spring2015/BigData/Project/Results/source_ports.csv
+
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select dst_port,count(*) from pcaps group by dst_port order by dst_port" > /home/mustafa/Spring2015/BigData/Project/Results/dest_ports.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select src,src_port,count(*) from pcaps group by src,src_port order by src desc,src_port" > /home/mustafa/Spring2015/BigData/Project/Results/sourceports.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select dst,dst_port,count(*) from pcaps group by dst,dst_port order by dst src,dst_port" > /home/mustafa/Spring2015/BigData/Project/Results/destports.csv
+
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select ts,count(*) from pcaps group by ts order by ts" > /home/mustafa/Spring2015/BigData/Project/Results/timeCount.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select ts,src,count(*) from pcaps group by ts,src order by ts,src" > /home/mustafa/Spring2015/BigData/Project/Results/timeSIPs.csv
+
+hive -e "add jar hadoop-pcap-serde-1.1-SNAPSHOT-jar-with-dependencies.jar; select ts,len,count(*) from pcaps group by ts,len order by ts,len" > /home/mustafa/Spring2015/BigData/Project/Results/timeBytes.csv
+

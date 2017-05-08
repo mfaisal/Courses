@@ -1,0 +1,56 @@
+hadoop jar WhiteHouse_Class/WhiteHouseAverage.jar  /home/kma041000/HW1/input /home/mxs121731/output
+
+
+
+3->
+
+157     choe    kenneth lambrew jeanne
+158     levitis jason   lambrew jeanne
+163     morrison        helen   lambrew jeanne
+165     livingston      catherine       lambrew jeanne
+176     fontenot        yvette  lambrew jeanne
+178     hoff    james   hoff    joanne
+198     brookslasure    chiquita        lambrew jeanne
+199     larsen  steven  lambrew jeanne
+208     tavenner        marilyn lambrew jeanne
+258     hash    michael lambrew jeanne
+
+
+2->
+
+2386    dubois  joshua
+2394    nelson  greg
+2642    matusiak        ari
+2669    kelly   lauren
+2935    monteiro        paul
+3001    tubman  samantha
+3593    carson  jon
+7272    lambrew jeanne
+8162    lierman kyle
+463953  office  visitors
+
+1->
+
+195     choe    kenneth
+200     fontenot        yvette
+213     borzi   phyllis
+222     davis   jonathan
+224     livingston      catherine10.176.148.238_28-Jan-2013 20-22-10
+239     levitis jason
+242     morrison        helen
+250     hoff    james
+258     tavenner        marilyn
+334     hash    michael
+
+4->
+January 14741.333333333334 (2009 2011 2012 )  Total: 44224
+February        15425.0 (2009 2012 )  Total: 30850
+March   28072.5 (2009 2012 )  Total: 56145
+April   31666.333333333332 (2009 2011 2012 )  Total: 94999
+May     32219.0 (2009 2011 2012 )  Total: 96657
+June    35143.0 (2009 2011 2012 )  Total: 105429
+July    29032.5 (2009 2011 )  Total: 58065
+August  33671.666666666664 (2009 2010 2011 )  Total: 101015
+September       19352.5 (2009 2011 )  Total: 38705
+November        32565.0 (2010 2011 )  Total: 65130
+December        73905.0 (2011 )  Total: 73905

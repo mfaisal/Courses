@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.3
+Created-By: 1.7.0_10-b18 (Oracle Corporation)
+Class-Path: lib/hadoop-ant-1.0.4.jar lib/hadoop-client-1.0.4.jar lib/h
+ adoop-core-1.0.4.jar lib/hadoop-examples-1.0.4.jar lib/hadoop-miniclu
+ ster-1.0.4.jar lib/hadoop-test-1.0.4.jar lib/hadoop-tools-1.0.4.jar
+X-COMMENT: Main-Class will be added automatically by build
+Main-Class: reducejoin.ReduceJoin
+

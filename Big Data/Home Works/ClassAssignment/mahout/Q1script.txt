@@ -1,0 +1,34 @@
+
+cd /usr/local/mahout-0.7/bin/
+
+./mahout seqdirectory -c UTF-8 -i /reviews-extracted/ -o /mxs121731/HW5/kmeans
+
+hadoop fs -ls /mxs121731/HW5/kmeans
+
+hadoop fs -cat /mxs121731/HW5/kmeans/chunk-0
+
+./mahout seqdumper -i /mxs121731/HW5/kmeans/chunk-0 
+
+
+./mahout seq2sparse -i /mxs121731/HW5/kmeans/ -o /mxs121731/HW5/kmeans-vector/ -ow -chunk 100 -x 80
+
+./mahout seqdumper -i /mxs121731/HW5/kmeans-vectors/tfidf-vectors/part-r-00000
+
+./mahout seqdumper -i /mxs121731/HW5/kmeans-vector/tokenized-documents/part-m-00000
+
+./mahout seqdumper -i /mxs121731/HW5/kmeans-vector/dictionary.file-0 
+
+
+./mahout kmeans -i /mxs121731/HW5/kmeans-vector/tfidf-vectors/ -c /mxs121731/HW5/kmeans-centroids -cl -o /mxs121731/HW5/kmeans-clusters -k 60 -ow -x 10 -dm org.apache.mahout.common.distance.CosineDistanceMeasure
+
+
+
+./mahout clusterdump -d /mxs121731/HW5/kmeans-vector/dictionary.file-0 -dt sequencefile -i /mxs121731/HW5/kmeans-clusters/clusters-*-final/part-r-00000 -n 20 -b 100 -o /people/cs/m/mxs121731/Q1clusters.out -p /mxs121731/HW5/kmeans-clusters/clusteredPoints/
+
+clear
+
+./mahout seqdumper -i /mxs121731/HW5/kmeans-clusters/clusteredPoints/part-m-00000 >> /people/cs/m/mxs121731/Q1clpoints.out
+
+
+
+

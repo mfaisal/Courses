@@ -1,0 +1,31 @@
+cd /usr/local/mahout-0.7/bin/
+
+
+./mahout seq2sparse -i /reviews-seq -o /mxs121731/HW5/nb-vectors -ow -x 60
+
+./mahout seqdumper -i /mxs121731/HW5/nb-vectors/tfidf-vectors/part-r-00000
+
+./mahout seqdumper -i /mxs121731/HW5/nb-vectors/tokenized-documents/part-m-00000
+
+./mahout seqdumper -i /mxs121731/HW5/nb-vectors/dictionary.file-0 
+
+
+
+
+./mahout split -i /mxs121731/HW5/nb-vectors/tfidf-vectors --trainingOutput /mxs121731/HW5/nb-train-vectors --testOutput /mxs121731/HW5/nb-test-vectors --randomSelectionPct 30 --overwrite --sequenceFiles -xm sequential
+
+
+
+./mahout trainnb -i /mxs121731/HW5/nb-train-vectors -el -li labelindex -o /mxs121731/HW5/nb-model -ow -c
+
+./mahout seqdumper -i labelindex
+
+clear
+
+
+./mahout testnb -i /mxs121731/HW5/nb-train-vectors -m /mxs121731/HW5/nb-model -l labelindex -ow -o /mxs121731/HW5/nb-tainingtest -c 2> /people/cs/m/mxs121731/Q2tr.txt 
+
+clear
+
+
+./mahout testnb -i /mxs121731/HW5/nb-test-vectors -m /mxs121731/HW5/nb-model -l labelindex -ow -o /mxs121731/HW5/nb-testingtest -c 2> /people/cs/m/mxs121731/Q2te.txt
