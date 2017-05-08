@@ -1,0 +1,709 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.functions.MultilayerPerceptron -- -L 0.01 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 0
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.3252637849434317
+    Attrib varienceWabeletTransImage    8.219116437029685
+    Attrib skewnessWabeletTransImage    8.119373989666512
+    Attrib curtWabeletTransImage    8.711121761299616
+    Attrib entropyImage    -0.5703480330196439
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.325541901214313
+    Attrib varienceWabeletTransImage    -8.219679356758546
+    Attrib skewnessWabeletTransImage    -8.120448800591165
+    Attrib curtWabeletTransImage    -8.712122036728667
+    Attrib entropyImage    0.5702062310827208
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.9174953096014065
+    Attrib varienceWabeletTransImage    8.907211452050616
+    Attrib skewnessWabeletTransImage    7.918743196840662
+    Attrib curtWabeletTransImage    8.824668472762129
+    Attrib entropyImage    -0.6378226749223754
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.9178350961050725
+    Attrib varienceWabeletTransImage    -8.907985214968116
+    Attrib skewnessWabeletTransImage    -7.919511455145125
+    Attrib curtWabeletTransImage    -8.825536861284045
+    Attrib entropyImage    0.6378631949706788
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.6295829641857127
+    Attrib varienceWabeletTransImage    8.211990434604806
+    Attrib skewnessWabeletTransImage    8.450278051233743
+    Attrib curtWabeletTransImage    8.929068905111333
+    Attrib entropyImage    -0.20297942068671176
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.62978096264024
+    Attrib varienceWabeletTransImage    -8.212386780727766
+    Attrib skewnessWabeletTransImage    -8.450763394401193
+    Attrib curtWabeletTransImage    -8.929588664588834
+    Attrib entropyImage    0.2029933189529111
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.051885761268371
+    Attrib varienceWabeletTransImage    8.515856109177962
+    Attrib skewnessWabeletTransImage    8.19443778495657
+    Attrib curtWabeletTransImage    8.702001182845164
+    Attrib entropyImage    -0.22869635720296433
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.052690313476253
+    Attrib varienceWabeletTransImage    -8.517493395622818
+    Attrib skewnessWabeletTransImage    -8.196225202016603
+    Attrib curtWabeletTransImage    -8.703968482146257
+    Attrib entropyImage    0.22872783435930402
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.737860040896487
+    Attrib varienceWabeletTransImage    8.339073472074974
+    Attrib skewnessWabeletTransImage    8.152802322822195
+    Attrib curtWabeletTransImage    8.56509728076042
+    Attrib entropyImage    -0.4115056861252935
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.73775894457879
+    Attrib varienceWabeletTransImage    -8.338874751933902
+    Attrib skewnessWabeletTransImage    -8.152562677517372
+    Attrib curtWabeletTransImage    -8.56484140132842
+    Attrib entropyImage    0.41150320340489416
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.014427619381327
+    Attrib varienceWabeletTransImage    8.47686361902367
+    Attrib skewnessWabeletTransImage    8.286678090303182
+    Attrib curtWabeletTransImage    9.023676443156656
+    Attrib entropyImage    -0.720419168973338
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.014296912659068
+    Attrib varienceWabeletTransImage    -8.476561571210183
+    Attrib skewnessWabeletTransImage    -8.28647648562622
+    Attrib curtWabeletTransImage    -9.023388805850049
+    Attrib entropyImage    0.7203546042213248
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.7381745618858653
+    Attrib varienceWabeletTransImage    8.251568256469264
+    Attrib skewnessWabeletTransImage    8.378876500744619
+    Attrib curtWabeletTransImage    8.899534117727143
+    Attrib entropyImage    -0.33034742144457807
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.738052241126056
+    Attrib varienceWabeletTransImage    -8.251280090055298
+    Attrib skewnessWabeletTransImage    -8.378779897352445
+    Attrib curtWabeletTransImage    -8.899321907446428
+    Attrib entropyImage    0.33022730806840056
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.4636555540581275
+    Attrib varienceWabeletTransImage    7.8928471031780045
+    Attrib skewnessWabeletTransImage    8.474394494467854
+    Attrib curtWabeletTransImage    9.039012937611735
+    Attrib entropyImage    -0.3117538783138497
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.4639450838616264
+    Attrib varienceWabeletTransImage    -7.893385648921458
+    Attrib skewnessWabeletTransImage    -8.475289548927865
+    Attrib curtWabeletTransImage    -9.039891594425274
+    Attrib entropyImage    0.31166255515902785
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.5934188314446898
+    Attrib varienceWabeletTransImage    8.164463746846836
+    Attrib skewnessWabeletTransImage    8.54449084628448
+    Attrib curtWabeletTransImage    8.931952956877646
+    Attrib entropyImage    -0.16191438400196936
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.593720889573888
+    Attrib varienceWabeletTransImage    -8.16502882516895
+    Attrib skewnessWabeletTransImage    -8.545626486064082
+    Attrib curtWabeletTransImage    -8.9329836374391
+    Attrib entropyImage    0.16174245638352802
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.2458537438107795
+    Attrib varienceWabeletTransImage    7.911953357568317
+    Attrib skewnessWabeletTransImage    8.38187677257382
+    Attrib curtWabeletTransImage    8.6580081042853
+    Attrib entropyImage    -0.1729331207231203
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.246174702264896
+    Attrib varienceWabeletTransImage    -7.912466492963395
+    Attrib skewnessWabeletTransImage    -8.383148537511682
+    Attrib curtWabeletTransImage    -8.659108648178787
+    Attrib entropyImage    0.17269545937119235
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.6152645667084102
+    Attrib varienceWabeletTransImage    7.960450521793467
+    Attrib skewnessWabeletTransImage    8.471770254105836
+    Attrib curtWabeletTransImage    9.03389176823482
+    Attrib entropyImage    -0.4009556153451603
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.6149788300510948
+    Attrib varienceWabeletTransImage    -7.959936116464931
+    Attrib skewnessWabeletTransImage    -8.470949926685504
+    Attrib curtWabeletTransImage    -9.033069618855745
+    Attrib entropyImage    0.40102124323403887
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.384966839174233
+    Attrib varienceWabeletTransImage    8.143978566227604
+    Attrib skewnessWabeletTransImage    7.924558345435651
+    Attrib curtWabeletTransImage    8.795524207133793
+    Attrib entropyImage    -0.11024268940297748
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.3850179028181127
+    Attrib varienceWabeletTransImage    -8.144073460200424
+    Attrib skewnessWabeletTransImage    -7.92486682679093
+    Attrib curtWabeletTransImage    -8.795776695711735
+    Attrib entropyImage    0.1101429122647964
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.697732323630712
+    Attrib varienceWabeletTransImage    8.363008377851282
+    Attrib skewnessWabeletTransImage    8.171207559669881
+    Attrib curtWabeletTransImage    8.73550872632281
+    Attrib entropyImage    -0.1368906157237537
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.69796786951293
+    Attrib varienceWabeletTransImage    -8.363416878289211
+    Attrib skewnessWabeletTransImage    -8.171910554829946
+    Attrib curtWabeletTransImage    -8.736181564273638
+    Attrib entropyImage    0.13680994146379508
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.702343557515774
+    Attrib varienceWabeletTransImage    8.169192358969283
+    Attrib skewnessWabeletTransImage    8.559199956264598
+    Attrib curtWabeletTransImage    8.833236787617206
+    Attrib entropyImage    -0.07928386620704891
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.702440443386691
+    Attrib varienceWabeletTransImage    -8.169352354775523
+    Attrib skewnessWabeletTransImage    -8.559585621721181
+    Attrib curtWabeletTransImage    -8.833566878028488
+    Attrib entropyImage    0.0792039280018163
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.788859315657877
+    Attrib varienceWabeletTransImage    8.582895160355353
+    Attrib skewnessWabeletTransImage    7.871232580116712
+    Attrib curtWabeletTransImage    8.521845201639112
+    Attrib entropyImage    -0.1014286035725468
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.7891471809631705
+    Attrib varienceWabeletTransImage    -8.583322698600021
+    Attrib skewnessWabeletTransImage    -7.87224339740461
+    Attrib curtWabeletTransImage    -8.522729066991005
+    Attrib entropyImage    0.1012401949598862
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.661119326684936
+    Attrib varienceWabeletTransImage    8.499607117754758
+    Attrib skewnessWabeletTransImage    8.340608966045513
+    Attrib curtWabeletTransImage    8.915239706636807
+    Attrib entropyImage    -0.43421488426586946
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.6614054680436965
+    Attrib varienceWabeletTransImage    -8.500151205850488
+    Attrib skewnessWabeletTransImage    -8.341534709461177
+    Attrib curtWabeletTransImage    -8.91611513180011
+    Attrib entropyImage    0.43411065015285155
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.5356659193572737
+    Attrib varienceWabeletTransImage    8.365040385919546
+    Attrib skewnessWabeletTransImage    8.118828596868367
+    Attrib curtWabeletTransImage    8.703963214104277
+    Attrib entropyImage    -0.20384528287806955
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.535929902600254
+    Attrib varienceWabeletTransImage    -8.365495216296866
+    Attrib skewnessWabeletTransImage    -8.119684357570167
+    Attrib curtWabeletTransImage    -8.704746236482213
+    Attrib entropyImage    0.20374483866544632
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.4122991147100024
+    Attrib varienceWabeletTransImage    8.056299424143624
+    Attrib skewnessWabeletTransImage    8.566973969836859
+    Attrib curtWabeletTransImage    8.975014972416062
+    Attrib entropyImage    -0.458451236034228
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.4125765212653643
+    Attrib varienceWabeletTransImage    -8.05680403071207
+    Attrib skewnessWabeletTransImage    -8.567998159200624
+    Attrib curtWabeletTransImage    -8.975958177304827
+    Attrib entropyImage    0.45831859872007363
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.524553075109955
+    Attrib varienceWabeletTransImage    8.447052842613427
+    Attrib skewnessWabeletTransImage    7.942229391803285
+    Attrib curtWabeletTransImage    8.748522610170514
+    Attrib entropyImage    -0.32242189254388276
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.5247351709854122
+    Attrib varienceWabeletTransImage    -8.447283355812878
+    Attrib skewnessWabeletTransImage    -7.94297926530867
+    Attrib curtWabeletTransImage    -8.749143945003047
+    Attrib entropyImage    0.3222768122239504
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.6774494286856023
+    Attrib varienceWabeletTransImage    8.295184915994442
+    Attrib skewnessWabeletTransImage    8.110805309349352
+    Attrib curtWabeletTransImage    8.561567999475253
+    Attrib entropyImage    -0.488020516187428
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.6775061022226625
+    Attrib varienceWabeletTransImage    -8.2953050034706
+    Attrib skewnessWabeletTransImage    -8.11092703453798
+    Attrib curtWabeletTransImage    -8.56170778340941
+    Attrib entropyImage    0.4880322402485655
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.8855451245491324
+    Attrib varienceWabeletTransImage    8.415968725078855
+    Attrib skewnessWabeletTransImage    8.251333808982368
+    Attrib curtWabeletTransImage    8.868972071026192
+    Attrib entropyImage    -0.6440194360136723
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.88552059995435
+    Attrib varienceWabeletTransImage    -8.415937253974192
+    Attrib skewnessWabeletTransImage    -8.251219856773444
+    Attrib curtWabeletTransImage    -8.868880141918659
+    Attrib entropyImage    0.6440471984749884
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.4281954170739257
+    Attrib varienceWabeletTransImage    8.025760747369144
+    Attrib skewnessWabeletTransImage    8.165393219187319
+    Attrib curtWabeletTransImage    8.86530401693285
+    Attrib entropyImage    -0.37742285276337084
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.428412604335632
+    Attrib varienceWabeletTransImage    -8.026074850365342
+    Attrib skewnessWabeletTransImage    -8.166238372091135
+    Attrib curtWabeletTransImage    -8.866057163424511
+    Attrib entropyImage    0.3772808137691742
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.2240232666001627
+    Attrib varienceWabeletTransImage    7.818520387501663
+    Attrib skewnessWabeletTransImage    8.389370076275483
+    Attrib curtWabeletTransImage    8.779952167558696
+    Attrib entropyImage    -0.2534784979049683
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.2239113029834776
+    Attrib varienceWabeletTransImage    -7.8183440535610345
+    Attrib skewnessWabeletTransImage    -8.388761819156949
+    Attrib curtWabeletTransImage    -8.779467952306181
+    Attrib entropyImage    0.25364376838483016
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.7239222540788157
+    Attrib varienceWabeletTransImage    8.757491476141869
+    Attrib skewnessWabeletTransImage    7.991879420049451
+    Attrib curtWabeletTransImage    8.719636557592104
+    Attrib entropyImage    -0.29781943700332636
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.7237841895142285
+    Attrib varienceWabeletTransImage    -8.757048241420177
+    Attrib skewnessWabeletTransImage    -7.991778734108261
+    Attrib curtWabeletTransImage    -8.719371497558138
+    Attrib entropyImage    0.29771787752952344
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.5393030708729594
+    Attrib varienceWabeletTransImage    8.321893039047458
+    Attrib skewnessWabeletTransImage    8.262208357123367
+    Attrib curtWabeletTransImage    8.792594831598645
+    Attrib entropyImage    -0.3407908235652174
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.5393870802603518
+    Attrib varienceWabeletTransImage    -8.322070669661557
+    Attrib skewnessWabeletTransImage    -8.262440183929137
+    Attrib curtWabeletTransImage    -8.792833334963028
+    Attrib entropyImage    0.3407878761467307
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.707222680531804
+    Attrib varienceWabeletTransImage    8.26094306509721
+    Attrib skewnessWabeletTransImage    8.2086036191236
+    Attrib curtWabeletTransImage    8.709091344718104
+    Attrib entropyImage    -0.19821574215359658
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.7075795770886244
+    Attrib varienceWabeletTransImage    -8.261649621020105
+    Attrib skewnessWabeletTransImage    -8.20949058187852
+    Attrib curtWabeletTransImage    -8.710025081727368
+    Attrib entropyImage    0.1981769266237711
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.365000154781833
+    Attrib varienceWabeletTransImage    7.867798012505004
+    Attrib skewnessWabeletTransImage    8.28179085464805
+    Attrib curtWabeletTransImage    8.761593307770326
+    Attrib entropyImage    -0.31415809450260274
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.365252198127005
+    Attrib varienceWabeletTransImage    -7.868267250589261
+    Attrib skewnessWabeletTransImage    -8.282613149754255
+    Attrib curtWabeletTransImage    -8.762373613640309
+    Attrib entropyImage    0.3140619127068639
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.0452007129443044
+    Attrib varienceWabeletTransImage    8.421343596799655
+    Attrib skewnessWabeletTransImage    8.276482452087143
+    Attrib curtWabeletTransImage    8.918328827662041
+    Attrib entropyImage    -0.37021415921518774
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.0454802634967533
+    Attrib varienceWabeletTransImage    -8.421839869457827
+    Attrib skewnessWabeletTransImage    -8.27730256226268
+    Attrib curtWabeletTransImage    -8.919126690516489
+    Attrib entropyImage    0.370111983315557
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.840435040143654
+    Attrib varienceWabeletTransImage    8.604649124727501
+    Attrib skewnessWabeletTransImage    7.916534369770644
+    Attrib curtWabeletTransImage    8.804723468879406
+    Attrib entropyImage    -0.7377079790520721
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.8404176378894195
+    Attrib varienceWabeletTransImage    -8.604613719002778
+    Attrib skewnessWabeletTransImage    -7.916487159377698
+    Attrib curtWabeletTransImage    -8.804675640194555
+    Attrib entropyImage    0.7377106972903097
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.9198307212414396
+    Attrib varienceWabeletTransImage    8.421354093267325
+    Attrib skewnessWabeletTransImage    8.161004158195645
+    Attrib curtWabeletTransImage    8.975597818918796
+    Attrib entropyImage    -0.5773464928042242
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.919991147232826
+    Attrib varienceWabeletTransImage    -8.421555934832908
+    Attrib skewnessWabeletTransImage    -8.161731294546566
+    Attrib curtWabeletTransImage    -8.976181843520676
+    Attrib entropyImage    0.5771834726250387
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+
+
+Time taken to build model: 7.63 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1346               98.1765 %
+Incorrectly Classified Instances        25                1.8235 %
+Kappa statistic                          0.9632
+Mean absolute error                      0.0639
+Root mean squared error                  0.1213
+Relative absolute error                 12.9376 %
+Root relative squared error             24.4033 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      66.1926 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.970    0.003    0.997      0.970    0.983      0.964    1.000     1.000     0
+                 0.997    0.030    0.964      0.997    0.980      0.964    1.000     1.000     1
+Weighted Avg.    0.982    0.015    0.982      0.982    0.982      0.964    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 738  23 |   a = 0
+   2 608 |   b = 1
+
+

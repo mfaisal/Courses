@@ -1,0 +1,10 @@
+************Logistic Regression***************
+True Spam: 130.0 Calculated Spam: 0.0
+True ham: 348.0 Calculated ham: 348.0
+Accuracy: 0.7280334728033473
+Stop words used: 
++++++++++++++++++++++++++++
+************Logistic Regression***************
+True Spam: 130.0 Calculated Spam: 0.0
+True ham: 348.0 Calculated ham: 348.0
+Accuracy: 0.7280334728033473

@@ -1,0 +1,203 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.lazy.IBk -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     krkopt
+Instances:    28055
+Attributes:   7
+              wkfile
+              wkingrank
+              wrookfile
+              wrookrank
+              blackKingFile
+              blackKingRank
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+
+
+Time taken to build model: 0.13 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       16505               58.8309 %
+Incorrectly Classified Instances     11550               41.1691 %
+Kappa statistic                          0.54  
+Mean absolute error                      0.0506
+Root mean squared error                  0.1759
+Relative absolute error                 50.8016 %
+Root relative squared error             78.8366 %
+Coverage of cases (0.95 level)          87.9665 %
+Mean rel. region size (0.95 level)      11.7339 %
+Total Number of Instances            28055     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.559    0.051    0.548      0.559    0.554      0.504    0.957     0.697     draw
+                 0.444    0.000    0.600      0.444    0.511      0.516    0.897     0.516     zero
+                 0.526    0.001    0.506      0.526    0.516      0.514    0.827     0.585     one
+                 0.703    0.002    0.715      0.703    0.709      0.706    0.973     0.828     two
+                 0.395    0.002    0.356      0.395    0.374      0.373    0.761     0.376     three
+                 0.364    0.003    0.426      0.364    0.392      0.390    0.769     0.370     four
+                 0.452    0.008    0.485      0.452    0.468      0.460    0.828     0.444     five
+                 0.395    0.012    0.411      0.395    0.403      0.390    0.795     0.331     six
+                 0.324    0.014    0.365      0.324    0.343      0.328    0.834     0.325     seven
+                 0.505    0.026    0.515      0.505    0.510      0.484    0.878     0.542     eight
+                 0.497    0.031    0.512      0.497    0.504      0.473    0.874     0.550     nine
+                 0.475    0.038    0.488      0.475    0.481      0.443    0.873     0.510     ten
+                 0.566    0.049    0.568      0.566    0.567      0.518    0.890     0.626     eleven
+                 0.604    0.055    0.616      0.604    0.609      0.553    0.899     0.680     twelve
+                 0.660    0.062    0.651      0.660    0.656      0.595    0.907     0.731     thirteen
+                 0.703    0.062    0.688      0.703    0.695      0.635    0.935     0.782     fourteen
+                 0.660    0.034    0.617      0.660    0.638      0.607    0.949     0.713     fifteen
+                 0.626    0.006    0.608      0.626    0.617      0.612    0.957     0.660     sixteen
+Weighted Avg.    0.588    0.046    0.586      0.588    0.587      0.542    0.905     0.653     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k    l    m    n    o    p    q    r   <-- classified as
+ 1563    3    2    7    8    7   14   18   34   57   60   69  112  165  227  244  179   26 |    a = draw
+    2   12    0    0    2    1    3    3    0    0    1    1    1    1    0    0    0    0 |    b = zero
+    1    0   41   26    0    0    0    2    4    0    2    0    0    1    1    0    0    0 |    c = one
+    5    0   25  173   15    2    3    2    3    1    1    3   10    3    0    0    0    0 |    d = two
+    6    0    0   10   32    9    8    6    6    0    0    1    3    0    0    0    0    0 |    e = three
+    8    1    1    4   11   72   50   11    6   16    1    6    3    5    3    0    0    0 |    f = four
+   18    1    1    7    5   35  213   58   30   30   13   23   11    4   15    6    1    0 |    g = five
+   22    2    0    3    9   10   46  234   80   83   35   22   19    9    8    7    3    0 |    h = six
+   50    0    3    3    7    7   16   95  221  136   52   29   19   19   11   13    2    0 |    i = seven
+   89    0    0    0    0   11   32   66  105  723  179  110   44   29   20   18    5    2 |    j = eight
+   83    0    5    1    0    2   12   26   40  165  851  242  167   63   34   16    4    1 |    k = nine
+   86    0    0    4    0    4   18   21   25   94  218  943  251  194   51   63    8    5 |    l = ten
+  121    1    2    2    0    5   11   12   16   38  147  208 1614  353  228   75   19    2 |    m = eleven
+  168    0    1    2    1    3    4    4   17   31   55  174  328 2171  421  184   31    2 |    n = twelve
+  213    0    0    0    0    1    7    7    5   16   33   57  185  345 2770  425  118   12 |    o = thirteen
+  230    0    0    0    0    0    2    4   10   14    8   37   62  154  373 3199  442   18 |    p = fourteen
+  149    0    0    0    0    0    0    1    2    0    4    3   11   11   82  385 1429   89 |    q = fifteen
+   36    0    0    0    0    0    0    0    2    0    2    4    2    0   10   15   75  244 |    r = sixteen
+
+

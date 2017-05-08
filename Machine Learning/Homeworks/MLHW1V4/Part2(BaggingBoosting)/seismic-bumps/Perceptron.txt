@@ -1,0 +1,127 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.2 -N 100 -V 0 -S 0 -E 20 -H 0
+Relation:     seismic-bumps
+Instances:    2584
+Attributes:   19
+              seismic
+              seismoacoustic
+              shift
+              genergy
+              gpuls
+              gdenergy
+              gdpuls
+              ghazard
+              nbumps
+              nbumps2
+              nbumps3
+              nbumps4
+              nbumps5
+              nbumps6
+              nbumps7
+              nbumps89
+              energy
+              maxenergy
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.33527882571142714
+    Attrib seismic=a    -0.13778837957490586
+    Attrib seismic=b    0.1253305692399636
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.11007490873172603
+    Attrib seismoacoustic=b    0.06383077479000021
+    Attrib seismoacoustic=c    0.15489271261111914
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.37143378238493585
+    Attrib genergy    0.2251492840747876
+    Attrib gpuls    0.8890538931586301
+    Attrib gdenergy    -0.017121452837677544
+    Attrib gdpuls    -0.11510887518937576
+    Attrib ghazard=a    0.0968380498491755
+    Attrib ghazard=b    0.17073170283159775
+    Attrib ghazard=c    0.026251533058868286
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.6633235255176864
+    Attrib nbumps2    0.6328035813923744
+    Attrib nbumps3    0.746285102985867
+    Attrib nbumps4    -0.2813662125912993
+    Attrib nbumps5    0.1334601816779313
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.0080957293963017
+    Attrib maxenergy    0.06372953090400398
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.2954077253543061
+    Attrib seismic=a    0.10533135967263699
+    Attrib seismic=b    -0.1564124985070124
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.0810067059792405
+    Attrib seismoacoustic=b    -0.03501451022645851
+    Attrib seismoacoustic=c    -0.13447595342206117
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.36840235673613864
+    Attrib genergy    -0.2258101671272645
+    Attrib gpuls    -0.8895893982863035
+    Attrib gdenergy    0.003305951313209385
+    Attrib gdpuls    0.12847213317491357
+    Attrib ghazard=a    -0.13905624450144552
+    Attrib ghazard=b    -0.2126335302219537
+    Attrib ghazard=c    -0.06801885305877632
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.6694573301971742
+    Attrib nbumps2    -0.6317329024958529
+    Attrib nbumps3    -0.7367426591947767
+    Attrib nbumps4    0.2868764341135228
+    Attrib nbumps5    -0.10331200100611444
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.019843612593374988
+    Attrib maxenergy    -0.09148361735602305
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Time taken to build model: 0.37 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2410               93.2663 %
+Incorrectly Classified Instances       174                6.7337 %
+Kappa statistic                          0.0069
+Mean absolute error                      0.1176
+Root mean squared error                  0.2399
+Relative absolute error                 95.4069 %
+Root relative squared error             96.7807 %
+Coverage of cases (0.95 level)          98.8777 %
+Mean rel. region size (0.95 level)      74.4195 %
+Total Number of Instances             2584     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.006    0.002    0.167      0.006    0.011      0.020    0.761     0.196     1
+                 0.998    0.994    0.934      0.998    0.965      0.020    0.761     0.972     0
+Weighted Avg.    0.933    0.929    0.884      0.933    0.902      0.020    0.761     0.921     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    1  169 |    a = 1
+    5 2409 |    b = 0
+
+

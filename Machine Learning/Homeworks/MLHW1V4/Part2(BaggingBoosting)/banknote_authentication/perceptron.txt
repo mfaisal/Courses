@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.01 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 0
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.8725950884599123
+    Attrib varienceWabeletTransImage    8.382512899174737
+    Attrib skewnessWabeletTransImage    8.268162690584148
+    Attrib curtWabeletTransImage    8.826526419969236
+    Attrib entropyImage    -0.3991782553575698
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.8728571988601734
+    Attrib varienceWabeletTransImage    -8.38293892319049
+    Attrib skewnessWabeletTransImage    -8.269080738992171
+    Attrib curtWabeletTransImage    -8.827344410909902
+    Attrib entropyImage    0.39902296493322653
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Time taken to build model: 0.31 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1345               98.1036 %
+Incorrectly Classified Instances        26                1.8964 %
+Kappa statistic                          0.9617
+Mean absolute error                      0.0642
+Root mean squared error                  0.1214
+Relative absolute error                 12.995  %
+Root relative squared error             24.4277 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      66.4478 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.970    0.005    0.996      0.970    0.983      0.962    1.000     1.000     0
+                 0.995    0.030    0.963      0.995    0.979      0.962    1.000     1.000     1
+Weighted Avg.    0.981    0.016    0.982      0.981    0.981      0.962    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 738  23 |   a = 0
+   3 607 |   b = 1
+
+

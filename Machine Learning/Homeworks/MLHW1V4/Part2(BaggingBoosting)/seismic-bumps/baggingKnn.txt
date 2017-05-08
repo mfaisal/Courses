@@ -1,0 +1,183 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.lazy.IBk -- -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     seismic-bumps
+Instances:    2584
+Attributes:   19
+              seismic
+              seismoacoustic
+              shift
+              genergy
+              gpuls
+              gdenergy
+              gdpuls
+              ghazard
+              nbumps
+              nbumps2
+              nbumps3
+              nbumps4
+              nbumps5
+              nbumps6
+              nbumps7
+              nbumps89
+              energy
+              maxenergy
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2318               89.7059 %
+Incorrectly Classified Instances       266               10.2941 %
+Kappa statistic                          0.0931
+Mean absolute error                      0.1057
+Root mean squared error                  0.278 
+Relative absolute error                 85.7556 %
+Root relative squared error            112.1298 %
+Coverage of cases (0.95 level)          96.0139 %
+Mean rel. region size (0.95 level)      58.185  %
+Total Number of Instances             2584     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.135    0.049    0.162      0.135    0.147      0.094    0.659     0.158     1
+                 0.951    0.865    0.940      0.951    0.945      0.094    0.659     0.955     0
+Weighted Avg.    0.897    0.811    0.889      0.897    0.893      0.094    0.659     0.902     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   23  147 |    a = 1
+  119 2295 |    b = 0
+
+

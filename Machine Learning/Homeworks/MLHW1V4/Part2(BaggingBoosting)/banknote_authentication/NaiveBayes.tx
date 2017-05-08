@@ -1,0 +1,77 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.55)  (0.45)
+============================================
+varienceWabeletTransImage
+  mean                        2.2749 -1.8686
+  std. dev.                   2.0186  1.8797
+  weight sum                     761     610
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        4.2509 -0.9933
+  std. dev.                   5.1363  5.4009
+  weight sum                     761     610
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        0.8016  2.1482
+  std. dev.                   3.2373  5.2576
+  weight sum                     761     610
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.1486 -1.2467
+  std. dev.                   2.1251  2.0695
+  weight sum                     761     610
+  precision                   0.0095  0.0095
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1151               83.9533 %
+Incorrectly Classified Instances       220               16.0467 %
+Kappa statistic                          0.6731
+Mean absolute error                      0.1899
+Root mean squared error                  0.3245
+Relative absolute error                 38.4488 %
+Root relative squared error             65.2882 %
+Coverage of cases (0.95 level)          99.5624 %
+Mean rel. region size (0.95 level)      74.5077 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.880    0.211    0.839      0.880    0.859      0.674    0.938     0.956     0
+                 0.789    0.120    0.841      0.789    0.814      0.674    0.938     0.921     1
+Weighted Avg.    0.840    0.171    0.840      0.840    0.839      0.674    0.938     0.941     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 670  91 |   a = 0
+ 129 481 |   b = 1
+
+

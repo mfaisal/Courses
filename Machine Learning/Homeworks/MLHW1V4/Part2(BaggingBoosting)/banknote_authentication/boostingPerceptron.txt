@@ -1,0 +1,290 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100000 -S 1 -I 30 -W weka.classifiers.functions.MultilayerPerceptron -- -L 0.01 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 0
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.8725950884599123
+    Attrib varienceWabeletTransImage    8.382512899174737
+    Attrib skewnessWabeletTransImage    8.268162690584148
+    Attrib curtWabeletTransImage    8.826526419969236
+    Attrib entropyImage    -0.3991782553575698
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.8728571988601734
+    Attrib varienceWabeletTransImage    -8.38293892319049
+    Attrib skewnessWabeletTransImage    -8.269080738992171
+    Attrib curtWabeletTransImage    -8.827344410909902
+    Attrib entropyImage    0.39902296493322653
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 3.99
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.870611789253359
+    Attrib varienceWabeletTransImage    9.118338277810336
+    Attrib skewnessWabeletTransImage    9.830471254942765
+    Attrib curtWabeletTransImage    11.495834749106857
+    Attrib entropyImage    1.5332578295572707
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.872709401789775
+    Attrib varienceWabeletTransImage    -9.121577210521961
+    Attrib skewnessWabeletTransImage    -9.835265202458068
+    Attrib curtWabeletTransImage    -11.501756193281286
+    Attrib entropyImage    -1.5340688979315351
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 2.48
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.7372194450342286
+    Attrib varienceWabeletTransImage    8.217933327474281
+    Attrib skewnessWabeletTransImage    10.445949769286337
+    Attrib curtWabeletTransImage    11.005428485323426
+    Attrib entropyImage    3.074609689734896
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.7376754606550264
+    Attrib varienceWabeletTransImage    -8.219023577787295
+    Attrib skewnessWabeletTransImage    -10.447128440033307
+    Attrib curtWabeletTransImage    -11.00676956740635
+    Attrib entropyImage    -3.0748202676635046
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.83
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.327046708289023
+    Attrib varienceWabeletTransImage    17.640170875044575
+    Attrib skewnessWabeletTransImage    0.267236200939632
+    Attrib curtWabeletTransImage    8.922655319782756
+    Attrib entropyImage    1.7805430966049578
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.3322484079395813
+    Attrib varienceWabeletTransImage    -17.6523204766337
+    Attrib skewnessWabeletTransImage    -0.2801494119770931
+    Attrib curtWabeletTransImage    -8.937588481480661
+    Attrib entropyImage    -1.7819967939432337
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.68
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    6.155250993375817
+    Attrib varienceWabeletTransImage    8.738193333119726
+    Attrib skewnessWabeletTransImage    4.263432659656744
+    Attrib curtWabeletTransImage    2.805470954061922
+    Attrib entropyImage    -9.137126192500569
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -6.153319132597751
+    Attrib varienceWabeletTransImage    -8.736256715682856
+    Attrib skewnessWabeletTransImage    -4.263038062503124
+    Attrib curtWabeletTransImage    -2.8057477671233912
+    Attrib entropyImage    9.132600534267542
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.68
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    6.695155792028371
+    Attrib varienceWabeletTransImage    4.1154575215490175
+    Attrib skewnessWabeletTransImage    7.614488667494309
+    Attrib curtWabeletTransImage    13.2929177874207
+    Attrib entropyImage    -1.054257783726824
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -6.691379941658737
+    Attrib varienceWabeletTransImage    -4.113094440171186
+    Attrib skewnessWabeletTransImage    -7.611144034466305
+    Attrib curtWabeletTransImage    -13.286430459105768
+    Attrib entropyImage    1.052652586713759
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.97
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.2406677442339167
+    Attrib varienceWabeletTransImage    4.631347062275991
+    Attrib skewnessWabeletTransImage    8.217800060781009
+    Attrib curtWabeletTransImage    7.181710922672399
+    Attrib entropyImage    1.1306475581533193
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.2407573208858338
+    Attrib varienceWabeletTransImage    -4.6315254571831765
+    Attrib skewnessWabeletTransImage    -8.218068288033413
+    Attrib curtWabeletTransImage    -7.181975981711317
+    Attrib entropyImage    -1.130684514638969
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.74
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.089696724155738
+    Attrib varienceWabeletTransImage    11.654254012864397
+    Attrib skewnessWabeletTransImage    2.2961482694600504
+    Attrib curtWabeletTransImage    1.9187715822068216
+    Attrib entropyImage    -4.9113325956207055
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.102066089921639
+    Attrib varienceWabeletTransImage    -11.655710774962003
+    Attrib skewnessWabeletTransImage    -2.327524413243268
+    Attrib curtWabeletTransImage    -1.9634351751982655
+    Attrib entropyImage    4.907011138547903
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.6
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.0214333323329234
+    Attrib varienceWabeletTransImage    7.133053074590117
+    Attrib skewnessWabeletTransImage    6.074750192580519
+    Attrib curtWabeletTransImage    8.372195920326478
+    Attrib entropyImage    1.425297353986142
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.024692229659664
+    Attrib varienceWabeletTransImage    -7.140607143407858
+    Attrib skewnessWabeletTransImage    -6.082932221653557
+    Attrib curtWabeletTransImage    -8.381510077374925
+    Attrib entropyImage    -1.426382427346688
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 0.47
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.1240865592773415
+    Attrib varienceWabeletTransImage    7.512070205493479
+    Attrib skewnessWabeletTransImage    6.160488465106857
+    Attrib curtWabeletTransImage    8.366211929746687
+    Attrib entropyImage    1.799642207422228
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.1273497457552346
+    Attrib varienceWabeletTransImage    -7.519594492056952
+    Attrib skewnessWabeletTransImage    -6.168862875829972
+    Attrib curtWabeletTransImage    -8.375585895841182
+    Attrib entropyImage    -1.8006116310492792
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+
+
+Weight: 1.22
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 2.82 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1361               99.2706 %
+Incorrectly Classified Instances        10                0.7294 %
+Kappa statistic                          0.9852
+Mean absolute error                      0.0069
+Root mean squared error                  0.0715
+Relative absolute error                  1.3998 %
+Root relative squared error             14.3932 %
+Coverage of cases (0.95 level)          99.9271 %
+Mean rel. region size (0.95 level)      50.5106 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.992    0.007    0.995      0.992    0.993      0.985    1.000     1.000     0
+                 0.993    0.008    0.990      0.993    0.992      0.985    1.000     1.000     1
+Weighted Avg.    0.993    0.007    0.993      0.993    0.993      0.985    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 755   6 |   a = 0
+   4 606 |   b = 1
+
+

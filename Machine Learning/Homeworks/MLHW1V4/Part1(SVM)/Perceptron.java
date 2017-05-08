@@ -1,0 +1,198 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+//Mustafa Amir Faisal
+//Net Id: maf120030
+
+public class Perceptron {
+	static ArrayList<Integer> attributes = new ArrayList<Integer>();
+	static ArrayList<Integer> trainingclasslabel = new ArrayList<Integer>();
+	static Map<Integer, Map<Integer,Integer>> trainingData = new HashMap<Integer, Map<Integer,Integer>>();
+	
+	static ArrayList<Integer> testclasslabel = new ArrayList<Integer>();
+	static Map<Integer, Map<Integer,Integer>> testData = new HashMap<Integer, Map<Integer,Integer>>();
+	
+	static double[] weights; 
+	
+	static double learning_rate = 0.01;  // learning rate
+	static int iternation_num = 10000; // number of iteration
+	static int[] converge;
+	static double weight_initial = -3.0;
+	
+	static String trainingFile = "training.csv";
+	static String testFile = "validation.csv";
+	
+	public static void main(String[] args){
+		if(args.length>0){
+			trainingFile = args[0].trim();  // training file
+			testFile = args[1].trim(); // test file
+			
+			iternation_num = Integer.parseInt(args[2].trim()); // iteration number
+			learning_rate = Double.parseDouble(args[3].trim()); // learning rate
+			weight_initial = Double.parseDouble(args[4].trim());// initial weight
+		}
+		
+		File dataFile = new File(trainingFile);
+		gatherData(dataFile,true);
+		
+		dataFile = new File(testFile);
+		gatherData(dataFile,false);
+		
+		initialization();
+		
+		training();
+		classify();
+	}
+	
+static void classify(){
+		
+		double correctOne = 0.0;
+		double correctZero = 0.0;
+		double detectedOne = 0.0;
+		double detectedZero = 0.0;
+		
+		for(int index:testData.keySet()){
+			Map<Integer,Integer> testInstance = testData.get(index);
+			
+			if(testclasslabel.get(index)==1){
+				correctOne++;
+			}
+			
+			if(testclasslabel.get(index)==0){
+				correctZero++;
+			}
+			double sum=0.0;
+			for(int tField:testInstance.keySet()){
+				sum = sum + weights[attributes.indexOf(tField)]*testInstance.get(tField);
+			}
+			sum = sum + weights[attributes.size()];
+			int predt = (sum>0.0)?1:0;
+			
+			if(testclasslabel.get(index)==1&&predt==testclasslabel.get(index)){
+				detectedOne++;
+			}
+			
+			if(testclasslabel.get(index)==0&&predt==testclasslabel.get(index)){
+				detectedZero++;
+			}
+			
+		}
+		
+		System.out.println("Total One:" + correctOne + " Detected One: " + detectedOne + " Accuracy: " + (double)(detectedOne/correctOne));
+		System.out.println("Total Zero:" + correctZero + " Detected Zero: " + detectedZero + " Accuracy: " + (double)(detectedZero/correctZero));
+		System.out.println("Overall Accuracy: " + (double)((detectedOne+detectedZero)/(correctOne+correctZero)));
+	}
+	
+	static void training(){
+		for(int iteration=1;iteration<=iternation_num;iteration++){
+			for(int index:trainingData.keySet()){
+				Map<Integer,Integer> trainInstance = trainingData.get(index);
+				
+				int pre_val = predict(trainInstance);
+				//System.out.println(index);
+				int error = trainingclasslabel.get(index)-pre_val;
+				
+				if(error!=0){ // weight update is required.
+					for(int item:trainInstance.keySet()){
+						if(attributes.contains(item)){
+							weights[attributes.indexOf(item)] += learning_rate*error*trainInstance.get(item);
+						}
+					}
+					
+					weights[attributes.size()] += learning_rate*error;
+				}
+			}
+		}
+	}
+	
+	static int predict(Map<Integer,Integer> trainInstance ){
+		double sum = 0.0;
+		
+		for(int item:trainInstance.keySet()){
+			sum = sum + weights[attributes.indexOf(item)]*trainInstance.get(item);
+		}
+		
+		sum = sum + weights[attributes.size()]; // adding bias term
+		
+		if(sum>0.0){
+			return 1;
+		}
+		else
+			return 0;
+		
+	}
+	
+	
+	
+	static void gatherData(File dataFile,boolean isTrainning){
+		BufferedReader br = null;
+		FileReader fr = null;
+		
+		try {
+			fr = new FileReader(dataFile.getAbsolutePath());
+			br = new BufferedReader(fr);
+			
+			String line;
+			int itemCounter = 0;
+			
+			while((line=br.readLine())!=null){
+				if(isTrainning){
+					if(itemCounter==0){
+						String[] attrs = line.split(",");
+						for(String att:attrs){
+							if(!att.equals("class")){
+								attributes.add(Integer.parseInt(att));
+							}
+						}
+					}
+					else{
+						String[] fields = line.split(",");
+						Map<Integer,Integer> fieldVals = new HashMap<Integer,Integer>();
+						
+						for(int i=0;i<fields.length-1;i++){
+							fieldVals.put(i, Integer.parseInt(fields[i]));
+						}
+						
+						trainingData.put(itemCounter-1, fieldVals);
+						trainingclasslabel.add(Integer.parseInt(fields[fields.length-1]));
+					}
+				}else{
+					if(itemCounter!=0){
+						String[] fields = line.split(",");
+						Map<Integer,Integer> fieldVals = new HashMap<Integer,Integer>();
+						
+						for(int i=0;i<fields.length-1;i++){
+							fieldVals.put(i, Integer.parseInt(fields[i]));
+						}
+						
+						testData.put(itemCounter-1, fieldVals);
+						testclasslabel.add(Integer.parseInt(fields[fields.length-1]));
+					}
+					
+				}
+				
+				itemCounter++;
+			}
+			
+			br.close();
+			fr.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	static void initialization(){
+		weights = new double[attributes.size()+1]; // bias term is last one
+		
+		for(int i=0;i<weights.length;i++){
+			weights[i] = weight_initial;
+		}
+	}
+
+}

@@ -1,0 +1,1070 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100000 -S 1 -I 30 -W weka.classifiers.bayes.NaiveBayes
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.55)  (0.45)
+============================================
+varienceWabeletTransImage
+  mean                        2.2749 -1.8686
+  std. dev.                   2.0186  1.8797
+  weight sum                     761     610
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        4.2509 -0.9933
+  std. dev.                   5.1363  5.4009
+  weight sum                     761     610
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        0.8016  2.1482
+  std. dev.                   3.2373  5.2576
+  weight sum                     761     610
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.1486 -1.2467
+  std. dev.                   2.1251  2.0695
+  weight sum                     761     610
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.67
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                              (0.5)   (0.5)
+============================================
+varienceWabeletTransImage
+  mean                        1.3793 -0.6975
+  std. dev.                   2.2785  1.8988
+  weight sum                684.4882686.5118
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.1448   0.543
+  std. dev.                    5.906  4.4369
+  weight sum                684.4882686.5118
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.3934 -0.2291
+  std. dev.                   3.8684  4.7392
+  weight sum                684.4882686.5118
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                        -1.307 -1.4318
+  std. dev.                    2.173  2.1182
+  weight sum                684.4882686.5118
+  precision                   0.0095  0.0095
+
+
+
+Weight: 2.12
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.72)  (0.28)
+============================================
+varienceWabeletTransImage
+  mean                        0.0412 -0.6975
+  std. dev.                   1.9784  1.8988
+  weight sum                 986.541 384.459
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        1.8459   0.543
+  std. dev.                   5.2701  4.4369
+  weight sum                 986.541 384.459
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.7181 -0.2291
+  std. dev.                   3.9403  4.7392
+  weight sum                 986.541 384.459
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.0798 -1.4318
+  std. dev.                   2.0486  2.1182
+  weight sum                 986.541 384.459
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.54
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.47)  (0.53)
+============================================
+varienceWabeletTransImage
+  mean                        0.0104 -0.9958
+  std. dev.                   1.9233  1.8963
+  weight sum                637.6638733.3362
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.3006 -0.9635
+  std. dev.                   5.4154  4.6379
+  weight sum                637.6638733.3362
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.2686  1.3847
+  std. dev.                   4.2122  4.9218
+  weight sum                637.6638733.3362
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.4433 -0.5718
+  std. dev.                   2.4525  1.6865
+  weight sum                637.6638733.3362
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.76
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.56)  (0.44)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1676 -1.0347
+  std. dev.                   1.6848  2.0555
+  weight sum                770.9033600.0967
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        0.9692 -0.3311
+  std. dev.                   4.8986   4.823
+  weight sum                770.9033600.0967
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        4.4009  0.9366
+  std. dev.                   3.8225  4.9038
+  weight sum                770.9033600.0967
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -0.9583 -0.9634
+  std. dev.                   2.0809  2.0191
+  weight sum                770.9033600.0967
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.27
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.51)  (0.49)
+============================================
+varienceWabeletTransImage
+  mean                       -0.2433 -0.9288
+  std. dev.                   2.0731   1.707
+  weight sum                701.0008669.9992
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.2694  -1.677
+  std. dev.                   5.5159   4.559
+  weight sum                701.0008669.9992
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.5035  1.9466
+  std. dev.                   4.4928  4.4705
+  weight sum                701.0008669.9992
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.8431 -0.3707
+  std. dev.                   2.6501  1.7317
+  weight sum                701.0008669.9992
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.67
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.58)  (0.42)
+============================================
+varienceWabeletTransImage
+  mean                         -0.26 -0.9626
+  std. dev.                   1.8026  1.8915
+  weight sum                793.1882577.8118
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        1.7294 -0.8888
+  std. dev.                   5.2263  4.8104
+  weight sum                793.1882577.8118
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.7425  1.3608
+  std. dev.                   4.2537  4.5294
+  weight sum                793.1882577.8118
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.3004 -0.7945
+  std. dev.                   2.3579  2.0528
+  weight sum                793.1882577.8118
+  precision                   0.0095  0.0095
+
+
+
+Weight: 2.41
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.32)  (0.68)
+============================================
+varienceWabeletTransImage
+  mean                         -0.26 -0.7184
+  std. dev.                   1.8026  2.2783
+  weight sum                432.1054938.8946
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        1.7294  2.5915
+  std. dev.                   5.2263  4.2597
+  weight sum                432.1054938.8946
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.7425 -1.6051
+  std. dev.                   4.2537   4.068
+  weight sum                432.1054938.8946
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.3004 -3.0183
+  std. dev.                   2.3579    2.32
+  weight sum                432.1054938.8946
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.29
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.38)  (0.62)
+============================================
+varienceWabeletTransImage
+  mean                       -0.2475 -0.9492
+  std. dev.                   2.2319  2.0697
+  weight sum                522.5423848.4577
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        4.6343  0.2176
+  std. dev.                   5.3273   5.525
+  weight sum                522.5423848.4577
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        1.2784  0.5409
+  std. dev.                   4.3262  5.3175
+  weight sum                522.5423848.4577
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                        -2.327  -2.081
+  std. dev.                   2.7679  2.5078
+  weight sum                522.5423848.4577
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.26
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                              (0.5)   (0.5)
+============================================
+varienceWabeletTransImage
+  mean                       -0.2127 -1.6311
+  std. dev.                   1.7497  2.6237
+  weight sum                679.5902691.4098
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                         1.677  1.7449
+  std. dev.                   5.0658  5.7636
+  weight sum                679.5902691.4098
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.4941  0.2143
+  std. dev.                   4.1737  4.8604
+  weight sum                679.5902691.4098
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.2665 -2.8594
+  std. dev.                   2.2913   2.738
+  weight sum                679.5902691.4098
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.74
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.47)  (0.53)
+============================================
+varienceWabeletTransImage
+  mean                       -0.2831 -1.4297
+  std. dev.                   2.0181   2.309
+  weight sum                650.3173720.6827
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.3286  0.3227
+  std. dev.                   5.4511  5.7306
+  weight sum                650.3173720.6827
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.2722  1.0636
+  std. dev.                   4.4292  4.7557
+  weight sum                650.3173720.6827
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.8997 -1.9865
+  std. dev.                   2.6394  2.7381
+  weight sum                650.3173720.6827
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.9
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.41)  (0.59)
+============================================
+varienceWabeletTransImage
+  mean                        -0.469 -0.7014
+  std. dev.                   2.0893  2.1079
+  weight sum                 559.152 811.848
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.6588  1.1466
+  std. dev.                   5.7692  4.8236
+  weight sum                 559.152 811.848
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.7987 -0.3434
+  std. dev.                   4.2459  4.3973
+  weight sum                 559.152 811.848
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.7499 -2.0829
+  std. dev.                   2.4213  2.5985
+  weight sum                 559.152 811.848
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.98
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.49)  (0.51)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1718 -0.9854
+  std. dev.                   2.1688  1.9917
+  weight sum                 665.507 705.493
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        4.0799 -0.6997
+  std. dev.                   5.6329  5.6763
+  weight sum                 665.507 705.493
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        1.0441  1.3733
+  std. dev.                   4.1062  5.3029
+  weight sum                 665.507 705.493
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.3946 -1.6676
+  std. dev.                   2.6759  2.4956
+  weight sum                 665.507 705.493
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.23
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.49)  (0.51)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1542 -0.9456
+  std. dev.                   2.0792  2.0633
+  weight sum                664.9053706.0947
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.4912 -0.1544
+  std. dev.                   5.6767  5.6428
+  weight sum                664.9053706.0947
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        1.4247  0.9076
+  std. dev.                   4.1461  5.2446
+  weight sum                664.9053706.0947
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.2023 -1.9059
+  std. dev.                   2.6118  2.5311
+  weight sum                664.9053706.0947
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.23
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.48)  (0.52)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1553 -0.8903
+  std. dev.                   2.0096  2.1181
+  weight sum                 654.661 716.339
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.9793  0.3701
+  std. dev.                   5.7199  5.5447
+  weight sum                 654.661 716.339
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                         1.823  0.4435
+  std. dev.                   4.2056  5.1435
+  weight sum                 654.661 716.339
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.0537 -2.1293
+  std. dev.                   2.5541  2.5435
+  weight sum                 654.661 716.339
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.46
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.53)  (0.47)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1898 -0.3803
+  std. dev.                   1.6972  1.9586
+  weight sum                 720.472 650.528
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        0.3151  0.4447
+  std. dev.                   5.5399  4.6982
+  weight sum                 720.472 650.528
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.9603  0.0429
+  std. dev.                    4.122  4.4495
+  weight sum                 720.472 650.528
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                        -1.461 -1.4542
+  std. dev.                   2.1143    2.43
+  weight sum                 720.472 650.528
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.03
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.54)  (0.46)
+============================================
+varienceWabeletTransImage
+  mean                       -0.2055 -0.7508
+  std. dev.                   2.0594  1.8348
+  weight sum                 736.371 634.629
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.8334   -1.56
+  std. dev.                   6.0112  5.2661
+  weight sum                 736.371 634.629
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.0595  1.9483
+  std. dev.                   4.4664  5.1052
+  weight sum                 736.371 634.629
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.1597 -0.9713
+  std. dev.                   2.5517  2.2258
+  weight sum                 736.371 634.629
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.3
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.55)  (0.45)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1913 -0.6949
+  std. dev.                   1.9381  1.9287
+  weight sum                 759.849 611.151
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.0163 -0.9646
+  std. dev.                   5.9338  5.3479
+  weight sum                 759.849 611.151
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.6242  1.4286
+  std. dev.                   4.4222   5.136
+  weight sum                 759.849 611.151
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.9155 -1.2456
+  std. dev.                   2.4322  2.3376
+  weight sum                 759.849 611.151
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.7
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.54)  (0.46)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1245 -0.5493
+  std. dev.                    1.739  2.1393
+  weight sum                738.2801632.7199
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        0.6775  0.5555
+  std. dev.                   5.8408  5.2461
+  weight sum                738.2801632.7199
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.4649  0.0994
+  std. dev.                   4.2646  4.9661
+  weight sum                738.2801632.7199
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.6102 -1.9412
+  std. dev.                   2.2339  2.4637
+  weight sum                738.2801632.7199
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.58
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.52)  (0.48)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1703 -0.6804
+  std. dev.                   1.9794  1.9627
+  weight sum                710.2114660.7886
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.2051 -0.7214
+  std. dev.                   6.1857  5.3863
+  weight sum                710.2114660.7886
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.4222  1.2276
+  std. dev.                   4.4924  5.1396
+  weight sum                710.2114660.7886
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.0582 -1.3819
+  std. dev.                   2.5037  2.3786
+  weight sum                710.2114660.7886
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.12
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.52)  (0.48)
+============================================
+varienceWabeletTransImage
+  mean                       -0.1632 -0.6607
+  std. dev.                   1.9284  2.0012
+  weight sum                 717.622 653.378
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        1.8695  -0.469
+  std. dev.                   6.1439  5.3944
+  weight sum                 717.622 653.378
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.6501  1.0111
+  std. dev.                   4.4647  5.1309
+  weight sum                 717.622 653.378
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                         -1.96 -1.5039
+  std. dev.                   2.4549  2.4114
+  weight sum                 717.622 653.378
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.79
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.36)  (0.64)
+============================================
+varienceWabeletTransImage
+  mean                       -0.5048   -0.53
+  std. dev.                   1.9448  2.6011
+  weight sum                498.9833872.0167
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        1.8023  2.7491
+  std. dev.                   5.6338   4.749
+  weight sum                498.9833872.0167
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.4597 -1.4901
+  std. dev.                   4.5099  4.3728
+  weight sum                498.9833872.0167
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.6118 -3.2122
+  std. dev.                   2.4016  2.4795
+  weight sum                498.9833872.0167
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.01
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                              (0.4)   (0.6)
+============================================
+varienceWabeletTransImage
+  mean                       -0.4423 -0.7124
+  std. dev.                   2.2902  2.3197
+  weight sum                544.1792826.8208
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                         4.381   0.611
+  std. dev.                   5.6915  5.6328
+  weight sum                544.1792826.8208
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        1.4179  0.3201
+  std. dev.                   4.6147  5.1626
+  weight sum                544.1792826.8208
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.4817 -2.2317
+  std. dev.                   2.7541  2.6697
+  weight sum                544.1792826.8208
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.14
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.51)  (0.49)
+============================================
+varienceWabeletTransImage
+  mean                       -0.3089 -1.6143
+  std. dev.                   2.1296  2.8269
+  weight sum                701.1508669.8492
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                         1.531  2.0364
+  std. dev.                   5.4629  5.9064
+  weight sum                701.1508669.8492
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        3.5385  0.2546
+  std. dev.                   4.4324  4.6611
+  weight sum                701.1508669.8492
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.4219  -2.941
+  std. dev.                   2.3367  2.8552
+  weight sum                701.1508669.8492
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.61
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.49)  (0.51)
+============================================
+varienceWabeletTransImage
+  mean                       -0.3413 -1.4631
+  std. dev.                   2.2652   2.525
+  weight sum                672.4932698.5068
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.9809  0.5035
+  std. dev.                   5.7451  6.0962
+  weight sum                672.4932698.5068
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.4361  1.2368
+  std. dev.                   4.6518   4.876
+  weight sum                672.4932698.5068
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.9487 -2.1726
+  std. dev.                   2.6142  2.8406
+  weight sum                672.4932698.5068
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.75
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.44)  (0.56)
+============================================
+varienceWabeletTransImage
+  mean                       -0.6659  -0.769
+  std. dev.                   2.2477  2.3646
+  weight sum                606.9201764.0799
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.7725  0.9036
+  std. dev.                   5.9631  5.2302
+  weight sum                606.9201764.0799
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.0446  0.2433
+  std. dev.                   4.6301  4.5076
+  weight sum                606.9201764.0799
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.4271 -1.9208
+  std. dev.                   2.8116  2.6663
+  weight sum                606.9201764.0799
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.74
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.52)  (0.48)
+============================================
+varienceWabeletTransImage
+  mean                       -0.3727 -1.4298
+  std. dev.                   2.2486   2.728
+  weight sum                709.5376661.4624
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                         2.292  1.6563
+  std. dev.                    5.917  5.7105
+  weight sum                709.5376661.4624
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.7641  0.4268
+  std. dev.                   4.4927  4.5397
+  weight sum                709.5376661.4624
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -1.8199 -2.4649
+  std. dev.                   2.4385  2.8454
+  weight sum                709.5376661.4624
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.3
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                              (0.5)   (0.5)
+============================================
+varienceWabeletTransImage
+  mean                       -0.4605 -1.3227
+  std. dev.                   2.3005  2.5712
+  weight sum                691.7931679.2069
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                         3.007  0.9779
+  std. dev.                   5.9746  5.7493
+  weight sum                691.7931679.2069
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.2841  0.8228
+  std. dev.                   4.5231  4.6344
+  weight sum                691.7931679.2069
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                        -2.072 -2.0964
+  std. dev.                     2.57  2.8042
+  weight sum                691.7931679.2069
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.1
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.39)  (0.61)
+============================================
+varienceWabeletTransImage
+  mean                       -0.4961 -0.4777
+  std. dev.                   2.1527  2.2243
+  weight sum                534.4993836.5007
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        3.8948  1.0349
+  std. dev.                   5.9896  4.6326
+  weight sum                534.4993836.5007
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                         1.455  0.0136
+  std. dev.                   4.6885  4.0424
+  weight sum                534.4993836.5007
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.8059 -1.5568
+  std. dev.                   3.0313  2.4237
+  weight sum                534.4993836.5007
+  precision                   0.0095  0.0095
+
+
+
+Weight: 0.55
+
+Naive Bayes Classifier
+
+                              Class
+Attribute                         0       1
+                             (0.46)  (0.54)
+============================================
+varienceWabeletTransImage
+  mean                       -0.4285 -0.8945
+  std. dev.                   2.2436  2.5138
+  weight sum                624.2593746.7407
+  precision                   0.0104  0.0104
+
+skewnessWabeletTransImage
+  mean                        2.8834  1.3379
+  std. dev.                   5.9272  5.1689
+  weight sum                624.2593746.7407
+  precision                   0.0213  0.0213
+
+curtWabeletTransImage
+  mean                        2.2586  0.2327
+  std. dev.                   4.6052  4.3356
+  weight sum                624.2593746.7407
+  precision                   0.0183  0.0183
+
+entropyImage
+  mean                       -2.1262 -1.9658
+  std. dev.                   2.7282  2.6343
+  weight sum                624.2593746.7407
+  precision                   0.0095  0.0095
+
+
+
+Weight: 1.0
+
+Number of performed Iterations: 30
+
+
+Time taken to build model: 0.15 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1369               99.8541 %
+Incorrectly Classified Instances         2                0.1459 %
+Kappa statistic                          0.997 
+Mean absolute error                      0.006 
+Root mean squared error                  0.0446
+Relative absolute error                  1.2127 %
+Root relative squared error              8.9709 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      51.1306 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.999    0.002    0.999      0.999    0.999      0.997    1.000     1.000     0
+                 0.998    0.001    0.998      0.998    0.998      0.997    1.000     1.000     1
+Weighted Avg.    0.999    0.001    0.999      0.999    0.999      0.997    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 760   1 |   a = 0
+   1 609 |   b = 1
+
+

@@ -1,0 +1,4601 @@
+====================Iteration : 1===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.3357711158
+	 Mean for cluster 1 : 24.290134505
+	 Mean for cluster 2 : 15.7902536938
+	 Mean for cluster 3 : 15.8737938566
+	 Mean for cluster 4 : 15.7589035515
+	 Mean for cluster 5 : 26.7854956432
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666665774855077
+	 Weight for cluster 1 : 0.166666662428726
+	 Weight for cluster 2 : 0.16666666242883968
+	 Weight for cluster 3 : 0.16666667386024947
+	 Weight for cluster 4 : 0.16666668110494323
+	 Weight for cluster 5 : 0.166666662428726
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114018
+	 Mean for cluster 1 : 15.481698203116547
+	 Mean for cluster 2 : 15.481698203116569
+	 Mean for cluster 3 : 15.481698203114028
+	 Mean for cluster 4 : 15.481698203114055
+	 Mean for cluster 5 : 15.48169820311655
+Mixture variance: 
+	 variance for cluster 0 : 67514.9346910458
+	 variance for cluster 1 : 67514.93658694756
+	 variance for cluster 2 : 67514.93658699367
+	 variance for cluster 3 : 67514.94121772794
+	 variance for cluster 4 : 67514.9441524786
+	 variance for cluster 5 : 67514.93658694759
+Current loglikelihood: -38873.94372539783
+====================Iteration : 2===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.4868851033
+	 Mean for cluster 1 : 27.2898644974
+	 Mean for cluster 2 : 26.013574374
+	 Mean for cluster 3 : 25.0821519623
+	 Mean for cluster 4 : 16.8797646858
+	 Mean for cluster 5 : 15.8980918664
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003942
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.19999999999996812
+	 Weight for cluster 3 : 0.20000000000003948
+	 Weight for cluster 4 : 0.20000000000003948
+	 Weight for cluster 5 : 0.19999999999996787
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114256
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203116208
+	 Mean for cluster 3 : 15.481698203114334
+	 Mean for cluster 4 : 15.481698203114338
+	 Mean for cluster 5 : 15.481698203116073
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644355
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92596441718
+	 variance for cluster 3 : 81017.92596443598
+	 variance for cluster 4 : 81017.92596443601
+	 variance for cluster 5 : 81017.92596441628
+Current loglikelihood: -38873.94372539783
+====================Iteration : 3===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.7056869124
+	 Mean for cluster 1 : 24.7254407919
+	 Mean for cluster 2 : 16.4668085013
+	 Mean for cluster 3 : 6.56461849063
+	 Mean for cluster 4 : 25.8837566214
+	 Mean for cluster 5 : 25.4174627818
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 67.51493830369049
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666652017245
+	 Weight for cluster 1 : 0.16666666645085262
+	 Weight for cluster 2 : 0.16666666694945392
+	 Weight for cluster 3 : 0.16666666673506972
+	 Weight for cluster 4 : 0.16666666660941667
+	 Weight for cluster 5 : 0.16666666673506972
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203113979
+	 Mean for cluster 1 : 15.481698203116636
+	 Mean for cluster 2 : 15.481698203113897
+	 Mean for cluster 3 : 15.481698203116704
+	 Mean for cluster 4 : 15.48169820311407
+	 Mean for cluster 5 : 15.48169820311659
+Mixture variance: 
+	 variance for cluster 0 : 67514.93824433851
+	 variance for cluster 1 : 67514.93821626916
+	 variance for cluster 2 : 67514.93841823583
+	 variance for cluster 3 : 67514.93833140319
+	 variance for cluster 4 : 67514.93828049093
+	 variance for cluster 5 : 67514.93833140269
+Current loglikelihood: -38873.94372539783
+====================Iteration : 4===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.4097033622
+	 Mean for cluster 1 : 4.98745148385
+	 Mean for cluster 2 : 25.0905033942
+	 Mean for cluster 3 : 28.3300741021
+	 Mean for cluster 4 : 25.3821083034
+	 Mean for cluster 5 : 4.18536359608
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666667138656668
+	 Weight for cluster 1 : 0.16666666055403004
+	 Weight for cluster 2 : 0.16666666347347892
+	 Weight for cluster 3 : 0.16666666180228243
+	 Weight for cluster 4 : 0.16666667139793537
+	 Weight for cluster 5 : 0.16666667138574173
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116645
+	 Mean for cluster 1 : 15.481698203116599
+	 Mean for cluster 2 : 15.4816982031141
+	 Mean for cluster 3 : 15.481698203114089
+	 Mean for cluster 4 : 15.481698203116702
+	 Mean for cluster 5 : 15.481698203113968
+Mixture variance: 
+	 variance for cluster 0 : 67514.94021567606
+	 variance for cluster 1 : 67514.93582752754
+	 variance for cluster 2 : 67514.93701015497
+	 variance for cluster 3 : 67514.93633317061
+	 variance for cluster 4 : 67514.9402202815
+	 variance for cluster 5 : 67514.94021533044
+Current loglikelihood: -38873.94372539783
+====================Iteration : 5===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.213617977
+	 Mean for cluster 1 : 14.7084086295
+	 Mean for cluster 2 : 14.6980871092
+	 Mean for cluster 3 : 15.7503075143
+	 Mean for cluster 4 : 15.0166505635
+	 Mean for cluster 5 : 7.64570061565
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666663604
+	 Weight for cluster 1 : 0.1666666666666506
+	 Weight for cluster 2 : 0.1666666666666506
+	 Weight for cluster 3 : 0.16666666666663604
+	 Weight for cluster 4 : 0.16666666666673519
+	 Weight for cluster 5 : 0.16666666666663604
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117851
+	 Mean for cluster 1 : 15.48169820311653
+	 Mean for cluster 2 : 15.481698203116544
+	 Mean for cluster 3 : 15.48169820311784
+	 Mean for cluster 4 : 15.481698203113938
+	 Mean for cluster 5 : 15.48169820311784
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830368615
+	 variance for cluster 1 : 67514.93830368645
+	 variance for cluster 2 : 67514.93830368656
+	 variance for cluster 3 : 67514.93830368613
+	 variance for cluster 4 : 67514.93830370947
+	 variance for cluster 5 : 67514.93830368613
+Current loglikelihood: -38873.94372539783
+====================Iteration : 6===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.2045721215
+	 Mean for cluster 1 : 24.9907243536
+	 Mean for cluster 2 : 7.18534849598
+	 Mean for cluster 3 : 16.6052180662
+	 Mean for cluster 4 : 24.515553445
+	 Mean for cluster 5 : 24.7254407919
+Mixture variance: 
+	 variance for cluster 0 : 2430.5377789328572
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666675906308
+	 Weight for cluster 1 : 0.16666666848016157
+	 Weight for cluster 2 : 0.16666666575210967
+	 Weight for cluster 3 : 0.1666666660446549
+	 Weight for cluster 4 : 0.16666666575210967
+	 Weight for cluster 5 : 0.1666666672118764
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117379
+	 Mean for cluster 1 : 15.481698203116258
+	 Mean for cluster 2 : 15.481698203114856
+	 Mean for cluster 3 : 15.481698203117245
+	 Mean for cluster 4 : 15.481698203114856
+	 Mean for cluster 5 : 15.481698203116881
+Mixture variance: 
+	 variance for cluster 0 : 67514.93834112566
+	 variance for cluster 1 : 67514.93903831982
+	 variance for cluster 2 : 67514.93793320826
+	 variance for cluster 3 : 67514.93805172568
+	 variance for cluster 4 : 67514.93793320826
+	 variance for cluster 5 : 67514.93852455351
+Current loglikelihood: -38873.94372539783
+====================Iteration : 7===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.5524915877
+	 Mean for cluster 1 : 15.9561162155
+	 Mean for cluster 2 : 26.39700294
+	 Mean for cluster 3 : 25.8263366367
+	 Mean for cluster 4 : 25.5193107823
+	 Mean for cluster 5 : 5.99126917139
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666731236
+	 Weight for cluster 1 : 0.16666666666739693
+	 Weight for cluster 2 : 0.16666666666603272
+	 Weight for cluster 3 : 0.1666666666661755
+	 Weight for cluster 4 : 0.16666666666694221
+	 Weight for cluster 5 : 0.1666666666661755
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116602
+	 Mean for cluster 1 : 15.481698203114016
+	 Mean for cluster 2 : 15.481698203114036
+	 Mean for cluster 3 : 15.481698203116656
+	 Mean for cluster 4 : 15.481698203114048
+	 Mean for cluster 5 : 15.48169820311662
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830395503
+	 variance for cluster 1 : 67514.9383039778
+	 variance for cluster 2 : 67514.93830342562
+	 variance for cluster 3 : 67514.93830349429
+	 variance for cluster 4 : 67514.93830379397
+	 variance for cluster 5 : 67514.93830349426
+Current loglikelihood: -38873.94372539783
+====================Iteration : 8===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.1062132463
+	 Mean for cluster 1 : 5.12578411039
+	 Mean for cluster 2 : 5.81351533929
+	 Mean for cluster 3 : 23.6833360731
+	 Mean for cluster 4 : 14.7658285248
+	 Mean for cluster 5 : 26.8427452497
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999981344
+	 Weight for cluster 1 : 0.2000000000002001
+	 Weight for cluster 2 : 0.19999999999991372
+	 Weight for cluster 3 : 0.19999999999983634
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.2000000000002001
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114801
+	 Mean for cluster 1 : 15.481698203117052
+	 Mean for cluster 2 : 15.481698203116407
+	 Mean for cluster 3 : 15.481698203116778
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203117052
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596434726
+	 variance for cluster 1 : 81017.92596451537
+	 variance for cluster 2 : 81017.92596439635
+	 variance for cluster 3 : 81017.92596436664
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.92596451537
+Current loglikelihood: -38873.94372539783
+====================Iteration : 9===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.5446177608
+	 Mean for cluster 1 : 23.6408283871
+	 Mean for cluster 2 : 6.36355738487
+	 Mean for cluster 3 : 6.18769970279
+	 Mean for cluster 4 : 27.5509480886
+	 Mean for cluster 5 : 5.22894718964
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.19999999999996812
+	 Weight for cluster 2 : 0.20000000000003948
+	 Weight for cluster 3 : 0.20000000000003948
+	 Weight for cluster 4 : 0.200000000000027
+	 Weight for cluster 5 : 0.19999999999996812
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203116226
+	 Mean for cluster 2 : 15.481698203114444
+	 Mean for cluster 3 : 15.481698203114444
+	 Mean for cluster 4 : 15.481698203114783
+	 Mean for cluster 5 : 15.481698203116226
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 81017.92596441734
+	 variance for cluster 2 : 81017.92596443664
+	 variance for cluster 3 : 81017.92596443664
+	 variance for cluster 4 : 81017.92596443347
+	 variance for cluster 5 : 81017.92596441734
+Current loglikelihood: -38873.94372539783
+====================Iteration : 10===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.0870398794
+	 Mean for cluster 1 : 7.00415206779
+	 Mean for cluster 2 : 15.9905657489
+	 Mean for cluster 3 : 15.2719232886
+	 Mean for cluster 4 : 15.1304055199
+	 Mean for cluster 5 : 15.8869760458
+Mixture variance: 
+	 variance for cluster 0 : 2430.5377789328572
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997234
+	 Weight for cluster 1 : 0.20000000000004062
+	 Weight for cluster 2 : 0.1999999999999716
+	 Weight for cluster 3 : 0.19999999999997242
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.20000000000004062
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116558
+	 Mean for cluster 1 : 15.481698203114831
+	 Mean for cluster 2 : 15.48169820311659
+	 Mean for cluster 3 : 15.481698203116713
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203114831
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644208
+	 variance for cluster 1 : 81017.9259644387
+	 variance for cluster 2 : 81017.92596442078
+	 variance for cluster 3 : 81017.92596442168
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.9259644387
+Current loglikelihood: -38873.94372539783
+====================Iteration : 11===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 28.3300741021
+	 Mean for cluster 1 : 25.0259523314
+	 Mean for cluster 2 : 25.607154416
+	 Mean for cluster 3 : 16.6000549112
+	 Mean for cluster 4 : 25.8856400187
+	 Mean for cluster 5 : 25.669080332
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003948
+	 Weight for cluster 1 : 0.20000000000003945
+	 Weight for cluster 2 : 0.19999999999996806
+	 Weight for cluster 3 : 0.19999999999996806
+	 Weight for cluster 4 : 0.20000000000003948
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311433
+	 Mean for cluster 1 : 15.481698203114313
+	 Mean for cluster 2 : 15.481698203116114
+	 Mean for cluster 3 : 15.481698203116107
+	 Mean for cluster 4 : 15.48169820311433
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443598
+	 variance for cluster 1 : 81017.9259644359
+	 variance for cluster 2 : 81017.92596441647
+	 variance for cluster 3 : 81017.92596441647
+	 variance for cluster 4 : 81017.92596443598
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 12===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.1792194639
+	 Mean for cluster 1 : 14.1185945379
+	 Mean for cluster 2 : 15.4611415178
+	 Mean for cluster 3 : 4.60850985121
+	 Mean for cluster 4 : 24.4437505748
+	 Mean for cluster 5 : 16.2932674716
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666663024
+	 Weight for cluster 1 : 0.16666666666663024
+	 Weight for cluster 2 : 0.16666666666671479
+	 Weight for cluster 3 : 0.16666666666663024
+	 Weight for cluster 4 : 0.1666666666667148
+	 Weight for cluster 5 : 0.16666666666671479
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116672
+	 Mean for cluster 1 : 15.481698203116672
+	 Mean for cluster 2 : 15.481698203113972
+	 Mean for cluster 3 : 15.481698203116672
+	 Mean for cluster 4 : 15.481698203113982
+	 Mean for cluster 5 : 15.481698203113972
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830367883
+	 variance for cluster 1 : 67514.93830367883
+	 variance for cluster 2 : 67514.93830370143
+	 variance for cluster 3 : 67514.93830367883
+	 variance for cluster 4 : 67514.93830370149
+	 variance for cluster 5 : 67514.93830370143
+Current loglikelihood: -38873.94372539783
+====================Iteration : 13===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.0023830995
+	 Mean for cluster 1 : 15.3510468124
+	 Mean for cluster 2 : 5.39121703705
+	 Mean for cluster 3 : 26.6688136193
+	 Mean for cluster 4 : 14.7268909904
+	 Mean for cluster 5 : 26.4054555271
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666671608402
+	 Weight for cluster 1 : 0.16666666685466822
+	 Weight for cluster 2 : 0.16666666660293653
+	 Weight for cluster 3 : 0.16666666660293653
+	 Weight for cluster 4 : 0.1666666667161686
+	 Weight for cluster 5 : 0.1666666665072413
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116606
+	 Mean for cluster 1 : 15.48169820311654
+	 Mean for cluster 2 : 15.481698203114123
+	 Mean for cluster 3 : 15.481698203114115
+	 Mean for cluster 4 : 15.481698203113998
+	 Mean for cluster 5 : 15.481698203116563
+Mixture variance: 
+	 variance for cluster 0 : 67514.93832371214
+	 variance for cluster 1 : 67514.93837985085
+	 variance for cluster 2 : 67514.93827786595
+	 variance for cluster 3 : 67514.93827786592
+	 variance for cluster 4 : 67514.93832373468
+	 variance for cluster 5 : 67514.93823911162
+Current loglikelihood: -38873.94372539783
+====================Iteration : 14===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.54516763792
+	 Mean for cluster 1 : 14.9149868399
+	 Mean for cluster 2 : 5.69873344186
+	 Mean for cluster 3 : 27.3298032561
+	 Mean for cluster 4 : 25.6519440949
+	 Mean for cluster 5 : 5.41567302927
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997128
+	 Weight for cluster 1 : 0.2000000000000272
+	 Weight for cluster 2 : 0.1999999999999715
+	 Weight for cluster 3 : 0.2000000000000272
+	 Weight for cluster 4 : 0.2000000000000272
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116277
+	 Mean for cluster 1 : 15.481698203114949
+	 Mean for cluster 2 : 15.481698203116444
+	 Mean for cluster 3 : 15.481698203114924
+	 Mean for cluster 4 : 15.481698203114924
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596441871
+	 variance for cluster 1 : 81017.92596443424
+	 variance for cluster 2 : 81017.9259644198
+	 variance for cluster 3 : 81017.92596443411
+	 variance for cluster 4 : 81017.92596443411
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 15===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 28.3673263342
+	 Mean for cluster 1 : 15.6186530093
+	 Mean for cluster 2 : 5.41073741637
+	 Mean for cluster 3 : 4.51090372985
+	 Mean for cluster 4 : 5.91644298288
+	 Mean for cluster 5 : 16.7572228451
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666722095166
+	 Weight for cluster 1 : 0.1666666668595568
+	 Weight for cluster 2 : 0.1666666688693973
+	 Weight for cluster 3 : 0.1666666634167783
+	 Weight for cluster 4 : 0.16666666432237845
+	 Weight for cluster 5 : 0.16666666432240765
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114052
+	 Mean for cluster 1 : 15.481698203116633
+	 Mean for cluster 2 : 15.481698203114014
+	 Mean for cluster 3 : 15.48169820311667
+	 Mean for cluster 4 : 15.481698203113949
+	 Mean for cluster 5 : 15.481698203116629
+Mixture variance: 
+	 variance for cluster 0 : 67514.94054903327
+	 variance for cluster 1 : 67514.93838183109
+	 variance for cluster 2 : 67514.93919598527
+	 variance for cluster 3 : 67514.93698719765
+	 variance for cluster 4 : 67514.93735403522
+	 variance for cluster 5 : 67514.93735405838
+Current loglikelihood: -38873.94372539783
+====================Iteration : 16===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.8680319476
+	 Mean for cluster 1 : 24.3907551201
+	 Mean for cluster 2 : 14.8098686849
+	 Mean for cluster 3 : 14.3457583183
+	 Mean for cluster 4 : 4.37256387805
+	 Mean for cluster 5 : 24.6542079499
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.25000000096232294
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.2499999991532604
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.24999999994217434
+	 Weight for cluster 5 : 0.24999999994224223
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117983
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203115819
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203115055
+	 Mean for cluster 5 : 15.48169820311457
+Mixture variance: 
+	 variance for cluster 0 : 101272.40784537666
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 101272.4071125299
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 101272.40743210554
+	 variance for cluster 5 : 101272.40743212901
+Current loglikelihood: -38873.94372539783
+====================Iteration : 17===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 7.34388461585
+	 Mean for cluster 1 : 14.8400492396
+	 Mean for cluster 2 : 24.644589521
+	 Mean for cluster 3 : 6.68235282186
+	 Mean for cluster 4 : 6.42436613459
+	 Mean for cluster 5 : 16.605749854
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666677622877
+	 Weight for cluster 1 : 0.1666666667232507
+	 Weight for cluster 2 : 0.16666666661570295
+	 Weight for cluster 3 : 0.16666666660657856
+	 Weight for cluster 4 : 0.16666666662604815
+	 Weight for cluster 5 : 0.1666666666521673
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311718
+	 Mean for cluster 1 : 15.481698203117253
+	 Mean for cluster 2 : 15.481698203117226
+	 Mean for cluster 3 : 15.48169820311435
+	 Mean for cluster 4 : 15.4816982031169
+	 Mean for cluster 5 : 15.481698203114608
+Mixture variance: 
+	 variance for cluster 0 : 67514.93834807842
+	 variance for cluster 1 : 67514.93832661757
+	 variance for cluster 2 : 67514.93828305103
+	 variance for cluster 3 : 67514.938279342
+	 variance for cluster 4 : 67514.93828724069
+	 variance for cluster 5 : 67514.93829781104
+Current loglikelihood: -38873.94372539783
+====================Iteration : 18===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.5418578689
+	 Mean for cluster 1 : 25.6938024093
+	 Mean for cluster 2 : 24.1067184091
+	 Mean for cluster 3 : 15.4059073451
+	 Mean for cluster 4 : 25.0240926328
+	 Mean for cluster 5 : 5.69873344186
+Mixture variance: 
+	 variance for cluster 0 : 2430.5377789328572
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000002266
+	 Weight for cluster 1 : 0.20000000000002266
+	 Weight for cluster 2 : 0.20000000000002266
+	 Weight for cluster 3 : 0.20000000000002263
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.20000000000002244
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114139
+	 Mean for cluster 1 : 15.481698203114139
+	 Mean for cluster 2 : 15.481698203114139
+	 Mean for cluster 3 : 15.481698203114096
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203114066
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442818
+	 variance for cluster 1 : 81017.92596442818
+	 variance for cluster 2 : 81017.92596442818
+	 variance for cluster 3 : 81017.92596442784
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.92596442744
+Current loglikelihood: -38873.94372539783
+====================Iteration : 19===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.91875890312
+	 Mean for cluster 1 : 18.2694423042
+	 Mean for cluster 2 : 3.97790045736
+	 Mean for cluster 3 : 5.55956907706
+	 Mean for cluster 4 : 15.3200094485
+	 Mean for cluster 5 : 15.5625534027
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999995693687
+	 Weight for cluster 1 : 0.2000000000590262
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.19999999996239248
+	 Weight for cluster 4 : 0.19999999999467954
+	 Weight for cluster 5 : 0.2000000000269679
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116174
+	 Mean for cluster 1 : 15.481698203115501
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203115506
+	 Mean for cluster 4 : 15.481698203115595
+	 Mean for cluster 5 : 15.481698203116204
+Mixture variance: 
+	 variance for cluster 0 : 81017.92594698569
+	 variance for cluster 1 : 81017.92598833743
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.92594919237
+	 variance for cluster 4 : 81017.9259622714
+	 variance for cluster 5 : 81017.92597535448
+Current loglikelihood: -38873.94372539783
+====================Iteration : 20===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.37607672638
+	 Mean for cluster 1 : 6.02149103459
+	 Mean for cluster 2 : 24.7756449674
+	 Mean for cluster 3 : 24.2612886746
+	 Mean for cluster 4 : 3.21639239823
+	 Mean for cluster 5 : 4.82969963595
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666539015443
+	 Weight for cluster 1 : 0.16666666505852992
+	 Weight for cluster 2 : 0.16666666849946032
+	 Weight for cluster 3 : 0.16666666577302255
+	 Weight for cluster 4 : 0.16666666677983322
+	 Weight for cluster 5 : 0.1666666684990347
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116663
+	 Mean for cluster 1 : 15.481698203116714
+	 Mean for cluster 2 : 15.481698203114037
+	 Mean for cluster 3 : 15.481698203113952
+	 Mean for cluster 4 : 15.481698203113964
+	 Mean for cluster 5 : 15.481698203116618
+Mixture variance: 
+	 variance for cluster 0 : 67514.93778659179
+	 variance for cluster 1 : 67514.93765225397
+	 variance for cluster 2 : 67514.93904612797
+	 variance for cluster 3 : 67514.93794167606
+	 variance for cluster 4 : 67514.93834952475
+	 variance for cluster 5 : 67514.9390459667
+Current loglikelihood: -38873.94372539783
+====================Iteration : 21===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.20336712723
+	 Mean for cluster 1 : 16.0000839511
+	 Mean for cluster 2 : 14.45960987
+	 Mean for cluster 3 : 16.0557675521
+	 Mean for cluster 4 : 6.82895781118
+	 Mean for cluster 5 : 25.0234552562
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2500001441081443
+	 Weight for cluster 1 : 0.2499998823992289
+	 Weight for cluster 2 : 0.24999992586739067
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.2500000476251741
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116919
+	 Mean for cluster 1 : 15.481698203117757
+	 Mean for cluster 2 : 15.481698203117363
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203115206
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 101272.4658322573
+	 variance for cluster 1 : 101272.35981669433
+	 variance for cluster 2 : 101272.37742519406
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 101272.42674799566
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 22===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.99002476562
+	 Mean for cluster 1 : 4.62306840138
+	 Mean for cluster 2 : 15.4245363894
+	 Mean for cluster 3 : 5.28988265664
+	 Mean for cluster 4 : 16.2065757408
+	 Mean for cluster 5 : 15.8051854589
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666666346
+	 Weight for cluster 1 : 0.16666666666671914
+	 Weight for cluster 2 : 0.1666666666666346
+	 Weight for cluster 3 : 0.1666666666666346
+	 Weight for cluster 4 : 0.1666666666667192
+	 Weight for cluster 5 : 0.1666666666666346
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117125
+	 Mean for cluster 1 : 15.481698203114439
+	 Mean for cluster 2 : 15.481698203117125
+	 Mean for cluster 3 : 15.481698203117087
+	 Mean for cluster 4 : 15.481698203114513
+	 Mean for cluster 5 : 15.481698203117125
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830368276
+	 variance for cluster 1 : 67514.93830370512
+	 variance for cluster 2 : 67514.93830368276
+	 variance for cluster 3 : 67514.93830368252
+	 variance for cluster 4 : 67514.93830370557
+	 variance for cluster 5 : 67514.93830368276
+Current loglikelihood: -38873.94372539783
+====================Iteration : 23===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.94679270098
+	 Mean for cluster 1 : 6.16229721378
+	 Mean for cluster 2 : 4.61492573863
+	 Mean for cluster 3 : 5.62017324438
+	 Mean for cluster 4 : 15.4946329018
+	 Mean for cluster 5 : 26.6766657157
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2499999999959073
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.25000000003592043
+	 Weight for cluster 4 : 0.24999999997226496
+	 Weight for cluster 5 : 0.2499999999959073
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115865
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203114687
+	 Mean for cluster 4 : 15.481698203116933
+	 Mean for cluster 5 : 15.481698203115865
+Mixture variance: 
+	 variance for cluster 0 : 101272.40745387725
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 101272.40747007854
+	 variance for cluster 4 : 101272.40744430703
+	 variance for cluster 5 : 101272.40745387725
+Current loglikelihood: -38873.94372539783
+====================Iteration : 24===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.3124473202
+	 Mean for cluster 1 : 15.1873433965
+	 Mean for cluster 2 : 25.8779122573
+	 Mean for cluster 3 : 25.9912929955
+	 Mean for cluster 4 : 28.2891119865
+	 Mean for cluster 5 : 4.02305689313
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997153
+	 Weight for cluster 1 : 0.20000000000004062
+	 Weight for cluster 2 : 0.19999999999997234
+	 Weight for cluster 3 : 0.2000000000000408
+	 Weight for cluster 4 : 0.19999999999997234
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116508
+	 Mean for cluster 1 : 15.48169820311488
+	 Mean for cluster 2 : 15.481698203116613
+	 Mean for cluster 3 : 15.481698203114883
+	 Mean for cluster 4 : 15.481698203116617
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442017
+	 variance for cluster 1 : 81017.925964439
+	 variance for cluster 2 : 81017.9259644211
+	 variance for cluster 3 : 81017.92596443907
+	 variance for cluster 4 : 81017.92596442114
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 25===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.5893944649
+	 Mean for cluster 1 : 25.8370808292
+	 Mean for cluster 2 : 4.4905060365
+	 Mean for cluster 3 : 5.62940642735
+	 Mean for cluster 4 : 15.3750791849
+	 Mean for cluster 5 : 16.4974121942
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003948
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.20000000000003948
+	 Weight for cluster 3 : 0.19999999999996806
+	 Weight for cluster 4 : 0.20000000000003948
+	 Weight for cluster 5 : 0.19999999999996806
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311433
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203114334
+	 Mean for cluster 3 : 15.481698203116107
+	 Mean for cluster 4 : 15.48169820311433
+	 Mean for cluster 5 : 15.481698203116093
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443598
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92596443598
+	 variance for cluster 3 : 81017.92596441647
+	 variance for cluster 4 : 81017.92596443598
+	 variance for cluster 5 : 81017.92596441641
+Current loglikelihood: -38873.94372539783
+====================Iteration : 26===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.0880145351
+	 Mean for cluster 1 : 27.2321299369
+	 Mean for cluster 2 : 15.3899136974
+	 Mean for cluster 3 : 15.7308075485
+	 Mean for cluster 4 : 27.4127017364
+	 Mean for cluster 5 : 24.7517863638
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 67.51493830369049
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666664072
+	 Weight for cluster 1 : 0.16666666666626442
+	 Weight for cluster 2 : 0.16666666666876556
+	 Weight for cluster 3 : 0.1666666666664072
+	 Weight for cluster 4 : 0.16666666666606617
+	 Weight for cluster 5 : 0.16666666666606617
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117013
+	 Mean for cluster 1 : 15.481698203114565
+	 Mean for cluster 2 : 15.481698203114519
+	 Mean for cluster 3 : 15.481698203117013
+	 Mean for cluster 4 : 15.481698203117144
+	 Mean for cluster 5 : 15.481698203117144
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830359027
+	 variance for cluster 1 : 67514.93830352144
+	 variance for cluster 2 : 67514.93830453457
+	 variance for cluster 3 : 67514.93830359027
+	 variance for cluster 4 : 67514.9383034525
+	 variance for cluster 5 : 67514.9383034525
+Current loglikelihood: -38873.94372539783
+====================Iteration : 27===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 3.53594268239
+	 Mean for cluster 1 : 7.00057548711
+	 Mean for cluster 2 : 14.6332028725
+	 Mean for cluster 3 : 24.3807709422
+	 Mean for cluster 4 : 26.0509966262
+	 Mean for cluster 5 : 25.5447270888
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.20000000026243614
+	 Weight for cluster 2 : 0.19999999993077505
+	 Weight for cluster 3 : 0.19999999996478426
+	 Weight for cluster 4 : 0.19999999987724543
+	 Weight for cluster 5 : 0.19999999996478426
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.4816982031167
+	 Mean for cluster 2 : 15.481698203116112
+	 Mean for cluster 3 : 15.481698203114899
+	 Mean for cluster 4 : 15.481698203114941
+	 Mean for cluster 5 : 15.481698203114895
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 81017.9260707431
+	 variance for cluster 2 : 81017.92593638726
+	 variance for cluster 3 : 81017.92595015753
+	 variance for cluster 4 : 81017.92591469655
+	 variance for cluster 5 : 81017.92595015749
+Current loglikelihood: -38873.94372539783
+====================Iteration : 28===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.1580862738
+	 Mean for cluster 1 : 25.1181489468
+	 Mean for cluster 2 : 17.2524196637
+	 Mean for cluster 3 : 15.5557021098
+	 Mean for cluster 4 : 14.3814395541
+	 Mean for cluster 5 : 16.8918608432
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666406772443
+	 Weight for cluster 1 : 0.16666665822857013
+	 Weight for cluster 2 : 0.16666667316801465
+	 Weight for cluster 3 : 0.16666668002267784
+	 Weight for cluster 4 : 0.1666666622564948
+	 Weight for cluster 5 : 0.1666666622564948
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114586
+	 Mean for cluster 1 : 15.481698203117107
+	 Mean for cluster 2 : 15.481698203114474
+	 Mean for cluster 3 : 15.481698203117022
+	 Mean for cluster 4 : 15.481698203117107
+	 Mean for cluster 5 : 15.481698203117107
+Mixture variance: 
+	 variance for cluster 0 : 67514.93725088018
+	 variance for cluster 1 : 67514.93488551023
+	 variance for cluster 2 : 67514.94093731267
+	 variance for cluster 3 : 67514.94371407693
+	 variance for cluster 4 : 67514.93651718067
+	 variance for cluster 5 : 67514.93651718067
+Current loglikelihood: -38873.94372539783
+====================Iteration : 29===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 7.26619425873
+	 Mean for cluster 1 : 25.4697104848
+	 Mean for cluster 2 : 15.6798101391
+	 Mean for cluster 3 : 25.1675165944
+	 Mean for cluster 4 : 25.635928317
+	 Mean for cluster 5 : 4.9059936024
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666827822574
+	 Weight for cluster 1 : 0.1666666672724383
+	 Weight for cluster 2 : 0.16666666600417704
+	 Weight for cluster 3 : 0.16666666516857878
+	 Weight for cluster 4 : 0.1666666672724383
+	 Weight for cluster 5 : 0.166666666004177
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311399
+	 Mean for cluster 1 : 15.481698203114101
+	 Mean for cluster 2 : 15.481698203116643
+	 Mean for cluster 3 : 15.481698203116542
+	 Mean for cluster 4 : 15.481698203114101
+	 Mean for cluster 5 : 15.481698203116549
+Mixture variance: 
+	 variance for cluster 0 : 67514.93895650782
+	 variance for cluster 1 : 67514.93854907429
+	 variance for cluster 2 : 67514.93803532585
+	 variance for cluster 3 : 67514.93769683334
+	 variance for cluster 4 : 67514.93854907429
+	 variance for cluster 5 : 67514.93803532553
+Current loglikelihood: -38873.94372539783
+====================Iteration : 30===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.43327143392
+	 Mean for cluster 1 : 13.98811779
+	 Mean for cluster 2 : 26.1197344853
+	 Mean for cluster 3 : 25.0821519623
+	 Mean for cluster 4 : 15.342217556
+	 Mean for cluster 5 : 25.2569014395
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666665705532197
+	 Weight for cluster 1 : 0.16666665705532197
+	 Weight for cluster 2 : 0.16666667887895928
+	 Weight for cluster 3 : 0.1666666687332049
+	 Weight for cluster 4 : 0.16666666511117129
+	 Weight for cluster 5 : 0.16666667316599748
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117041
+	 Mean for cluster 1 : 15.48169820311711
+	 Mean for cluster 2 : 15.4816982031145
+	 Mean for cluster 3 : 15.4816982031146
+	 Mean for cluster 4 : 15.481698203117025
+	 Mean for cluster 5 : 15.481698203117142
+Mixture variance: 
+	 variance for cluster 0 : 67514.93441023902
+	 variance for cluster 1 : 67514.93441023934
+	 variance for cluster 2 : 67514.94325075748
+	 variance for cluster 3 : 67514.93914081753
+	 variance for cluster 4 : 67514.93767357997
+	 variance for cluster 5 : 67514.9409365075
+Current loglikelihood: -38873.94372539783
+====================Iteration : 31===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 17.5165920035
+	 Mean for cluster 1 : 5.95782757223
+	 Mean for cluster 2 : 4.00108416879
+	 Mean for cluster 3 : 6.70831752325
+	 Mean for cluster 4 : 4.80563069114
+	 Mean for cluster 5 : 16.1199573842
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.3333333338368438
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.3333333333332692
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.3333333328298639
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114567
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.48169820311712
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203116991
+Mixture variance: 
+	 variance for cluster 0 : 135029.8768113361
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 135029.87660736538
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 135029.87640344002
+Current loglikelihood: -38873.94372539783
+====================Iteration : 32===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 27.0683405735
+	 Mean for cluster 1 : 25.3499987112
+	 Mean for cluster 2 : 6.22428730759
+	 Mean for cluster 3 : 16.3074993439
+	 Mean for cluster 4 : 4.2771348021
+	 Mean for cluster 5 : 5.8357560687
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2000000080986363
+	 Weight for cluster 1 : 0.19999999984854033
+	 Weight for cluster 2 : 0.19999999718888975
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.1999999998483919
+	 Weight for cluster 5 : 0.19999999501555377
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114838
+	 Mean for cluster 1 : 15.481698203116167
+	 Mean for cluster 2 : 15.481698203116197
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203116789
+	 Mean for cluster 5 : 15.481698203114409
+Mixture variance: 
+	 variance for cluster 0 : 81017.92924509697
+	 variance for cluster 1 : 81017.92590307479
+	 variance for cluster 2 : 81017.92482567806
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92590301842
+	 variance for cluster 5 : 81017.92394527295
+Current loglikelihood: -38873.94372539783
+====================Iteration : 33===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.9516275903
+	 Mean for cluster 1 : 15.4295937705
+	 Mean for cluster 2 : 24.8321513664
+	 Mean for cluster 3 : 4.30956983941
+	 Mean for cluster 4 : 6.79680919518
+	 Mean for cluster 5 : 4.10484868234
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666339244932
+	 Weight for cluster 1 : 0.1666666702766421
+	 Weight for cluster 2 : 0.16666667027081497
+	 Weight for cluster 3 : 0.1666666611759816
+	 Weight for cluster 4 : 0.16666667705055863
+	 Weight for cluster 5 : 0.16666665783358858
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116634
+	 Mean for cluster 1 : 15.481698203116553
+	 Mean for cluster 2 : 15.481698203114044
+	 Mean for cluster 3 : 15.481698203114005
+	 Mean for cluster 4 : 15.481698203116641
+	 Mean for cluster 5 : 15.481698203114046
+Mixture variance: 
+	 variance for cluster 0 : 67514.93697734193
+	 variance for cluster 1 : 67514.93976605698
+	 variance for cluster 2 : 67514.93976368543
+	 variance for cluster 3 : 67514.93607946258
+	 variance for cluster 4 : 67514.94251010056
+	 variance for cluster 5 : 67514.934725494
+Current loglikelihood: -38873.94372539783
+====================Iteration : 34===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 27.2490538914
+	 Mean for cluster 1 : 18.2694423042
+	 Mean for cluster 2 : 4.6089545683
+	 Mean for cluster 3 : 14.2338737796
+	 Mean for cluster 4 : 25.6269039572
+	 Mean for cluster 5 : 14.873535172
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666783109
+	 Weight for cluster 1 : 0.16666666666489582
+	 Weight for cluster 2 : 0.166666666654011
+	 Weight for cluster 3 : 0.16666666667834
+	 Weight for cluster 4 : 0.166666666654011
+	 Weight for cluster 5 : 0.1666666666704665
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114098
+	 Mean for cluster 1 : 15.481698203114068
+	 Mean for cluster 2 : 15.481698203116597
+	 Mean for cluster 3 : 15.481698203116586
+	 Mean for cluster 4 : 15.481698203116597
+	 Mean for cluster 5 : 15.481698203114076
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830839917
+	 variance for cluster 1 : 67514.93830296487
+	 variance for cluster 2 : 67514.93829856647
+	 variance for cluster 3 : 67514.93830842224
+	 variance for cluster 4 : 67514.93829856647
+	 variance for cluster 5 : 67514.93830522176
+Current loglikelihood: -38873.94372539783
+====================Iteration : 35===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.98409023047
+	 Mean for cluster 1 : 14.9551600576
+	 Mean for cluster 2 : 13.9952646992
+	 Mean for cluster 3 : 25.5044400008
+	 Mean for cluster 4 : 26.6552715842
+	 Mean for cluster 5 : 6.68982272728
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666677042632
+	 Weight for cluster 1 : 0.1666666666911866
+	 Weight for cluster 2 : 0.16666666663897522
+	 Weight for cluster 3 : 0.16666666661828422
+	 Weight for cluster 4 : 0.16666666661828422
+	 Weight for cluster 5 : 0.16666666666287858
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116604
+	 Mean for cluster 1 : 15.481698203116604
+	 Mean for cluster 2 : 15.481698203114012
+	 Mean for cluster 3 : 15.481698203113963
+	 Mean for cluster 4 : 15.481698203113963
+	 Mean for cluster 5 : 15.481698203116673
+Mixture variance: 
+	 variance for cluster 0 : 67514.93834572559
+	 variance for cluster 1 : 67514.93831362615
+	 variance for cluster 2 : 67514.93829246472
+	 variance for cluster 3 : 67514.93828408277
+	 variance for cluster 4 : 67514.93828408277
+	 variance for cluster 5 : 67514.93830215927
+Current loglikelihood: -38873.94372539783
+====================Iteration : 36===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.57807783504
+	 Mean for cluster 1 : 5.54190757423
+	 Mean for cluster 2 : 28.3086275445
+	 Mean for cluster 3 : 14.4261974108
+	 Mean for cluster 4 : 15.2083889528
+	 Mean for cluster 5 : 14.5905301763
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999981208
+	 Weight for cluster 1 : 0.20000000000042625
+	 Weight for cluster 2 : 0.20000000000042625
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.1999999999995965
+	 Weight for cluster 5 : 0.1999999999997268
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114185
+	 Mean for cluster 1 : 15.481698203116455
+	 Mean for cluster 2 : 15.481698203116455
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203117242
+	 Mean for cluster 5 : 15.481698203115904
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596434343
+	 variance for cluster 1 : 81017.92596460397
+	 variance for cluster 2 : 81017.92596460397
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92596427203
+	 variance for cluster 5 : 81017.92596431765
+Current loglikelihood: -38873.94372539783
+====================Iteration : 37===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.0132470882
+	 Mean for cluster 1 : 24.6530932948
+	 Mean for cluster 2 : 5.53109407229
+	 Mean for cluster 3 : 4.44511735288
+	 Mean for cluster 4 : 5.06244050439
+	 Mean for cluster 5 : 25.9550082814
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997153
+	 Weight for cluster 1 : 0.19999999999990917
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.200000000000047
+	 Weight for cluster 4 : 0.20000000000004062
+	 Weight for cluster 5 : 0.20000000000004062
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116526
+	 Mean for cluster 1 : 15.481698203115679
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203116808
+	 Mean for cluster 4 : 15.481698203114844
+	 Mean for cluster 5 : 15.481698203114844
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442033
+	 variance for cluster 1 : 81017.9259643902
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.925964452
+	 variance for cluster 4 : 81017.92596443876
+	 variance for cluster 5 : 81017.92596443876
+Current loglikelihood: -38873.94372539783
+====================Iteration : 38===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.13661494843
+	 Mean for cluster 1 : 15.3256956575
+	 Mean for cluster 2 : 6.3748119472
+	 Mean for cluster 3 : 16.8334523219
+	 Mean for cluster 4 : 15.7371293968
+	 Mean for cluster 5 : 16.7493069454
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000205785604
+	 Weight for cluster 1 : 0.1999999903676793
+	 Weight for cluster 2 : 0.20000000688439135
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.19999999863048254
+	 Weight for cluster 5 : 0.20000000205959137
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116297
+	 Mean for cluster 1 : 15.481698203116107
+	 Mean for cluster 2 : 15.481698203116158
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203115895
+	 Mean for cluster 5 : 15.481698203114885
+Mixture variance: 
+	 variance for cluster 0 : 81017.92679804652
+	 variance for cluster 1 : 81017.92206247637
+	 variance for cluster 2 : 81017.9287532252
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92540965119
+	 variance for cluster 5 : 81017.92679874196
+Current loglikelihood: -38873.94372539783
+====================Iteration : 39===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.3546790076
+	 Mean for cluster 1 : 25.7227389979
+	 Mean for cluster 2 : 5.6148968109
+	 Mean for cluster 3 : 25.1475044785
+	 Mean for cluster 4 : 6.63865389524
+	 Mean for cluster 5 : 16.8334523219
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666666346
+	 Weight for cluster 1 : 0.16666666666671917
+	 Weight for cluster 2 : 0.16666666666671917
+	 Weight for cluster 3 : 0.1666666666666346
+	 Weight for cluster 4 : 0.1666666666666346
+	 Weight for cluster 5 : 0.1666666666666346
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311712
+	 Mean for cluster 1 : 15.481698203114462
+	 Mean for cluster 2 : 15.481698203114462
+	 Mean for cluster 3 : 15.481698203117125
+	 Mean for cluster 4 : 15.481698203117123
+	 Mean for cluster 5 : 15.481698203117123
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830368273
+	 variance for cluster 1 : 67514.93830370523
+	 variance for cluster 2 : 67514.93830370523
+	 variance for cluster 3 : 67514.93830368276
+	 variance for cluster 4 : 67514.93830368276
+	 variance for cluster 5 : 67514.93830368276
+Current loglikelihood: -38873.94372539783
+====================Iteration : 40===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.52741469622
+	 Mean for cluster 1 : 5.71995318331
+	 Mean for cluster 2 : 15.8254991695
+	 Mean for cluster 3 : 26.1289097462
+	 Mean for cluster 4 : 7.51825596175
+	 Mean for cluster 5 : 18.2038389486
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999517853
+	 Weight for cluster 1 : 0.19999999997630766
+	 Weight for cluster 2 : 0.1999999999899682
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.2000000000271951
+	 Weight for cluster 5 : 0.2000000000113232
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115798
+	 Mean for cluster 1 : 15.481698203116313
+	 Mean for cluster 2 : 15.481698203116963
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203116062
+	 Mean for cluster 5 : 15.481698203116292
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596247475
+	 variance for cluster 1 : 81017.92595483287
+	 variance for cluster 2 : 81017.92596036996
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92597544615
+	 variance for cluster 5 : 81017.92596901728
+Current loglikelihood: -38873.94372539783
+====================Iteration : 41===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.9355900343
+	 Mean for cluster 1 : 5.56336148505
+	 Mean for cluster 2 : 23.4673802257
+	 Mean for cluster 3 : 5.72299835091
+	 Mean for cluster 4 : 16.0003381497
+	 Mean for cluster 5 : 15.2650259115
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666774605765
+	 Weight for cluster 1 : 0.16666666774597308
+	 Weight for cluster 2 : 0.16666666641947506
+	 Weight for cluster 3 : 0.16666666641947506
+	 Weight for cluster 4 : 0.16666666524949467
+	 Weight for cluster 5 : 0.1666666664195596
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114025
+	 Mean for cluster 1 : 15.48169820311664
+	 Mean for cluster 2 : 15.481698203116627
+	 Mean for cluster 3 : 15.481698203116641
+	 Mean for cluster 4 : 15.48169820311403
+	 Mean for cluster 5 : 15.481698203113979
+Mixture variance: 
+	 variance for cluster 0 : 67514.93874093228
+	 variance for cluster 1 : 67514.93874090933
+	 variance for cluster 2 : 67514.93820355885
+	 variance for cluster 3 : 67514.93820355888
+	 variance for cluster 4 : 67514.93772960038
+	 variance for cluster 5 : 67514.93820358165
+Current loglikelihood: -38873.94372539783
+====================Iteration : 42===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.2397604653
+	 Mean for cluster 1 : 15.7381971319
+	 Mean for cluster 2 : 23.4219517292
+	 Mean for cluster 3 : 23.9594965158
+	 Mean for cluster 4 : 15.8783141189
+	 Mean for cluster 5 : 26.5011201933
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999455444104
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.2000000028134187
+	 Weight for cluster 3 : 0.20000000688141847
+	 Weight for cluster 4 : 0.2000000004004456
+	 Weight for cluster 5 : 0.19999999535027693
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114634
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203116178
+	 Mean for cluster 3 : 15.481698203115876
+	 Mean for cluster 4 : 15.481698203114632
+	 Mean for cluster 5 : 15.481698203117881
+Mixture variance: 
+	 variance for cluster 0 : 81017.92375848234
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92710411633
+	 variance for cluster 3 : 81017.9287520197
+	 variance for cluster 4 : 81017.92612663866
+	 variance for cluster 5 : 81017.9240808842
+Current loglikelihood: -38873.94372539783
+====================Iteration : 43===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.2212785192
+	 Mean for cluster 1 : 26.9845007215
+	 Mean for cluster 2 : 4.78322464616
+	 Mean for cluster 3 : 25.8976945099
+	 Mean for cluster 4 : 5.55341938232
+	 Mean for cluster 5 : 26.1289097462
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997234
+	 Weight for cluster 1 : 0.19999999999997234
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.20000000000004062
+	 Weight for cluster 4 : 0.19999999999997234
+	 Weight for cluster 5 : 0.20000000000004062
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311658
+	 Mean for cluster 1 : 15.48169820311658
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203114822
+	 Mean for cluster 4 : 15.481698203116574
+	 Mean for cluster 5 : 15.481698203114888
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442097
+	 variance for cluster 1 : 81017.92596442097
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.92596443865
+	 variance for cluster 4 : 81017.92596442091
+	 variance for cluster 5 : 81017.92596443907
+Current loglikelihood: -38873.94372539783
+====================Iteration : 44===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.6265697266
+	 Mean for cluster 1 : 15.3081335141
+	 Mean for cluster 2 : 25.4564917429
+	 Mean for cluster 3 : 16.1272474132
+	 Mean for cluster 4 : 25.1241408877
+	 Mean for cluster 5 : 5.95519109393
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2000000126564814
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.1999999892759478
+	 Weight for cluster 3 : 0.19999998927597093
+	 Weight for cluster 4 : 0.19999999613468727
+	 Weight for cluster 5 : 0.2000000126569362
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115553
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203114936
+	 Mean for cluster 3 : 15.481698203116938
+	 Mean for cluster 4 : 15.4816982031145
+	 Mean for cluster 5 : 15.481698203115634
+Mixture variance: 
+	 variance for cluster 0 : 81017.9310914361
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92162022062
+	 variance for cluster 3 : 81017.92162024078
+	 variance for cluster 4 : 81017.9243986232
+	 variance for cluster 5 : 81017.93109162047
+Current loglikelihood: -38873.94372539783
+====================Iteration : 45===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 12.8050341631
+	 Mean for cluster 1 : 24.6525901295
+	 Mean for cluster 2 : 17.151152154
+	 Mean for cluster 3 : 14.0963759098
+	 Mean for cluster 4 : 25.0935795035
+	 Mean for cluster 5 : 15.1680549922
+Mixture variance: 
+	 variance for cluster 0 : 2430.5377789328572
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666664855271
+	 Weight for cluster 1 : 0.16666666734602278
+	 Weight for cluster 2 : 0.16666666671196217
+	 Weight for cluster 3 : 0.16666666612829398
+	 Weight for cluster 4 : 0.1666666659820081
+	 Weight for cluster 5 : 0.16666666734622104
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116588
+	 Mean for cluster 1 : 15.481698203116627
+	 Mean for cluster 2 : 15.481698203114032
+	 Mean for cluster 3 : 15.481698203114098
+	 Mean for cluster 4 : 15.48169820311672
+	 Mean for cluster 5 : 15.481698203113964
+Mixture variance: 
+	 variance for cluster 0 : 67514.93823031562
+	 variance for cluster 1 : 67514.93857889362
+	 variance for cluster 2 : 67514.9383220309
+	 variance for cluster 3 : 67514.93808559328
+	 variance for cluster 4 : 67514.93802634567
+	 variance for cluster 5 : 67514.93857896248
+Current loglikelihood: -38873.94372539783
+====================Iteration : 46===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.7899190219
+	 Mean for cluster 1 : 4.6044207783
+	 Mean for cluster 2 : 24.3559650232
+	 Mean for cluster 3 : 26.0847816891
+	 Mean for cluster 4 : 13.7259174122
+	 Mean for cluster 5 : 5.36171035791
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666423506707
+	 Weight for cluster 1 : 0.16666666158198643
+	 Weight for cluster 2 : 0.16666666158198637
+	 Weight for cluster 3 : 0.16666666423495338
+	 Weight for cluster 4 : 0.16666668106847884
+	 Weight for cluster 5 : 0.16666666729756308
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114021
+	 Mean for cluster 1 : 15.481698203116558
+	 Mean for cluster 2 : 15.48169820311652
+	 Mean for cluster 3 : 15.481698203114027
+	 Mean for cluster 4 : 15.481698203116592
+	 Mean for cluster 5 : 15.481698203114089
+Mixture variance: 
+	 variance for cluster 0 : 67514.93731866647
+	 variance for cluster 1 : 67514.93624394211
+	 variance for cluster 2 : 67514.93624394193
+	 variance for cluster 3 : 67514.93731862053
+	 variance for cluster 4 : 67514.94413771818
+	 variance for cluster 5 : 67514.93855925195
+Current loglikelihood: -38873.94372539783
+====================Iteration : 47===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.5534774251
+	 Mean for cluster 1 : 7.09367324437
+	 Mean for cluster 2 : 5.25451902105
+	 Mean for cluster 3 : 24.8373300135
+	 Mean for cluster 4 : 25.4888959269
+	 Mean for cluster 5 : 5.45162697283
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 1080.2390128590478
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666655481583165
+	 Weight for cluster 1 : 0.16666662951820962
+	 Weight for cluster 2 : 0.16666666497952193
+	 Weight for cluster 3 : 0.16666666498062974
+	 Weight for cluster 4 : 0.16666671068626276
+	 Weight for cluster 5 : 0.16666677501953578
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115004
+	 Mean for cluster 1 : 15.481698203116904
+	 Mean for cluster 2 : 15.481698203117086
+	 Mean for cluster 3 : 15.481698203114586
+	 Mean for cluster 4 : 15.481698203114506
+	 Mean for cluster 5 : 15.48169820311788
+Mixture variance: 
+	 variance for cluster 0 : 67514.8929940723
+	 variance for cluster 1 : 67514.92325523972
+	 variance for cluster 2 : 67514.93762025089
+	 variance for cluster 3 : 67514.93762068835
+	 variance for cluster 4 : 67514.95613556675
+	 variance for cluster 5 : 67514.9821963233
+Current loglikelihood: -38873.94372539783
+====================Iteration : 48===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.0931152444
+	 Mean for cluster 1 : 22.7307743584
+	 Mean for cluster 2 : 23.3067936423
+	 Mean for cluster 3 : 23.7065355858
+	 Mean for cluster 4 : 25.434459728
+	 Mean for cluster 5 : 28.4585034106
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666284297185
+	 Weight for cluster 1 : 0.16666666590569512
+	 Weight for cluster 2 : 0.16666666284300083
+	 Weight for cluster 3 : 0.16666666284300083
+	 Weight for cluster 4 : 0.16666668771549167
+	 Weight for cluster 5 : 0.1666666578498749
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114087
+	 Mean for cluster 1 : 15.48169820311409
+	 Mean for cluster 2 : 15.481698203116693
+	 Mean for cluster 3 : 15.481698203116627
+	 Mean for cluster 4 : 15.481698203113906
+	 Mean for cluster 5 : 15.48169820311656
+Mixture variance: 
+	 variance for cluster 0 : 67514.93675474342
+	 variance for cluster 1 : 67514.93799542057
+	 variance for cluster 2 : 67514.93675476623
+	 variance for cluster 3 : 67514.9367547659
+	 variance for cluster 4 : 67514.94683034235
+	 variance for cluster 5 : 67514.93473210256
+Current loglikelihood: -38873.94372539783
+====================Iteration : 49===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.5862204593
+	 Mean for cluster 1 : 26.926434383
+	 Mean for cluster 2 : 26.1075080589
+	 Mean for cluster 3 : 5.24601005462
+	 Mean for cluster 4 : 26.0171918122
+	 Mean for cluster 5 : 14.3814395541
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 607.6344447332143
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666675610178
+	 Weight for cluster 1 : 0.166666667007236
+	 Weight for cluster 2 : 0.1666666670073497
+	 Weight for cluster 3 : 0.16666666632588167
+	 Weight for cluster 4 : 0.16666666614727957
+	 Weight for cluster 5 : 0.16666666675618638
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116668
+	 Mean for cluster 1 : 15.481698203116613
+	 Mean for cluster 2 : 15.481698203116654
+	 Mean for cluster 3 : 15.481698203114012
+	 Mean for cluster 4 : 15.481698203113927
+	 Mean for cluster 5 : 15.481698203114071
+Mixture variance: 
+	 variance for cluster 0 : 67514.93833992298
+	 variance for cluster 1 : 67514.9384416546
+	 variance for cluster 2 : 67514.93844170049
+	 variance for cluster 3 : 67514.93816563368
+	 variance for cluster 4 : 67514.93809328346
+	 variance for cluster 5 : 67514.93833994598
+Current loglikelihood: -38873.94372539783
+====================Iteration : 50===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.5809950802
+	 Mean for cluster 1 : 7.34953551103
+	 Mean for cluster 2 : 15.1591627255
+	 Mean for cluster 3 : 16.5530652974
+	 Mean for cluster 4 : 24.0728340531
+	 Mean for cluster 5 : 6.40171465232
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666667984802563
+	 Weight for cluster 1 : 0.1666666580553114
+	 Weight for cluster 2 : 0.16666666896867938
+	 Weight for cluster 3 : 0.1666666620832361
+	 Weight for cluster 4 : 0.1666666580553114
+	 Weight for cluster 5 : 0.16666667298941265
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114352
+	 Mean for cluster 1 : 15.481698203117107
+	 Mean for cluster 2 : 15.481698203117086
+	 Mean for cluster 3 : 15.481698203117181
+	 Mean for cluster 4 : 15.481698203117107
+	 Mean for cluster 5 : 15.481698203114538
+Mixture variance: 
+	 variance for cluster 0 : 67514.94364331567
+	 variance for cluster 1 : 67514.93481532478
+	 variance for cluster 2 : 67514.93923621712
+	 variance for cluster 3 : 67514.93644699546
+	 variance for cluster 4 : 67514.93481532478
+	 variance for cluster 5 : 67514.94086496337
+Current loglikelihood: -38873.94372539783
+====================Iteration : 51===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.8739814493
+	 Mean for cluster 1 : 16.6280183483
+	 Mean for cluster 2 : 27.1027518261
+	 Mean for cluster 3 : 14.5139082296
+	 Mean for cluster 4 : 6.14442244716
+	 Mean for cluster 5 : 26.5102651041
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000002607
+	 Weight for cluster 1 : 0.20000000000002607
+	 Weight for cluster 2 : 0.1999999999999678
+	 Weight for cluster 3 : 0.20000000000002607
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.20000000000002607
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114485
+	 Mean for cluster 1 : 15.481698203114485
+	 Mean for cluster 2 : 15.481698203115855
+	 Mean for cluster 3 : 15.48169820311449
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.48169820311449
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644311
+	 variance for cluster 1 : 81017.9259644311
+	 variance for cluster 2 : 81017.92596441538
+	 variance for cluster 3 : 81017.92596443117
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.92596443117
+Current loglikelihood: -38873.94372539783
+====================Iteration : 52===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.9295810374
+	 Mean for cluster 1 : 14.5164604577
+	 Mean for cluster 2 : 25.7025409479
+	 Mean for cluster 3 : 15.5729537595
+	 Mean for cluster 4 : 13.4540655607
+	 Mean for cluster 5 : 24.5362977033
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1999999998324661
+	 Weight for cluster 1 : 0.20000000034876245
+	 Weight for cluster 2 : 0.19999999978858304
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.199999999939569
+	 Weight for cluster 5 : 0.2000000000906315
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114611
+	 Mean for cluster 1 : 15.481698203116204
+	 Mean for cluster 2 : 15.481698203114624
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203116986
+	 Mean for cluster 5 : 15.481698203115885
+Mixture variance: 
+	 variance for cluster 0 : 81017.9258965554
+	 variance for cluster 1 : 81017.92610571007
+	 variance for cluster 2 : 81017.92587877873
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.9259399545
+	 variance for cluster 5 : 81017.92600114254
+Current loglikelihood: -38873.94372539783
+====================Iteration : 53===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.8921356523
+	 Mean for cluster 1 : 15.2083889528
+	 Mean for cluster 2 : 4.37794501601
+	 Mean for cluster 3 : 24.7402989318
+	 Mean for cluster 4 : 23.6725108265
+	 Mean for cluster 5 : 15.2222528628
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.19999999861876858
+	 Weight for cluster 2 : 0.20000000025554035
+	 Weight for cluster 3 : 0.2000000002556077
+	 Weight for cluster 4 : 0.20000000187679384
+	 Weight for cluster 5 : 0.19999999899325308
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203116666
+	 Mean for cluster 2 : 15.481698203116622
+	 Mean for cluster 3 : 15.481698203114545
+	 Mean for cluster 4 : 15.481698203117478
+	 Mean for cluster 5 : 15.481698203116764
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 81017.92540491011
+	 variance for cluster 2 : 81017.92606794898
+	 variance for cluster 3 : 81017.926067965
+	 variance for cluster 4 : 81017.92672470672
+	 variance for cluster 5 : 81017.9255566101
+Current loglikelihood: -38873.94372539783
+====================Iteration : 54===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.80708084735
+	 Mean for cluster 1 : 15.4769997031
+	 Mean for cluster 2 : 27.032438776
+	 Mean for cluster 3 : 5.34728096494
+	 Mean for cluster 4 : 5.87857540548
+	 Mean for cluster 5 : 15.2719784873
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003948
+	 Weight for cluster 1 : 0.19999999999995308
+	 Weight for cluster 2 : 0.2000000000000501
+	 Weight for cluster 3 : 0.19999999999995308
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.20000000000003948
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114389
+	 Mean for cluster 1 : 15.481698203115565
+	 Mean for cluster 2 : 15.4816982031168
+	 Mean for cluster 3 : 15.481698203115522
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203114389
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443622
+	 variance for cluster 1 : 81017.9259644075
+	 variance for cluster 2 : 81017.9259644533
+	 variance for cluster 3 : 81017.92596440732
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.92596443622
+Current loglikelihood: -38873.94372539783
+====================Iteration : 55===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.3542516637
+	 Mean for cluster 1 : 14.295720633
+	 Mean for cluster 2 : 5.52122571172
+	 Mean for cluster 3 : 28.6876781759
+	 Mean for cluster 4 : 6.47529775366
+	 Mean for cluster 5 : 3.01457925922
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666754224203
+	 Weight for cluster 1 : 0.16666665722161234
+	 Weight for cluster 2 : 0.16666665722127125
+	 Weight for cluster 3 : 0.16666666736534955
+	 Weight for cluster 4 : 0.16666666736785066
+	 Weight for cluster 5 : 0.16666667540153102
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203113995
+	 Mean for cluster 1 : 15.481698203114084
+	 Mean for cluster 2 : 15.48169820311396
+	 Mean for cluster 3 : 15.481698203116672
+	 Mean for cluster 4 : 15.481698203116691
+	 Mean for cluster 5 : 15.481698203116588
+Mixture variance: 
+	 variance for cluster 0 : 67514.94185054743
+	 variance for cluster 1 : 67514.93447758864
+	 variance for cluster 2 : 67514.9344774502
+	 variance for cluster 3 : 67514.93858672272
+	 variance for cluster 4 : 67514.93858773624
+	 variance for cluster 5 : 67514.94184209625
+Current loglikelihood: -38873.94372539783
+====================Iteration : 56===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 7.0705235444
+	 Mean for cluster 1 : 6.46258841767
+	 Mean for cluster 2 : 25.1995066581
+	 Mean for cluster 3 : 4.34652747342
+	 Mean for cluster 4 : 23.2128376338
+	 Mean for cluster 5 : 24.9568230339
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 67.51493830369049
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.166666667285744
+	 Weight for cluster 1 : 0.1666666672856304
+	 Weight for cluster 2 : 0.16666666813023895
+	 Weight for cluster 3 : 0.16666666573087824
+	 Weight for cluster 4 : 0.16666666541880787
+	 Weight for cluster 5 : 0.16666666614867737
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311447
+	 Mean for cluster 1 : 15.481698203114524
+	 Mean for cluster 2 : 15.48169820311702
+	 Mean for cluster 3 : 15.481698203117027
+	 Mean for cluster 4 : 15.48169820311709
+	 Mean for cluster 5 : 15.48169820311709
+Mixture variance: 
+	 variance for cluster 0 : 67514.93855446613
+	 variance for cluster 1 : 67514.93855442043
+	 variance for cluster 2 : 67514.9388965734
+	 variance for cluster 3 : 67514.9379246174
+	 variance for cluster 4 : 67514.93779820087
+	 variance for cluster 5 : 67514.93809386338
+Current loglikelihood: -38873.94372539783
+====================Iteration : 57===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.5357805913
+	 Mean for cluster 1 : 24.8555458096
+	 Mean for cluster 2 : 15.0028348036
+	 Mean for cluster 3 : 7.97358461206
+	 Mean for cluster 4 : 25.7011963929
+	 Mean for cluster 5 : 25.9102329489
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000004062
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.1999999999999716
+	 Weight for cluster 3 : 0.19999999999997234
+	 Weight for cluster 4 : 0.19999999999997234
+	 Weight for cluster 5 : 0.20000000000004062
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114888
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203116599
+	 Mean for cluster 3 : 15.481698203116558
+	 Mean for cluster 4 : 15.481698203116565
+	 Mean for cluster 5 : 15.481698203114888
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443907
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.9259644208
+	 variance for cluster 3 : 81017.9259644208
+	 variance for cluster 4 : 81017.92596442085
+	 variance for cluster 5 : 81017.92596443907
+Current loglikelihood: -38873.94372539783
+====================Iteration : 58===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.27927216153
+	 Mean for cluster 1 : 3.31609454917
+	 Mean for cluster 2 : 24.9916302853
+	 Mean for cluster 3 : 4.41708281614
+	 Mean for cluster 4 : 15.1933477638
+	 Mean for cluster 5 : 7.22788079538
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666666346
+	 Weight for cluster 1 : 0.1666666666666346
+	 Weight for cluster 2 : 0.16666666666671917
+	 Weight for cluster 3 : 0.1666666666666346
+	 Weight for cluster 4 : 0.16666666666671917
+	 Weight for cluster 5 : 0.1666666666666346
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311712
+	 Mean for cluster 1 : 15.48169820311712
+	 Mean for cluster 2 : 15.481698203114481
+	 Mean for cluster 3 : 15.48169820311712
+	 Mean for cluster 4 : 15.481698203114485
+	 Mean for cluster 5 : 15.481698203117121
+Mixture variance: 
+	 variance for cluster 0 : 67514.9383036827
+	 variance for cluster 1 : 67514.9383036827
+	 variance for cluster 2 : 67514.93830370533
+	 variance for cluster 3 : 67514.9383036827
+	 variance for cluster 4 : 67514.93830370533
+	 variance for cluster 5 : 67514.93830368276
+Current loglikelihood: -38873.94372539783
+====================Iteration : 59===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.2105124131
+	 Mean for cluster 1 : 26.4054555271
+	 Mean for cluster 2 : 5.98153480586
+	 Mean for cluster 3 : 14.7996903174
+	 Mean for cluster 4 : 5.03184664631
+	 Mean for cluster 5 : 16.9158909712
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666549773
+	 Weight for cluster 1 : 0.16666666666686197
+	 Weight for cluster 2 : 0.16666666666637808
+	 Weight for cluster 3 : 0.16666666666549773
+	 Weight for cluster 4 : 0.16666666667024346
+	 Weight for cluster 5 : 0.16666666666549773
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117132
+	 Mean for cluster 1 : 15.4816982031171
+	 Mean for cluster 2 : 15.481698203114451
+	 Mean for cluster 3 : 15.481698203117098
+	 Mean for cluster 4 : 15.481698203114512
+	 Mean for cluster 5 : 15.481698203117098
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830322205
+	 variance for cluster 1 : 67514.93830377457
+	 variance for cluster 2 : 67514.93830356699
+	 variance for cluster 3 : 67514.93830322188
+	 variance for cluster 4 : 67514.93830513296
+	 variance for cluster 5 : 67514.93830322188
+Current loglikelihood: -38873.94372539783
+====================Iteration : 60===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.4620099548
+	 Mean for cluster 1 : 4.02885767126
+	 Mean for cluster 2 : 24.3967949809
+	 Mean for cluster 3 : 25.6097611328
+	 Mean for cluster 4 : 23.4544059079
+	 Mean for cluster 5 : 25.6730585355
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999997234
+	 Weight for cluster 1 : 0.2000000000000408
+	 Weight for cluster 2 : 0.19999999999997234
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.20000000000004062
+	 Weight for cluster 5 : 0.19999999999997234
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116558
+	 Mean for cluster 1 : 15.481698203114886
+	 Mean for cluster 2 : 15.481698203116558
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203114862
+	 Mean for cluster 5 : 15.481698203116558
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644208
+	 variance for cluster 1 : 81017.92596443916
+	 variance for cluster 2 : 81017.9259644208
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92596443887
+	 variance for cluster 5 : 81017.9259644208
+Current loglikelihood: -38873.94372539783
+====================Iteration : 61===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.0861338044
+	 Mean for cluster 1 : 15.0288080876
+	 Mean for cluster 2 : 13.7681036604
+	 Mean for cluster 3 : 15.4223144996
+	 Mean for cluster 4 : 26.39700294
+	 Mean for cluster 5 : 15.4245363894
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999883555
+	 Weight for cluster 1 : 0.19999999999958504
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.19999999999915993
+	 Weight for cluster 4 : 0.2000000000032238
+	 Weight for cluster 5 : 0.19999999999915993
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116741
+	 Mean for cluster 1 : 15.4816982031147
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203118002
+	 Mean for cluster 4 : 15.481698203114671
+	 Mean for cluster 5 : 15.481698203118002
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596396127
+	 variance for cluster 1 : 81017.9259642537
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.92596409922
+	 variance for cluster 4 : 81017.92596572748
+	 variance for cluster 5 : 81017.92596409922
+Current loglikelihood: -38873.94372539783
+====================Iteration : 62===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.567224813
+	 Mean for cluster 1 : 5.88932229642
+	 Mean for cluster 2 : 15.6229251502
+	 Mean for cluster 3 : 5.58172495816
+	 Mean for cluster 4 : 4.20937194411
+	 Mean for cluster 5 : 15.1381992461
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666667103899688
+	 Weight for cluster 1 : 0.1666666648174847
+	 Weight for cluster 2 : 0.16666666648871034
+	 Weight for cluster 3 : 0.166666665583081
+	 Weight for cluster 4 : 0.16666666648859665
+	 Weight for cluster 5 : 0.16666666558316554
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311394
+	 Mean for cluster 1 : 15.481698203113995
+	 Mean for cluster 2 : 15.481698203116592
+	 Mean for cluster 3 : 15.481698203116643
+	 Mean for cluster 4 : 15.48169820311662
+	 Mean for cluster 5 : 15.481698203113954
+Mixture variance: 
+	 variance for cluster 0 : 67514.94007486732
+	 variance for cluster 1 : 67514.93755459785
+	 variance for cluster 2 : 67514.93823160516
+	 variance for cluster 3 : 67514.93786474419
+	 variance for cluster 4 : 67514.93823155934
+	 variance for cluster 5 : 67514.93786476673
+Current loglikelihood: -38873.94372539783
+====================Iteration : 63===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.7454266726
+	 Mean for cluster 1 : 15.4773086707
+	 Mean for cluster 2 : 14.4773756155
+	 Mean for cluster 3 : 5.97873212639
+	 Mean for cluster 4 : 25.5657122533
+	 Mean for cluster 5 : 5.34354301961
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 1080.2390128590478
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.25000000000000006
+	 Weight for cluster 2 : 0.24999999999999997
+	 Weight for cluster 3 : 0.24999999999999997
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.24999999999999997
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203116013
+	 Mean for cluster 2 : 15.481698203115839
+	 Mean for cluster 3 : 15.481698203115839
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203115839
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 101272.4074555362
+	 variance for cluster 2 : 101272.40745553501
+	 variance for cluster 3 : 101272.40745553501
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 101272.40745553501
+Current loglikelihood: -38873.94372539783
+====================Iteration : 64===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.372761551
+	 Mean for cluster 1 : 24.8594235483
+	 Mean for cluster 2 : 4.60802935699
+	 Mean for cluster 3 : 6.88597735857
+	 Mean for cluster 4 : 4.46280695411
+	 Mean for cluster 5 : 24.6156766993
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666071853
+	 Weight for cluster 1 : 0.1666666666584157
+	 Weight for cluster 2 : 0.16666666667413357
+	 Weight for cluster 3 : 0.1666666666876332
+	 Weight for cluster 4 : 0.16666666665841567
+	 Weight for cluster 5 : 0.16666666666071853
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116542
+	 Mean for cluster 1 : 15.481698203114048
+	 Mean for cluster 2 : 15.481698203116625
+	 Mean for cluster 3 : 15.481698203114023
+	 Mean for cluster 4 : 15.481698203114044
+	 Mean for cluster 5 : 15.481698203116542
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830128358
+	 variance for cluster 1 : 67514.93830033993
+	 variance for cluster 2 : 67514.93830671856
+	 variance for cluster 3 : 67514.93831217577
+	 variance for cluster 4 : 67514.93830033987
+	 variance for cluster 5 : 67514.93830128358
+Current loglikelihood: -38873.94372539783
+====================Iteration : 65===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 5.17586994654
+	 Mean for cluster 1 : 5.9040606981
+	 Mean for cluster 2 : 15.9496103365
+	 Mean for cluster 3 : 23.6846736508
+	 Mean for cluster 4 : 27.0671905607
+	 Mean for cluster 5 : 16.6698233846
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666598598714
+	 Weight for cluster 1 : 0.16666666598598714
+	 Weight for cluster 2 : 0.16666666320665588
+	 Weight for cluster 3 : 0.16666666254332232
+	 Weight for cluster 4 : 0.16666666942350694
+	 Weight for cluster 5 : 0.1666666728545757
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311663
+	 Mean for cluster 1 : 15.481698203116697
+	 Mean for cluster 2 : 15.48169820311397
+	 Mean for cluster 3 : 15.481698203116643
+	 Mean for cluster 4 : 15.481698203113979
+	 Mean for cluster 5 : 15.481698203114025
+Mixture variance: 
+	 variance for cluster 0 : 67514.93802795705
+	 variance for cluster 1 : 67514.93802795719
+	 variance for cluster 2 : 67514.93690206778
+	 variance for cluster 3 : 67514.9366333697
+	 variance for cluster 4 : 67514.93942044958
+	 variance for cluster 5 : 67514.94081033964
+Current loglikelihood: -38873.94372539783
+====================Iteration : 66===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.2910128888
+	 Mean for cluster 1 : 24.902148745
+	 Mean for cluster 2 : 5.55203212856
+	 Mean for cluster 3 : 17.6366807689
+	 Mean for cluster 4 : 25.0610556358
+	 Mean for cluster 5 : 14.1752595012
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.24999999999999997
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.2500000000000009
+	 Weight for cluster 4 : 0.2499999999999997
+	 Weight for cluster 5 : 0.24999999999999997
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203115855
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203116277
+	 Mean for cluster 4 : 15.481698203115503
+	 Mean for cluster 5 : 15.481698203115833
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 101272.4074555352
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 101272.40745553841
+	 variance for cluster 4 : 101272.40745553274
+	 variance for cluster 5 : 101272.40745553498
+Current loglikelihood: -38873.94372539783
+====================Iteration : 67===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.46195380866
+	 Mean for cluster 1 : 27.7122260627
+	 Mean for cluster 2 : 4.02305689313
+	 Mean for cluster 3 : 5.54556013274
+	 Mean for cluster 4 : 24.6507470621
+	 Mean for cluster 5 : 15.10879175
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666667266
+	 Weight for cluster 1 : 0.16666666665807897
+	 Weight for cluster 2 : 0.16666666665807897
+	 Weight for cluster 3 : 0.16666666665924493
+	 Weight for cluster 4 : 0.16666666667925384
+	 Weight for cluster 5 : 0.16666666667266006
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117165
+	 Mean for cluster 1 : 15.481698203114492
+	 Mean for cluster 2 : 15.481698203114492
+	 Mean for cluster 3 : 15.48169820311699
+	 Mean for cluster 4 : 15.481698203117146
+	 Mean for cluster 5 : 15.48169820311723
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830612367
+	 variance for cluster 1 : 67514.93830020528
+	 variance for cluster 2 : 67514.93830020528
+	 variance for cluster 3 : 67514.93830068877
+	 variance for cluster 4 : 67514.93830879436
+	 variance for cluster 5 : 67514.93830612404
+Current loglikelihood: -38873.94372539783
+====================Iteration : 68===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 11.8941511008
+	 Mean for cluster 1 : 16.1440889958
+	 Mean for cluster 2 : 14.3134585242
+	 Mean for cluster 3 : 25.2545425999
+	 Mean for cluster 4 : 26.2022485718
+	 Mean for cluster 5 : 25.0536704203
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003948
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.19999999999996806
+	 Weight for cluster 3 : 0.20000000000003948
+	 Weight for cluster 4 : 0.20000000000003948
+	 Weight for cluster 5 : 0.19999999999996806
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114355
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203116105
+	 Mean for cluster 3 : 15.481698203114355
+	 Mean for cluster 4 : 15.48169820311432
+	 Mean for cluster 5 : 15.481698203116066
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443606
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92596441647
+	 variance for cluster 3 : 81017.92596443606
+	 variance for cluster 4 : 81017.9259644359
+	 variance for cluster 5 : 81017.92596441638
+Current loglikelihood: -38873.94372539783
+====================Iteration : 69===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.0278282515
+	 Mean for cluster 1 : 25.3658032478
+	 Mean for cluster 2 : 18.0268380272
+	 Mean for cluster 3 : 15.4295937705
+	 Mean for cluster 4 : 14.8881913862
+	 Mean for cluster 5 : 5.49776167916
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666785818635
+	 Weight for cluster 1 : 0.1666666658444514
+	 Weight for cluster 2 : 0.16666666928720078
+	 Weight for cluster 3 : 0.16666666675008074
+	 Weight for cluster 4 : 0.16666666441560612
+	 Weight for cluster 5 : 0.1666666658444514
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117071
+	 Mean for cluster 1 : 15.481698203117144
+	 Mean for cluster 2 : 15.481698203114467
+	 Mean for cluster 3 : 15.481698203117086
+	 Mean for cluster 4 : 15.481698203114533
+	 Mean for cluster 5 : 15.481698203117144
+Mixture variance: 
+	 variance for cluster 0 : 67514.9387863677
+	 variance for cluster 1 : 67514.93797062423
+	 variance for cluster 2 : 67514.93936523548
+	 variance for cluster 3 : 67514.93833748571
+	 variance for cluster 4 : 67514.93739180308
+	 variance for cluster 5 : 67514.93797062423
+Current loglikelihood: -38873.94372539783
+====================Iteration : 70===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.7372902773
+	 Mean for cluster 1 : 26.9619471884
+	 Mean for cluster 2 : 25.9450975387
+	 Mean for cluster 3 : 15.977307118
+	 Mean for cluster 4 : 15.9496103365
+	 Mean for cluster 5 : 8.12482023242
+Mixture variance: 
+	 variance for cluster 0 : 2430.5377789328572
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666344696
+	 Weight for cluster 1 : 0.1666666666702391
+	 Weight for cluster 2 : 0.1666666666702391
+	 Weight for cluster 3 : 0.16666666666344696
+	 Weight for cluster 4 : 0.1666666666652369
+	 Weight for cluster 5 : 0.16666666666742605
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311655
+	 Mean for cluster 1 : 15.481698203114062
+	 Mean for cluster 2 : 15.481698203114057
+	 Mean for cluster 3 : 15.48169820311655
+	 Mean for cluster 4 : 15.481698203114096
+	 Mean for cluster 5 : 15.481698203116633
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830238908
+	 variance for cluster 1 : 67514.93830512933
+	 variance for cluster 2 : 67514.93830512927
+	 variance for cluster 3 : 67514.93830238908
+	 variance for cluster 4 : 67514.93830310334
+	 variance for cluster 5 : 67514.93830400106
+Current loglikelihood: -38873.94372539783
+====================Iteration : 71===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.5986062456
+	 Mean for cluster 1 : 15.3411587772
+	 Mean for cluster 2 : 15.6181030471
+	 Mean for cluster 3 : 26.1341188166
+	 Mean for cluster 4 : 5.65282444363
+	 Mean for cluster 5 : 16.702210919
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000262818474
+	 Weight for cluster 1 : 0.19999999757906153
+	 Weight for cluster 2 : 0.20000000262916157
+	 Weight for cluster 3 : 0.19999999958449852
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.1999999975791058
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311673
+	 Mean for cluster 1 : 15.481698203115483
+	 Mean for cluster 2 : 15.48169820311461
+	 Mean for cluster 3 : 15.481698203115998
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.48169820311564
+Mixture variance: 
+	 variance for cluster 0 : 81017.92702908312
+	 variance for cluster 1 : 81017.92498372881
+	 variance for cluster 2 : 81017.9270294679
+	 variance for cluster 3 : 81017.9257961136
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.92498374806
+Current loglikelihood: -38873.94372539783
+====================Iteration : 72===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.347613387
+	 Mean for cluster 1 : 4.40610432518
+	 Mean for cluster 2 : 16.4134004433
+	 Mean for cluster 3 : 6.1868173467
+	 Mean for cluster 4 : 25.0809440698
+	 Mean for cluster 5 : 24.3824524848
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.25000000000000006
+	 Weight for cluster 2 : 0.25000000000000006
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.24999999999999972
+	 Weight for cluster 5 : 0.25000000000000006
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203115977
+	 Mean for cluster 2 : 15.481698203115952
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203115624
+	 Mean for cluster 5 : 15.481698203115958
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 101272.40745553603
+	 variance for cluster 2 : 101272.40745553588
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 101272.40745553357
+	 variance for cluster 5 : 101272.40745553591
+Current loglikelihood: -38873.94372539783
+====================Iteration : 73===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.3943287679
+	 Mean for cluster 1 : 14.7662505237
+	 Mean for cluster 2 : 5.59832348309
+	 Mean for cluster 3 : 5.4078659755
+	 Mean for cluster 4 : 24.9565885414
+	 Mean for cluster 5 : 25.7264739067
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666708935
+	 Weight for cluster 1 : 0.1666666666664918
+	 Weight for cluster 2 : 0.16666666666606617
+	 Weight for cluster 3 : 0.1666666666684536
+	 Weight for cluster 4 : 0.16666666666606617
+	 Weight for cluster 5 : 0.16666666666580965
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117169
+	 Mean for cluster 1 : 15.48169820311453
+	 Mean for cluster 2 : 15.481698203117112
+	 Mean for cluster 3 : 15.481698203117082
+	 Mean for cluster 4 : 15.481698203117112
+	 Mean for cluster 5 : 15.481698203114417
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830386693
+	 variance for cluster 1 : 67514.9383036134
+	 variance for cluster 2 : 67514.93830345232
+	 variance for cluster 3 : 67514.93830441931
+	 variance for cluster 4 : 67514.93830345232
+	 variance for cluster 5 : 67514.93830333702
+Current loglikelihood: -38873.94372539783
+====================Iteration : 74===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.0544545597
+	 Mean for cluster 1 : 4.66436454432
+	 Mean for cluster 2 : 5.7497236053
+	 Mean for cluster 3 : 16.8512983412
+	 Mean for cluster 4 : 4.36104798074
+	 Mean for cluster 5 : 25.7290459507
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.3333333334629071
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.3333333334629071
+	 Weight for cluster 4 : 0.3333333330740981
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117256
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203117256
+	 Mean for cluster 4 : 15.481698203117222
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 135029.8766598812
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 135029.8766598812
+	 variance for cluster 4 : 135029.8765023789
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 75===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 13.8681766594
+	 Mean for cluster 1 : 15.4077622681
+	 Mean for cluster 2 : 24.9377954315
+	 Mean for cluster 3 : 14.9988173516
+	 Mean for cluster 4 : 4.34403225806
+	 Mean for cluster 5 : 23.6405049292
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 270.05975321476194
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000678419266
+	 Weight for cluster 1 : 0.20000000678421834
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.20000001644726884
+	 Weight for cluster 4 : 0.1999999834003301
+	 Weight for cluster 5 : 0.1999999865839539
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115268
+	 Mean for cluster 1 : 15.481698203118281
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203115371
+	 Mean for cluster 4 : 15.481698203116993
+	 Mean for cluster 5 : 15.481698203116174
+Mixture variance: 
+	 variance for cluster 0 : 81017.92871263118
+	 variance for cluster 1 : 81017.9287126574
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.93262704385
+	 variance for cluster 4 : 81017.91924007957
+	 variance for cluster 5 : 81017.92052972809
+Current loglikelihood: -38873.94372539783
+====================Iteration : 76===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.8338607457
+	 Mean for cluster 1 : 17.5165920035
+	 Mean for cluster 2 : 5.80708084735
+	 Mean for cluster 3 : 24.2797412582
+	 Mean for cluster 4 : 6.31966720165
+	 Mean for cluster 5 : 16.9697704638
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666668377217
+	 Weight for cluster 1 : 0.16666666666595248
+	 Weight for cluster 2 : 0.16666666667027258
+	 Weight for cluster 3 : 0.1666666666594432
+	 Weight for cluster 4 : 0.16666666666595248
+	 Weight for cluster 5 : 0.1666666666545838
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114464
+	 Mean for cluster 1 : 15.481698203117125
+	 Mean for cluster 2 : 15.481698203117078
+	 Mean for cluster 3 : 15.481698203114544
+	 Mean for cluster 4 : 15.481698203117125
+	 Mean for cluster 5 : 15.481698203117046
+Mixture variance: 
+	 variance for cluster 0 : 67514.9383106131
+	 variance for cluster 1 : 67514.93830340647
+	 variance for cluster 2 : 67514.93830515613
+	 variance for cluster 3 : 67514.93830075812
+	 variance for cluster 4 : 67514.93830340647
+	 variance for cluster 5 : 67514.93829880095
+Current loglikelihood: -38873.94372539783
+====================Iteration : 77===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.53412132292
+	 Mean for cluster 1 : 24.4374015939
+	 Mean for cluster 2 : 4.77536333538
+	 Mean for cluster 3 : 14.3950754118
+	 Mean for cluster 4 : 25.6717988668
+	 Mean for cluster 5 : 16.3970154521
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 67.51493830369049
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666663741272
+	 Weight for cluster 1 : 0.16666666665921148
+	 Weight for cluster 2 : 0.16666666671233235
+	 Weight for cluster 3 : 0.1666666666277202
+	 Weight for cluster 4 : 0.1666666666504867
+	 Weight for cluster 5 : 0.16666666671287167
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116576
+	 Mean for cluster 1 : 15.481698203113979
+	 Mean for cluster 2 : 15.481698203116645
+	 Mean for cluster 3 : 15.481698203114004
+	 Mean for cluster 4 : 15.481698203116718
+	 Mean for cluster 5 : 15.48169820311404
+Mixture variance: 
+	 variance for cluster 0 : 67514.93829184276
+	 variance for cluster 1 : 67514.93830066189
+	 variance for cluster 2 : 67514.93832219242
+	 variance for cluster 3 : 67514.9382879051
+	 variance for cluster 4 : 67514.93829713923
+	 variance for cluster 5 : 67514.9383223997
+Current loglikelihood: -38873.94372539783
+====================Iteration : 78===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.5455020074
+	 Mean for cluster 1 : 3.9219486782
+	 Mean for cluster 2 : 5.56301760483
+	 Mean for cluster 3 : 6.36355738487
+	 Mean for cluster 4 : 26.0147470575
+	 Mean for cluster 5 : 5.95000693111
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000002718
+	 Weight for cluster 1 : 0.19999999999989684
+	 Weight for cluster 2 : 0.19999999999989684
+	 Weight for cluster 3 : 0.2000000000004044
+	 Weight for cluster 4 : 0.19999999999979987
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114897
+	 Mean for cluster 1 : 15.481698203116217
+	 Mean for cluster 2 : 15.481698203116217
+	 Mean for cluster 3 : 15.48169820311514
+	 Mean for cluster 4 : 15.481698203114883
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443405
+	 variance for cluster 1 : 81017.92596438799
+	 variance for cluster 2 : 81017.92596438799
+	 variance for cluster 3 : 81017.92596458843
+	 variance for cluster 4 : 81017.92596434227
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 79===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.953330139
+	 Mean for cluster 1 : 5.31478236538
+	 Mean for cluster 2 : 15.8869760458
+	 Mean for cluster 3 : 26.4363654659
+	 Mean for cluster 4 : 6.4561319485
+	 Mean for cluster 5 : 15.8671994745
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 5468.71000259893
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 5468.71000259893
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666714534991
+	 Weight for cluster 1 : 0.16666666054013113
+	 Weight for cluster 2 : 0.16666666054016024
+	 Weight for cluster 3 : 0.16666667145182293
+	 Weight for cluster 4 : 0.1666666754742615
+	 Weight for cluster 5 : 0.16666666054016024
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203113998
+	 Mean for cluster 1 : 15.481698203114052
+	 Mean for cluster 2 : 15.48169820311665
+	 Mean for cluster 3 : 15.481698203116656
+	 Mean for cluster 4 : 15.481698203114016
+	 Mean for cluster 5 : 15.48169820311665
+Mixture variance: 
+	 variance for cluster 0 : 67514.94024277834
+	 variance for cluster 1 : 67514.93582188609
+	 variance for cluster 2 : 67514.93582190917
+	 variance for cluster 3 : 67514.94024211117
+	 variance for cluster 4 : 67514.94187154775
+	 variance for cluster 5 : 67514.93582190917
+Current loglikelihood: -38873.94372539783
+====================Iteration : 80===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.4427005847
+	 Mean for cluster 1 : 16.0000839511
+	 Mean for cluster 2 : 14.9326261738
+	 Mean for cluster 3 : 17.566425955
+	 Mean for cluster 4 : 24.9640538291
+	 Mean for cluster 5 : 15.5854707035
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 4320.956051436191
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666667086315248
+	 Weight for cluster 1 : 0.16666666547780698
+	 Weight for cluster 2 : 0.1666666612694322
+	 Weight for cluster 3 : 0.16666667091522105
+	 Weight for cluster 4 : 0.16666667086823928
+	 Weight for cluster 5 : 0.16666666060618318
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116629
+	 Mean for cluster 1 : 15.48169820311663
+	 Mean for cluster 2 : 15.481698203113995
+	 Mean for cluster 3 : 15.481698203116581
+	 Mean for cluster 4 : 15.481698203114016
+	 Mean for cluster 5 : 15.481698203114075
+Mixture variance: 
+	 variance for cluster 0 : 67514.94000364609
+	 variance for cluster 1 : 67514.93782209896
+	 variance for cluster 2 : 67514.93611731827
+	 variance for cluster 3 : 67514.94002473846
+	 variance for cluster 4 : 67514.94000569558
+	 variance for cluster 5 : 67514.93584864328
+Current loglikelihood: -38873.94372539783
+====================Iteration : 81===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.3123503739
+	 Mean for cluster 1 : 16.5076279331
+	 Mean for cluster 2 : 25.2440390973
+	 Mean for cluster 3 : 25.4899113666
+	 Mean for cluster 4 : 5.29167389264
+	 Mean for cluster 5 : 15.8092579333
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 5468.71000259893
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 67.51493830369049
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000088214
+	 Weight for cluster 1 : 0.19999999999648624
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.2000000000028663
+	 Weight for cluster 4 : 0.1999999999968562
+	 Weight for cluster 5 : 0.20000000000291002
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116967
+	 Mean for cluster 1 : 15.481698203116176
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.4816982031161
+	 Mean for cluster 4 : 15.481698203114197
+	 Mean for cluster 5 : 15.481698203115807
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596479143
+	 variance for cluster 1 : 81017.92596300671
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.9259655906
+	 variance for cluster 4 : 81017.92596314594
+	 variance for cluster 5 : 81017.92596560642
+Current loglikelihood: -38873.94372539783
+====================Iteration : 82===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.7707873956
+	 Mean for cluster 1 : 16.6789242854
+	 Mean for cluster 2 : 15.2084560821
+	 Mean for cluster 3 : 23.6939416448
+	 Mean for cluster 4 : 5.25475621756
+	 Mean for cluster 5 : 16.6387661942
+Mixture variance: 
+	 variance for cluster 0 : 1687.873457592262
+	 variance for cluster 1 : 3308.2319768808334
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 4320.956051436191
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666667933099452
+	 Weight for cluster 1 : 0.1666666258531749
+	 Weight for cluster 2 : 0.16666665035463596
+	 Weight for cluster 3 : 0.16666660462876928
+	 Weight for cluster 4 : 0.1666667604989708
+	 Weight for cluster 5 : 0.16666667933341092
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114256
+	 Mean for cluster 1 : 15.481698203117622
+	 Mean for cluster 2 : 15.481698203116792
+	 Mean for cluster 3 : 15.481698203117404
+	 Mean for cluster 4 : 15.481698203116423
+	 Mean for cluster 5 : 15.481698203116762
+Mixture variance: 
+	 variance for cluster 0 : 67514.94343387139
+	 variance for cluster 1 : 67514.92177057546
+	 variance for cluster 2 : 67514.93169585922
+	 variance for cluster 3 : 67514.91317278771
+	 variance for cluster 4 : 67514.9763141866
+	 variance for cluster 5 : 67514.94343486107
+Current loglikelihood: -38873.94372539783
+====================Iteration : 83===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.9290216815
+	 Mean for cluster 1 : 24.5561851477
+	 Mean for cluster 2 : 4.42874320474
+	 Mean for cluster 3 : 4.49720364242
+	 Mean for cluster 4 : 4.34262355069
+	 Mean for cluster 5 : 5.94161159609
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 5468.71000259893
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.24999999890519545
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.2500000010948043
+	 Weight for cluster 3 : 0.24999999890519584
+	 Weight for cluster 4 : 0.2500000010948043
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115569
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.48169820311593
+	 Mean for cluster 3 : 15.481698203116048
+	 Mean for cluster 4 : 15.481698203115947
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 101272.40701203933
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 101272.40789902915
+	 variance for cluster 3 : 101272.4070120428
+	 variance for cluster 4 : 101272.40789902925
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 84===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.1058881357
+	 Mean for cluster 1 : 4.7418826921
+	 Mean for cluster 2 : 26.6552715842
+	 Mean for cluster 3 : 5.54243534915
+	 Mean for cluster 4 : 15.0466032734
+	 Mean for cluster 5 : 5.7830693283
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1999999999999716
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.2000000000000408
+	 Weight for cluster 3 : 0.2000000000000408
+	 Weight for cluster 4 : 0.1999999999999716
+	 Weight for cluster 5 : 0.19999999999997234
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116586
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.48169820311489
+	 Mean for cluster 3 : 15.481698203114886
+	 Mean for cluster 4 : 15.481698203116586
+	 Mean for cluster 5 : 15.481698203116565
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442075
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92596443916
+	 variance for cluster 3 : 81017.92596443916
+	 variance for cluster 4 : 81017.92596442075
+	 variance for cluster 5 : 81017.92596442085
+Current loglikelihood: -38873.94372539783
+====================Iteration : 85===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.423262472
+	 Mean for cluster 1 : 26.0277901027
+	 Mean for cluster 2 : 27.4362510561
+	 Mean for cluster 3 : 14.4778891689
+	 Mean for cluster 4 : 4.02528416609
+	 Mean for cluster 5 : 6.55813975763
+Mixture variance: 
+	 variance for cluster 0 : 270.05975321476194
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2000000000000407
+	 Weight for cluster 1 : 0.19999999999997234
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.19999999999997234
+	 Weight for cluster 4 : 0.19999999999997234
+	 Weight for cluster 5 : 0.20000000000004062
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114888
+	 Mean for cluster 1 : 15.481698203116565
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203116576
+	 Mean for cluster 4 : 15.48169820311658
+	 Mean for cluster 5 : 15.481698203114831
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644391
+	 variance for cluster 1 : 81017.92596442085
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.92596442091
+	 variance for cluster 4 : 81017.92596442097
+	 variance for cluster 5 : 81017.9259644387
+Current loglikelihood: -38873.94372539783
+====================Iteration : 86===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.8846438252
+	 Mean for cluster 1 : 4.68921703081
+	 Mean for cluster 2 : 6.19490769276
+	 Mean for cluster 3 : 4.60802935699
+	 Mean for cluster 4 : 24.6135793103
+	 Mean for cluster 5 : 16.3988069239
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.2000000074010529
+	 Weight for cluster 1 : 0.19999999915912522
+	 Weight for cluster 2 : 0.19999999582387804
+	 Weight for cluster 3 : 0.19999999674267194
+	 Weight for cluster 4 : 0.2000000008732956
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114533
+	 Mean for cluster 1 : 15.4816982031155
+	 Mean for cluster 2 : 15.481698203116887
+	 Mean for cluster 3 : 15.481698203114943
+	 Mean for cluster 4 : 15.48169820311559
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 81017.9289625107
+	 variance for cluster 1 : 81017.92562379736
+	 variance for cluster 2 : 81017.92427272978
+	 variance for cluster 3 : 81017.92464491344
+	 variance for cluster 4 : 81017.92631818964
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 87===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.7546291672
+	 Mean for cluster 1 : 5.2321544316
+	 Mean for cluster 2 : 15.0422141914
+	 Mean for cluster 3 : 5.07087804171
+	 Mean for cluster 4 : 25.5202470741
+	 Mean for cluster 5 : 5.21448046482
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 270.05975321476194
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 2430.5377789328572
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000003948
+	 Weight for cluster 1 : 0.1999999999999681
+	 Weight for cluster 2 : 0.20000000000003942
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.20000000000003942
+	 Weight for cluster 5 : 0.19999999999996806
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114382
+	 Mean for cluster 1 : 15.481698203116196
+	 Mean for cluster 2 : 15.481698203114286
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203114286
+	 Mean for cluster 5 : 15.481698203116066
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596443619
+	 variance for cluster 1 : 81017.9259644171
+	 variance for cluster 2 : 81017.92596443564
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92596443564
+	 variance for cluster 5 : 81017.92596441638
+Current loglikelihood: -38873.94372539783
+====================Iteration : 88===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.07265760389
+	 Mean for cluster 1 : 15.0852934904
+	 Mean for cluster 2 : 25.9450975387
+	 Mean for cluster 3 : 3.54421573037
+	 Mean for cluster 4 : 25.9089629117
+	 Mean for cluster 5 : 4.93453472661
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 67.51493830369049
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 1687.873457592262
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999951066427
+	 Weight for cluster 1 : 0.20000000277516536
+	 Weight for cluster 2 : 0.20000000273946747
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.19999999798869222
+	 Weight for cluster 5 : 0.19999999698597432
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116709
+	 Mean for cluster 1 : 15.481698203118167
+	 Mean for cluster 2 : 15.481698203118043
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203114652
+	 Mean for cluster 5 : 15.481698203114547
+Mixture variance: 
+	 variance for cluster 0 : 81017.92576620793
+	 variance for cluster 1 : 81017.92708863135
+	 variance for cluster 2 : 81017.92707416925
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.92514966165
+	 variance for cluster 5 : 81017.92474347088
+Current loglikelihood: -38873.94372539783
+====================Iteration : 89===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 26.766799555
+	 Mean for cluster 1 : 23.9195258649
+	 Mean for cluster 2 : 15.4665296679
+	 Mean for cluster 3 : 4.51285924706
+	 Mean for cluster 4 : 25.1161751291
+	 Mean for cluster 5 : 16.7728309596
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 4320.956051436191
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 607.6344447332143
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000000002607
+	 Weight for cluster 1 : 0.1999999999999678
+	 Weight for cluster 2 : 0.20000000000002607
+	 Weight for cluster 3 : 0.20000000000002607
+	 Weight for cluster 4 : 0.0
+	 Weight for cluster 5 : 0.20000000000002607
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114465
+	 Mean for cluster 1 : 15.48169820311594
+	 Mean for cluster 2 : 15.481698203114465
+	 Mean for cluster 3 : 15.481698203114465
+	 Mean for cluster 4 : 0.0
+	 Mean for cluster 5 : 15.481698203114465
+Mixture variance: 
+	 variance for cluster 0 : 81017.9259644311
+	 variance for cluster 1 : 81017.9259644156
+	 variance for cluster 2 : 81017.9259644311
+	 variance for cluster 3 : 81017.9259644311
+	 variance for cluster 4 : 0.0
+	 variance for cluster 5 : 81017.9259644311
+Current loglikelihood: -38873.94372539783
+====================Iteration : 90===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 15.9189895947
+	 Mean for cluster 1 : 23.8940082735
+	 Mean for cluster 2 : 6.9996423549
+	 Mean for cluster 3 : 15.5034815013
+	 Mean for cluster 4 : 4.7524587727
+	 Mean for cluster 5 : 16.9264837185
+Mixture variance: 
+	 variance for cluster 0 : 3308.2319768808334
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 1080.2390128590478
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666650007902
+	 Weight for cluster 1 : 0.16666666670900632
+	 Weight for cluster 2 : 0.16666666641720132
+	 Weight for cluster 3 : 0.16666666684759057
+	 Weight for cluster 4 : 0.1666666670260789
+	 Weight for cluster 5 : 0.16666666650007902
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116604
+	 Mean for cluster 1 : 15.481698203114068
+	 Mean for cluster 2 : 15.48169820311654
+	 Mean for cluster 3 : 15.48169820311398
+	 Mean for cluster 4 : 15.481698203114089
+	 Mean for cluster 5 : 15.481698203116604
+Mixture variance: 
+	 variance for cluster 0 : 67514.93823621055
+	 variance for cluster 1 : 67514.9383208334
+	 variance for cluster 2 : 67514.9382026375
+	 variance for cluster 3 : 67514.93837697238
+	 variance for cluster 4 : 67514.93844927644
+	 variance for cluster 5 : 67514.93823621055
+Current loglikelihood: -38873.94372539783
+====================Iteration : 91===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 24.7686666996
+	 Mean for cluster 1 : 25.6242815351
+	 Mean for cluster 2 : 16.5156993504
+	 Mean for cluster 3 : 17.5460884913
+	 Mean for cluster 4 : 4.30956983941
+	 Mean for cluster 5 : 15.2543425935
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 1687.873457592262
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 3308.2319768808334
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666681658318
+	 Weight for cluster 1 : 0.16666666665807464
+	 Weight for cluster 2 : 0.1666666668166677
+	 Weight for cluster 3 : 0.16666666660145857
+	 Weight for cluster 4 : 0.16666666655362553
+	 Weight for cluster 5 : 0.16666666655362553
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116682
+	 Mean for cluster 1 : 15.481698203114101
+	 Mean for cluster 2 : 15.481698203113984
+	 Mean for cluster 3 : 15.481698203114014
+	 Mean for cluster 4 : 15.481698203116599
+	 Mean for cluster 5 : 15.481698203116599
+Mixture variance: 
+	 variance for cluster 0 : 67514.9383644231
+	 variance for cluster 1 : 67514.93830020203
+	 variance for cluster 2 : 67514.93836444562
+	 variance for cluster 3 : 67514.93827726734
+	 variance for cluster 4 : 67514.93825790158
+	 variance for cluster 5 : 67514.93825790158
+Current loglikelihood: -38873.94372539783
+====================Iteration : 92===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.1630614696
+	 Mean for cluster 1 : 15.7686516675
+	 Mean for cluster 2 : 15.762419214
+	 Mean for cluster 3 : 17.2202547911
+	 Mean for cluster 4 : 14.9063812071
+	 Mean for cluster 5 : 25.5628367929
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 607.6344447332143
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 1080.2390128590478
+	 variance for cluster 5 : 270.05975321476194
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.19999999999792628
+	 Weight for cluster 1 : 0.20000000000082313
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.19999999999929052
+	 Weight for cluster 4 : 0.19999999999996673
+	 Weight for cluster 5 : 0.2000000000019569
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116949
+	 Mean for cluster 1 : 15.481698203116355
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203116895
+	 Mean for cluster 4 : 15.481698203115613
+	 Mean for cluster 5 : 15.481698203116308
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596359397
+	 variance for cluster 1 : 81017.92596476401
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 81017.92596414666
+	 variance for cluster 4 : 81017.92596441337
+	 variance for cluster 5 : 81017.92596522291
+Current loglikelihood: -38873.94372539783
+====================Iteration : 93===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 23.4855287232
+	 Mean for cluster 1 : 4.7757485777
+	 Mean for cluster 2 : 25.7617058785
+	 Mean for cluster 3 : 26.4644925141
+	 Mean for cluster 4 : 15.90846673
+	 Mean for cluster 5 : 15.8869960039
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 1080.2390128590478
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 607.6344447332143
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.0
+	 Weight for cluster 1 : 0.24999999999954534
+	 Weight for cluster 2 : 0.24999999999954534
+	 Weight for cluster 3 : 0.24999999999302425
+	 Weight for cluster 4 : 0.2500000000078851
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 0.0
+	 Mean for cluster 1 : 15.481698203116006
+	 Mean for cluster 2 : 15.48169820311601
+	 Mean for cluster 3 : 15.481698203116757
+	 Mean for cluster 4 : 15.481698203114744
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 0.0
+	 variance for cluster 1 : 101272.40745535184
+	 variance for cluster 2 : 101272.40745535192
+	 variance for cluster 3 : 101272.40745271555
+	 variance for cluster 4 : 101272.40745872205
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 94===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.13803855102
+	 Mean for cluster 1 : 14.2760316575
+	 Mean for cluster 2 : 15.1675677804
+	 Mean for cluster 3 : 15.8363059233
+	 Mean for cluster 4 : 7.14888106537
+	 Mean for cluster 5 : 5.93222924669
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 607.6344447332143
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 67.51493830369049
+	 variance for cluster 5 : 67.51493830369049
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.20000000004544147
+	 Weight for cluster 1 : 0.19999999991795891
+	 Weight for cluster 2 : 0.19999999994479223
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.20000000004599922
+	 Weight for cluster 5 : 0.20000000004577176
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115533
+	 Mean for cluster 1 : 15.481698203114913
+	 Mean for cluster 2 : 15.481698203115121
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.481698203118349
+	 Mean for cluster 5 : 15.481698203118265
+Mixture variance: 
+	 variance for cluster 0 : 81017.925982834
+	 variance for cluster 1 : 81017.92593118927
+	 variance for cluster 2 : 81017.92594206003
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 81017.9259830753
+	 variance for cluster 5 : 81017.92598298224
+Current loglikelihood: -38873.94372539783
+====================Iteration : 95===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 16.253547922
+	 Mean for cluster 1 : 15.6911296207
+	 Mean for cluster 2 : 5.32985774348
+	 Mean for cluster 3 : 24.9049614313
+	 Mean for cluster 4 : 14.6233120148
+	 Mean for cluster 5 : 26.5376654439
+Mixture variance: 
+	 variance for cluster 0 : 5468.71000259893
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 1687.873457592262
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 5468.71000259893
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1999999999999716
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.2000000000000408
+	 Weight for cluster 3 : 0.1999999999999716
+	 Weight for cluster 4 : 0.1999999999999716
+	 Weight for cluster 5 : 0.2000000000000408
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203116572
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 15.481698203114954
+	 Mean for cluster 3 : 15.481698203116569
+	 Mean for cluster 4 : 15.481698203116572
+	 Mean for cluster 5 : 15.481698203114954
+Mixture variance: 
+	 variance for cluster 0 : 81017.92596442065
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 81017.92596443945
+	 variance for cluster 3 : 81017.92596442062
+	 variance for cluster 4 : 81017.92596442065
+	 variance for cluster 5 : 81017.92596443945
+Current loglikelihood: -38873.94372539783
+====================Iteration : 96===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 14.6166492605
+	 Mean for cluster 1 : 25.2284089225
+	 Mean for cluster 2 : 25.3839765664
+	 Mean for cluster 3 : 25.7617058785
+	 Mean for cluster 4 : 13.6628556797
+	 Mean for cluster 5 : 4.32621219307
+Mixture variance: 
+	 variance for cluster 0 : 67.51493830369049
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 0.0
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.3333333577181865
+	 Weight for cluster 1 : 0.0
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.33333332580970176
+	 Weight for cluster 4 : 0.33333331647208814
+	 Weight for cluster 5 : 0.0
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203117213
+	 Mean for cluster 1 : 0.0
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 15.481698203117103
+	 Mean for cluster 4 : 15.48169820311433
+	 Mean for cluster 5 : 0.0
+Mixture variance: 
+	 variance for cluster 0 : 135029.88648544325
+	 variance for cluster 1 : 0.0
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 135029.87355964674
+	 variance for cluster 4 : 135029.86977705092
+	 variance for cluster 5 : 0.0
+Current loglikelihood: -38873.94372539783
+====================Iteration : 97===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 25.4210406571
+	 Mean for cluster 1 : 15.1202998935
+	 Mean for cluster 2 : 4.39025268867
+	 Mean for cluster 3 : 15.8737938566
+	 Mean for cluster 4 : 24.7352738676
+	 Mean for cluster 5 : 7.47569642731
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 270.05975321476194
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 1080.2390128590478
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.24999999999999997
+	 Weight for cluster 1 : 0.25000000000000006
+	 Weight for cluster 2 : 0.0
+	 Weight for cluster 3 : 0.0
+	 Weight for cluster 4 : 0.24999999999999997
+	 Weight for cluster 5 : 0.24999999999999997
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203115846
+	 Mean for cluster 1 : 15.481698203115993
+	 Mean for cluster 2 : 0.0
+	 Mean for cluster 3 : 0.0
+	 Mean for cluster 4 : 15.48169820311582
+	 Mean for cluster 5 : 15.481698203115862
+Mixture variance: 
+	 variance for cluster 0 : 101272.40745553508
+	 variance for cluster 1 : 101272.40745553613
+	 variance for cluster 2 : 0.0
+	 variance for cluster 3 : 0.0
+	 variance for cluster 4 : 101272.40745553494
+	 variance for cluster 5 : 101272.40745553527
+Current loglikelihood: -38873.94372539783
+====================Iteration : 98===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 4.98993139292
+	 Mean for cluster 1 : 15.595322157
+	 Mean for cluster 2 : 26.5306096483
+	 Mean for cluster 3 : 16.7923822955
+	 Mean for cluster 4 : 4.6270377929
+	 Mean for cluster 5 : 13.7358780665
+Mixture variance: 
+	 variance for cluster 0 : 1080.2390128590478
+	 variance for cluster 1 : 1080.2390128590478
+	 variance for cluster 2 : 3308.2319768808334
+	 variance for cluster 3 : 3308.2319768808334
+	 variance for cluster 4 : 270.05975321476194
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.1666666666667148
+	 Weight for cluster 1 : 0.1666666666667148
+	 Weight for cluster 2 : 0.16666666666663024
+	 Weight for cluster 3 : 0.16666666666663024
+	 Weight for cluster 4 : 0.1666666666667148
+	 Weight for cluster 5 : 0.16666666666663024
+Mixture mean: 
+	 Mean for cluster 0 : 15.481698203114002
+	 Mean for cluster 1 : 15.481698203114002
+	 Mean for cluster 2 : 15.481698203116645
+	 Mean for cluster 3 : 15.481698203116645
+	 Mean for cluster 4 : 15.481698203114053
+	 Mean for cluster 5 : 15.481698203116597
+Mixture variance: 
+	 variance for cluster 0 : 67514.93830370152
+	 variance for cluster 1 : 67514.93830370152
+	 variance for cluster 2 : 67514.93830367878
+	 variance for cluster 3 : 67514.93830367878
+	 variance for cluster 4 : 67514.93830370167
+	 variance for cluster 5 : 67514.93830367856
+Current loglikelihood: -38873.94372539783
+====================Iteration : 99===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 13.3102675751
+	 Mean for cluster 1 : 16.7613276534
+	 Mean for cluster 2 : 15.6288285489
+	 Mean for cluster 3 : 25.0978292801
+	 Mean for cluster 4 : 4.56666176756
+	 Mean for cluster 5 : 4.26672798005
+Mixture variance: 
+	 variance for cluster 0 : 4320.956051436191
+	 variance for cluster 1 : 2430.5377789328572
+	 variance for cluster 2 : 4320.956051436191
+	 variance for cluster 3 : 1687.873457592262
+	 variance for cluster 4 : 2430.5377789328572
+	 variance for cluster 5 : 3308.2319768808334
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666665885938492
+	 Weight for cluster 1 : 0.16666667029082383
+	 Weight for cluster 2 : 0.16666665885941404
+	 Weight for cluster 3 : 0.16666667753483547
+	 Weight for cluster 4 : 0.1666666702903982
+	 Weight for cluster 5 : 0.16666666416517875
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311401
+	 Mean for cluster 1 : 15.481698203113988
+	 Mean for cluster 2 : 15.481698203116572
+	 Mean for cluster 3 : 15.481698203113993
+	 Mean for cluster 4 : 15.481698203116624
+	 Mean for cluster 5 : 15.481698203116583
+Mixture variance: 
+	 variance for cluster 0 : 67514.93514103316
+	 variance for cluster 1 : 67514.9397717907
+	 variance for cluster 2 : 67514.93514105638
+	 variance for cluster 3 : 67514.94270626496
+	 variance for cluster 4 : 67514.93977162949
+	 variance for cluster 5 : 67514.93729036643
+Current loglikelihood: -38873.94372539783
+====================Iteration : 100===================
+ Parameter values after initialization: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666666666666
+	 Weight for cluster 1 : 0.16666666666666666
+	 Weight for cluster 2 : 0.16666666666666666
+	 Weight for cluster 3 : 0.16666666666666666
+	 Weight for cluster 4 : 0.16666666666666666
+	 Weight for cluster 5 : 0.16666666666666666
+Mixture mean: 
+	 Mean for cluster 0 : 6.67552529186
+	 Mean for cluster 1 : 6.0001097353
+	 Mean for cluster 2 : 24.3487074353
+	 Mean for cluster 3 : 6.04500954069
+	 Mean for cluster 4 : 5.74951348566
+	 Mean for cluster 5 : 15.2736683808
+Mixture variance: 
+	 variance for cluster 0 : 607.6344447332143
+	 variance for cluster 1 : 67.51493830369049
+	 variance for cluster 2 : 2430.5377789328572
+	 variance for cluster 3 : 2430.5377789328572
+	 variance for cluster 4 : 4320.956051436191
+	 variance for cluster 5 : 1687.873457592262
+ Parameter values after convergence: 
+Mixture Weights: 
+	 Weight for cluster 0 : 0.16666666685205783
+	 Weight for cluster 1 : 0.16666666752610715
+	 Weight for cluster 2 : 0.1666666664218377
+	 Weight for cluster 3 : 0.1666666664218377
+	 Weight for cluster 4 : 0.16666666624315113
+	 Weight for cluster 5 : 0.16666666653498524
+Mixture mean: 
+	 Mean for cluster 0 : 15.48169820311708
+	 Mean for cluster 1 : 15.481698203117112
+	 Mean for cluster 2 : 15.481698203114494
+	 Mean for cluster 3 : 15.481698203114494
+	 Mean for cluster 4 : 15.481698203117062
+	 Mean for cluster 5 : 15.481698203117078
+Mixture variance: 
+	 variance for cluster 0 : 67514.93837879556
+	 variance for cluster 1 : 67514.93865184614
+	 variance for cluster 2 : 67514.93820450646
+	 variance for cluster 3 : 67514.93820450646
+	 variance for cluster 4 : 67514.93813213382
+	 variance for cluster 5 : 67514.9382503527
+Current loglikelihood: -38873.94372539783
+Maxmum log liklihood :-38873.94372539783 for iteration number: 1

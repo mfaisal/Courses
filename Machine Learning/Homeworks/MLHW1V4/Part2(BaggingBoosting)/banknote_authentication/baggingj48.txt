@@ -1,0 +1,1141 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     data_banknote_authentication
+Instances:    1371
+Attributes:   5
+              varienceWabeletTransImage
+              skewnessWabeletTransImage
+              curtWabeletTransImage
+              entropyImage
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.91315
+|   skewnessWabeletTransImage <= 5.1939
+|   |   varienceWabeletTransImage <= -0.36279
+|   |   |   curtWabeletTransImage <= 6.6779: 1 (339.0)
+|   |   |   curtWabeletTransImage > 6.6779
+|   |   |   |   skewnessWabeletTransImage <= -4.8069: 1 (131.0)
+|   |   |   |   skewnessWabeletTransImage > -4.8069: 0 (16.0)
+|   |   varienceWabeletTransImage > -0.36279
+|   |   |   curtWabeletTransImage <= 2.6045
+|   |   |   |   curtWabeletTransImage <= 0.46583: 1 (83.0)
+|   |   |   |   curtWabeletTransImage > 0.46583
+|   |   |   |   |   skewnessWabeletTransImage <= -0.38903: 1 (18.0)
+|   |   |   |   |   skewnessWabeletTransImage > -0.38903: 0 (11.0)
+|   |   |   curtWabeletTransImage > 2.6045: 0 (36.0)
+|   skewnessWabeletTransImage > 5.1939
+|   |   varienceWabeletTransImage <= -3.3793: 1 (39.0/1.0)
+|   |   varienceWabeletTransImage > -3.3793: 0 (121.0)
+varienceWabeletTransImage > 0.91315
+|   curtWabeletTransImage <= -2.0267
+|   |   skewnessWabeletTransImage <= 4.7738
+|   |   |   varienceWabeletTransImage <= 3.4776: 1 (18.0)
+|   |   |   varienceWabeletTransImage > 3.4776: 0 (3.0)
+|   |   skewnessWabeletTransImage > 4.7738: 0 (153.0)
+|   curtWabeletTransImage > -2.0267: 0 (403.0)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	25
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.74428
+|   skewnessWabeletTransImage <= 5.2808
+|   |   curtWabeletTransImage <= 0.72202: 1 (253.0)
+|   |   curtWabeletTransImage > 0.72202
+|   |   |   skewnessWabeletTransImage <= -4.7428: 1 (166.0/1.0)
+|   |   |   skewnessWabeletTransImage > -4.7428
+|   |   |   |   curtWabeletTransImage <= 4.3919
+|   |   |   |   |   varienceWabeletTransImage <= 0.37637: 1 (90.0/1.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.37637
+|   |   |   |   |   |   skewnessWabeletTransImage <= -3.3729: 1 (4.0)
+|   |   |   |   |   |   skewnessWabeletTransImage > -3.3729: 0 (13.0)
+|   |   |   |   curtWabeletTransImage > 4.3919: 0 (46.0/1.0)
+|   skewnessWabeletTransImage > 5.2808
+|   |   varienceWabeletTransImage <= -3.3793: 1 (43.0)
+|   |   varienceWabeletTransImage > -3.3793: 0 (107.0)
+varienceWabeletTransImage > 0.74428
+|   varienceWabeletTransImage <= 2.031
+|   |   curtWabeletTransImage <= -2.3437
+|   |   |   skewnessWabeletTransImage <= 6.1975: 1 (35.0)
+|   |   |   skewnessWabeletTransImage > 6.1975: 0 (6.0)
+|   |   curtWabeletTransImage > -2.3437
+|   |   |   entropyImage <= 0.80731: 0 (128.0)
+|   |   |   entropyImage > 0.80731
+|   |   |   |   varienceWabeletTransImage <= 1.518: 1 (4.0)
+|   |   |   |   varienceWabeletTransImage > 1.518: 0 (6.0)
+|   varienceWabeletTransImage > 2.031: 0 (470.0/2.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.74428
+|   skewnessWabeletTransImage <= 6.69
+|   |   varienceWabeletTransImage <= -1.7479: 1 (293.0/1.0)
+|   |   varienceWabeletTransImage > -1.7479
+|   |   |   curtWabeletTransImage <= 0.32616
+|   |   |   |   skewnessWabeletTransImage <= 4.8587: 1 (169.0)
+|   |   |   |   skewnessWabeletTransImage > 4.8587
+|   |   |   |   |   curtWabeletTransImage <= -3.2417: 1 (6.0)
+|   |   |   |   |   curtWabeletTransImage > -3.2417: 0 (3.0)
+|   |   |   curtWabeletTransImage > 0.32616
+|   |   |   |   skewnessWabeletTransImage <= -0.17383
+|   |   |   |   |   varienceWabeletTransImage <= -0.46651: 1 (73.0)
+|   |   |   |   |   varienceWabeletTransImage > -0.46651
+|   |   |   |   |   |   curtWabeletTransImage <= 2.6045: 1 (13.0)
+|   |   |   |   |   |   curtWabeletTransImage > 2.6045: 0 (21.0)
+|   |   |   |   skewnessWabeletTransImage > -0.17383: 0 (42.0/1.0)
+|   skewnessWabeletTransImage > 6.69
+|   |   varienceWabeletTransImage <= -4.6765: 1 (31.0)
+|   |   varienceWabeletTransImage > -4.6765: 0 (104.0/1.0)
+varienceWabeletTransImage > 0.74428
+|   curtWabeletTransImage <= -4.4987
+|   |   varienceWabeletTransImage <= 3.3397: 1 (21.0)
+|   |   varienceWabeletTransImage > 3.3397: 0 (8.0)
+|   curtWabeletTransImage > -4.4987
+|   |   varienceWabeletTransImage <= 2.031
+|   |   |   curtWabeletTransImage <= -2.3086
+|   |   |   |   skewnessWabeletTransImage <= 5.6574: 1 (14.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6574: 0 (7.0)
+|   |   |   curtWabeletTransImage > -2.3086: 0 (133.0/1.0)
+|   |   varienceWabeletTransImage > 2.031: 0 (433.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 5.8561
+|   |   curtWabeletTransImage <= 6.2169: 1 (330.0/2.0)
+|   |   curtWabeletTransImage > 6.2169
+|   |   |   skewnessWabeletTransImage <= -3.0087
+|   |   |   |   varienceWabeletTransImage <= -1.5075: 1 (151.0)
+|   |   |   |   varienceWabeletTransImage > -1.5075
+|   |   |   |   |   varienceWabeletTransImage <= -1.0292: 1 (8.0)
+|   |   |   |   |   varienceWabeletTransImage > -1.0292: 0 (3.0)
+|   |   |   skewnessWabeletTransImage > -3.0087: 0 (28.0)
+|   skewnessWabeletTransImage > 5.8561
+|   |   varienceWabeletTransImage <= -4.3667: 1 (42.0)
+|   |   varienceWabeletTransImage > -4.3667: 0 (92.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -4.4738
+|   |   skewnessWabeletTransImage <= 7.1907: 1 (32.0)
+|   |   skewnessWabeletTransImage > 7.1907: 0 (7.0)
+|   curtWabeletTransImage > -4.4738
+|   |   varienceWabeletTransImage <= 1.581
+|   |   |   curtWabeletTransImage <= -2.1835
+|   |   |   |   skewnessWabeletTransImage <= 5.6222: 1 (22.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6222: 0 (4.0)
+|   |   |   curtWabeletTransImage > -2.1835
+|   |   |   |   entropyImage <= 0.22283: 0 (132.0)
+|   |   |   |   entropyImage > 0.22283
+|   |   |   |   |   curtWabeletTransImage <= 1.9507
+|   |   |   |   |   |   skewnessWabeletTransImage <= 3.1991: 1 (17.0)
+|   |   |   |   |   |   skewnessWabeletTransImage > 3.1991: 0 (3.0)
+|   |   |   |   |   curtWabeletTransImage > 1.9507: 0 (25.0)
+|   |   varienceWabeletTransImage > 1.581: 0 (475.0/1.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.75896
+|   skewnessWabeletTransImage <= 6.69
+|   |   varienceWabeletTransImage <= -1.7479: 1 (295.0)
+|   |   varienceWabeletTransImage > -1.7479
+|   |   |   curtWabeletTransImage <= 0.46497: 1 (170.0/1.0)
+|   |   |   curtWabeletTransImage > 0.46497
+|   |   |   |   skewnessWabeletTransImage <= -0.67253
+|   |   |   |   |   entropyImage <= -0.96682
+|   |   |   |   |   |   varienceWabeletTransImage <= -1.1005: 1 (5.0)
+|   |   |   |   |   |   varienceWabeletTransImage > -1.1005: 0 (13.0)
+|   |   |   |   |   entropyImage > -0.96682
+|   |   |   |   |   |   curtWabeletTransImage <= 7.9632: 1 (96.0)
+|   |   |   |   |   |   curtWabeletTransImage > 7.9632
+|   |   |   |   |   |   |   varienceWabeletTransImage <= -0.89409: 1 (7.0)
+|   |   |   |   |   |   |   varienceWabeletTransImage > -0.89409: 0 (4.0)
+|   |   |   |   skewnessWabeletTransImage > -0.67253
+|   |   |   |   |   entropyImage <= 1.3051: 0 (34.0/1.0)
+|   |   |   |   |   entropyImage > 1.3051: 1 (3.0)
+|   skewnessWabeletTransImage > 6.69
+|   |   varienceWabeletTransImage <= -3.4605: 1 (36.0/1.0)
+|   |   varienceWabeletTransImage > -3.4605: 0 (98.0)
+varienceWabeletTransImage > 0.75896
+|   curtWabeletTransImage <= -4.4738
+|   |   varienceWabeletTransImage <= 3.3004: 1 (19.0)
+|   |   varienceWabeletTransImage > 3.3004: 0 (7.0)
+|   curtWabeletTransImage > -4.4738
+|   |   curtWabeletTransImage <= -2.3
+|   |   |   skewnessWabeletTransImage <= 4.4303: 1 (12.0)
+|   |   |   skewnessWabeletTransImage > 4.4303: 0 (141.0)
+|   |   curtWabeletTransImage > -2.3: 0 (431.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 1.7425
+|   skewnessWabeletTransImage <= 5.1401
+|   |   varienceWabeletTransImage <= -0.2062
+|   |   |   curtWabeletTransImage <= 4.8477: 1 (269.0)
+|   |   |   curtWabeletTransImage > 4.8477
+|   |   |   |   skewnessWabeletTransImage <= -2.9674: 1 (164.0)
+|   |   |   |   skewnessWabeletTransImage > -2.9674: 0 (14.0)
+|   |   varienceWabeletTransImage > -0.2062
+|   |   |   curtWabeletTransImage <= 0.18564: 1 (112.0)
+|   |   |   curtWabeletTransImage > 0.18564
+|   |   |   |   curtWabeletTransImage <= 2.1401
+|   |   |   |   |   entropyImage <= 0.24481: 0 (15.0)
+|   |   |   |   |   entropyImage > 0.24481: 1 (7.0)
+|   |   |   |   curtWabeletTransImage > 2.1401: 0 (55.0)
+|   skewnessWabeletTransImage > 5.1401
+|   |   varienceWabeletTransImage <= -3.3553: 1 (42.0/1.0)
+|   |   varienceWabeletTransImage > -3.3553: 0 (198.0/1.0)
+varienceWabeletTransImage > 1.7425
+|   varienceWabeletTransImage <= 2.2279
+|   |   curtWabeletTransImage <= -2.6848: 1 (7.0)
+|   |   curtWabeletTransImage > -2.6848: 0 (70.0)
+|   varienceWabeletTransImage > 2.2279: 0 (418.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.63655
+|   skewnessWabeletTransImage <= 7.5404
+|   |   varienceWabeletTransImage <= -0.40804
+|   |   |   curtWabeletTransImage <= 6.2169: 1 (344.0)
+|   |   |   curtWabeletTransImage > 6.2169
+|   |   |   |   skewnessWabeletTransImage <= -3.0087: 1 (129.0)
+|   |   |   |   skewnessWabeletTransImage > -3.0087: 0 (18.0)
+|   |   varienceWabeletTransImage > -0.40804
+|   |   |   curtWabeletTransImage <= 0.4247: 1 (73.0/1.0)
+|   |   |   curtWabeletTransImage > 0.4247
+|   |   |   |   entropyImage <= 0.22283: 0 (32.0)
+|   |   |   |   entropyImage > 0.22283
+|   |   |   |   |   curtWabeletTransImage <= 3.1863: 1 (8.0)
+|   |   |   |   |   curtWabeletTransImage > 3.1863: 0 (11.0)
+|   skewnessWabeletTransImage > 7.5404
+|   |   varienceWabeletTransImage <= -4.7331: 1 (26.0)
+|   |   varienceWabeletTransImage > -4.7331: 0 (98.0)
+varienceWabeletTransImage > 0.63655
+|   varienceWabeletTransImage <= 2.3917
+|   |   curtWabeletTransImage <= -1.6506
+|   |   |   skewnessWabeletTransImage <= 6.1851: 1 (51.0)
+|   |   |   skewnessWabeletTransImage > 6.1851: 0 (20.0)
+|   |   curtWabeletTransImage > -1.6506
+|   |   |   varienceWabeletTransImage <= 0.74428
+|   |   |   |   entropyImage <= 1.106: 0 (19.0/1.0)
+|   |   |   |   entropyImage > 1.106: 1 (2.0)
+|   |   |   varienceWabeletTransImage > 0.74428: 0 (150.0)
+|   varienceWabeletTransImage > 2.3917: 0 (390.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 7.1225
+|   |   varienceWabeletTransImage <= -1.786: 1 (303.0)
+|   |   varienceWabeletTransImage > -1.786
+|   |   |   curtWabeletTransImage <= 6.7156
+|   |   |   |   skewnessWabeletTransImage <= 4.9228: 1 (207.0/2.0)
+|   |   |   |   skewnessWabeletTransImage > 4.9228
+|   |   |   |   |   varienceWabeletTransImage <= 0.17346: 0 (7.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.17346: 1 (5.0)
+|   |   |   curtWabeletTransImage > 6.7156
+|   |   |   |   skewnessWabeletTransImage <= -5.554: 1 (18.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > -5.554: 0 (26.0)
+|   skewnessWabeletTransImage > 7.1225
+|   |   varienceWabeletTransImage <= -4.8392: 1 (22.0)
+|   |   varienceWabeletTransImage > -4.8392: 0 (91.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -4.3882
+|   |   varienceWabeletTransImage <= 3.3004: 1 (33.0)
+|   |   varienceWabeletTransImage > 3.3004: 0 (9.0)
+|   curtWabeletTransImage > -4.3882
+|   |   varienceWabeletTransImage <= 2.0177
+|   |   |   curtWabeletTransImage <= -2.2469
+|   |   |   |   skewnessWabeletTransImage <= 5.6574: 1 (29.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6574: 0 (3.0)
+|   |   |   curtWabeletTransImage > -2.2469
+|   |   |   |   entropyImage <= 0.12585: 0 (168.0/1.0)
+|   |   |   |   entropyImage > 0.12585
+|   |   |   |   |   curtWabeletTransImage <= 0.022844: 1 (11.0)
+|   |   |   |   |   curtWabeletTransImage > 0.022844
+|   |   |   |   |   |   skewnessWabeletTransImage <= -2.1914: 1 (3.0)
+|   |   |   |   |   |   skewnessWabeletTransImage > -2.1914: 0 (39.0)
+|   |   varienceWabeletTransImage > 2.0177: 0 (397.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	33
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 5.496
+|   |   curtWabeletTransImage <= 3.0423: 1 (292.0)
+|   |   curtWabeletTransImage > 3.0423
+|   |   |   skewnessWabeletTransImage <= -2.0113: 1 (182.0/1.0)
+|   |   |   skewnessWabeletTransImage > -2.0113: 0 (24.0/1.0)
+|   skewnessWabeletTransImage > 5.496
+|   |   varienceWabeletTransImage <= -3.4917: 1 (43.0/1.0)
+|   |   varienceWabeletTransImage > -3.4917: 0 (98.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -4.3882
+|   |   varienceWabeletTransImage <= 3.2032: 1 (34.0)
+|   |   varienceWabeletTransImage > 3.2032: 0 (10.0)
+|   curtWabeletTransImage > -4.3882
+|   |   varienceWabeletTransImage <= 1.5904
+|   |   |   curtWabeletTransImage <= -1.9427
+|   |   |   |   skewnessWabeletTransImage <= 5.2684: 1 (31.0)
+|   |   |   |   skewnessWabeletTransImage > 5.2684: 0 (11.0)
+|   |   |   curtWabeletTransImage > -1.9427
+|   |   |   |   entropyImage <= 0.25128: 0 (115.0/1.0)
+|   |   |   |   entropyImage > 0.25128
+|   |   |   |   |   curtWabeletTransImage <= 1.8513
+|   |   |   |   |   |   varienceWabeletTransImage <= 1.04: 1 (8.0)
+|   |   |   |   |   |   varienceWabeletTransImage > 1.04: 0 (2.0)
+|   |   |   |   |   curtWabeletTransImage > 1.8513: 0 (18.0)
+|   |   varienceWabeletTransImage > 1.5904: 0 (503.0/1.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.2952
+|   skewnessWabeletTransImage <= 5.8561
+|   |   curtWabeletTransImage <= 6.2109: 1 (379.0/1.0)
+|   |   curtWabeletTransImage > 6.2109
+|   |   |   skewnessWabeletTransImage <= -4.8069: 1 (153.0)
+|   |   |   skewnessWabeletTransImage > -4.8069
+|   |   |   |   varienceWabeletTransImage <= -2.1234: 1 (2.0)
+|   |   |   |   varienceWabeletTransImage > -2.1234: 0 (19.0)
+|   skewnessWabeletTransImage > 5.8561
+|   |   varienceWabeletTransImage <= -3.506: 1 (37.0)
+|   |   varienceWabeletTransImage > -3.506: 0 (97.0)
+varienceWabeletTransImage > 0.2952
+|   curtWabeletTransImage <= -4.3882
+|   |   varienceWabeletTransImage <= 3.2718: 1 (34.0)
+|   |   varienceWabeletTransImage > 3.2718: 0 (7.0)
+|   curtWabeletTransImage > -4.3882
+|   |   varienceWabeletTransImage <= 1.7425
+|   |   |   curtWabeletTransImage <= -2.2726
+|   |   |   |   skewnessWabeletTransImage <= 5.6264: 1 (28.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6264: 0 (2.0)
+|   |   |   curtWabeletTransImage > -2.2726
+|   |   |   |   entropyImage <= 0.22541: 0 (148.0)
+|   |   |   |   entropyImage > 0.22541
+|   |   |   |   |   curtWabeletTransImage <= 1.9507: 1 (14.0)
+|   |   |   |   |   curtWabeletTransImage > 1.9507: 0 (15.0)
+|   |   varienceWabeletTransImage > 1.7425: 0 (436.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.83625
+|   skewnessWabeletTransImage <= 5.0097
+|   |   varienceWabeletTransImage <= -0.36279
+|   |   |   curtWabeletTransImage <= 6.2169: 1 (295.0)
+|   |   |   curtWabeletTransImage > 6.2169
+|   |   |   |   skewnessWabeletTransImage <= -4.7738: 1 (133.0)
+|   |   |   |   skewnessWabeletTransImage > -4.7738: 0 (12.0)
+|   |   varienceWabeletTransImage > -0.36279
+|   |   |   curtWabeletTransImage <= 0.46497: 1 (92.0)
+|   |   |   curtWabeletTransImage > 0.46497
+|   |   |   |   entropyImage <= 0.6961
+|   |   |   |   |   curtWabeletTransImage <= 1.0588
+|   |   |   |   |   |   varienceWabeletTransImage <= 0.2952: 1 (3.0)
+|   |   |   |   |   |   varienceWabeletTransImage > 0.2952: 0 (5.0)
+|   |   |   |   |   curtWabeletTransImage > 1.0588: 0 (31.0)
+|   |   |   |   entropyImage > 0.6961: 1 (11.0/1.0)
+|   skewnessWabeletTransImage > 5.0097
+|   |   varienceWabeletTransImage <= -3.3553: 1 (41.0/1.0)
+|   |   varienceWabeletTransImage > -3.3553: 0 (130.0)
+varienceWabeletTransImage > 0.83625
+|   varienceWabeletTransImage <= 2.2279
+|   |   curtWabeletTransImage <= -2.2692
+|   |   |   skewnessWabeletTransImage <= 6.1975: 1 (41.0)
+|   |   |   skewnessWabeletTransImage > 6.1975: 0 (5.0)
+|   |   curtWabeletTransImage > -2.2692
+|   |   |   curtWabeletTransImage <= -1.9693
+|   |   |   |   skewnessWabeletTransImage <= 3.8964: 1 (2.0)
+|   |   |   |   skewnessWabeletTransImage > 3.8964: 0 (9.0)
+|   |   |   curtWabeletTransImage > -1.9693: 0 (141.0)
+|   varienceWabeletTransImage > 2.2279: 0 (420.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 5.527
+|   |   curtWabeletTransImage <= 6.2169: 1 (377.0/1.0)
+|   |   curtWabeletTransImage > 6.2169
+|   |   |   skewnessWabeletTransImage <= -3.226: 1 (134.0/1.0)
+|   |   |   skewnessWabeletTransImage > -3.226: 0 (19.0)
+|   skewnessWabeletTransImage > 5.527
+|   |   varienceWabeletTransImage <= -4.3667: 1 (40.0)
+|   |   varienceWabeletTransImage > -4.3667: 0 (89.0/1.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -3.9692
+|   |   skewnessWabeletTransImage <= 7.0811: 1 (48.0)
+|   |   skewnessWabeletTransImage > 7.0811: 0 (43.0)
+|   curtWabeletTransImage > -3.9692
+|   |   varienceWabeletTransImage <= 1.5904
+|   |   |   curtWabeletTransImage <= -2.3138: 1 (8.0)
+|   |   |   curtWabeletTransImage > -2.3138
+|   |   |   |   entropyImage <= 0.25128: 0 (123.0)
+|   |   |   |   entropyImage > 0.25128
+|   |   |   |   |   curtWabeletTransImage <= 1.8471
+|   |   |   |   |   |   skewnessWabeletTransImage <= 3.5074: 1 (9.0)
+|   |   |   |   |   |   skewnessWabeletTransImage > 3.5074: 0 (2.0)
+|   |   |   |   |   curtWabeletTransImage > 1.8471: 0 (13.0)
+|   |   varienceWabeletTransImage > 1.5904: 0 (466.0/1.0)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	25
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 1.7875
+|   skewnessWabeletTransImage <= 5.2684
+|   |   varienceWabeletTransImage <= -0.36372
+|   |   |   curtWabeletTransImage <= 6.839: 1 (340.0)
+|   |   |   curtWabeletTransImage > 6.839
+|   |   |   |   skewnessWabeletTransImage <= -2.5845: 1 (126.0)
+|   |   |   |   skewnessWabeletTransImage > -2.5845: 0 (15.0)
+|   |   varienceWabeletTransImage > -0.36372
+|   |   |   curtWabeletTransImage <= 0.20278
+|   |   |   |   skewnessWabeletTransImage <= 4.302: 1 (101.0)
+|   |   |   |   skewnessWabeletTransImage > 4.302
+|   |   |   |   |   curtWabeletTransImage <= -3.1338: 1 (12.0)
+|   |   |   |   |   curtWabeletTransImage > -3.1338: 0 (2.0)
+|   |   |   curtWabeletTransImage > 0.20278
+|   |   |   |   entropyImage <= 0.72326: 0 (78.0)
+|   |   |   |   entropyImage > 0.72326
+|   |   |   |   |   curtWabeletTransImage <= 3.4202: 1 (13.0)
+|   |   |   |   |   curtWabeletTransImage > 3.4202: 0 (6.0)
+|   skewnessWabeletTransImage > 5.2684
+|   |   varienceWabeletTransImage <= -4.6338: 1 (34.0)
+|   |   varienceWabeletTransImage > -4.6338
+|   |   |   varienceWabeletTransImage <= -2.6864
+|   |   |   |   skewnessWabeletTransImage <= 7.3273: 1 (2.0)
+|   |   |   |   skewnessWabeletTransImage > 7.3273: 0 (7.0)
+|   |   |   varienceWabeletTransImage > -2.6864: 0 (168.0)
+varienceWabeletTransImage > 1.7875: 0 (467.0/3.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 6.69
+|   |   varienceWabeletTransImage <= -1.7976: 1 (295.0/1.0)
+|   |   varienceWabeletTransImage > -1.7976
+|   |   |   skewnessWabeletTransImage <= 3.644
+|   |   |   |   curtWabeletTransImage <= 4.8486: 1 (182.0)
+|   |   |   |   curtWabeletTransImage > 4.8486
+|   |   |   |   |   skewnessWabeletTransImage <= -2.4852: 1 (51.0/2.0)
+|   |   |   |   |   skewnessWabeletTransImage > -2.4852: 0 (19.0)
+|   |   |   skewnessWabeletTransImage > 3.644
+|   |   |   |   curtWabeletTransImage <= -1.9702: 1 (6.0)
+|   |   |   |   curtWabeletTransImage > -1.9702: 0 (6.0)
+|   skewnessWabeletTransImage > 6.69
+|   |   varienceWabeletTransImage <= -4.4775: 1 (24.0)
+|   |   varienceWabeletTransImage > -4.4775: 0 (96.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -3.9795
+|   |   skewnessWabeletTransImage <= 7.0542: 1 (44.0)
+|   |   skewnessWabeletTransImage > 7.0542: 0 (29.0)
+|   curtWabeletTransImage > -3.9795
+|   |   varienceWabeletTransImage <= 1.5904
+|   |   |   entropyImage <= -0.32544: 0 (122.0/1.0)
+|   |   |   entropyImage > -0.32544
+|   |   |   |   curtWabeletTransImage <= 0.20706: 1 (24.0)
+|   |   |   |   curtWabeletTransImage > 0.20706
+|   |   |   |   |   entropyImage <= 0.72326: 0 (30.0)
+|   |   |   |   |   entropyImage > 0.72326
+|   |   |   |   |   |   curtWabeletTransImage <= 2.9438: 1 (2.0)
+|   |   |   |   |   |   curtWabeletTransImage > 2.9438: 0 (4.0)
+|   |   varienceWabeletTransImage > 1.5904: 0 (437.0/1.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.27331
+|   skewnessWabeletTransImage <= 7.2797
+|   |   varienceWabeletTransImage <= -0.47465
+|   |   |   curtWabeletTransImage <= 6.7156: 1 (333.0)
+|   |   |   curtWabeletTransImage > 6.7156
+|   |   |   |   skewnessWabeletTransImage <= -4.8773: 1 (118.0)
+|   |   |   |   skewnessWabeletTransImage > -4.8773: 0 (7.0)
+|   |   varienceWabeletTransImage > -0.47465
+|   |   |   curtWabeletTransImage <= 2.6045
+|   |   |   |   skewnessWabeletTransImage <= 4.987: 1 (59.0)
+|   |   |   |   skewnessWabeletTransImage > 4.987
+|   |   |   |   |   varienceWabeletTransImage <= 0.14329: 0 (2.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.14329: 1 (2.0)
+|   |   |   curtWabeletTransImage > 2.6045: 0 (10.0)
+|   skewnessWabeletTransImage > 7.2797
+|   |   varienceWabeletTransImage <= -4.3876: 1 (18.0)
+|   |   varienceWabeletTransImage > -4.3876: 0 (78.0)
+varienceWabeletTransImage > 0.27331
+|   curtWabeletTransImage <= -4.3882
+|   |   varienceWabeletTransImage <= 3.2414: 1 (34.0)
+|   |   varienceWabeletTransImage > 3.2414: 0 (11.0)
+|   curtWabeletTransImage > -4.3882
+|   |   varienceWabeletTransImage <= 1.7425
+|   |   |   curtWabeletTransImage <= -1.7791
+|   |   |   |   skewnessWabeletTransImage <= 5.2187: 1 (29.0)
+|   |   |   |   skewnessWabeletTransImage > 5.2187: 0 (15.0)
+|   |   |   curtWabeletTransImage > -1.7791
+|   |   |   |   entropyImage <= 0.61334: 0 (161.0/2.0)
+|   |   |   |   entropyImage > 0.61334
+|   |   |   |   |   entropyImage <= 0.78532: 0 (5.0)
+|   |   |   |   |   entropyImage > 0.78532: 1 (5.0)
+|   |   varienceWabeletTransImage > 1.7425: 0 (484.0/1.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	33
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.75108
+|   skewnessWabeletTransImage <= 5.8333
+|   |   varienceWabeletTransImage <= 0.31803
+|   |   |   curtWabeletTransImage <= 3.0312: 1 (306.0)
+|   |   |   curtWabeletTransImage > 3.0312
+|   |   |   |   skewnessWabeletTransImage <= -1.9162: 1 (176.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > -1.9162
+|   |   |   |   |   varienceWabeletTransImage <= -2.1405: 1 (3.0)
+|   |   |   |   |   varienceWabeletTransImage > -2.1405: 0 (21.0)
+|   |   varienceWabeletTransImage > 0.31803
+|   |   |   curtWabeletTransImage <= 0.35273: 1 (42.0)
+|   |   |   curtWabeletTransImage > 0.35273: 0 (36.0)
+|   skewnessWabeletTransImage > 5.8333
+|   |   varienceWabeletTransImage <= -3.4917
+|   |   |   entropyImage <= -1.9276: 1 (37.0)
+|   |   |   entropyImage > -1.9276: 0 (2.0)
+|   |   varienceWabeletTransImage > -3.4917: 0 (111.0)
+varienceWabeletTransImage > 0.75108
+|   curtWabeletTransImage <= -1.9702
+|   |   skewnessWabeletTransImage <= 5.0097
+|   |   |   varienceWabeletTransImage <= 2.1274: 1 (44.0)
+|   |   |   varienceWabeletTransImage > 2.1274
+|   |   |   |   varienceWabeletTransImage <= 3.3951: 1 (2.0)
+|   |   |   |   varienceWabeletTransImage > 3.3951: 0 (2.0)
+|   |   skewnessWabeletTransImage > 5.0097: 0 (158.0)
+|   curtWabeletTransImage > -1.9702: 0 (431.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 1.7331
+|   skewnessWabeletTransImage <= 5.2022
+|   |   varienceWabeletTransImage <= -0.46651
+|   |   |   curtWabeletTransImage <= 6.103: 1 (265.0)
+|   |   |   curtWabeletTransImage > 6.103
+|   |   |   |   skewnessWabeletTransImage <= -4.8773: 1 (140.0)
+|   |   |   |   skewnessWabeletTransImage > -4.8773: 0 (8.0/1.0)
+|   |   varienceWabeletTransImage > -0.46651
+|   |   |   curtWabeletTransImage <= 0.15822: 1 (134.0)
+|   |   |   curtWabeletTransImage > 0.15822
+|   |   |   |   entropyImage <= 0.72326
+|   |   |   |   |   curtWabeletTransImage <= 1.0313
+|   |   |   |   |   |   varienceWabeletTransImage <= 0.2952: 1 (3.0)
+|   |   |   |   |   |   varienceWabeletTransImage > 0.2952: 0 (4.0)
+|   |   |   |   |   curtWabeletTransImage > 1.0313: 0 (96.0)
+|   |   |   |   entropyImage > 0.72326
+|   |   |   |   |   curtWabeletTransImage <= 3.2403: 1 (15.0)
+|   |   |   |   |   curtWabeletTransImage > 3.2403
+|   |   |   |   |   |   varienceWabeletTransImage <= -0.21394: 1 (3.0)
+|   |   |   |   |   |   varienceWabeletTransImage > -0.21394: 0 (7.0)
+|   skewnessWabeletTransImage > 5.2022
+|   |   varienceWabeletTransImage <= -3.4917
+|   |   |   curtWabeletTransImage <= 0.97565: 1 (46.0)
+|   |   |   curtWabeletTransImage > 0.97565: 0 (3.0/1.0)
+|   |   varienceWabeletTransImage > -3.4917: 0 (158.0)
+varienceWabeletTransImage > 1.7331: 0 (489.0/2.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.75896
+|   skewnessWabeletTransImage <= 6.69
+|   |   varienceWabeletTransImage <= -0.46651
+|   |   |   curtWabeletTransImage <= 6.6779: 1 (309.0)
+|   |   |   curtWabeletTransImage > 6.6779
+|   |   |   |   skewnessWabeletTransImage <= -4.8069: 1 (126.0)
+|   |   |   |   skewnessWabeletTransImage > -4.8069: 0 (13.0)
+|   |   varienceWabeletTransImage > -0.46651
+|   |   |   curtWabeletTransImage <= 1.1582
+|   |   |   |   curtWabeletTransImage <= -0.37644: 1 (76.0)
+|   |   |   |   curtWabeletTransImage > -0.37644
+|   |   |   |   |   skewnessWabeletTransImage <= 0.51524: 1 (21.0)
+|   |   |   |   |   skewnessWabeletTransImage > 0.51524: 0 (4.0)
+|   |   |   curtWabeletTransImage > 1.1582
+|   |   |   |   entropyImage <= 0.76334: 0 (41.0)
+|   |   |   |   entropyImage > 0.76334: 1 (8.0)
+|   skewnessWabeletTransImage > 6.69
+|   |   varienceWabeletTransImage <= -4.6338: 1 (24.0)
+|   |   varienceWabeletTransImage > -4.6338: 0 (123.0)
+varienceWabeletTransImage > 0.75896
+|   curtWabeletTransImage <= -1.9702
+|   |   skewnessWabeletTransImage <= 4.9228
+|   |   |   curtWabeletTransImage <= -2.2126: 1 (42.0)
+|   |   |   curtWabeletTransImage > -2.2126: 0 (3.0/1.0)
+|   |   skewnessWabeletTransImage > 4.9228: 0 (155.0)
+|   curtWabeletTransImage > -1.9702: 0 (426.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 5.8561
+|   |   curtWabeletTransImage <= 3.0141: 1 (331.0)
+|   |   curtWabeletTransImage > 3.0141
+|   |   |   skewnessWabeletTransImage <= -1.9162: 1 (178.0/1.0)
+|   |   |   skewnessWabeletTransImage > -1.9162: 0 (24.0/1.0)
+|   skewnessWabeletTransImage > 5.8561
+|   |   varienceWabeletTransImage <= -3.4605: 1 (30.0)
+|   |   varienceWabeletTransImage > -3.4605: 0 (101.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -3.9692
+|   |   skewnessWabeletTransImage <= 7.2756: 1 (52.0)
+|   |   skewnessWabeletTransImage > 7.2756: 0 (30.0)
+|   curtWabeletTransImage > -3.9692
+|   |   varienceWabeletTransImage <= 1.5904
+|   |   |   entropyImage <= -0.15734: 0 (118.0/1.0)
+|   |   |   entropyImage > -0.15734
+|   |   |   |   curtWabeletTransImage <= 1.8471
+|   |   |   |   |   skewnessWabeletTransImage <= 2.7749: 1 (29.0)
+|   |   |   |   |   skewnessWabeletTransImage > 2.7749: 0 (5.0)
+|   |   |   |   curtWabeletTransImage > 1.8471: 0 (26.0)
+|   |   varienceWabeletTransImage > 1.5904: 0 (447.0/2.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.84546
+|   skewnessWabeletTransImage <= 5.2684
+|   |   varienceWabeletTransImage <= -1.7479: 1 (259.0)
+|   |   varienceWabeletTransImage > -1.7479
+|   |   |   curtWabeletTransImage <= 0.46583: 1 (165.0)
+|   |   |   curtWabeletTransImage > 0.46583
+|   |   |   |   skewnessWabeletTransImage <= -1.0512
+|   |   |   |   |   varienceWabeletTransImage <= -0.16735: 1 (77.0)
+|   |   |   |   |   varienceWabeletTransImage > -0.16735
+|   |   |   |   |   |   curtWabeletTransImage <= 2.5976: 1 (11.0)
+|   |   |   |   |   |   curtWabeletTransImage > 2.5976: 0 (12.0)
+|   |   |   |   skewnessWabeletTransImage > -1.0512
+|   |   |   |   |   curtWabeletTransImage <= 2.6328
+|   |   |   |   |   |   varienceWabeletTransImage <= 0.37637: 1 (12.0/1.0)
+|   |   |   |   |   |   varienceWabeletTransImage > 0.37637: 0 (12.0)
+|   |   |   |   |   curtWabeletTransImage > 2.6328: 0 (39.0)
+|   skewnessWabeletTransImage > 5.2684
+|   |   varienceWabeletTransImage <= -3.518: 1 (44.0)
+|   |   varienceWabeletTransImage > -3.518: 0 (121.0)
+varienceWabeletTransImage > 0.84546
+|   varienceWabeletTransImage <= 2.3917
+|   |   curtWabeletTransImage <= -2.3
+|   |   |   skewnessWabeletTransImage <= 6.1664: 1 (40.0)
+|   |   |   skewnessWabeletTransImage > 6.1664: 0 (13.0)
+|   |   curtWabeletTransImage > -2.3
+|   |   |   entropyImage <= 0.83834: 0 (151.0)
+|   |   |   entropyImage > 0.83834
+|   |   |   |   curtWabeletTransImage <= 1.1273: 1 (2.0)
+|   |   |   |   curtWabeletTransImage > 1.1273: 0 (7.0)
+|   varienceWabeletTransImage > 2.3917: 0 (406.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.84546
+|   skewnessWabeletTransImage <= 5.1401
+|   |   varienceWabeletTransImage <= -1.786: 1 (283.0/1.0)
+|   |   varienceWabeletTransImage > -1.786
+|   |   |   curtWabeletTransImage <= 0.4247: 1 (158.0)
+|   |   |   curtWabeletTransImage > 0.4247
+|   |   |   |   skewnessWabeletTransImage <= -0.24418
+|   |   |   |   |   varienceWabeletTransImage <= -0.46651: 1 (72.0)
+|   |   |   |   |   varienceWabeletTransImage > -0.46651
+|   |   |   |   |   |   curtWabeletTransImage <= 2.6045: 1 (16.0)
+|   |   |   |   |   |   curtWabeletTransImage > 2.6045: 0 (28.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > -0.24418: 0 (35.0)
+|   skewnessWabeletTransImage > 5.1401
+|   |   varienceWabeletTransImage <= -3.4917: 1 (33.0)
+|   |   varienceWabeletTransImage > -3.4917: 0 (131.0)
+varienceWabeletTransImage > 0.84546
+|   curtWabeletTransImage <= -1.8785
+|   |   skewnessWabeletTransImage <= 4.9601: 1 (44.0/1.0)
+|   |   skewnessWabeletTransImage > 4.9601: 0 (147.0)
+|   curtWabeletTransImage > -1.8785: 0 (424.0)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	21
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.75896
+|   skewnessWabeletTransImage <= 5.1939
+|   |   varienceWabeletTransImage <= -1.6988: 1 (306.0)
+|   |   varienceWabeletTransImage > -1.6988
+|   |   |   curtWabeletTransImage <= 1.1582: 1 (164.0)
+|   |   |   curtWabeletTransImage > 1.1582
+|   |   |   |   skewnessWabeletTransImage <= -0.24418
+|   |   |   |   |   varienceWabeletTransImage <= -0.4294: 1 (65.0)
+|   |   |   |   |   varienceWabeletTransImage > -0.4294
+|   |   |   |   |   |   entropyImage <= 0.76334: 0 (25.0)
+|   |   |   |   |   |   entropyImage > 0.76334: 1 (7.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > -0.24418: 0 (27.0)
+|   skewnessWabeletTransImage > 5.1939
+|   |   varienceWabeletTransImage <= -4.3667: 1 (38.0)
+|   |   varienceWabeletTransImage > -4.3667: 0 (114.0)
+varienceWabeletTransImage > 0.75896
+|   curtWabeletTransImage <= -1.8785
+|   |   skewnessWabeletTransImage <= 5.0097
+|   |   |   varienceWabeletTransImage <= 3.4776: 1 (53.0)
+|   |   |   varienceWabeletTransImage > 3.4776: 0 (6.0)
+|   |   skewnessWabeletTransImage > 5.0097: 0 (167.0)
+|   curtWabeletTransImage > -1.8785: 0 (399.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 6.8224
+|   |   varienceWabeletTransImage <= -1.7479: 1 (306.0/2.0)
+|   |   varienceWabeletTransImage > -1.7479
+|   |   |   curtWabeletTransImage <= 6.7756
+|   |   |   |   skewnessWabeletTransImage <= 3.3812: 1 (200.0/2.0)
+|   |   |   |   skewnessWabeletTransImage > 3.3812
+|   |   |   |   |   curtWabeletTransImage <= -2.5323: 1 (7.0)
+|   |   |   |   |   curtWabeletTransImage > -2.5323: 0 (6.0)
+|   |   |   curtWabeletTransImage > 6.7756
+|   |   |   |   skewnessWabeletTransImage <= -6.6383: 1 (13.0)
+|   |   |   |   skewnessWabeletTransImage > -6.6383: 0 (19.0)
+|   skewnessWabeletTransImage > 6.8224
+|   |   varienceWabeletTransImage <= -3.4917: 1 (25.0/1.0)
+|   |   varienceWabeletTransImage > -3.4917: 0 (99.0)
+varienceWabeletTransImage > 0.31803
+|   curtWabeletTransImage <= -4.4044
+|   |   varienceWabeletTransImage <= 3.2051: 1 (33.0)
+|   |   varienceWabeletTransImage > 3.2051: 0 (10.0)
+|   curtWabeletTransImage > -4.4044
+|   |   varienceWabeletTransImage <= 1.5077
+|   |   |   curtWabeletTransImage <= -1.4501
+|   |   |   |   skewnessWabeletTransImage <= 5.6946: 1 (21.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6946: 0 (12.0)
+|   |   |   curtWabeletTransImage > -1.4501
+|   |   |   |   entropyImage <= 0.83058: 0 (110.0/2.0)
+|   |   |   |   entropyImage > 0.83058
+|   |   |   |   |   varienceWabeletTransImage <= 0.81583: 1 (5.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.81583: 0 (2.0)
+|   |   varienceWabeletTransImage > 1.5077: 0 (503.0/3.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.27331
+|   skewnessWabeletTransImage <= 7.5032
+|   |   varienceWabeletTransImage <= -0.46651
+|   |   |   curtWabeletTransImage <= 6.9255: 1 (317.0)
+|   |   |   curtWabeletTransImage > 6.9255
+|   |   |   |   skewnessWabeletTransImage <= -5.0966: 1 (117.0)
+|   |   |   |   skewnessWabeletTransImage > -5.0966
+|   |   |   |   |   varienceWabeletTransImage <= -3.2692: 1 (2.0)
+|   |   |   |   |   varienceWabeletTransImage > -3.2692: 0 (6.0)
+|   |   varienceWabeletTransImage > -0.46651
+|   |   |   curtWabeletTransImage <= 0.48382: 1 (50.0)
+|   |   |   curtWabeletTransImage > 0.48382
+|   |   |   |   entropyImage <= 0.72326: 0 (15.0)
+|   |   |   |   entropyImage > 0.72326
+|   |   |   |   |   curtWabeletTransImage <= 6.2332: 1 (10.0)
+|   |   |   |   |   curtWabeletTransImage > 6.2332: 0 (3.0)
+|   skewnessWabeletTransImage > 7.5032
+|   |   varienceWabeletTransImage <= -4.8426: 1 (17.0)
+|   |   varienceWabeletTransImage > -4.8426: 0 (87.0)
+varienceWabeletTransImage > 0.27331
+|   varienceWabeletTransImage <= 2.2279
+|   |   curtWabeletTransImage <= -2.2126
+|   |   |   skewnessWabeletTransImage <= 6.4665: 1 (67.0)
+|   |   |   skewnessWabeletTransImage > 6.4665: 0 (9.0)
+|   |   curtWabeletTransImage > -2.2126
+|   |   |   entropyImage <= 0.11162: 0 (180.0)
+|   |   |   entropyImage > 0.11162
+|   |   |   |   curtWabeletTransImage <= -0.1828: 1 (12.0)
+|   |   |   |   curtWabeletTransImage > -0.1828
+|   |   |   |   |   skewnessWabeletTransImage <= -0.44284
+|   |   |   |   |   |   skewnessWabeletTransImage <= -0.84841: 1 (2.0)
+|   |   |   |   |   |   skewnessWabeletTransImage > -0.84841: 0 (3.0)
+|   |   |   |   |   skewnessWabeletTransImage > -0.44284: 0 (40.0)
+|   varienceWabeletTransImage > 2.2279: 0 (434.0)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	35
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 1.3518
+|   skewnessWabeletTransImage <= 4.9166
+|   |   varienceWabeletTransImage <= 0.31803
+|   |   |   curtWabeletTransImage <= 3.0423: 1 (319.0)
+|   |   |   curtWabeletTransImage > 3.0423
+|   |   |   |   skewnessWabeletTransImage <= -2.1521: 1 (187.0)
+|   |   |   |   skewnessWabeletTransImage > -2.1521: 0 (24.0/1.0)
+|   |   varienceWabeletTransImage > 0.31803
+|   |   |   curtWabeletTransImage <= 0.096532
+|   |   |   |   skewnessWabeletTransImage <= 4.302: 1 (63.0)
+|   |   |   |   skewnessWabeletTransImage > 4.302
+|   |   |   |   |   skewnessWabeletTransImage <= 4.5565: 0 (2.0)
+|   |   |   |   |   skewnessWabeletTransImage > 4.5565: 1 (6.0)
+|   |   |   curtWabeletTransImage > 0.096532
+|   |   |   |   entropyImage <= 0.6961: 0 (43.0)
+|   |   |   |   entropyImage > 0.6961
+|   |   |   |   |   varienceWabeletTransImage <= 0.77805: 1 (4.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.77805: 0 (2.0)
+|   skewnessWabeletTransImage > 4.9166
+|   |   varienceWabeletTransImage <= -3.2692: 1 (42.0/1.0)
+|   |   varienceWabeletTransImage > -3.2692
+|   |   |   skewnessWabeletTransImage <= 5.527
+|   |   |   |   curtWabeletTransImage <= -2.0439: 1 (2.0)
+|   |   |   |   curtWabeletTransImage > -2.0439: 0 (6.0)
+|   |   |   skewnessWabeletTransImage > 5.527: 0 (149.0)
+varienceWabeletTransImage > 1.3518
+|   curtWabeletTransImage <= -2.9581
+|   |   skewnessWabeletTransImage <= 5.8747: 1 (13.0)
+|   |   skewnessWabeletTransImage > 5.8747: 0 (106.0)
+|   curtWabeletTransImage > -2.9581: 0 (403.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.27331
+|   skewnessWabeletTransImage <= 6.9942
+|   |   varienceWabeletTransImage <= -1.5078: 1 (349.0/1.0)
+|   |   varienceWabeletTransImage > -1.5078
+|   |   |   curtWabeletTransImage <= 6.6608
+|   |   |   |   skewnessWabeletTransImage <= 3.9213: 1 (186.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > 3.9213
+|   |   |   |   |   varienceWabeletTransImage <= 0.21084: 0 (6.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.21084: 1 (5.0)
+|   |   |   curtWabeletTransImage > 6.6608
+|   |   |   |   skewnessWabeletTransImage <= -8.0971: 1 (2.0)
+|   |   |   |   skewnessWabeletTransImage > -8.0971: 0 (25.0)
+|   skewnessWabeletTransImage > 6.9942
+|   |   varienceWabeletTransImage <= -3.4605: 1 (26.0)
+|   |   varienceWabeletTransImage > -3.4605: 0 (89.0)
+varienceWabeletTransImage > 0.27331
+|   curtWabeletTransImage <= -4.4738
+|   |   varienceWabeletTransImage <= 3.3004: 1 (35.0)
+|   |   varienceWabeletTransImage > 3.3004: 0 (7.0)
+|   curtWabeletTransImage > -4.4738
+|   |   varienceWabeletTransImage <= 1.7425
+|   |   |   curtWabeletTransImage <= -2.2726
+|   |   |   |   skewnessWabeletTransImage <= 5.6574: 1 (25.0)
+|   |   |   |   skewnessWabeletTransImage > 5.6574: 0 (5.0)
+|   |   |   curtWabeletTransImage > -2.2726
+|   |   |   |   entropyImage <= 0.087054: 0 (139.0)
+|   |   |   |   entropyImage > 0.087054
+|   |   |   |   |   curtWabeletTransImage <= 0.32274: 1 (15.0)
+|   |   |   |   |   curtWabeletTransImage > 0.32274: 0 (25.0/1.0)
+|   |   varienceWabeletTransImage > 1.7425: 0 (432.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.63655
+|   skewnessWabeletTransImage <= 5.8395
+|   |   varienceWabeletTransImage <= -1.7015: 1 (289.0/1.0)
+|   |   varienceWabeletTransImage > -1.7015
+|   |   |   curtWabeletTransImage <= 0.4187: 1 (150.0)
+|   |   |   curtWabeletTransImage > 0.4187
+|   |   |   |   skewnessWabeletTransImage <= 0.47799
+|   |   |   |   |   varienceWabeletTransImage <= -0.47465: 1 (62.0/1.0)
+|   |   |   |   |   varienceWabeletTransImage > -0.47465
+|   |   |   |   |   |   curtWabeletTransImage <= 2.5976
+|   |   |   |   |   |   |   varienceWabeletTransImage <= 0.55298: 1 (9.0)
+|   |   |   |   |   |   |   varienceWabeletTransImage > 0.55298: 0 (6.0)
+|   |   |   |   |   |   curtWabeletTransImage > 2.5976: 0 (17.0)
+|   |   |   |   skewnessWabeletTransImage > 0.47799: 0 (23.0)
+|   skewnessWabeletTransImage > 5.8395
+|   |   varienceWabeletTransImage <= -4.6765: 1 (34.0)
+|   |   varienceWabeletTransImage > -4.6765: 0 (113.0)
+varienceWabeletTransImage > 0.63655
+|   varienceWabeletTransImage <= 2.1943
+|   |   curtWabeletTransImage <= -2.3086
+|   |   |   skewnessWabeletTransImage <= 4.84: 1 (39.0)
+|   |   |   skewnessWabeletTransImage > 4.84
+|   |   |   |   varienceWabeletTransImage <= 1.3638: 1 (2.0)
+|   |   |   |   varienceWabeletTransImage > 1.3638: 0 (2.0)
+|   |   curtWabeletTransImage > -2.3086
+|   |   |   entropyImage <= 0.62627: 0 (169.0/1.0)
+|   |   |   entropyImage > 0.62627
+|   |   |   |   curtWabeletTransImage <= -0.55552: 1 (7.0)
+|   |   |   |   curtWabeletTransImage > -0.55552
+|   |   |   |   |   varienceWabeletTransImage <= 0.93611: 1 (2.0)
+|   |   |   |   |   varienceWabeletTransImage > 0.93611: 0 (16.0)
+|   varienceWabeletTransImage > 2.1943: 0 (431.0)
+
+Number of Leaves  : 	17
+
+Size of the tree : 	33
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 6.8162
+|   |   varienceWabeletTransImage <= -1.7479: 1 (289.0)
+|   |   varienceWabeletTransImage > -1.7479
+|   |   |   curtWabeletTransImage <= 6.7807
+|   |   |   |   skewnessWabeletTransImage <= 3.4619: 1 (185.0/1.0)
+|   |   |   |   skewnessWabeletTransImage > 3.4619
+|   |   |   |   |   curtWabeletTransImage <= -1.9693: 1 (6.0)
+|   |   |   |   |   curtWabeletTransImage > -1.9693: 0 (5.0)
+|   |   |   curtWabeletTransImage > 6.7807
+|   |   |   |   skewnessWabeletTransImage <= -6.81: 1 (7.0)
+|   |   |   |   skewnessWabeletTransImage > -6.81: 0 (21.0)
+|   skewnessWabeletTransImage > 6.8162
+|   |   varienceWabeletTransImage <= -4.7331: 1 (29.0)
+|   |   varienceWabeletTransImage > -4.7331: 0 (95.0/1.0)
+varienceWabeletTransImage > 0.31803
+|   varienceWabeletTransImage <= 2.1943
+|   |   curtWabeletTransImage <= -2.1835
+|   |   |   skewnessWabeletTransImage <= 6.4003: 1 (64.0)
+|   |   |   skewnessWabeletTransImage > 6.4003: 0 (7.0)
+|   |   curtWabeletTransImage > -2.1835
+|   |   |   entropyImage <= 0.10645: 0 (169.0)
+|   |   |   entropyImage > 0.10645
+|   |   |   |   curtWabeletTransImage <= -0.023425: 1 (14.0)
+|   |   |   |   curtWabeletTransImage > -0.023425: 0 (46.0/1.0)
+|   varienceWabeletTransImage > 2.1943: 0 (434.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.31803
+|   skewnessWabeletTransImage <= 7.5404
+|   |   curtWabeletTransImage <= 4.8486
+|   |   |   skewnessWabeletTransImage <= 4.0723: 1 (350.0)
+|   |   |   skewnessWabeletTransImage > 4.0723
+|   |   |   |   entropyImage <= -2.5819: 1 (27.0)
+|   |   |   |   entropyImage > -2.5819: 0 (4.0)
+|   |   curtWabeletTransImage > 4.8486
+|   |   |   skewnessWabeletTransImage <= -4.7738: 1 (165.0/1.0)
+|   |   |   skewnessWabeletTransImage > -4.7738: 0 (34.0/1.0)
+|   skewnessWabeletTransImage > 7.5404
+|   |   varienceWabeletTransImage <= -4.9462: 1 (15.0)
+|   |   varienceWabeletTransImage > -4.9462: 0 (83.0)
+varienceWabeletTransImage > 0.31803
+|   varienceWabeletTransImage <= 2.1943
+|   |   curtWabeletTransImage <= -2.1835
+|   |   |   skewnessWabeletTransImage <= 6.4003: 1 (57.0)
+|   |   |   skewnessWabeletTransImage > 6.4003: 0 (7.0)
+|   |   curtWabeletTransImage > -2.1835
+|   |   |   varienceWabeletTransImage <= 0.56232
+|   |   |   |   curtWabeletTransImage <= 0.4247: 1 (9.0/1.0)
+|   |   |   |   curtWabeletTransImage > 0.4247
+|   |   |   |   |   entropyImage <= 0.71808: 0 (30.0)
+|   |   |   |   |   entropyImage > 0.71808: 1 (2.0)
+|   |   |   varienceWabeletTransImage > 0.56232: 0 (164.0/2.0)
+|   varienceWabeletTransImage > 2.1943: 0 (424.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+J48 pruned tree
+------------------
+
+varienceWabeletTransImage <= 0.75108
+|   skewnessWabeletTransImage <= 5.1401
+|   |   curtWabeletTransImage <= 0.73745: 1 (264.0)
+|   |   curtWabeletTransImage > 0.73745
+|   |   |   skewnessWabeletTransImage <= -0.05588
+|   |   |   |   varienceWabeletTransImage <= -0.65767: 1 (225.0)
+|   |   |   |   varienceWabeletTransImage > -0.65767
+|   |   |   |   |   entropyImage <= 0.45946: 0 (16.0)
+|   |   |   |   |   entropyImage > 0.45946
+|   |   |   |   |   |   curtWabeletTransImage <= 7.1466: 1 (21.0)
+|   |   |   |   |   |   curtWabeletTransImage > 7.1466: 0 (5.0)
+|   |   |   skewnessWabeletTransImage > -0.05588
+|   |   |   |   varienceWabeletTransImage <= -1.7976
+|   |   |   |   |   curtWabeletTransImage <= 4.8477: 1 (17.0)
+|   |   |   |   |   curtWabeletTransImage > 4.8477: 0 (2.0)
+|   |   |   |   varienceWabeletTransImage > -1.7976: 0 (38.0)
+|   skewnessWabeletTransImage > 5.1401
+|   |   varienceWabeletTransImage <= -3.4605: 1 (37.0)
+|   |   varienceWabeletTransImage > -3.4605: 0 (123.0)
+varienceWabeletTransImage > 0.75108
+|   curtWabeletTransImage <= -1.6283
+|   |   skewnessWabeletTransImage <= 4.9228
+|   |   |   varienceWabeletTransImage <= 3.4776: 1 (43.0)
+|   |   |   varienceWabeletTransImage > 3.4776: 0 (3.0)
+|   |   skewnessWabeletTransImage > 4.9228: 0 (168.0)
+|   curtWabeletTransImage > -1.6283: 0 (409.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1354               98.76   %
+Incorrectly Classified Instances        17                1.24   %
+Kappa statistic                          0.9749
+Mean absolute error                      0.022 
+Root mean squared error                  0.0924
+Relative absolute error                  4.4472 %
+Root relative squared error             18.5993 %
+Coverage of cases (0.95 level)          99.9271 %
+Mean rel. region size (0.95 level)      53.9752 %
+Total Number of Instances             1371     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.991    0.016    0.987      0.991    0.989      0.975    0.998     0.999     0
+                 0.984    0.009    0.988      0.984    0.986      0.975    0.998     0.991     1
+Weighted Avg.    0.988    0.013    0.988      0.988    0.988      0.975    0.998     0.996     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 754   7 |   a = 0
+  10 600 |   b = 1
+
+

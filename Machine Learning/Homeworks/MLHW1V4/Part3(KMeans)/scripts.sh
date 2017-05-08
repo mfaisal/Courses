@@ -1,0 +1,10 @@
+java KMeans Koala.jpg 2 k2.jpg&
+java KMeans Koala.jpg 5 k5.jpg&
+java KMeans Koala.jpg 10 k10.jpg&
+java KMeans Koala.jpg 15 k15.jpg&
+java KMeans Koala.jpg 20 k20.jpg&
+java KMeans Penguins.jpg 2 P2.jpg&
+java KMeans Penguins.jpg 5 P5.jpg&
+java KMeans Penguins.jpg 10 P10.jpg&
+java KMeans Penguins.jpg 15 P15.jpg&
+java KMeans Penguins.jpg 20 P20.jpg&

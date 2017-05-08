@@ -1,0 +1,179 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100000 -S 1 -I 30 -W weka.classifiers.bayes.NaiveBayes
+Relation:     seismic-bumps
+Instances:    2584
+Attributes:   19
+              seismic
+              seismoacoustic
+              shift
+              genergy
+              gpuls
+              gdenergy
+              gdpuls
+              ghazard
+              nbumps
+              nbumps2
+              nbumps3
+              nbumps4
+              nbumps5
+              nbumps6
+              nbumps7
+              nbumps89
+              energy
+              maxenergy
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: No boosting possible, one classifier used!
+Naive Bayes Classifier
+
+                       Class
+Attribute                  1           0
+                      (0.07)      (0.93)
+=========================================
+seismic
+  a                      84.0      1600.0
+  b                      88.0       816.0
+  c                       1.0         1.0
+  d                       1.0         1.0
+  [total]               174.0      2418.0
+
+seismoacoustic
+  a                     102.0      1480.0
+  b                      67.0       891.0
+  c                       4.0        46.0
+  d                       1.0         1.0
+  [total]               174.0      2418.0
+
+shift
+  W                     154.0      1511.0
+  N                      18.0       905.0
+  [total]               172.0      2416.0
+
+genergy
+  mean            200913.9523  82458.3201
+  std. dev.       300985.3184 221146.4513
+  weight sum              170        2414
+  precision         1173.9258   1173.9258
+
+gpuls
+  mean               964.6029    508.4898
+  std. dev.          792.9214    529.9656
+  weight sum              170        2414
+  precision            4.0071      4.0071
+
+gdenergy
+  mean                13.5498      12.338
+  std. dev.           64.5592     81.1918
+  weight sum              170        2414
+  precision             4.027       4.027
+
+gdpuls
+  mean                 9.8177      4.1656
+  std. dev.           56.7025     63.5647
+  weight sum              170        2414
+  precision            3.2096      3.2096
+
+ghazard
+  a                     157.0      2187.0
+  b                      15.0       199.0
+  c                       1.0        31.0
+  d                       1.0         1.0
+  [total]               174.0      2418.0
+
+nbumps
+  mean                 2.1353      0.7697
+  std. dev.            1.8941      1.2717
+  weight sum              170        2414
+  precision                 1           1
+
+nbumps2
+  mean                 1.1922      0.4347
+  std. dev.            1.1753      0.8609
+  weight sum              170        2414
+  precision            1.3333      1.3333
+
+nbumps3
+  mean                 1.0843      0.4016
+  std. dev.            1.1842      0.7957
+  weight sum              170        2414
+  precision            1.1667      1.1667
+
+nbumps4
+  mean                 0.1471      0.0621
+  std. dev.            0.4153      0.2659
+  weight sum              170        2414
+  precision                 1           1
+
+nbumps5
+  mean                 0.0059      0.0046
+  std. dev.            0.1667      0.1667
+  weight sum              170        2414
+  precision                 1           1
+
+nbumps6
+  mean                      0           0
+  std. dev.            0.0017      0.0017
+  weight sum              170        2414
+  precision              0.01        0.01
+
+nbumps7
+  mean                      0           0
+  std. dev.            0.0017      0.0017
+  weight sum              170        2414
+  precision              0.01        0.01
+
+nbumps89
+  mean                      0           0
+  std. dev.            0.0017      0.0017
+  weight sum              170        2414
+  precision              0.01        0.01
+
+energy
+  mean              9507.8838   4625.4869
+  std. dev.        18139.3845  20575.7899
+  weight sum              170        2414
+  precision         1668.0498   1668.0498
+
+maxenergy
+  mean              6470.5882   3588.4424
+  std. dev.        15531.2499  19716.7848
+  weight sum              170        2414
+  precision             12500       12500
+
+
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2251               87.113  %
+Incorrectly Classified Instances       333               12.887  %
+Kappa statistic                          0.209 
+Mean absolute error                      0.1511
+Root mean squared error                  0.337 
+Relative absolute error                122.5851 %
+Root relative squared error            135.9436 %
+Coverage of cases (0.95 level)          92.6084 %
+Mean rel. region size (0.95 level)      62.9644 %
+Total Number of Instances             2584     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.371    0.094    0.218      0.371    0.275      0.218    0.734     0.169     1
+                 0.906    0.629    0.953      0.906    0.929      0.218    0.734     0.968     0
+Weighted Avg.    0.871    0.594    0.905      0.871    0.886      0.218    0.734     0.916     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   63  107 |    a = 1
+  226 2188 |    b = 0
+
+

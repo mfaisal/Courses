@@ -1,0 +1,3419 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     seismic-bumps
+Instances:    2584
+Attributes:   19
+              seismic
+              seismoacoustic
+              shift
+              genergy
+              gpuls
+              gdenergy
+              gdpuls
+              ghazard
+              nbumps
+              nbumps2
+              nbumps3
+              nbumps4
+              nbumps5
+              nbumps6
+              nbumps7
+              nbumps89
+              energy
+              maxenergy
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1333: 0 (1981.0/67.0)
+|   gpuls > 1333
+|   |   nbumps3 <= 0
+|   |   |   nbumps4 <= 0
+|   |   |   |   gdpuls <= -28: 1 (2.0)
+|   |   |   |   gdpuls > -28
+|   |   |   |   |   gpuls <= 2701: 0 (47.0/2.0)
+|   |   |   |   |   gpuls > 2701
+|   |   |   |   |   |   gdenergy <= 43: 1 (4.0)
+|   |   |   |   |   |   gdenergy > 43: 0 (7.0)
+|   |   |   nbumps4 > 0: 0 (8.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 415690: 1 (9.0)
+|   |   |   genergy > 415690
+|   |   |   |   seismic = a
+|   |   |   |   |   genergy <= 1189240: 1 (4.0)
+|   |   |   |   |   genergy > 1189240: 0 (5.0)
+|   |   |   |   seismic = b: 0 (6.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   nbumps2 <= 0
+|   |   ghazard = a
+|   |   |   nbumps <= 3: 0 (78.0/2.0)
+|   |   |   nbumps > 3
+|   |   |   |   seismic = a: 1 (2.0)
+|   |   |   |   seismic = b: 0 (4.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   ghazard = b
+|   |   |   seismic = a: 1 (2.0)
+|   |   |   seismic = b: 0 (2.0)
+|   |   |   seismic = c: 1 (0.0)
+|   |   |   seismic = d: 1 (0.0)
+|   |   ghazard = c: 0 (0.0)
+|   |   ghazard = d: 0 (0.0)
+|   nbumps2 > 0
+|   |   gpuls <= 2205
+|   |   |   seismic = a
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   gdenergy <= -45
+|   |   |   |   |   |   |   nbumps3 <= 0: 1 (5.0)
+|   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   maxenergy <= 3000: 0 (9.0)
+|   |   |   |   |   |   |   |   maxenergy > 3000
+|   |   |   |   |   |   |   |   |   gdenergy <= -57: 1 (3.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -57: 0 (3.0)
+|   |   |   |   |   |   gdenergy > -45: 0 (105.0/8.0)
+|   |   |   |   |   shift = N
+|   |   |   |   |   |   gpuls <= 94: 0 (11.0)
+|   |   |   |   |   |   gpuls > 94: 1 (3.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   gdenergy <= -13
+|   |   |   |   |   |   |   energy <= 9800
+|   |   |   |   |   |   |   |   gdpuls <= -16: 0 (16.0)
+|   |   |   |   |   |   |   |   gdpuls > -16: 1 (5.0/1.0)
+|   |   |   |   |   |   |   energy > 9800: 1 (4.0)
+|   |   |   |   |   |   gdenergy > -13: 0 (61.0/6.0)
+|   |   |   |   |   shift = N
+|   |   |   |   |   |   ghazard = a: 0 (6.0)
+|   |   |   |   |   |   ghazard = b: 1 (2.0)
+|   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   seismoacoustic = c: 0 (4.0/1.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   seismic = b
+|   |   |   |   gdpuls <= 10
+|   |   |   |   |   gdpuls <= 3
+|   |   |   |   |   |   gpuls <= 1074
+|   |   |   |   |   |   |   gdpuls <= -64: 1 (4.0)
+|   |   |   |   |   |   |   gdpuls > -64
+|   |   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 7000
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= 63: 0 (30.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > 63
+|   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = a: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = b: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 7000
+|   |   |   |   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   gdpuls <= -2: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdpuls > -2: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps > 3: 1 (6.0)
+|   |   |   |   |   |   |   |   |   nbumps4 > 0: 0 (20.0/1.0)
+|   |   |   |   |   |   |   |   shift = N: 1 (3.0/1.0)
+|   |   |   |   |   |   gpuls > 1074
+|   |   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   nbumps3 <= 0: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 0: 1 (11.0/1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b: 0 (2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   ghazard = b: 1 (3.0)
+|   |   |   |   |   |   |   ghazard = c: 1 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 1 (0.0)
+|   |   |   |   |   gdpuls > 3: 1 (8.0)
+|   |   |   |   gdpuls > 10
+|   |   |   |   |   nbumps3 <= 4: 0 (50.0/3.0)
+|   |   |   |   |   nbumps3 > 4: 1 (4.0/1.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+|   |   gpuls > 2205
+|   |   |   genergy <= 289580: 0 (5.0)
+|   |   |   genergy > 289580
+|   |   |   |   genergy <= 1101540
+|   |   |   |   |   energy <= 5800: 0 (3.0/1.0)
+|   |   |   |   |   energy > 5800: 1 (18.0)
+|   |   |   |   genergy > 1101540: 0 (4.0)
+
+Number of Leaves  : 	68
+
+Size of the tree : 	115
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1252
+|   |   nbumps4 <= 0: 0 (1935.0/43.0)
+|   |   nbumps4 > 0
+|   |   |   gdpuls <= -44: 1 (4.0)
+|   |   |   gdpuls > -44: 0 (26.0)
+|   gpuls > 1252
+|   |   nbumps3 <= 0: 0 (78.0/5.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (8.0/1.0)
+|   |   |   seismic = b
+|   |   |   |   gpuls <= 1716: 1 (8.0)
+|   |   |   |   gpuls > 1716
+|   |   |   |   |   gpuls <= 2545: 0 (5.0)
+|   |   |   |   |   gpuls > 2545: 1 (3.0)
+|   |   |   seismic = c: 1 (0.0)
+|   |   |   seismic = d: 1 (0.0)
+nbumps > 1
+|   maxenergy <= 4000
+|   |   nbumps <= 3: 0 (226.0/29.0)
+|   |   nbumps > 3
+|   |   |   gdpuls <= -38: 1 (5.0)
+|   |   |   gdpuls > -38
+|   |   |   |   energy <= 12000: 0 (49.0/6.0)
+|   |   |   |   energy > 12000: 1 (3.0)
+|   maxenergy > 4000
+|   |   maxenergy <= 6000
+|   |   |   nbumps2 <= 3
+|   |   |   |   gdpuls <= -43
+|   |   |   |   |   gdpuls <= -71: 0 (3.0)
+|   |   |   |   |   gdpuls > -71: 1 (13.0/1.0)
+|   |   |   |   gdpuls > -43
+|   |   |   |   |   gdpuls <= 4: 0 (18.0)
+|   |   |   |   |   gdpuls > 4
+|   |   |   |   |   |   gdpuls <= 8: 1 (7.0)
+|   |   |   |   |   |   gdpuls > 8: 0 (11.0/2.0)
+|   |   |   nbumps2 > 3: 1 (4.0)
+|   |   maxenergy > 6000
+|   |   |   ghazard = a
+|   |   |   |   nbumps2 <= 0
+|   |   |   |   |   nbumps3 <= 3: 0 (36.0/1.0)
+|   |   |   |   |   nbumps3 > 3: 1 (3.0/1.0)
+|   |   |   |   nbumps2 > 0
+|   |   |   |   |   genergy <= 60340: 0 (54.0/5.0)
+|   |   |   |   |   genergy > 60340
+|   |   |   |   |   |   gdenergy <= -31: 1 (7.0/1.0)
+|   |   |   |   |   |   gdenergy > -31
+|   |   |   |   |   |   |   gdpuls <= -45: 1 (3.0)
+|   |   |   |   |   |   |   gdpuls > -45
+|   |   |   |   |   |   |   |   gpuls <= 2959
+|   |   |   |   |   |   |   |   |   maxenergy <= 10000: 0 (18.0/1.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 10000
+|   |   |   |   |   |   |   |   |   |   nbumps2 <= 3
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 579440
+|   |   |   |   |   |   |   |   |   |   |   |   energy <= 34400: 1 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   energy > 34400: 0 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 579440: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   nbumps2 > 3: 1 (2.0)
+|   |   |   |   |   |   |   |   gpuls > 2959: 1 (3.0)
+|   |   |   ghazard = b
+|   |   |   |   seismoacoustic = a: 0 (0.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   nbumps <= 2: 0 (9.0)
+|   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   gpuls <= 1107: 0 (4.0)
+|   |   |   |   |   |   gpuls > 1107: 1 (4.0)
+|   |   |   |   seismoacoustic = c: 1 (2.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   ghazard = c: 0 (0.0)
+|   |   |   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	39
+
+Size of the tree : 	71
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1238
+|   |   gdenergy <= 104: 0 (1808.0/35.0)
+|   |   gdenergy > 104
+|   |   |   shift = W
+|   |   |   |   gdenergy <= 115
+|   |   |   |   |   seismic = a: 1 (5.0)
+|   |   |   |   |   seismic = b: 0 (2.0)
+|   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   gdenergy > 115
+|   |   |   |   |   genergy <= 36530
+|   |   |   |   |   |   gdpuls <= 120: 0 (12.0)
+|   |   |   |   |   |   gdpuls > 120
+|   |   |   |   |   |   |   gpuls <= 794: 1 (9.0/1.0)
+|   |   |   |   |   |   |   gpuls > 794: 0 (2.0)
+|   |   |   |   |   genergy > 36530: 0 (82.0/2.0)
+|   |   |   shift = N: 0 (57.0)
+|   gpuls > 1238
+|   |   nbumps3 <= 0
+|   |   |   nbumps2 <= 0: 0 (59.0/4.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   energy <= 200: 1 (3.0)
+|   |   |   |   energy > 200: 0 (12.0/1.0)
+|   |   nbumps3 > 0
+|   |   |   seismoacoustic = a
+|   |   |   |   genergy <= 348780: 1 (4.0/1.0)
+|   |   |   |   genergy > 348780: 0 (10.0)
+|   |   |   seismoacoustic = b
+|   |   |   |   gpuls <= 1456: 1 (6.0)
+|   |   |   |   gpuls > 1456: 0 (3.0)
+|   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   seismoacoustic = d: 0 (0.0)
+nbumps > 1
+|   nbumps <= 2
+|   |   nbumps4 <= 0
+|   |   |   gdenergy <= -30
+|   |   |   |   gpuls <= 1093
+|   |   |   |   |   nbumps2 <= 0: 0 (15.0)
+|   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   energy <= 4600: 0 (42.0/7.0)
+|   |   |   |   |   |   energy > 4600: 1 (4.0)
+|   |   |   |   gpuls > 1093
+|   |   |   |   |   seismoacoustic = a: 1 (8.0)
+|   |   |   |   |   seismoacoustic = b: 0 (2.0)
+|   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   gdenergy > -30: 0 (148.0/11.0)
+|   |   nbumps4 > 0: 0 (36.0/1.0)
+|   nbumps > 2
+|   |   seismic = a
+|   |   |   nbumps3 <= 3: 0 (97.0/15.0)
+|   |   |   nbumps3 > 3
+|   |   |   |   energy <= 18000
+|   |   |   |   |   nbumps <= 4: 1 (3.0/1.0)
+|   |   |   |   |   nbumps > 4: 0 (6.0/1.0)
+|   |   |   |   energy > 18000: 1 (4.0)
+|   |   seismic = b
+|   |   |   ghazard = a
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   gpuls <= 763
+|   |   |   |   |   |   |   gdenergy <= -7: 0 (17.0)
+|   |   |   |   |   |   |   gdenergy > -7
+|   |   |   |   |   |   |   |   gdpuls <= 12: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   gdpuls > 12: 0 (3.0)
+|   |   |   |   |   |   gpuls > 763: 1 (22.0/4.0)
+|   |   |   |   |   nbumps > 3
+|   |   |   |   |   |   gdenergy <= -59: 1 (4.0/1.0)
+|   |   |   |   |   |   gdenergy > -59: 0 (42.0/4.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   gpuls <= 626
+|   |   |   |   |   |   gdenergy <= -33: 0 (3.0)
+|   |   |   |   |   |   gdenergy > -33
+|   |   |   |   |   |   |   nbumps <= 7
+|   |   |   |   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   |   |   |   gpuls <= 504: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   gpuls > 504: 1 (3.0)
+|   |   |   |   |   |   |   |   nbumps > 5: 1 (10.0)
+|   |   |   |   |   |   |   nbumps > 7: 0 (2.0)
+|   |   |   |   |   gpuls > 626: 0 (24.0/2.0)
+|   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   ghazard = b
+|   |   |   |   nbumps2 <= 2: 1 (3.0)
+|   |   |   |   nbumps2 > 2: 0 (4.0)
+|   |   |   ghazard = c: 0 (0.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   seismic = c: 0 (0.0)
+|   |   seismic = d: 0 (0.0)
+
+Number of Leaves  : 	52
+
+Size of the tree : 	91
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   shift = W
+|   |   gpuls <= 1333
+|   |   |   gdenergy <= 67: 0 (905.0/20.0)
+|   |   |   gdenergy > 67
+|   |   |   |   gpuls <= 812
+|   |   |   |   |   nbumps3 <= 0
+|   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   gdpuls <= 101
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   energy <= 200: 0 (48.0/1.0)
+|   |   |   |   |   |   |   |   |   energy > 200
+|   |   |   |   |   |   |   |   |   |   genergy <= 34490: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 34490: 1 (3.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   gpuls <= 808
+|   |   |   |   |   |   |   |   |   |   seismic = a: 0 (21.0)
+|   |   |   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 515: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 515: 0 (10.0)
+|   |   |   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   |   gpuls > 808: 1 (3.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   |   gdpuls > 101
+|   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   genergy <= 27420: 0 (4.0)
+|   |   |   |   |   |   |   |   |   genergy > 27420
+|   |   |   |   |   |   |   |   |   |   genergy <= 28300: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 28300: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   seismic = b: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   nbumps4 > 0: 0 (6.0)
+|   |   |   |   |   nbumps3 > 0: 0 (11.0)
+|   |   |   |   gpuls > 812: 0 (65.0)
+|   |   gpuls > 1333
+|   |   |   seismoacoustic = a
+|   |   |   |   genergy <= 315650
+|   |   |   |   |   gdenergy <= 141
+|   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   gpuls <= 1389: 1 (3.0)
+|   |   |   |   |   |   |   gpuls > 1389: 0 (2.0)
+|   |   |   |   |   |   seismic = b: 1 (9.0)
+|   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   gdenergy > 141: 0 (3.0)
+|   |   |   |   genergy > 315650: 0 (29.0/2.0)
+|   |   |   seismoacoustic = b: 0 (23.0/1.0)
+|   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   seismoacoustic = d: 0 (0.0)
+|   shift = N: 0 (900.0/5.0)
+nbumps > 1
+|   ghazard = a
+|   |   nbumps3 <= 3
+|   |   |   nbumps2 <= 0: 0 (73.0/5.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   genergy <= 315650
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gpuls <= 767
+|   |   |   |   |   |   |   genergy <= 20890
+|   |   |   |   |   |   |   |   genergy <= 19430: 0 (29.0/5.0)
+|   |   |   |   |   |   |   |   genergy > 19430: 1 (4.0)
+|   |   |   |   |   |   |   genergy > 20890
+|   |   |   |   |   |   |   |   nbumps3 <= 1: 0 (83.0)
+|   |   |   |   |   |   |   |   nbumps3 > 1
+|   |   |   |   |   |   |   |   |   gpuls <= 521: 0 (39.0)
+|   |   |   |   |   |   |   |   |   gpuls > 521: 1 (5.0/1.0)
+|   |   |   |   |   |   gpuls > 767
+|   |   |   |   |   |   |   gdpuls <= 2
+|   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   genergy <= 88360: 0 (2.0)
+|   |   |   |   |   |   |   |   |   genergy > 88360: 1 (11.0/1.0)
+|   |   |   |   |   |   |   |   nbumps > 3: 0 (5.0/1.0)
+|   |   |   |   |   |   |   gdpuls > 2: 0 (32.0/4.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   gdpuls <= 10
+|   |   |   |   |   |   |   |   |   |   gdenergy <= 0
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 22320
+|   |   |   |   |   |   |   |   |   |   |   |   gpuls <= 181: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gpuls > 181: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 22320: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > 0: 1 (4.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 10: 0 (7.0)
+|   |   |   |   |   |   |   |   nbumps > 2: 0 (26.0/3.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   gpuls <= 400
+|   |   |   |   |   |   |   |   |   genergy <= 51620: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 51620: 1 (2.0)
+|   |   |   |   |   |   |   |   gpuls > 400: 0 (30.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   nbumps3 > 2
+|   |   |   |   |   |   |   genergy <= 39390: 1 (6.0)
+|   |   |   |   |   |   |   genergy > 39390: 0 (2.0)
+|   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   genergy > 315650
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   genergy <= 1496830
+|   |   |   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 582700: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 582700: 0 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 2: 0 (4.0)
+|   |   |   |   |   |   |   |   |   genergy > 1496830: 1 (4.0)
+|   |   |   |   |   |   |   |   nbumps > 3: 0 (5.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   nbumps3 <= 0: 1 (6.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   |   |   nbumps4 <= 1
+|   |   |   |   |   |   |   |   |   |   |   gdpuls <= 30: 1 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   gdpuls > 30: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   nbumps4 > 1: 0 (3.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   gdpuls <= 12: 0 (4.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 12: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   nbumps3 > 2: 0 (10.0/1.0)
+|   |   |   |   |   shift = N: 1 (2.0)
+|   |   nbumps3 > 3
+|   |   |   nbumps4 <= 0
+|   |   |   |   nbumps <= 7
+|   |   |   |   |   gpuls <= 356: 0 (5.0)
+|   |   |   |   |   gpuls > 356
+|   |   |   |   |   |   maxenergy <= 8000
+|   |   |   |   |   |   |   maxenergy <= 7000: 1 (10.0/3.0)
+|   |   |   |   |   |   |   maxenergy > 7000: 0 (5.0/1.0)
+|   |   |   |   |   |   maxenergy > 8000: 1 (2.0)
+|   |   |   |   nbumps > 7: 0 (5.0)
+|   |   |   nbumps4 > 0: 1 (4.0/1.0)
+|   ghazard = b
+|   |   nbumps3 <= 1
+|   |   |   gdenergy <= 116
+|   |   |   |   seismic = a
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   gdenergy <= -3: 1 (2.0)
+|   |   |   |   |   |   gdenergy > -3: 0 (8.0/1.0)
+|   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   seismic = b: 1 (3.0)
+|   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   seismic = d: 1 (0.0)
+|   |   |   gdenergy > 116: 0 (9.0)
+|   |   nbumps3 > 1: 1 (3.0)
+|   ghazard = c: 0 (6.0)
+|   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	90
+
+Size of the tree : 	157
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1209: 0 (1964.0/55.0)
+|   gpuls > 1209
+|   |   nbumps3 <= 0
+|   |   |   nbumps2 <= 0: 0 (70.0/4.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   gpuls <= 3060
+|   |   |   |   |   gdenergy <= -39: 1 (2.0)
+|   |   |   |   |   gdenergy > -39: 0 (17.0)
+|   |   |   |   gpuls > 3060: 1 (3.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (12.0/1.0)
+|   |   |   seismic = b
+|   |   |   |   ghazard = a
+|   |   |   |   |   genergy <= 415690: 1 (9.0)
+|   |   |   |   |   genergy > 415690: 0 (5.0/1.0)
+|   |   |   |   ghazard = b: 0 (3.0)
+|   |   |   |   ghazard = c: 1 (0.0)
+|   |   |   |   ghazard = d: 1 (0.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   genergy <= 542890
+|   |   nbumps2 <= 0: 0 (77.0/2.0)
+|   |   nbumps2 > 0
+|   |   |   seismoacoustic = a
+|   |   |   |   gdenergy <= -54
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   gpuls <= 235: 0 (5.0/1.0)
+|   |   |   |   |   |   gpuls > 235: 1 (9.0)
+|   |   |   |   |   nbumps4 > 0: 0 (5.0)
+|   |   |   |   gdenergy > -54
+|   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   genergy <= 203850: 0 (42.0/1.0)
+|   |   |   |   |   |   |   genergy > 203850
+|   |   |   |   |   |   |   |   gpuls <= 1780: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   gpuls > 1780: 0 (3.0)
+|   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   gdenergy <= -19: 0 (13.0)
+|   |   |   |   |   |   |   gdenergy > -19
+|   |   |   |   |   |   |   |   gdenergy <= 0: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   gdenergy > 0
+|   |   |   |   |   |   |   |   |   energy <= 4300: 1 (3.0)
+|   |   |   |   |   |   |   |   |   energy > 4300: 0 (14.0/1.0)
+|   |   |   |   |   nbumps2 > 1: 0 (103.0/7.0)
+|   |   |   seismoacoustic = b
+|   |   |   |   maxenergy <= 2000
+|   |   |   |   |   genergy <= 37950
+|   |   |   |   |   |   gpuls <= 471: 0 (13.0/1.0)
+|   |   |   |   |   |   gpuls > 471: 1 (6.0/1.0)
+|   |   |   |   |   genergy > 37950: 0 (44.0/1.0)
+|   |   |   |   maxenergy > 2000
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   nbumps2 <= 1: 0 (13.0)
+|   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   energy <= 9800
+|   |   |   |   |   |   |   |   energy <= 4300: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   energy > 4300: 0 (15.0)
+|   |   |   |   |   |   |   energy > 9800: 1 (6.0/1.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   nbumps <= 7
+|   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   nbumps3 <= 0: 1 (6.0)
+|   |   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   |   energy <= 23500
+|   |   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 63800: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 63800: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   nbumps2 > 1: 1 (7.0)
+|   |   |   |   |   |   |   |   |   energy > 23500: 0 (8.0/1.0)
+|   |   |   |   |   |   |   shift = N: 0 (3.0/1.0)
+|   |   |   |   |   |   nbumps > 7: 0 (3.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   seismoacoustic = c
+|   |   |   |   gdenergy <= 140: 1 (3.0)
+|   |   |   |   gdenergy > 140: 0 (3.0)
+|   |   |   seismoacoustic = d: 0 (0.0)
+|   genergy > 542890
+|   |   nbumps2 <= 1
+|   |   |   gpuls <= 2082: 0 (21.0)
+|   |   |   gpuls > 2082
+|   |   |   |   genergy <= 1062280
+|   |   |   |   |   nbumps2 <= 0
+|   |   |   |   |   |   genergy <= 788650: 0 (3.0)
+|   |   |   |   |   |   genergy > 788650: 1 (2.0)
+|   |   |   |   |   nbumps2 > 0: 1 (11.0/1.0)
+|   |   |   |   genergy > 1062280: 0 (5.0)
+|   |   nbumps2 > 1
+|   |   |   gpuls <= 2597: 1 (19.0)
+|   |   |   gpuls > 2597
+|   |   |   |   ghazard = a: 0 (6.0)
+|   |   |   |   ghazard = b: 1 (5.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	54
+
+Size of the tree : 	97
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1209: 0 (1946.0/50.0)
+|   gpuls > 1209
+|   |   nbumps3 <= 0: 0 (88.0/2.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (8.0/1.0)
+|   |   |   seismic = b
+|   |   |   |   gpuls <= 1844
+|   |   |   |   |   energy <= 1500: 0 (3.0)
+|   |   |   |   |   energy > 1500: 1 (13.0)
+|   |   |   |   gpuls > 1844: 0 (5.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   nbumps2 <= 0: 0 (81.0/2.0)
+|   |   nbumps2 > 0
+|   |   |   gpuls <= 2205
+|   |   |   |   gdpuls <= 10
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   |   gpuls <= 741
+|   |   |   |   |   |   |   |   gdenergy <= -65
+|   |   |   |   |   |   |   |   |   genergy <= 63670: 1 (4.0)
+|   |   |   |   |   |   |   |   |   genergy > 63670: 0 (2.0)
+|   |   |   |   |   |   |   |   gdenergy > -65
+|   |   |   |   |   |   |   |   |   genergy <= 22320
+|   |   |   |   |   |   |   |   |   |   genergy <= 18600: 0 (28.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 18600
+|   |   |   |   |   |   |   |   |   |   |   energy <= 7000: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   energy > 7000: 0 (2.0)
+|   |   |   |   |   |   |   |   |   genergy > 22320: 0 (62.0/3.0)
+|   |   |   |   |   |   |   gpuls > 741
+|   |   |   |   |   |   |   |   gdpuls <= -8
+|   |   |   |   |   |   |   |   |   nbumps <= 3: 1 (19.0/2.0)
+|   |   |   |   |   |   |   |   |   nbumps > 3
+|   |   |   |   |   |   |   |   |   |   seismic = a: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 1593: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 1593: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   gdpuls > -8
+|   |   |   |   |   |   |   |   |   shift = W: 0 (21.0/1.0)
+|   |   |   |   |   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   |   |   nbumps > 4: 0 (19.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   gpuls <= 576
+|   |   |   |   |   |   |   |   |   gpuls <= 415: 0 (21.0/3.0)
+|   |   |   |   |   |   |   |   |   gpuls > 415: 1 (4.0)
+|   |   |   |   |   |   |   |   gpuls > 576: 0 (18.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   |   gdenergy <= -51: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -51: 0 (22.0/3.0)
+|   |   |   |   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   nbumps > 5: 1 (5.0)
+|   |   |   |   |   seismoacoustic = c: 1 (2.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   gdpuls > 10: 0 (126.0/6.0)
+|   |   |   gpuls > 2205
+|   |   |   |   genergy <= 1018360
+|   |   |   |   |   genergy <= 251120: 0 (2.0)
+|   |   |   |   |   genergy > 251120: 1 (14.0)
+|   |   |   |   genergy > 1018360: 0 (9.0)
+|   nbumps3 > 3
+|   |   gpuls <= 356: 0 (10.0)
+|   |   gpuls > 356
+|   |   |   nbumps <= 7
+|   |   |   |   energy <= 10000: 0 (2.0)
+|   |   |   |   energy > 10000
+|   |   |   |   |   gdpuls <= 27: 1 (10.0)
+|   |   |   |   |   gdpuls > 27
+|   |   |   |   |   |   genergy <= 140890: 1 (4.0/1.0)
+|   |   |   |   |   |   genergy > 140890: 0 (3.0)
+|   |   |   nbumps > 7: 0 (4.0)
+
+Number of Leaves  : 	45
+
+Size of the tree : 	81
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1327
+|   nbumps <= 2
+|   |   shift = W
+|   |   |   genergy <= 17660: 0 (256.0/1.0)
+|   |   |   genergy > 17660
+|   |   |   |   genergy <= 21060
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   genergy <= 17670: 1 (3.0)
+|   |   |   |   |   |   genergy > 17670
+|   |   |   |   |   |   |   gpuls <= 398
+|   |   |   |   |   |   |   |   gdenergy <= 31
+|   |   |   |   |   |   |   |   |   nbumps <= 1
+|   |   |   |   |   |   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 19030
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 18540: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 18540: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 19030: 0 (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 0: 0 (8.0)
+|   |   |   |   |   |   |   |   |   nbumps > 1: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   gdenergy > 31: 1 (3.0)
+|   |   |   |   |   |   |   gpuls > 398: 0 (23.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   gdenergy <= 82: 0 (62.0/1.0)
+|   |   |   |   |   |   gdenergy > 82: 1 (4.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   genergy > 21060: 0 (844.0/37.0)
+|   |   shift = N
+|   |   |   maxenergy <= 6000: 0 (899.0/10.0)
+|   |   |   maxenergy > 6000
+|   |   |   |   gdenergy <= -62: 1 (4.0)
+|   |   |   |   gdenergy > -62: 0 (24.0)
+|   nbumps > 2
+|   |   shift = W
+|   |   |   maxenergy <= 20000
+|   |   |   |   genergy <= 64290
+|   |   |   |   |   nbumps3 <= 3
+|   |   |   |   |   |   gdenergy <= -5
+|   |   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   |   maxenergy <= 7000
+|   |   |   |   |   |   |   |   |   genergy <= 21920
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -48: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -48
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 251: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 251: 0 (2.0)
+|   |   |   |   |   |   |   |   |   genergy > 21920: 0 (36.0/1.0)
+|   |   |   |   |   |   |   |   maxenergy > 7000
+|   |   |   |   |   |   |   |   |   gpuls <= 265: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   gpuls > 265: 1 (4.0)
+|   |   |   |   |   |   |   ghazard = b: 1 (2.0)
+|   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   |   gdenergy > -5: 0 (53.0)
+|   |   |   |   |   nbumps3 > 3
+|   |   |   |   |   |   energy <= 11000: 1 (4.0)
+|   |   |   |   |   |   energy > 11000
+|   |   |   |   |   |   |   gdenergy <= 73: 0 (10.0)
+|   |   |   |   |   |   |   gdenergy > 73: 1 (3.0/1.0)
+|   |   |   |   genergy > 64290
+|   |   |   |   |   gdenergy <= -52: 1 (5.0)
+|   |   |   |   |   gdenergy > -52
+|   |   |   |   |   |   gdenergy <= 62
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   maxenergy <= 1000: 1 (3.0)
+|   |   |   |   |   |   |   |   maxenergy > 1000
+|   |   |   |   |   |   |   |   |   nbumps3 <= 3
+|   |   |   |   |   |   |   |   |   |   nbumps4 <= 0: 0 (13.0)
+|   |   |   |   |   |   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= -1: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > -1: 0 (5.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 3: 1 (2.0)
+|   |   |   |   |   |   |   seismoacoustic = b: 0 (22.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   gdenergy > 62
+|   |   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   |   gpuls <= 873: 1 (12.0/1.0)
+|   |   |   |   |   |   |   |   gpuls > 873: 0 (3.0)
+|   |   |   |   |   |   |   ghazard = b: 0 (2.0)
+|   |   |   |   |   |   |   ghazard = c: 1 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 1 (0.0)
+|   |   |   maxenergy > 20000: 0 (30.0)
+|   |   shift = N
+|   |   |   gdpuls <= -23: 0 (4.0)
+|   |   |   gdpuls > -23: 1 (4.0)
+gpuls > 1327
+|   maxenergy <= 500: 0 (45.0/1.0)
+|   maxenergy > 500
+|   |   gdenergy <= 6
+|   |   |   nbumps4 <= 0
+|   |   |   |   nbumps <= 3
+|   |   |   |   |   gpuls <= 1758: 1 (27.0/1.0)
+|   |   |   |   |   gpuls > 1758
+|   |   |   |   |   |   nbumps2 <= 0: 0 (8.0/1.0)
+|   |   |   |   |   |   nbumps2 > 0: 1 (7.0/1.0)
+|   |   |   |   nbumps > 3: 0 (5.0/1.0)
+|   |   |   nbumps4 > 0
+|   |   |   |   nbumps2 <= 0: 0 (8.0)
+|   |   |   |   nbumps2 > 0
+|   |   |   |   |   nbumps <= 4: 1 (6.0/1.0)
+|   |   |   |   |   nbumps > 4: 0 (5.0)
+|   |   gdenergy > 6
+|   |   |   nbumps2 <= 2
+|   |   |   |   ghazard = a
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gdpuls <= 54: 0 (30.0)
+|   |   |   |   |   |   gdpuls > 54
+|   |   |   |   |   |   |   gdpuls <= 73: 1 (7.0/1.0)
+|   |   |   |   |   |   |   gdpuls > 73: 0 (9.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   |   gdenergy <= 26: 0 (3.0)
+|   |   |   |   |   |   |   gdenergy > 26: 1 (5.0/1.0)
+|   |   |   |   |   |   nbumps3 > 1: 0 (10.0/1.0)
+|   |   |   |   |   seismoacoustic = c: 0 (1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   ghazard = b: 0 (7.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   nbumps2 > 2
+|   |   |   |   genergy <= 538060: 0 (5.0)
+|   |   |   |   genergy > 538060: 1 (5.0)
+
+Number of Leaves  : 	68
+
+Size of the tree : 	123
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1409
+|   |   nbumps4 <= 0: 0 (1954.0/48.0)
+|   |   nbumps4 > 0
+|   |   |   gdenergy <= -65: 1 (3.0)
+|   |   |   gdenergy > -65: 0 (51.0)
+|   gpuls > 1409
+|   |   nbumps3 <= 0: 0 (49.0/1.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 415690: 1 (8.0)
+|   |   |   genergy > 415690: 0 (10.0/1.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   gdpuls <= -45
+|   |   |   gpuls <= 175: 0 (21.0)
+|   |   |   gpuls > 175
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   gpuls <= 749
+|   |   |   |   |   |   |   nbumps2 <= 1: 0 (11.0)
+|   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   gpuls <= 229: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   gpuls > 229: 1 (4.0)
+|   |   |   |   |   |   gpuls > 749: 1 (7.0)
+|   |   |   |   |   nbumps4 > 0: 0 (5.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   genergy <= 108750: 1 (14.0/1.0)
+|   |   |   |   |   genergy > 108750: 0 (2.0)
+|   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   gdpuls > -45
+|   |   |   nbumps <= 2: 0 (176.0/15.0)
+|   |   |   nbumps > 2
+|   |   |   |   gpuls <= 737
+|   |   |   |   |   nbumps2 <= 0
+|   |   |   |   |   |   genergy <= 33900: 1 (3.0)
+|   |   |   |   |   |   genergy > 33900: 0 (3.0)
+|   |   |   |   |   nbumps2 > 0: 0 (119.0/8.0)
+|   |   |   |   gpuls > 737
+|   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   maxenergy <= 4000
+|   |   |   |   |   |   |   |   gpuls <= 1587
+|   |   |   |   |   |   |   |   |   gpuls <= 1244: 0 (15.0/2.0)
+|   |   |   |   |   |   |   |   |   gpuls > 1244: 1 (5.0)
+|   |   |   |   |   |   |   |   gpuls > 1587: 0 (13.0)
+|   |   |   |   |   |   |   maxenergy > 4000
+|   |   |   |   |   |   |   |   nbumps2 <= 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   |   genergy <= 315650: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 315650: 1 (14.0/1.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = b: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = c: 1 (3.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   nbumps > 3
+|   |   |   |   |   |   |   gpuls <= 867: 1 (4.0)
+|   |   |   |   |   |   |   gpuls > 867
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   gdenergy <= -15: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -15: 0 (13.0/1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b: 0 (18.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   nbumps3 > 2: 0 (8.0)
+|   nbumps3 > 3
+|   |   maxenergy <= 7000
+|   |   |   gpuls <= 356: 0 (6.0)
+|   |   |   gpuls > 356
+|   |   |   |   energy <= 10000: 0 (2.0)
+|   |   |   |   energy > 10000: 1 (13.0/1.0)
+|   |   maxenergy > 7000: 0 (8.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	73
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   shift = W
+|   |   genergy <= 17610: 0 (277.0/2.0)
+|   |   genergy > 17610
+|   |   |   ghazard = a
+|   |   |   |   nbumps3 <= 0
+|   |   |   |   |   gdenergy <= 158
+|   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   gdenergy <= -4
+|   |   |   |   |   |   |   |   genergy <= 18820
+|   |   |   |   |   |   |   |   |   genergy <= 18470: 0 (8.0)
+|   |   |   |   |   |   |   |   |   genergy > 18470: 1 (3.0)
+|   |   |   |   |   |   |   |   genergy > 18820: 0 (121.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -4
+|   |   |   |   |   |   |   |   gdenergy <= 0
+|   |   |   |   |   |   |   |   |   gdenergy <= -3: 1 (7.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -3
+|   |   |   |   |   |   |   |   |   |   energy <= 400: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   energy > 400: 1 (5.0)
+|   |   |   |   |   |   |   |   gdenergy > 0: 0 (193.0/15.0)
+|   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   |   |   |   gdenergy <= -20
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -21: 0 (12.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -21: 1 (5.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -20
+|   |   |   |   |   |   |   |   |   |   gdenergy <= 88: 0 (58.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > 88
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= 91: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > 91: 0 (17.0/1.0)
+|   |   |   |   |   |   |   |   nbumps > 0: 0 (55.0/2.0)
+|   |   |   |   |   |   |   seismoacoustic = b: 0 (101.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   gdenergy > 158
+|   |   |   |   |   |   gdenergy <= 180
+|   |   |   |   |   |   |   seismic = a: 0 (2.0)
+|   |   |   |   |   |   |   seismic = b: 1 (12.0/1.0)
+|   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   gdenergy > 180: 0 (29.0)
+|   |   |   |   nbumps3 > 0
+|   |   |   |   |   gpuls <= 762: 0 (68.0/1.0)
+|   |   |   |   |   gpuls > 762
+|   |   |   |   |   |   gpuls <= 770: 1 (3.0)
+|   |   |   |   |   |   gpuls > 770
+|   |   |   |   |   |   |   gpuls <= 1252: 0 (21.0)
+|   |   |   |   |   |   |   gpuls > 1252
+|   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   gdenergy <= -9: 0 (11.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -9
+|   |   |   |   |   |   |   |   |   |   genergy <= 1134540: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 1134540: 0 (7.0)
+|   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   gpuls <= 1946: 1 (7.0)
+|   |   |   |   |   |   |   |   |   gpuls > 1946: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   ghazard = b
+|   |   |   |   gdenergy <= -23
+|   |   |   |   |   gpuls <= 590: 1 (4.0/1.0)
+|   |   |   |   |   gpuls > 590: 0 (8.0)
+|   |   |   |   gdenergy > -23: 0 (78.0)
+|   |   |   ghazard = c: 0 (17.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   shift = N: 0 (892.0/4.0)
+nbumps > 1
+|   ghazard = a
+|   |   gdpuls <= 36
+|   |   |   maxenergy <= 4000
+|   |   |   |   nbumps2 <= 0: 0 (31.0/1.0)
+|   |   |   |   nbumps2 > 0
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gpuls <= 1002
+|   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   maxenergy <= 500
+|   |   |   |   |   |   |   |   |   genergy <= 83570: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 83570: 0 (8.0)
+|   |   |   |   |   |   |   |   maxenergy > 500: 0 (58.0/3.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   gpuls <= 215: 1 (3.0)
+|   |   |   |   |   |   |   |   gpuls > 215: 0 (14.0/1.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   gpuls > 1002
+|   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   maxenergy <= 3000
+|   |   |   |   |   |   |   |   |   nbumps2 <= 1: 1 (8.0)
+|   |   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   |   gdenergy <= 14: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > 14: 0 (2.0)
+|   |   |   |   |   |   |   |   maxenergy > 3000: 0 (3.0)
+|   |   |   |   |   |   |   nbumps > 2: 0 (9.0)
+|   |   |   |   |   seismoacoustic = b: 0 (61.0/6.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   maxenergy > 4000
+|   |   |   |   genergy <= 33560: 0 (40.0/2.0)
+|   |   |   |   genergy > 33560
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   gpuls <= 685
+|   |   |   |   |   |   |   |   nbumps3 <= 3
+|   |   |   |   |   |   |   |   |   gdpuls <= -42: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   gdpuls > -42: 0 (22.0)
+|   |   |   |   |   |   |   |   nbumps3 > 3: 1 (2.0)
+|   |   |   |   |   |   |   gpuls > 685: 1 (16.0/2.0)
+|   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   energy <= 9200
+|   |   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   |   gpuls <= 1727: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 1727: 1 (2.0)
+|   |   |   |   |   |   |   |   |   nbumps > 2: 1 (9.0)
+|   |   |   |   |   |   |   |   energy > 9200: 0 (7.0/1.0)
+|   |   |   |   |   |   |   nbumps > 3: 1 (10.0)
+|   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   nbumps2 <= 0: 0 (15.0)
+|   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   |   |   gpuls <= 1828
+|   |   |   |   |   |   |   |   |   gdenergy <= 2
+|   |   |   |   |   |   |   |   |   |   nbumps <= 3: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 3: 0 (2.0)
+|   |   |   |   |   |   |   |   |   gdenergy > 2: 0 (7.0)
+|   |   |   |   |   |   |   |   gpuls > 1828: 1 (6.0/1.0)
+|   |   |   |   |   |   |   nbumps3 > 1: 0 (20.0/3.0)
+|   |   gdpuls > 36
+|   |   |   nbumps2 <= 2: 0 (89.0/2.0)
+|   |   |   nbumps2 > 2
+|   |   |   |   gdpuls <= 93: 0 (23.0/1.0)
+|   |   |   |   gdpuls > 93
+|   |   |   |   |   genergy <= 280830: 1 (5.0)
+|   |   |   |   |   genergy > 280830: 0 (2.0)
+|   ghazard = b
+|   |   seismoacoustic = a: 0 (0.0)
+|   |   seismoacoustic = b
+|   |   |   nbumps3 <= 1: 0 (31.0/5.0)
+|   |   |   nbumps3 > 1
+|   |   |   |   seismic = a: 0 (2.0)
+|   |   |   |   seismic = b: 1 (3.0)
+|   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   seismic = d: 1 (0.0)
+|   |   seismoacoustic = c: 1 (6.0)
+|   |   seismoacoustic = d: 0 (0.0)
+|   ghazard = c: 0 (9.0)
+|   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	88
+
+Size of the tree : 	153
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1333: 0 (1990.0/60.0)
+|   gpuls > 1333
+|   |   nbumps3 <= 0
+|   |   |   nbumps2 <= 0: 0 (51.0/1.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   gdenergy <= 3: 1 (8.0/1.0)
+|   |   |   |   gdenergy > 3: 0 (9.0)
+|   |   nbumps3 > 0
+|   |   |   gpuls <= 1894
+|   |   |   |   gdpuls <= 1: 1 (6.0)
+|   |   |   |   gdpuls > 1: 0 (3.0/1.0)
+|   |   |   gpuls > 1894: 0 (7.0/1.0)
+nbumps > 1
+|   maxenergy <= 40000
+|   |   gpuls <= 519
+|   |   |   gdpuls <= -45
+|   |   |   |   nbumps3 <= 2
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   gpuls <= 160: 0 (18.0)
+|   |   |   |   |   |   gpuls > 160
+|   |   |   |   |   |   |   gpuls <= 191: 1 (5.0)
+|   |   |   |   |   |   |   gpuls > 191
+|   |   |   |   |   |   |   |   nbumps2 <= 1: 0 (8.0)
+|   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   gdenergy <= -55: 0 (2.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -55
+|   |   |   |   |   |   |   |   |   |   genergy <= 108750: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 108750: 0 (2.0)
+|   |   |   |   |   nbumps4 > 0: 1 (2.0)
+|   |   |   |   nbumps3 > 2: 0 (8.0)
+|   |   |   gdpuls > -45: 0 (160.0/11.0)
+|   |   gpuls > 519
+|   |   |   nbumps2 <= 0
+|   |   |   |   gdpuls <= -47: 1 (2.0)
+|   |   |   |   gdpuls > -47: 0 (52.0/2.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   maxenergy <= 5000
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   maxenergy <= 3000
+|   |   |   |   |   |   |   gpuls <= 576: 1 (5.0/1.0)
+|   |   |   |   |   |   |   gpuls > 576
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   gdenergy <= -38: 1 (3.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -38
+|   |   |   |   |   |   |   |   |   |   genergy <= 129740: 1 (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 129740: 0 (21.0/2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b: 0 (32.0/2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   maxenergy > 3000: 0 (12.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   maxenergy <= 500: 1 (3.0)
+|   |   |   |   |   |   |   maxenergy > 500
+|   |   |   |   |   |   |   |   maxenergy <= 1000: 0 (10.0)
+|   |   |   |   |   |   |   |   maxenergy > 1000
+|   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   energy <= 2600: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   energy > 2600: 0 (13.0)
+|   |   |   |   |   |   |   |   |   nbumps2 > 1: 1 (4.0/1.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   nbumps3 <= 0: 0 (5.0)
+|   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   gdpuls <= -4: 0 (2.0)
+|   |   |   |   |   |   |   |   gdpuls > -4: 1 (16.0/3.0)
+|   |   |   |   |   |   seismoacoustic = c: 0 (2.0)
+|   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   maxenergy > 5000
+|   |   |   |   |   maxenergy <= 7000: 1 (17.0/1.0)
+|   |   |   |   |   maxenergy > 7000
+|   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   gpuls <= 3155
+|   |   |   |   |   |   |   |   gdpuls <= -13
+|   |   |   |   |   |   |   |   |   maxenergy <= 20000: 1 (11.0/1.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 20000: 0 (2.0)
+|   |   |   |   |   |   |   |   gdpuls > -13
+|   |   |   |   |   |   |   |   |   energy <= 32000: 0 (26.0/1.0)
+|   |   |   |   |   |   |   |   |   energy > 32000
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 30000
+|   |   |   |   |   |   |   |   |   |   |   seismoacoustic = a: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= 67: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy > 67: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 30000: 0 (3.0)
+|   |   |   |   |   |   |   gpuls > 3155: 1 (6.0)
+|   |   |   |   |   |   ghazard = b: 1 (4.0)
+|   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   maxenergy > 40000: 0 (34.0)
+
+Number of Leaves  : 	53
+
+Size of the tree : 	95
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1250
+|   |   nbumps2 <= 0
+|   |   |   genergy <= 18800: 0 (871.0/8.0)
+|   |   |   genergy > 18800
+|   |   |   |   genergy <= 21240
+|   |   |   |   |   genergy <= 21050
+|   |   |   |   |   |   gdpuls <= -52
+|   |   |   |   |   |   |   genergy <= 19390: 0 (2.0)
+|   |   |   |   |   |   |   genergy > 19390: 1 (3.0)
+|   |   |   |   |   |   gdpuls > -52: 0 (87.0/3.0)
+|   |   |   |   |   genergy > 21050
+|   |   |   |   |   |   seismoacoustic = a: 0 (2.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   shift = W: 1 (9.0/1.0)
+|   |   |   |   |   |   |   shift = N: 0 (2.0)
+|   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   genergy > 21240: 0 (756.0/25.0)
+|   |   nbumps2 > 0
+|   |   |   energy <= 600: 0 (188.0/6.0)
+|   |   |   energy > 600
+|   |   |   |   gdenergy <= -46
+|   |   |   |   |   genergy <= 25550
+|   |   |   |   |   |   gdpuls <= -42: 0 (7.0)
+|   |   |   |   |   |   gdpuls > -42: 1 (2.0)
+|   |   |   |   |   genergy > 25550: 1 (6.0)
+|   |   |   |   gdenergy > -46: 0 (31.0)
+|   gpuls > 1250
+|   |   nbumps3 <= 0: 0 (88.0/6.0)
+|   |   nbumps3 > 0
+|   |   |   gdenergy <= -33: 1 (7.0)
+|   |   |   gdenergy > -33
+|   |   |   |   ghazard = a
+|   |   |   |   |   gdenergy <= 25: 0 (17.0/2.0)
+|   |   |   |   |   gdenergy > 25
+|   |   |   |   |   |   energy <= 2500: 1 (5.0)
+|   |   |   |   |   |   energy > 2500
+|   |   |   |   |   |   |   seismoacoustic = a: 0 (2.0)
+|   |   |   |   |   |   |   seismoacoustic = b: 1 (2.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   ghazard = b: 0 (2.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+nbumps > 1
+|   nbumps2 <= 0: 0 (93.0/4.0)
+|   nbumps2 > 0
+|   |   gpuls <= 521
+|   |   |   ghazard = a
+|   |   |   |   seismoacoustic = a: 0 (126.0/7.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   gdenergy <= -3
+|   |   |   |   |   |   gdpuls <= -6
+|   |   |   |   |   |   |   genergy <= 75890: 0 (28.0/2.0)
+|   |   |   |   |   |   |   genergy > 75890: 1 (2.0)
+|   |   |   |   |   |   gdpuls > -6: 1 (6.0)
+|   |   |   |   |   gdenergy > -3: 0 (26.0)
+|   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   ghazard = b
+|   |   |   |   gdpuls <= 87: 0 (7.0)
+|   |   |   |   gdpuls > 87: 1 (3.0)
+|   |   |   ghazard = c: 0 (0.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   gpuls > 521
+|   |   |   gpuls <= 570: 1 (13.0/2.0)
+|   |   |   gpuls > 570
+|   |   |   |   gdenergy <= 11
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gdpuls <= -55: 0 (8.0)
+|   |   |   |   |   |   gdpuls > -55
+|   |   |   |   |   |   |   genergy <= 682910
+|   |   |   |   |   |   |   |   gpuls <= 669: 0 (4.0)
+|   |   |   |   |   |   |   |   gpuls > 669
+|   |   |   |   |   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   |   |   |   |   nbumps <= 2: 1 (10.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   |   maxenergy <= 5000: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   maxenergy > 5000: 1 (22.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 2
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -30: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -30: 0 (4.0)
+|   |   |   |   |   |   |   genergy > 682910: 0 (4.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   gdenergy <= -46: 1 (7.0)
+|   |   |   |   |   |   gdenergy > -46: 0 (25.0)
+|   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   gdenergy > 11
+|   |   |   |   |   nbumps3 <= 3
+|   |   |   |   |   |   ghazard = a: 0 (78.0/7.0)
+|   |   |   |   |   |   ghazard = b
+|   |   |   |   |   |   |   seismic = a: 0 (10.0/1.0)
+|   |   |   |   |   |   |   seismic = b: 1 (4.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   ghazard = c: 0 (2.0)
+|   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   nbumps3 > 3: 1 (5.0/1.0)
+
+Number of Leaves  : 	59
+
+Size of the tree : 	101
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1332
+|   |   genergy <= 18580: 0 (935.0/8.0)
+|   |   genergy > 18580
+|   |   |   shift = W
+|   |   |   |   seismic = a: 0 (442.0/19.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   gdenergy <= 88
+|   |   |   |   |   |   |   gdenergy <= 17
+|   |   |   |   |   |   |   |   gdenergy <= 16
+|   |   |   |   |   |   |   |   |   gdpuls <= 16: 0 (94.0/4.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 16
+|   |   |   |   |   |   |   |   |   |   gdpuls <= 25: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > 25: 0 (9.0)
+|   |   |   |   |   |   |   |   gdenergy > 16: 1 (6.0)
+|   |   |   |   |   |   |   gdenergy > 17: 0 (80.0)
+|   |   |   |   |   |   gdenergy > 88
+|   |   |   |   |   |   |   gpuls <= 529
+|   |   |   |   |   |   |   |   gpuls <= 449: 0 (5.0)
+|   |   |   |   |   |   |   |   gpuls > 449: 1 (10.0/1.0)
+|   |   |   |   |   |   |   gpuls > 529: 0 (34.0/3.0)
+|   |   |   |   |   nbumps > 0
+|   |   |   |   |   |   gdpuls <= -30
+|   |   |   |   |   |   |   energy <= 600: 0 (5.0)
+|   |   |   |   |   |   |   energy > 600: 1 (6.0/1.0)
+|   |   |   |   |   |   gdpuls > -30: 0 (149.0/1.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   |   shift = N
+|   |   |   |   gdpuls <= -65
+|   |   |   |   |   nbumps4 <= 0: 0 (9.0/1.0)
+|   |   |   |   |   nbumps4 > 0: 1 (2.0)
+|   |   |   |   gdpuls > -65: 0 (203.0/1.0)
+|   gpuls > 1332
+|   |   nbumps3 <= 0
+|   |   |   gpuls <= 1381: 1 (4.0)
+|   |   |   gpuls > 1381: 0 (66.0/3.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 1138340
+|   |   |   |   genergy <= 148160: 0 (3.0)
+|   |   |   |   genergy > 148160: 1 (16.0/1.0)
+|   |   |   genergy > 1138340: 0 (5.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   gdpuls <= 17
+|   |   |   energy <= 900
+|   |   |   |   gpuls <= 240: 0 (3.0)
+|   |   |   |   gpuls > 240
+|   |   |   |   |   genergy <= 715540: 1 (18.0/2.0)
+|   |   |   |   |   genergy > 715540: 0 (2.0)
+|   |   |   energy > 900
+|   |   |   |   gpuls <= 675
+|   |   |   |   |   seismoacoustic = a: 0 (105.0/4.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   maxenergy <= 30000
+|   |   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   |   energy <= 9800
+|   |   |   |   |   |   |   |   |   maxenergy <= 700: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 700
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 3000: 0 (42.0/4.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 3000
+|   |   |   |   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 17050: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 17050: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = b: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   energy > 9800: 1 (4.0)
+|   |   |   |   |   |   |   nbumps4 > 0: 0 (5.0)
+|   |   |   |   |   |   maxenergy > 30000: 1 (8.0)
+|   |   |   |   |   seismoacoustic = c: 0 (1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   gpuls > 675
+|   |   |   |   |   maxenergy <= 20000
+|   |   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   genergy <= 664090
+|   |   |   |   |   |   |   |   |   gdpuls <= -26
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 4000: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 4000
+|   |   |   |   |   |   |   |   |   |   |   energy <= 11500: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   energy > 11500: 0 (3.0)
+|   |   |   |   |   |   |   |   |   gdpuls > -26
+|   |   |   |   |   |   |   |   |   |   nbumps3 <= 0: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= 52
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps <= 2: 1 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy <= 6600: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy > 6600: 1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > 52: 0 (2.0)
+|   |   |   |   |   |   |   |   genergy > 664090: 0 (4.0)
+|   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   nbumps <= 2: 0 (13.0/2.0)
+|   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   gpuls <= 1593: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 1593: 0 (2.0)
+|   |   |   |   |   |   |   |   nbumps > 3: 0 (8.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 1 (2.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   nbumps3 > 2: 0 (5.0)
+|   |   |   |   |   maxenergy > 20000: 0 (14.0)
+|   |   gdpuls > 17
+|   |   |   ghazard = a: 0 (146.0/10.0)
+|   |   |   ghazard = b
+|   |   |   |   nbumps3 <= 1
+|   |   |   |   |   seismoacoustic = a: 0 (0.0)
+|   |   |   |   |   seismoacoustic = b: 0 (14.0/1.0)
+|   |   |   |   |   seismoacoustic = c: 1 (3.0/1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   nbumps3 > 1: 1 (3.0)
+|   |   |   ghazard = c: 0 (1.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   nbumps3 > 3
+|   |   gpuls <= 364: 0 (9.0)
+|   |   gpuls > 364
+|   |   |   nbumps4 <= 0
+|   |   |   |   gpuls <= 575: 1 (10.0/1.0)
+|   |   |   |   gpuls > 575
+|   |   |   |   |   genergy <= 316200: 0 (7.0)
+|   |   |   |   |   genergy > 316200: 1 (2.0)
+|   |   |   nbumps4 > 0: 1 (2.0)
+
+Number of Leaves  : 	69
+
+Size of the tree : 	125
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1352: 0 (1981.0/49.0)
+|   gpuls > 1352
+|   |   nbumps3 <= 0: 0 (70.0/7.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 1134540
+|   |   |   |   seismic = a: 1 (5.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   genergy <= 415690: 1 (7.0/1.0)
+|   |   |   |   |   genergy > 415690: 0 (4.0)
+|   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   seismic = d: 1 (0.0)
+|   |   |   genergy > 1134540: 0 (8.0)
+nbumps > 1
+|   seismic = a
+|   |   gdenergy <= -38
+|   |   |   gpuls <= 1140
+|   |   |   |   nbumps <= 2: 0 (28.0/2.0)
+|   |   |   |   nbumps > 2
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   |   genergy <= 19920: 0 (4.0/1.0)
+|   |   |   |   |   |   |   genergy > 19920: 1 (7.0)
+|   |   |   |   |   |   nbumps3 > 1: 0 (5.0)
+|   |   |   |   |   seismoacoustic = b: 0 (13.0/1.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   gpuls > 1140: 1 (4.0)
+|   |   gdenergy > -38: 0 (219.0/19.0)
+|   seismic = b
+|   |   gdenergy <= 114
+|   |   |   ghazard = a
+|   |   |   |   nbumps3 <= 3
+|   |   |   |   |   gdpuls <= 35
+|   |   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   gpuls <= 840: 0 (45.0/2.0)
+|   |   |   |   |   |   |   |   |   gpuls > 840
+|   |   |   |   |   |   |   |   |   |   nbumps4 <= 1
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy <= 6000: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy > 6000
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy <= 66000: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy > 66000: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   maxenergy <= 30000: 1 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   maxenergy > 30000: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= -15: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy > -15: 0 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   nbumps4 > 1: 0 (5.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   gdenergy <= 63
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -56: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -56
+|   |   |   |   |   |   |   |   |   |   |   gdpuls <= 3: 0 (15.0)
+|   |   |   |   |   |   |   |   |   |   |   gdpuls > 3
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 63800: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 63800: 0 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   gdenergy > 63: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (1.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   |   nbumps > 4: 0 (10.0)
+|   |   |   |   |   |   nbumps > 5
+|   |   |   |   |   |   |   nbumps <= 7: 1 (8.0)
+|   |   |   |   |   |   |   nbumps > 7: 0 (2.0)
+|   |   |   |   |   gdpuls > 35: 0 (41.0/2.0)
+|   |   |   |   nbumps3 > 3: 0 (11.0)
+|   |   |   ghazard = b: 1 (5.0/1.0)
+|   |   |   ghazard = c: 0 (0.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   gdenergy > 114: 0 (26.0)
+|   seismic = c: 0 (0.0)
+|   seismic = d: 0 (0.0)
+
+Number of Leaves  : 	44
+
+Size of the tree : 	77
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1650: 0 (2039.0/59.0)
+|   gpuls > 1650
+|   |   nbumps4 <= 0
+|   |   |   energy <= 700
+|   |   |   |   gdpuls <= 20
+|   |   |   |   |   gdpuls <= 17: 0 (12.0/1.0)
+|   |   |   |   |   gdpuls > 17: 1 (3.0)
+|   |   |   |   gdpuls > 20: 0 (22.0)
+|   |   |   energy > 700
+|   |   |   |   gdpuls <= 47
+|   |   |   |   |   seismic = a: 0 (6.0/1.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   gdenergy <= 32: 1 (6.0/1.0)
+|   |   |   |   |   |   gdenergy > 32: 0 (3.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   gdpuls > 47: 1 (7.0)
+|   |   nbumps4 > 0: 0 (6.0)
+nbumps > 1
+|   nbumps3 <= 2
+|   |   shift = W
+|   |   |   gdpuls <= 10
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   gdenergy <= -11
+|   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   maxenergy <= 500: 1 (3.0/1.0)
+|   |   |   |   |   |   |   maxenergy > 500: 0 (90.0/7.0)
+|   |   |   |   |   |   nbumps > 3
+|   |   |   |   |   |   |   genergy <= 33780: 1 (5.0/1.0)
+|   |   |   |   |   |   |   genergy > 33780: 0 (9.0)
+|   |   |   |   |   gdenergy > -11
+|   |   |   |   |   |   gdenergy <= -5: 1 (9.0/1.0)
+|   |   |   |   |   |   gdenergy > -5
+|   |   |   |   |   |   |   seismic = a: 0 (18.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   genergy <= 225040: 0 (5.0)
+|   |   |   |   |   |   |   |   |   genergy > 225040: 1 (4.0)
+|   |   |   |   |   |   |   |   nbumps > 3: 0 (4.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   gdpuls <= -49: 1 (4.0/1.0)
+|   |   |   |   |   |   gdpuls > -49: 0 (44.0/3.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   gdpuls <= 0
+|   |   |   |   |   |   |   nbumps3 <= 0: 1 (3.0)
+|   |   |   |   |   |   |   nbumps3 > 0: 0 (15.0/1.0)
+|   |   |   |   |   |   gdpuls > 0
+|   |   |   |   |   |   |   genergy <= 256850: 1 (8.0)
+|   |   |   |   |   |   |   genergy > 256850: 0 (2.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   seismoacoustic = c: 1 (4.0/1.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   gdpuls > 10: 0 (173.0/19.0)
+|   |   shift = N: 0 (26.0/2.0)
+|   nbumps3 > 2
+|   |   nbumps4 <= 2
+|   |   |   gpuls <= 364: 0 (18.0/1.0)
+|   |   |   gpuls > 364
+|   |   |   |   nbumps4 <= 1
+|   |   |   |   |   gdpuls <= -20: 1 (6.0)
+|   |   |   |   |   gdpuls > -20
+|   |   |   |   |   |   gdenergy <= 91: 0 (19.0/4.0)
+|   |   |   |   |   |   gdenergy > 91: 1 (6.0)
+|   |   |   |   nbumps4 > 1: 0 (2.0)
+|   |   nbumps4 > 2: 1 (3.0)
+
+Number of Leaves  : 	40
+
+Size of the tree : 	71
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1250
+|   nbumps <= 1
+|   |   shift = W
+|   |   |   gdenergy <= 68: 0 (920.0/25.0)
+|   |   |   gdenergy > 68
+|   |   |   |   nbumps3 <= 0
+|   |   |   |   |   gpuls <= 812
+|   |   |   |   |   |   gpuls <= 720
+|   |   |   |   |   |   |   seismic = a: 0 (53.0/1.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   gdpuls <= 123
+|   |   |   |   |   |   |   |   |   ghazard = a: 0 (35.0/3.0)
+|   |   |   |   |   |   |   |   |   ghazard = b: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   |   |   |   gdpuls > 123: 1 (3.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   gpuls > 720
+|   |   |   |   |   |   |   gdpuls <= 63: 1 (7.0)
+|   |   |   |   |   |   |   gdpuls > 63
+|   |   |   |   |   |   |   |   gdpuls <= 103: 0 (11.0)
+|   |   |   |   |   |   |   |   gdpuls > 103: 1 (5.0/1.0)
+|   |   |   |   |   gpuls > 812: 0 (44.0)
+|   |   |   |   nbumps3 > 0: 0 (20.0)
+|   |   shift = N: 0 (877.0/12.0)
+|   nbumps > 1
+|   |   genergy <= 127360
+|   |   |   gdpuls <= 10
+|   |   |   |   gdpuls <= 4
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   |   genergy <= 22610
+|   |   |   |   |   |   |   |   gdpuls <= -35
+|   |   |   |   |   |   |   |   |   genergy <= 18820: 0 (10.0)
+|   |   |   |   |   |   |   |   |   genergy > 18820: 1 (14.0/1.0)
+|   |   |   |   |   |   |   |   gdpuls > -35: 0 (14.0/1.0)
+|   |   |   |   |   |   |   genergy > 22610
+|   |   |   |   |   |   |   |   genergy <= 51560: 0 (25.0)
+|   |   |   |   |   |   |   |   genergy > 51560
+|   |   |   |   |   |   |   |   |   genergy <= 82480: 1 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   genergy > 82480: 0 (9.0)
+|   |   |   |   |   |   nbumps3 > 1: 0 (31.0/1.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   gpuls <= 763: 0 (37.0)
+|   |   |   |   |   |   |   gpuls > 763
+|   |   |   |   |   |   |   |   nbumps <= 2: 0 (2.0)
+|   |   |   |   |   |   |   |   nbumps > 2: 1 (9.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   genergy <= 39120: 1 (8.0)
+|   |   |   |   |   |   |   genergy > 39120
+|   |   |   |   |   |   |   |   gdenergy <= 63: 0 (7.0)
+|   |   |   |   |   |   |   |   gdenergy > 63: 1 (5.0/1.0)
+|   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   gdpuls > 4
+|   |   |   |   |   nbumps5 <= 0: 1 (12.0/1.0)
+|   |   |   |   |   nbumps5 > 0: 0 (5.0)
+|   |   |   gdpuls > 10
+|   |   |   |   nbumps3 <= 3: 0 (126.0/9.0)
+|   |   |   |   nbumps3 > 3
+|   |   |   |   |   seismic = a: 0 (2.0)
+|   |   |   |   |   seismic = b: 1 (5.0/1.0)
+|   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   seismic = d: 1 (0.0)
+|   |   genergy > 127360: 0 (36.0)
+gpuls > 1250
+|   gdenergy <= -30
+|   |   gpuls <= 1946
+|   |   |   nbumps4 <= 0: 1 (22.0/1.0)
+|   |   |   nbumps4 > 0
+|   |   |   |   maxenergy <= 40000: 0 (5.0)
+|   |   |   |   maxenergy > 40000: 1 (5.0)
+|   |   gpuls > 1946: 0 (4.0)
+|   gdenergy > -30
+|   |   nbumps <= 4
+|   |   |   ghazard = a
+|   |   |   |   seismic = a
+|   |   |   |   |   genergy <= 85240: 1 (2.0)
+|   |   |   |   |   genergy > 85240: 0 (89.0/9.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   nbumps3 <= 0
+|   |   |   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   |   |   genergy <= 68690: 1 (2.0)
+|   |   |   |   |   |   |   |   genergy > 68690: 0 (4.0)
+|   |   |   |   |   |   |   nbumps > 0: 0 (9.0/1.0)
+|   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   maxenergy <= 2000: 1 (4.0)
+|   |   |   |   |   |   |   maxenergy > 2000
+|   |   |   |   |   |   |   |   gdpuls <= 27
+|   |   |   |   |   |   |   |   |   gdpuls <= 5: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 5: 1 (8.0)
+|   |   |   |   |   |   |   |   gdpuls > 27: 0 (7.0)
+|   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   nbumps2 <= 0: 0 (22.0)
+|   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   gdpuls <= 7: 0 (8.0)
+|   |   |   |   |   |   |   gdpuls > 7
+|   |   |   |   |   |   |   |   maxenergy <= 30000: 1 (3.0)
+|   |   |   |   |   |   |   |   maxenergy > 30000: 0 (3.0/1.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   |   ghazard = b: 0 (18.0)
+|   |   |   ghazard = c: 0 (1.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   nbumps > 4
+|   |   |   ghazard = a
+|   |   |   |   genergy <= 509190: 0 (10.0)
+|   |   |   |   genergy > 509190: 1 (4.0)
+|   |   |   ghazard = b: 1 (6.0)
+|   |   |   ghazard = c: 1 (0.0)
+|   |   |   ghazard = d: 1 (0.0)
+
+Number of Leaves  : 	67
+
+Size of the tree : 	117
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1352
+|   |   shift = W
+|   |   |   genergy <= 18540: 0 (324.0)
+|   |   |   genergy > 18540
+|   |   |   |   genergy <= 21060
+|   |   |   |   |   genergy <= 21050
+|   |   |   |   |   |   genergy <= 18820
+|   |   |   |   |   |   |   nbumps <= 0: 1 (6.0)
+|   |   |   |   |   |   |   nbumps > 0: 0 (2.0)
+|   |   |   |   |   |   genergy > 18820
+|   |   |   |   |   |   |   ghazard = a: 0 (53.0/2.0)
+|   |   |   |   |   |   |   ghazard = b
+|   |   |   |   |   |   |   |   genergy <= 19680: 1 (2.0)
+|   |   |   |   |   |   |   |   genergy > 19680: 0 (5.0)
+|   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   genergy > 21050: 1 (8.0/1.0)
+|   |   |   |   genergy > 21060: 0 (703.0/22.0)
+|   |   shift = N: 0 (884.0/12.0)
+|   gpuls > 1352
+|   |   gdenergy <= -34
+|   |   |   seismoacoustic = a
+|   |   |   |   gdenergy <= -40: 0 (2.0)
+|   |   |   |   gdenergy > -40: 1 (4.0)
+|   |   |   seismoacoustic = b: 1 (3.0)
+|   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   seismoacoustic = d: 1 (0.0)
+|   |   gdenergy > -34
+|   |   |   nbumps4 <= 0
+|   |   |   |   seismic = a
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gdpuls <= 46: 0 (36.0/2.0)
+|   |   |   |   |   |   gdpuls > 46
+|   |   |   |   |   |   |   gdpuls <= 55: 1 (3.0)
+|   |   |   |   |   |   |   gdpuls > 55: 0 (4.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps2 <= 0: 0 (4.0)
+|   |   |   |   |   |   nbumps2 > 0: 1 (2.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   genergy <= 390180: 1 (7.0/1.0)
+|   |   |   |   |   |   genergy > 390180: 0 (7.0/1.0)
+|   |   |   |   |   seismoacoustic = b: 0 (14.0/1.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   |   nbumps4 > 0: 0 (7.0)
+nbumps > 1
+|   gdpuls <= 22
+|   |   nbumps2 <= 0
+|   |   |   gdpuls <= 7: 0 (40.0/1.0)
+|   |   |   gdpuls > 7
+|   |   |   |   gdenergy <= 15: 1 (2.0)
+|   |   |   |   gdenergy > 15: 0 (4.0/1.0)
+|   |   nbumps2 > 0
+|   |   |   gpuls <= 1301
+|   |   |   |   seismic = a
+|   |   |   |   |   gdenergy <= -44
+|   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   gdenergy <= -50: 0 (13.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -50
+|   |   |   |   |   |   |   |   seismoacoustic = a: 1 (2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   gdenergy <= -48: 1 (3.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -48: 0 (2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   nbumps2 > 1: 1 (8.0/1.0)
+|   |   |   |   |   gdenergy > -44
+|   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   |   gpuls <= 361
+|   |   |   |   |   |   |   |   |   gpuls <= 181
+|   |   |   |   |   |   |   |   |   |   genergy <= 26370: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 26370: 0 (4.0)
+|   |   |   |   |   |   |   |   |   gpuls > 181: 0 (46.0)
+|   |   |   |   |   |   |   |   gpuls > 361
+|   |   |   |   |   |   |   |   |   gpuls <= 395: 1 (3.0)
+|   |   |   |   |   |   |   |   |   gpuls > 395
+|   |   |   |   |   |   |   |   |   |   gpuls <= 540: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 540
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 103460
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy <= 4200: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy > 4200
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gpuls <= 669: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gpuls > 669: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 103460: 0 (13.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 > 3: 1 (2.0)
+|   |   |   |   |   |   |   nbumps4 > 0: 0 (7.0)
+|   |   |   |   |   |   shift = N: 0 (9.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   gdpuls <= -1
+|   |   |   |   |   |   |   nbumps3 <= 0
+|   |   |   |   |   |   |   |   nbumps2 <= 1: 1 (4.0)
+|   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   gdenergy <= 59: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   gdenergy > 59: 1 (2.0)
+|   |   |   |   |   |   |   nbumps3 > 0: 0 (45.0/7.0)
+|   |   |   |   |   |   gdpuls > -1
+|   |   |   |   |   |   |   genergy <= 59410: 1 (16.0/1.0)
+|   |   |   |   |   |   |   genergy > 59410: 0 (4.0)
+|   |   |   |   |   shift = N: 1 (4.0/2.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   |   gpuls > 1301
+|   |   |   |   gdenergy <= -30: 1 (14.0)
+|   |   |   |   gdenergy > -30
+|   |   |   |   |   gdenergy <= 17
+|   |   |   |   |   |   seismic = a: 0 (11.0/1.0)
+|   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   nbumps3 <= 0: 0 (7.0)
+|   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   |   |   |   genergy <= 581540: 1 (10.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 581540: 0 (2.0)
+|   |   |   |   |   |   |   |   nbumps3 > 1: 0 (3.0)
+|   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   gdenergy > 17: 1 (7.0)
+|   gdpuls > 22
+|   |   nbumps3 <= 3
+|   |   |   nbumps2 <= 2: 0 (128.0/3.0)
+|   |   |   nbumps2 > 2
+|   |   |   |   genergy <= 790830
+|   |   |   |   |   gpuls <= 729: 0 (28.0)
+|   |   |   |   |   gpuls > 729
+|   |   |   |   |   |   gpuls <= 988: 1 (3.0)
+|   |   |   |   |   |   gpuls > 988: 0 (4.0)
+|   |   |   |   genergy > 790830: 1 (3.0)
+|   |   nbumps3 > 3
+|   |   |   energy <= 16700: 0 (5.0)
+|   |   |   energy > 16700: 1 (5.0/1.0)
+
+Number of Leaves  : 	78
+
+Size of the tree : 	139
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   genergy <= 16840: 0 (860.0/7.0)
+|   genergy > 16840
+|   |   seismic = a: 0 (727.0/28.0)
+|   |   seismic = b
+|   |   |   genergy <= 114540
+|   |   |   |   gdenergy <= 95
+|   |   |   |   |   gdenergy <= -20
+|   |   |   |   |   |   genergy <= 20420: 0 (37.0/1.0)
+|   |   |   |   |   |   genergy > 20420
+|   |   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   |   gdenergy <= -21
+|   |   |   |   |   |   |   |   |   genergy <= 20860: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 20860: 0 (35.0/2.0)
+|   |   |   |   |   |   |   |   gdenergy > -21: 1 (5.0/1.0)
+|   |   |   |   |   |   |   ghazard = b
+|   |   |   |   |   |   |   |   genergy <= 21320: 1 (5.0)
+|   |   |   |   |   |   |   |   genergy > 21320: 0 (3.0)
+|   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   gdenergy > -20: 0 (257.0/3.0)
+|   |   |   |   gdenergy > 95
+|   |   |   |   |   ghazard = a
+|   |   |   |   |   |   genergy <= 17670: 1 (3.0)
+|   |   |   |   |   |   genergy > 17670
+|   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   |   |   |   genergy <= 29560: 1 (5.0)
+|   |   |   |   |   |   |   |   |   genergy > 29560
+|   |   |   |   |   |   |   |   |   |   seismoacoustic = a: 0 (16.0/1.0)
+|   |   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 61770: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 61770: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   nbumps > 0: 0 (20.0)
+|   |   |   |   |   |   |   shift = N: 0 (17.0)
+|   |   |   |   |   ghazard = b: 0 (30.0/1.0)
+|   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   genergy > 114540
+|   |   |   |   nbumps3 <= 0: 0 (16.0/1.0)
+|   |   |   |   nbumps3 > 0: 1 (12.0/4.0)
+|   |   seismic = c: 0 (0.0)
+|   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   seismic = a
+|   |   seismoacoustic = a
+|   |   |   nbumps2 <= 2
+|   |   |   |   nbumps <= 3
+|   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   gdpuls <= -56
+|   |   |   |   |   |   |   gdpuls <= -66: 0 (3.0)
+|   |   |   |   |   |   |   gdpuls > -66: 1 (5.0/1.0)
+|   |   |   |   |   |   gdpuls > -56: 0 (76.0/6.0)
+|   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   gdpuls <= -2: 0 (15.0)
+|   |   |   |   |   |   gdpuls > -2
+|   |   |   |   |   |   |   gdpuls <= 34: 1 (10.0/2.0)
+|   |   |   |   |   |   |   gdpuls > 34: 0 (5.0)
+|   |   |   |   nbumps > 3: 0 (30.0)
+|   |   |   nbumps2 > 2
+|   |   |   |   genergy <= 247620
+|   |   |   |   |   gpuls <= 639: 0 (16.0/1.0)
+|   |   |   |   |   gpuls > 639: 1 (6.0)
+|   |   |   |   genergy > 247620: 0 (8.0)
+|   |   seismoacoustic = b
+|   |   |   nbumps3 <= 2: 0 (110.0/12.0)
+|   |   |   nbumps3 > 2
+|   |   |   |   gdpuls <= -16: 1 (3.0)
+|   |   |   |   gdpuls > -16: 0 (10.0/1.0)
+|   |   seismoacoustic = c
+|   |   |   genergy <= 122850: 1 (3.0)
+|   |   |   genergy > 122850: 0 (2.0)
+|   |   seismoacoustic = d: 0 (0.0)
+|   seismic = b
+|   |   nbumps2 <= 0: 0 (32.0/1.0)
+|   |   nbumps2 > 0
+|   |   |   gdenergy <= 114
+|   |   |   |   ghazard = a
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   genergy <= 87740
+|   |   |   |   |   |   |   maxenergy <= 800: 1 (3.0/1.0)
+|   |   |   |   |   |   |   maxenergy > 800
+|   |   |   |   |   |   |   |   genergy <= 20730
+|   |   |   |   |   |   |   |   |   genergy <= 19120: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 19120: 1 (2.0)
+|   |   |   |   |   |   |   |   genergy > 20730: 0 (36.0)
+|   |   |   |   |   |   genergy > 87740
+|   |   |   |   |   |   |   gdenergy <= -30: 1 (12.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -30
+|   |   |   |   |   |   |   |   nbumps2 <= 5
+|   |   |   |   |   |   |   |   |   gpuls <= 2191
+|   |   |   |   |   |   |   |   |   |   energy <= 32700
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= -17: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > -17
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy <= 1000: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy > 1000: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   energy > 32700: 0 (10.0)
+|   |   |   |   |   |   |   |   |   gpuls > 2191: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   nbumps2 > 5: 0 (5.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps3 <= 0: 0 (7.0)
+|   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   gdenergy <= 67
+|   |   |   |   |   |   |   |   gdpuls <= 35
+|   |   |   |   |   |   |   |   |   gdpuls <= 0
+|   |   |   |   |   |   |   |   |   |   gpuls <= 314
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 119: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 119: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 314: 0 (10.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 0: 1 (14.0/2.0)
+|   |   |   |   |   |   |   |   gdpuls > 35: 0 (13.0)
+|   |   |   |   |   |   |   gdenergy > 67: 1 (9.0/1.0)
+|   |   |   |   |   seismoacoustic = c: 0 (2.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   ghazard = b
+|   |   |   |   |   nbumps3 <= 0: 1 (4.0)
+|   |   |   |   |   nbumps3 > 0: 0 (5.0/1.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   gdenergy > 114: 0 (17.0)
+|   seismic = c: 0 (0.0)
+|   seismic = d: 0 (0.0)
+
+Number of Leaves  : 	71
+
+Size of the tree : 	125
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1209
+|   |   nbumps4 <= 0: 0 (1953.0/43.0)
+|   |   nbumps4 > 0
+|   |   |   gdpuls <= -45: 1 (3.0)
+|   |   |   gdpuls > -45: 0 (26.0)
+|   gpuls > 1209
+|   |   nbumps3 <= 0
+|   |   |   nbumps4 <= 0
+|   |   |   |   gdenergy <= 110: 0 (65.0/4.0)
+|   |   |   |   gdenergy > 110
+|   |   |   |   |   gdpuls <= 106: 1 (7.0/1.0)
+|   |   |   |   |   gdpuls > 106: 0 (15.0)
+|   |   |   nbumps4 > 0: 0 (11.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (12.0/1.0)
+|   |   |   seismic = b
+|   |   |   |   gdenergy <= 36: 1 (11.0/1.0)
+|   |   |   |   gdenergy > 36: 0 (3.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   nbumps2 <= 0
+|   |   nbumps <= 3
+|   |   |   nbumps3 <= 2: 0 (61.0/1.0)
+|   |   |   nbumps3 > 2
+|   |   |   |   seismic = a: 0 (7.0)
+|   |   |   |   seismic = b: 1 (2.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   |   nbumps > 3
+|   |   |   seismic = a: 1 (2.0)
+|   |   |   seismic = b: 0 (2.0)
+|   |   |   seismic = c: 1 (0.0)
+|   |   |   seismic = d: 1 (0.0)
+|   nbumps2 > 0
+|   |   nbumps <= 5
+|   |   |   ghazard = a
+|   |   |   |   gpuls <= 739
+|   |   |   |   |   shift = W: 0 (203.0/23.0)
+|   |   |   |   |   shift = N
+|   |   |   |   |   |   nbumps3 <= 1: 0 (13.0/1.0)
+|   |   |   |   |   |   nbumps3 > 1: 1 (4.0)
+|   |   |   |   gpuls > 739
+|   |   |   |   |   gdenergy <= 107
+|   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   maxenergy <= 7000
+|   |   |   |   |   |   |   |   nbumps2 <= 2
+|   |   |   |   |   |   |   |   |   gpuls <= 1315: 0 (12.0)
+|   |   |   |   |   |   |   |   |   gpuls > 1315
+|   |   |   |   |   |   |   |   |   |   gpuls <= 1486: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 1486: 0 (14.0)
+|   |   |   |   |   |   |   |   nbumps2 > 2
+|   |   |   |   |   |   |   |   |   genergy <= 109110: 1 (4.0)
+|   |   |   |   |   |   |   |   |   genergy > 109110: 0 (3.0)
+|   |   |   |   |   |   |   maxenergy > 7000: 1 (4.0)
+|   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   maxenergy <= 500: 1 (5.0)
+|   |   |   |   |   |   |   maxenergy > 500
+|   |   |   |   |   |   |   |   maxenergy <= 1000: 0 (7.0)
+|   |   |   |   |   |   |   |   maxenergy > 1000
+|   |   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 961: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 961
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= 44
+|   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= -20: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy > -20: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   gdenergy > 6: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy > 44: 1 (7.0)
+|   |   |   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   |   |   nbumps4 <= 0: 1 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps4 > 0: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   gpuls <= 3425: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 3425: 1 (2.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = c: 0 (2.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   gdenergy > 107: 0 (11.0)
+|   |   |   ghazard = b
+|   |   |   |   seismoacoustic = a: 0 (0.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   gdenergy <= 116
+|   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   seismic = a: 0 (4.0)
+|   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   nbumps3 <= 0: 1 (5.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 0: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   |   |   gdenergy > 116: 0 (13.0)
+|   |   |   |   |   nbumps3 > 1: 1 (4.0/1.0)
+|   |   |   |   seismoacoustic = c: 1 (3.0/1.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   ghazard = c: 0 (3.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   nbumps > 5
+|   |   |   gdpuls <= -40: 1 (6.0)
+|   |   |   gdpuls > -40
+|   |   |   |   seismoacoustic = a: 0 (15.0/1.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   genergy <= 39700: 1 (4.0)
+|   |   |   |   |   genergy > 39700
+|   |   |   |   |   |   gdenergy <= 78
+|   |   |   |   |   |   |   gdpuls <= -16: 1 (2.0)
+|   |   |   |   |   |   |   gdpuls > -16: 0 (7.0)
+|   |   |   |   |   |   gdenergy > 78: 1 (2.0)
+|   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+
+Number of Leaves  : 	67
+
+Size of the tree : 	115
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1250
+|   nbumps <= 1
+|   |   energy <= 7500: 0 (1909.0/55.0)
+|   |   energy > 7500
+|   |   |   gdpuls <= -51: 1 (7.0)
+|   |   |   gdpuls > -51: 0 (48.0)
+|   nbumps > 1
+|   |   gdpuls <= -45
+|   |   |   nbumps3 <= 2
+|   |   |   |   maxenergy <= 3000: 0 (13.0/2.0)
+|   |   |   |   maxenergy > 3000
+|   |   |   |   |   nbumps <= 2: 1 (6.0)
+|   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   nbumps2 <= 1: 0 (4.0/1.0)
+|   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   energy <= 9600: 1 (4.0)
+|   |   |   |   |   |   |   |   energy > 9600: 0 (4.0)
+|   |   |   |   |   |   |   seismoacoustic = b: 1 (4.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   nbumps3 > 2: 0 (7.0)
+|   |   gdpuls > -45
+|   |   |   nbumps3 <= 2
+|   |   |   |   ghazard = a
+|   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   gpuls <= 919: 0 (144.0/7.0)
+|   |   |   |   |   |   |   gpuls > 919
+|   |   |   |   |   |   |   |   genergy <= 105810: 1 (4.0)
+|   |   |   |   |   |   |   |   genergy > 105810: 0 (8.0/1.0)
+|   |   |   |   |   |   seismoacoustic = b: 0 (93.0/4.0)
+|   |   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   nbumps > 4
+|   |   |   |   |   |   gdenergy <= 67
+|   |   |   |   |   |   |   genergy <= 39410
+|   |   |   |   |   |   |   |   seismic = a: 0 (2.0)
+|   |   |   |   |   |   |   |   seismic = b: 1 (2.0)
+|   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   |   genergy > 39410: 0 (18.0)
+|   |   |   |   |   |   gdenergy > 67: 1 (4.0)
+|   |   |   |   ghazard = b
+|   |   |   |   |   seismoacoustic = a: 0 (0.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps3 <= 0
+|   |   |   |   |   |   |   genergy <= 27590: 0 (3.0)
+|   |   |   |   |   |   |   genergy > 27590: 1 (4.0)
+|   |   |   |   |   |   nbumps3 > 0: 0 (12.0)
+|   |   |   |   |   seismoacoustic = c: 1 (2.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   ghazard = c: 0 (2.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   nbumps3 > 2
+|   |   |   |   gdenergy <= -5
+|   |   |   |   |   gdpuls <= -20: 0 (8.0)
+|   |   |   |   |   gdpuls > -20
+|   |   |   |   |   |   nbumps4 <= 1: 1 (11.0)
+|   |   |   |   |   |   nbumps4 > 1
+|   |   |   |   |   |   |   gpuls <= 333: 0 (2.0)
+|   |   |   |   |   |   |   gpuls > 333: 1 (2.0)
+|   |   |   |   gdenergy > -5: 0 (25.0/1.0)
+gpuls > 1250
+|   gdenergy <= -35
+|   |   nbumps2 <= 0
+|   |   |   nbumps <= 2
+|   |   |   |   nbumps4 <= 0
+|   |   |   |   |   maxenergy <= 5000: 0 (3.0)
+|   |   |   |   |   maxenergy > 5000: 1 (2.0)
+|   |   |   |   nbumps4 > 0: 0 (4.0)
+|   |   |   nbumps > 2: 1 (2.0)
+|   |   nbumps2 > 0: 1 (12.0)
+|   gdenergy > -35
+|   |   seismic = a
+|   |   |   nbumps3 <= 1
+|   |   |   |   ghazard = a
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   genergy <= 993080: 0 (34.0)
+|   |   |   |   |   |   genergy > 993080
+|   |   |   |   |   |   |   genergy <= 1034700: 1 (2.0)
+|   |   |   |   |   |   |   genergy > 1034700: 0 (9.0/1.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   gdenergy <= 2: 1 (7.0/1.0)
+|   |   |   |   |   |   gdenergy > 2
+|   |   |   |   |   |   |   maxenergy <= 6000: 0 (14.0)
+|   |   |   |   |   |   |   maxenergy > 6000: 1 (2.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   ghazard = b: 0 (9.0)
+|   |   |   |   ghazard = c: 0 (1.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   nbumps3 > 1: 0 (25.0)
+|   |   seismic = b
+|   |   |   nbumps3 <= 0
+|   |   |   |   energy <= 70000: 0 (41.0/5.0)
+|   |   |   |   energy > 70000: 1 (3.0)
+|   |   |   nbumps3 > 0
+|   |   |   |   maxenergy <= 2000: 1 (8.0)
+|   |   |   |   maxenergy > 2000
+|   |   |   |   |   gdenergy <= -17: 0 (19.0)
+|   |   |   |   |   gdenergy > -17
+|   |   |   |   |   |   nbumps4 <= 1
+|   |   |   |   |   |   |   gdpuls <= 36
+|   |   |   |   |   |   |   |   maxenergy <= 50000: 1 (17.0/3.0)
+|   |   |   |   |   |   |   |   maxenergy > 50000: 0 (2.0)
+|   |   |   |   |   |   |   gdpuls > 36: 0 (10.0/1.0)
+|   |   |   |   |   |   nbumps4 > 1: 0 (5.0)
+|   |   seismic = c: 0 (0.0)
+|   |   seismic = d: 0 (0.0)
+
+Number of Leaves  : 	64
+
+Size of the tree : 	111
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1421: 0 (2003.0/51.0)
+|   gpuls > 1421
+|   |   nbumps3 <= 0: 0 (58.0/2.0)
+|   |   nbumps3 > 0
+|   |   |   energy <= 3500
+|   |   |   |   ghazard = a
+|   |   |   |   |   gpuls <= 2001: 1 (8.0)
+|   |   |   |   |   gpuls > 2001
+|   |   |   |   |   |   genergy <= 379670: 1 (2.0)
+|   |   |   |   |   |   genergy > 379670: 0 (2.0)
+|   |   |   |   ghazard = b: 0 (4.0)
+|   |   |   |   ghazard = c: 1 (0.0)
+|   |   |   |   ghazard = d: 1 (0.0)
+|   |   |   energy > 3500: 0 (7.0)
+nbumps > 1
+|   ghazard = a
+|   |   seismic = a
+|   |   |   nbumps3 <= 3
+|   |   |   |   nbumps3 <= 1
+|   |   |   |   |   gdenergy <= -31
+|   |   |   |   |   |   maxenergy <= 2000: 0 (28.0/5.0)
+|   |   |   |   |   |   maxenergy > 2000
+|   |   |   |   |   |   |   gdenergy <= -39
+|   |   |   |   |   |   |   |   maxenergy <= 3000: 0 (5.0)
+|   |   |   |   |   |   |   |   maxenergy > 3000: 1 (3.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -39: 1 (6.0)
+|   |   |   |   |   gdenergy > -31
+|   |   |   |   |   |   gdenergy <= 166: 0 (108.0/6.0)
+|   |   |   |   |   |   gdenergy > 166: 1 (2.0)
+|   |   |   |   nbumps3 > 1
+|   |   |   |   |   energy <= 4700
+|   |   |   |   |   |   energy <= 4500
+|   |   |   |   |   |   |   genergy <= 35450: 1 (2.0)
+|   |   |   |   |   |   |   genergy > 35450: 0 (13.0)
+|   |   |   |   |   |   energy > 4500: 1 (3.0)
+|   |   |   |   |   energy > 4700: 0 (76.0/1.0)
+|   |   |   nbumps3 > 3
+|   |   |   |   gpuls <= 367: 0 (6.0)
+|   |   |   |   gpuls > 367: 1 (6.0)
+|   |   seismic = b
+|   |   |   gdenergy <= -31
+|   |   |   |   gpuls <= 767: 0 (41.0/1.0)
+|   |   |   |   gpuls > 767
+|   |   |   |   |   nbumps2 <= 0: 0 (7.0/1.0)
+|   |   |   |   |   nbumps2 > 0: 1 (2.0)
+|   |   |   gdenergy > -31
+|   |   |   |   gdenergy <= -1
+|   |   |   |   |   gdpuls <= -1
+|   |   |   |   |   |   gdenergy <= -30: 1 (3.0)
+|   |   |   |   |   |   gdenergy > -30
+|   |   |   |   |   |   |   gdenergy <= -17: 0 (13.0)
+|   |   |   |   |   |   |   gdenergy > -17
+|   |   |   |   |   |   |   |   maxenergy <= 2000: 0 (5.0)
+|   |   |   |   |   |   |   |   maxenergy > 2000
+|   |   |   |   |   |   |   |   |   nbumps3 <= 1: 1 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 1: 0 (7.0/1.0)
+|   |   |   |   |   gdpuls > -1
+|   |   |   |   |   |   gdenergy <= -28: 0 (2.0)
+|   |   |   |   |   |   gdenergy > -28
+|   |   |   |   |   |   |   maxenergy <= 70000
+|   |   |   |   |   |   |   |   nbumps2 <= 1: 1 (21.0)
+|   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   genergy <= 742750: 0 (2.0)
+|   |   |   |   |   |   |   |   |   genergy > 742750: 1 (2.0)
+|   |   |   |   |   |   |   maxenergy > 70000: 0 (2.0)
+|   |   |   |   gdenergy > -1
+|   |   |   |   |   nbumps2 <= 3
+|   |   |   |   |   |   nbumps2 <= 0: 0 (15.0)
+|   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   gpuls <= 1332: 0 (34.0/1.0)
+|   |   |   |   |   |   |   |   gpuls > 1332
+|   |   |   |   |   |   |   |   |   gdenergy <= 87: 1 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   gdenergy > 87: 0 (2.0)
+|   |   |   |   |   |   |   nbumps > 3: 0 (26.0/1.0)
+|   |   |   |   |   nbumps2 > 3: 1 (5.0)
+|   |   seismic = c: 0 (0.0)
+|   |   seismic = d: 0 (0.0)
+|   ghazard = b
+|   |   seismoacoustic = a: 0 (0.0)
+|   |   seismoacoustic = b
+|   |   |   nbumps <= 4
+|   |   |   |   gdenergy <= 116
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   genergy <= 38230: 0 (5.0)
+|   |   |   |   |   |   genergy > 38230: 1 (4.0)
+|   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   gdenergy > 116: 0 (10.0)
+|   |   |   nbumps > 4: 1 (2.0)
+|   |   seismoacoustic = c: 1 (5.0)
+|   |   seismoacoustic = d: 0 (0.0)
+|   ghazard = c: 0 (5.0)
+|   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	52
+
+Size of the tree : 	95
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1733: 0 (2017.0/53.0)
+|   gpuls > 1733
+|   |   nbumps3 <= 0
+|   |   |   gdpuls <= 20
+|   |   |   |   genergy <= 716630: 1 (2.0)
+|   |   |   |   genergy > 716630: 0 (8.0/1.0)
+|   |   |   gdpuls > 20: 0 (21.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (2.0)
+|   |   |   seismic = b
+|   |   |   |   energy <= 2500: 1 (8.0)
+|   |   |   |   energy > 2500: 0 (4.0/1.0)
+|   |   |   seismic = c: 1 (0.0)
+|   |   |   seismic = d: 1 (0.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   seismic = a
+|   |   |   seismoacoustic = a
+|   |   |   |   nbumps3 <= 2
+|   |   |   |   |   nbumps2 <= 0: 0 (22.0/1.0)
+|   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   gdenergy <= -41
+|   |   |   |   |   |   |   nbumps2 <= 2
+|   |   |   |   |   |   |   |   gdpuls <= -26
+|   |   |   |   |   |   |   |   |   nbumps2 <= 1: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   |   gpuls <= 229: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 229: 1 (2.0)
+|   |   |   |   |   |   |   |   gdpuls > -26: 1 (3.0)
+|   |   |   |   |   |   |   nbumps2 > 2: 1 (3.0)
+|   |   |   |   |   |   gdenergy > -41
+|   |   |   |   |   |   |   genergy <= 49070: 0 (41.0)
+|   |   |   |   |   |   |   genergy > 49070
+|   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   |   gpuls <= 697: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 697: 1 (4.0)
+|   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -9: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -9: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   gdpuls <= -2
+|   |   |   |   |   |   |   |   |   |   gpuls <= 296: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   gpuls > 296: 1 (3.0)
+|   |   |   |   |   |   |   |   |   gdpuls > -2: 0 (28.0/1.0)
+|   |   |   |   nbumps3 > 2: 0 (22.0)
+|   |   |   seismoacoustic = b
+|   |   |   |   genergy <= 36600
+|   |   |   |   |   nbumps2 <= 0: 1 (5.0/1.0)
+|   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   maxenergy <= 2000
+|   |   |   |   |   |   |   ghazard = a: 0 (6.0/2.0)
+|   |   |   |   |   |   |   ghazard = b: 1 (2.0)
+|   |   |   |   |   |   |   ghazard = c: 1 (0.0)
+|   |   |   |   |   |   |   ghazard = d: 1 (0.0)
+|   |   |   |   |   |   maxenergy > 2000: 0 (15.0/1.0)
+|   |   |   |   genergy > 36600: 0 (82.0/3.0)
+|   |   |   seismoacoustic = c
+|   |   |   |   nbumps2 <= 0: 1 (3.0)
+|   |   |   |   nbumps2 > 0: 0 (8.0/1.0)
+|   |   |   seismoacoustic = d: 0 (0.0)
+|   |   seismic = b
+|   |   |   nbumps <= 2: 0 (77.0/8.0)
+|   |   |   nbumps > 2
+|   |   |   |   ghazard = a
+|   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   gpuls <= 652: 0 (27.0/1.0)
+|   |   |   |   |   |   |   gpuls > 652
+|   |   |   |   |   |   |   |   energy <= 65800
+|   |   |   |   |   |   |   |   |   nbumps2 <= 2
+|   |   |   |   |   |   |   |   |   |   gdenergy <= -20
+|   |   |   |   |   |   |   |   |   |   |   nbumps3 <= 2: 0 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps3 > 2: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   gdenergy > -20
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   gpuls <= 792: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gpuls > 792: 1 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 > 1: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps2 > 2: 1 (2.0)
+|   |   |   |   |   |   |   |   energy > 65800: 1 (4.0)
+|   |   |   |   |   |   nbumps > 3: 0 (43.0/6.0)
+|   |   |   |   |   nbumps > 5
+|   |   |   |   |   |   gdenergy <= -15: 0 (4.0)
+|   |   |   |   |   |   gdenergy > -15: 1 (9.0/1.0)
+|   |   |   |   ghazard = b
+|   |   |   |   |   genergy <= 92760: 0 (3.0)
+|   |   |   |   |   genergy > 92760: 1 (5.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   seismic = c: 0 (0.0)
+|   |   seismic = d: 0 (0.0)
+|   nbumps3 > 3
+|   |   gpuls <= 472: 0 (6.0)
+|   |   gpuls > 472
+|   |   |   nbumps3 <= 4: 1 (16.0/3.0)
+|   |   |   nbumps3 > 4
+|   |   |   |   genergy <= 184710: 0 (6.0/1.0)
+|   |   |   |   genergy > 184710: 1 (3.0)
+
+Number of Leaves  : 	56
+
+Size of the tree : 	101
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1209: 0 (1930.0/54.0)
+|   gpuls > 1209
+|   |   ghazard = a
+|   |   |   nbumps4 <= 0
+|   |   |   |   nbumps3 <= 0
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gdenergy <= -37: 1 (2.0)
+|   |   |   |   |   |   gdenergy > -37: 0 (43.0/5.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   energy <= 200
+|   |   |   |   |   |   |   nbumps <= 0
+|   |   |   |   |   |   |   |   gdenergy <= 79: 0 (9.0)
+|   |   |   |   |   |   |   |   gdenergy > 79: 1 (6.0/1.0)
+|   |   |   |   |   |   |   nbumps > 0: 1 (3.0)
+|   |   |   |   |   |   energy > 200: 0 (5.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   nbumps3 > 0
+|   |   |   |   |   gdenergy <= -13
+|   |   |   |   |   |   gdenergy <= -33
+|   |   |   |   |   |   |   gpuls <= 1955: 1 (4.0)
+|   |   |   |   |   |   |   gpuls > 1955: 0 (3.0)
+|   |   |   |   |   |   gdenergy > -33: 0 (14.0)
+|   |   |   |   |   gdenergy > -13
+|   |   |   |   |   |   gdenergy <= 36: 1 (11.0)
+|   |   |   |   |   |   gdenergy > 36: 0 (3.0/1.0)
+|   |   |   nbumps4 > 0: 0 (10.0)
+|   |   ghazard = b: 0 (14.0)
+|   |   ghazard = c: 0 (1.0)
+|   |   ghazard = d: 0 (0.0)
+nbumps > 1
+|   ghazard = a
+|   |   gdenergy <= -2
+|   |   |   energy <= 900
+|   |   |   |   energy <= 500: 0 (2.0)
+|   |   |   |   energy > 500: 1 (14.0/2.0)
+|   |   |   energy > 900
+|   |   |   |   gdpuls <= 4
+|   |   |   |   |   nbumps2 <= 0: 0 (43.0/2.0)
+|   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   maxenergy <= 5000
+|   |   |   |   |   |   |   gdenergy <= -28
+|   |   |   |   |   |   |   |   gpuls <= 967
+|   |   |   |   |   |   |   |   |   seismoacoustic = a: 0 (43.0/5.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   gdpuls <= -37: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > -37
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 31250: 1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 31250: 0 (2.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   gpuls > 967: 1 (7.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -28: 0 (38.0/1.0)
+|   |   |   |   |   |   maxenergy > 5000
+|   |   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   |   gpuls <= 252: 0 (6.0)
+|   |   |   |   |   |   |   |   gpuls > 252: 1 (19.0/1.0)
+|   |   |   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   |   |   seismic = a: 0 (3.0)
+|   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   nbumps <= 2: 1 (3.0)
+|   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 20000
+|   |   |   |   |   |   |   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   gdpuls <= -37: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdpuls > -37: 1 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps > 4: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 20000: 0 (12.0)
+|   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   gdpuls > 4
+|   |   |   |   |   nbumps5 <= 0
+|   |   |   |   |   |   genergy <= 52510: 1 (12.0)
+|   |   |   |   |   |   genergy > 52510
+|   |   |   |   |   |   |   seismic = a: 0 (6.0)
+|   |   |   |   |   |   |   seismic = b: 1 (6.0/1.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   nbumps5 > 0: 0 (2.0)
+|   |   gdenergy > -2: 0 (237.0/22.0)
+|   ghazard = b
+|   |   nbumps3 <= 1
+|   |   |   nbumps <= 3
+|   |   |   |   gdenergy <= 128
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   seismoacoustic = a: 1 (0.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   gdpuls <= 16: 1 (6.0)
+|   |   |   |   |   |   |   gdpuls > 16: 0 (10.0/2.0)
+|   |   |   |   |   |   seismoacoustic = c: 1 (3.0)
+|   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   nbumps4 > 0: 1 (5.0)
+|   |   |   |   gdenergy > 128: 0 (7.0)
+|   |   |   nbumps > 3: 0 (5.0)
+|   |   nbumps3 > 1: 1 (3.0)
+|   ghazard = c: 0 (2.0)
+|   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	57
+
+Size of the tree : 	99
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1327
+|   nbumps <= 1
+|   |   gdpuls <= 96: 0 (1869.0/34.0)
+|   |   gdpuls > 96
+|   |   |   gdenergy <= 177
+|   |   |   |   energy <= 250
+|   |   |   |   |   seismic = a
+|   |   |   |   |   |   genergy <= 26800: 0 (10.0)
+|   |   |   |   |   |   genergy > 26800: 1 (3.0/1.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   gdpuls <= 113: 1 (5.0)
+|   |   |   |   |   |   gdpuls > 113
+|   |   |   |   |   |   |   gdpuls <= 138: 0 (7.0)
+|   |   |   |   |   |   |   gdpuls > 138: 1 (4.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   energy > 250: 0 (22.0)
+|   |   |   gdenergy > 177: 0 (67.0/1.0)
+|   nbumps > 1
+|   |   genergy <= 122850
+|   |   |   nbumps2 <= 0
+|   |   |   |   genergy <= 33930
+|   |   |   |   |   genergy <= 30220: 0 (11.0)
+|   |   |   |   |   genergy > 30220: 1 (3.0)
+|   |   |   |   genergy > 33930: 0 (37.0/1.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   gpuls <= 521
+|   |   |   |   |   gdpuls <= 8
+|   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   energy <= 800: 1 (4.0)
+|   |   |   |   |   |   |   |   energy > 800
+|   |   |   |   |   |   |   |   |   gdenergy <= -37
+|   |   |   |   |   |   |   |   |   |   nbumps3 <= 0: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy <= 4300
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   maxenergy <= 2000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   shift = W: 0 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   shift = N: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   maxenergy > 2000: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   energy > 4300: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   nbumps > 2: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy <= 6000: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   maxenergy > 6000
+|   |   |   |   |   |   |   |   |   |   |   |   |   genergy <= 46080: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   genergy > 46080: 1 (2.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -37: 0 (29.0/1.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   gdpuls <= -7: 0 (30.0)
+|   |   |   |   |   |   |   |   gdpuls > -7
+|   |   |   |   |   |   |   |   |   gdpuls <= 3: 0 (9.0/1.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 3: 1 (2.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   |   nbumps <= 6: 0 (11.0/1.0)
+|   |   |   |   |   |   |   nbumps > 6: 1 (4.0)
+|   |   |   |   |   gdpuls > 8: 0 (52.0)
+|   |   |   |   gpuls > 521
+|   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   gpuls <= 529: 1 (6.0)
+|   |   |   |   |   |   |   gpuls > 529
+|   |   |   |   |   |   |   |   genergy <= 121870
+|   |   |   |   |   |   |   |   |   maxenergy <= 4000
+|   |   |   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 576: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 576
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 61770: 0 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 61770
+|   |   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = a: 1 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   genergy <= 64790: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   genergy > 64790: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   |   |   ghazard = a: 0 (20.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   ghazard = b
+|   |   |   |   |   |   |   |   |   |   |   |   energy <= 1000: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   energy > 1000: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 4000
+|   |   |   |   |   |   |   |   |   |   gdpuls <= 26
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 96760: 1 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 96760: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > 26: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   genergy > 121870: 1 (5.0)
+|   |   |   |   |   |   shift = N: 0 (3.0)
+|   |   |   |   |   nbumps4 > 0: 0 (21.0/1.0)
+|   |   genergy > 122850: 0 (56.0)
+gpuls > 1327
+|   nbumps <= 0: 0 (32.0)
+|   nbumps > 0
+|   |   gpuls <= 1389: 1 (10.0)
+|   |   gpuls > 1389
+|   |   |   energy <= 36500
+|   |   |   |   energy <= 32000
+|   |   |   |   |   genergy <= 1061760
+|   |   |   |   |   |   gpuls <= 2162
+|   |   |   |   |   |   |   gdpuls <= 1
+|   |   |   |   |   |   |   |   genergy <= 229690: 1 (6.0)
+|   |   |   |   |   |   |   |   genergy > 229690
+|   |   |   |   |   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   |   |   energy <= 3600: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   energy > 3600
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= -37: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy > -37: 0 (14.0/1.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 3: 0 (6.0)
+|   |   |   |   |   |   |   |   |   nbumps > 5: 1 (2.0)
+|   |   |   |   |   |   |   gdpuls > 1: 0 (30.0/1.0)
+|   |   |   |   |   |   gpuls > 2162
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   seismic = a: 0 (3.0)
+|   |   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   |   maxenergy <= 2000: 1 (6.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 2000: 0 (5.0/1.0)
+|   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = b: 1 (14.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   genergy > 1061760: 0 (26.0/1.0)
+|   |   |   |   energy > 32000: 1 (7.0)
+|   |   |   energy > 36500: 0 (29.0/1.0)
+
+Number of Leaves  : 	74
+
+Size of the tree : 	133
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1209
+|   |   nbumps4 <= 0: 0 (1909.0/38.0)
+|   |   nbumps4 > 0
+|   |   |   gdenergy <= -65: 1 (6.0)
+|   |   |   gdenergy > -65: 0 (33.0)
+|   gpuls > 1209
+|   |   nbumps3 <= 0: 0 (71.0/2.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a
+|   |   |   |   gpuls <= 1789: 0 (14.0)
+|   |   |   |   gpuls > 1789: 1 (4.0/1.0)
+|   |   |   seismic = b
+|   |   |   |   gpuls <= 1869: 1 (8.0)
+|   |   |   |   gpuls > 1869
+|   |   |   |   |   energy <= 2500: 1 (2.0)
+|   |   |   |   |   energy > 2500: 0 (5.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   gdpuls <= 22
+|   |   |   seismic = a
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   nbumps3 <= 1
+|   |   |   |   |   |   gdpuls <= -7
+|   |   |   |   |   |   |   gpuls <= 152: 0 (18.0)
+|   |   |   |   |   |   |   gpuls > 152
+|   |   |   |   |   |   |   |   gpuls <= 178: 1 (5.0)
+|   |   |   |   |   |   |   |   gpuls > 178
+|   |   |   |   |   |   |   |   |   genergy <= 47010: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   genergy > 47010
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 6000
+|   |   |   |   |   |   |   |   |   |   |   gdpuls <= -24: 0 (9.0)
+|   |   |   |   |   |   |   |   |   |   |   gdpuls > -24: 1 (11.0/2.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 6000: 1 (4.0)
+|   |   |   |   |   |   gdpuls > -7: 0 (25.0)
+|   |   |   |   |   nbumps3 > 1
+|   |   |   |   |   |   gdpuls <= 0: 0 (33.0)
+|   |   |   |   |   |   gdpuls > 0
+|   |   |   |   |   |   |   gdenergy <= -8: 1 (2.0)
+|   |   |   |   |   |   |   gdenergy > -8: 0 (11.0/2.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   genergy <= 63950
+|   |   |   |   |   |   gdpuls <= -30: 0 (15.0)
+|   |   |   |   |   |   gdpuls > -30
+|   |   |   |   |   |   |   gdenergy <= -6: 1 (7.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -6
+|   |   |   |   |   |   |   |   gpuls <= 549: 0 (7.0)
+|   |   |   |   |   |   |   |   gpuls > 549: 1 (3.0/1.0)
+|   |   |   |   |   genergy > 63950: 0 (26.0)
+|   |   |   |   seismoacoustic = c: 1 (3.0/1.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   seismic = b
+|   |   |   |   gdpuls <= 5
+|   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   genergy <= 58200
+|   |   |   |   |   |   |   gdenergy <= -62: 1 (3.0)
+|   |   |   |   |   |   |   gdenergy > -62: 0 (52.0)
+|   |   |   |   |   |   genergy > 58200
+|   |   |   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   |   |   ghazard = a
+|   |   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   |   |   |   |   |   gdenergy <= -17
+|   |   |   |   |   |   |   |   |   |   |   |   energy <= 66000
+|   |   |   |   |   |   |   |   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gpuls <= 989: 1 (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   gpuls > 989: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   nbumps4 > 0: 0 (14.0)
+|   |   |   |   |   |   |   |   |   |   |   |   energy > 66000: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   gdenergy > -17: 1 (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   nbumps3 > 2: 1 (2.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = b: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   ghazard = b: 1 (2.0)
+|   |   |   |   |   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   |   |   |   nbumps > 4: 0 (5.0)
+|   |   |   |   |   nbumps > 5
+|   |   |   |   |   |   gpuls <= 309: 1 (5.0)
+|   |   |   |   |   |   gpuls > 309: 0 (2.0)
+|   |   |   |   gdpuls > 5
+|   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   maxenergy <= 2000: 0 (6.0)
+|   |   |   |   |   |   maxenergy > 2000
+|   |   |   |   |   |   |   maxenergy <= 4000: 1 (10.0)
+|   |   |   |   |   |   |   maxenergy > 4000
+|   |   |   |   |   |   |   |   nbumps2 <= 1: 0 (2.0)
+|   |   |   |   |   |   |   |   nbumps2 > 1: 1 (5.0)
+|   |   |   |   |   nbumps > 3: 0 (3.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+|   |   gdpuls > 22
+|   |   |   ghazard = a: 0 (158.0/6.0)
+|   |   |   ghazard = b
+|   |   |   |   energy <= 1100: 1 (3.0)
+|   |   |   |   energy > 1100: 0 (10.0)
+|   |   |   ghazard = c: 0 (0.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   nbumps3 > 3
+|   |   gpuls <= 527: 0 (9.0)
+|   |   gpuls > 527
+|   |   |   maxenergy <= 5000: 0 (3.0)
+|   |   |   maxenergy > 5000
+|   |   |   |   gdenergy <= 58: 1 (11.0/1.0)
+|   |   |   |   gdenergy > 58: 0 (2.0)
+
+Number of Leaves  : 	61
+
+Size of the tree : 	109
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1333: 0 (1966.0/51.0)
+|   gpuls > 1333
+|   |   nbumps3 <= 0
+|   |   |   gpuls <= 1381
+|   |   |   |   seismic = a: 1 (4.0)
+|   |   |   |   seismic = b: 0 (2.0)
+|   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   seismic = d: 1 (0.0)
+|   |   |   gpuls > 1381
+|   |   |   |   gpuls <= 2765: 0 (54.0)
+|   |   |   |   gpuls > 2765
+|   |   |   |   |   nbumps <= 0: 1 (2.0)
+|   |   |   |   |   nbumps > 0: 0 (5.0/1.0)
+|   |   nbumps3 > 0
+|   |   |   seismic = a: 0 (6.0)
+|   |   |   seismic = b
+|   |   |   |   gpuls <= 1688: 1 (4.0)
+|   |   |   |   gpuls > 1688
+|   |   |   |   |   genergy <= 514800: 0 (5.0/1.0)
+|   |   |   |   |   genergy > 514800: 1 (2.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+nbumps > 1
+|   ghazard = a
+|   |   nbumps <= 5
+|   |   |   nbumps2 <= 0
+|   |   |   |   nbumps <= 2: 0 (83.0/1.0)
+|   |   |   |   nbumps > 2
+|   |   |   |   |   gdpuls <= -20: 1 (4.0)
+|   |   |   |   |   gdpuls > -20: 0 (15.0/1.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   gpuls <= 623
+|   |   |   |   |   genergy <= 21860
+|   |   |   |   |   |   genergy <= 19320: 0 (32.0)
+|   |   |   |   |   |   genergy > 19320
+|   |   |   |   |   |   |   nbumps <= 2: 1 (8.0)
+|   |   |   |   |   |   |   nbumps > 2: 0 (4.0/1.0)
+|   |   |   |   |   genergy > 21860: 0 (132.0/6.0)
+|   |   |   |   gpuls > 623
+|   |   |   |   |   nbumps2 <= 1
+|   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   gdpuls <= -34: 0 (10.0)
+|   |   |   |   |   |   |   gdpuls > -34
+|   |   |   |   |   |   |   |   genergy <= 1018360
+|   |   |   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   |   |   genergy <= 74470: 0 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 74470: 1 (25.0/3.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   |   |   maxenergy <= 2000: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   maxenergy > 2000
+|   |   |   |   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy <= 90: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   gdenergy > 90: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = b: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = c
+|   |   |   |   |   |   |   |   |   |   seismic = a: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   seismic = b: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   genergy > 1018360: 0 (7.0)
+|   |   |   |   |   |   nbumps > 3: 0 (11.0/1.0)
+|   |   |   |   |   nbumps2 > 1
+|   |   |   |   |   |   gdenergy <= -29
+|   |   |   |   |   |   |   gpuls <= 749: 0 (4.0)
+|   |   |   |   |   |   |   gpuls > 749: 1 (6.0)
+|   |   |   |   |   |   gdenergy > -29
+|   |   |   |   |   |   |   nbumps <= 4: 0 (63.0/5.0)
+|   |   |   |   |   |   |   nbumps > 4
+|   |   |   |   |   |   |   |   genergy <= 72250: 1 (3.0)
+|   |   |   |   |   |   |   |   genergy > 72250: 0 (4.0)
+|   |   nbumps > 5
+|   |   |   maxenergy <= 60000
+|   |   |   |   nbumps4 <= 0
+|   |   |   |   |   genergy <= 184710
+|   |   |   |   |   |   gdpuls <= 77: 0 (16.0/1.0)
+|   |   |   |   |   |   gdpuls > 77: 1 (3.0)
+|   |   |   |   |   genergy > 184710: 1 (7.0/1.0)
+|   |   |   |   nbumps4 > 0
+|   |   |   |   |   gdenergy <= 95: 0 (14.0)
+|   |   |   |   |   gdenergy > 95: 1 (3.0)
+|   |   |   maxenergy > 60000: 1 (5.0)
+|   ghazard = b
+|   |   seismoacoustic = a: 0 (0.0)
+|   |   seismoacoustic = b
+|   |   |   nbumps5 <= 0
+|   |   |   |   shift = W
+|   |   |   |   |   seismic = a: 0 (11.0/1.0)
+|   |   |   |   |   seismic = b
+|   |   |   |   |   |   genergy <= 86740: 0 (9.0)
+|   |   |   |   |   |   genergy > 86740
+|   |   |   |   |   |   |   genergy <= 698810: 1 (9.0)
+|   |   |   |   |   |   |   genergy > 698810: 0 (4.0)
+|   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   shift = N: 1 (3.0/1.0)
+|   |   |   nbumps5 > 0: 1 (3.0/1.0)
+|   |   seismoacoustic = c: 1 (6.0/1.0)
+|   |   seismoacoustic = d: 0 (0.0)
+|   ghazard = c: 0 (4.0)
+|   ghazard = d: 0 (0.0)
+
+Number of Leaves  : 	61
+
+Size of the tree : 	105
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1869: 0 (2027.0/63.0)
+|   gpuls > 1869
+|   |   nbumps3 <= 0
+|   |   |   gdpuls <= 21
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   genergy <= 1496830: 0 (3.0)
+|   |   |   |   |   genergy > 1496830: 1 (2.0)
+|   |   |   |   seismoacoustic = b: 1 (2.0)
+|   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   gdpuls > 21: 0 (24.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 380320: 1 (6.0)
+|   |   |   genergy > 380320: 0 (2.0)
+nbumps > 1
+|   nbumps2 <= 0
+|   |   nbumps <= 2: 0 (72.0/2.0)
+|   |   nbumps > 2
+|   |   |   gdenergy <= -14
+|   |   |   |   gdenergy <= -39: 0 (5.0)
+|   |   |   |   gdenergy > -39: 1 (6.0)
+|   |   |   gdenergy > -14: 0 (11.0)
+|   nbumps2 > 0
+|   |   gpuls <= 516
+|   |   |   gdenergy <= -1
+|   |   |   |   energy <= 2600
+|   |   |   |   |   energy <= 2200
+|   |   |   |   |   |   gpuls <= 300: 0 (13.0)
+|   |   |   |   |   |   gpuls > 300
+|   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   gpuls <= 357: 0 (8.0)
+|   |   |   |   |   |   |   |   gpuls > 357: 1 (4.0/1.0)
+|   |   |   |   |   |   |   nbumps > 2: 1 (3.0)
+|   |   |   |   |   energy > 2200: 1 (5.0)
+|   |   |   |   energy > 2600: 0 (80.0/6.0)
+|   |   |   gdenergy > -1: 0 (69.0/1.0)
+|   |   gpuls > 516
+|   |   |   energy <= 40600
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   genergy <= 58460: 0 (15.0)
+|   |   |   |   |   genergy > 58460
+|   |   |   |   |   |   nbumps4 <= 0
+|   |   |   |   |   |   |   maxenergy <= 5000
+|   |   |   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   |   |   nbumps <= 2
+|   |   |   |   |   |   |   |   |   |   gdpuls <= -5
+|   |   |   |   |   |   |   |   |   |   |   gpuls <= 983: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   gpuls > 983: 1 (12.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > -5
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 59380: 1 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 59380: 0 (18.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   |   |   genergy <= 239660: 1 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   genergy > 239660: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   seismic = b: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   |   |   |   |   nbumps > 3: 0 (14.0/1.0)
+|   |   |   |   |   |   |   maxenergy > 5000
+|   |   |   |   |   |   |   |   energy <= 13500: 1 (10.0)
+|   |   |   |   |   |   |   |   energy > 13500: 0 (3.0/1.0)
+|   |   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   |   seismic = a: 0 (2.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   genergy <= 110510: 0 (6.0)
+|   |   |   |   |   |   |   |   genergy > 110510
+|   |   |   |   |   |   |   |   |   gdenergy <= -13: 0 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   gdenergy > -13: 1 (6.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   gpuls <= 570: 1 (7.0/1.0)
+|   |   |   |   |   gpuls > 570
+|   |   |   |   |   |   nbumps <= 2: 0 (33.0/3.0)
+|   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   gdpuls <= 3: 0 (13.0)
+|   |   |   |   |   |   |   gdpuls > 3
+|   |   |   |   |   |   |   |   gdpuls <= 13: 1 (5.0)
+|   |   |   |   |   |   |   |   gdpuls > 13
+|   |   |   |   |   |   |   |   |   gdpuls <= 53: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   gdpuls > 53
+|   |   |   |   |   |   |   |   |   |   genergy <= 59640: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 59640
+|   |   |   |   |   |   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   |   |   |   |   |   genergy <= 78580: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   genergy > 78580: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = b: 1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = c: 1 (0.0)
+|   |   |   |   |   |   |   |   |   |   |   seismic = d: 1 (0.0)
+|   |   |   |   seismoacoustic = c: 0 (9.0/1.0)
+|   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   energy > 40600: 0 (30.0/1.0)
+
+Number of Leaves  : 	53
+
+Size of the tree : 	95
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1135
+|   nbumps3 <= 1
+|   |   nbumps2 <= 1
+|   |   |   nbumps4 <= 0: 0 (1970.0/54.0)
+|   |   |   nbumps4 > 0
+|   |   |   |   gdenergy <= -64: 1 (5.0)
+|   |   |   |   gdenergy > -64: 0 (48.0)
+|   |   nbumps2 > 1
+|   |   |   gdenergy <= 12
+|   |   |   |   gdpuls <= -7: 0 (49.0/2.0)
+|   |   |   |   gdpuls > -7: 1 (9.0/1.0)
+|   |   |   gdenergy > 12: 0 (47.0/2.0)
+|   nbumps3 > 1
+|   |   nbumps4 <= 0
+|   |   |   nbumps <= 2: 0 (33.0/1.0)
+|   |   |   nbumps > 2
+|   |   |   |   shift = W
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   nbumps2 <= 2
+|   |   |   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   |   |   nbumps2 <= 0
+|   |   |   |   |   |   |   |   |   gpuls <= 365: 0 (5.0)
+|   |   |   |   |   |   |   |   |   gpuls > 365: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   nbumps2 > 0
+|   |   |   |   |   |   |   |   |   maxenergy <= 6000: 0 (25.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 6000
+|   |   |   |   |   |   |   |   |   |   nbumps <= 3: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   nbumps > 3: 0 (9.0/1.0)
+|   |   |   |   |   |   |   nbumps > 5: 1 (4.0/1.0)
+|   |   |   |   |   |   nbumps2 > 2: 0 (17.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   seismic = a
+|   |   |   |   |   |   |   genergy <= 20340: 1 (3.0)
+|   |   |   |   |   |   |   genergy > 20340: 0 (21.0/1.0)
+|   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   genergy <= 40800: 1 (3.0)
+|   |   |   |   |   |   |   genergy > 40800
+|   |   |   |   |   |   |   |   gdpuls <= -47: 1 (2.0)
+|   |   |   |   |   |   |   |   gdpuls > -47: 0 (5.0)
+|   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   shift = N: 1 (3.0)
+|   |   nbumps4 > 0: 0 (24.0/1.0)
+gpuls > 1135
+|   gdenergy <= -30
+|   |   nbumps2 <= 0
+|   |   |   gpuls <= 1381: 0 (12.0)
+|   |   |   gpuls > 1381
+|   |   |   |   gpuls <= 1927
+|   |   |   |   |   genergy <= 734930: 1 (12.0/1.0)
+|   |   |   |   |   genergy > 734930: 0 (3.0)
+|   |   |   |   gpuls > 1927: 0 (5.0)
+|   |   nbumps2 > 0: 1 (9.0/1.0)
+|   gdenergy > -30
+|   |   seismoacoustic = a
+|   |   |   seismic = a: 0 (74.0/5.0)
+|   |   |   seismic = b
+|   |   |   |   nbumps3 <= 0
+|   |   |   |   |   gpuls <= 1727: 0 (20.0)
+|   |   |   |   |   gpuls > 1727
+|   |   |   |   |   |   maxenergy <= 600: 1 (2.0)
+|   |   |   |   |   |   maxenergy > 600: 0 (7.0/1.0)
+|   |   |   |   nbumps3 > 0
+|   |   |   |   |   gdenergy <= 32
+|   |   |   |   |   |   gdenergy <= -13: 0 (8.0)
+|   |   |   |   |   |   gdenergy > -13
+|   |   |   |   |   |   |   nbumps4 <= 1
+|   |   |   |   |   |   |   |   genergy <= 811060: 1 (16.0/1.0)
+|   |   |   |   |   |   |   |   genergy > 811060: 0 (2.0)
+|   |   |   |   |   |   |   nbumps4 > 1: 0 (2.0)
+|   |   |   |   |   gdenergy > 32: 0 (12.0)
+|   |   |   seismic = c: 0 (0.0)
+|   |   |   seismic = d: 0 (0.0)
+|   |   seismoacoustic = b
+|   |   |   nbumps2 <= 1: 0 (82.0/7.0)
+|   |   |   nbumps2 > 1
+|   |   |   |   gdenergy <= -13: 1 (3.0)
+|   |   |   |   gdenergy > -13
+|   |   |   |   |   ghazard = a: 0 (13.0)
+|   |   |   |   |   ghazard = b: 1 (4.0/1.0)
+|   |   |   |   |   ghazard = c: 0 (1.0)
+|   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   seismoacoustic = c: 1 (4.0/1.0)
+|   |   seismoacoustic = d: 0 (0.0)
+
+Number of Leaves  : 	49
+
+Size of the tree : 	87
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1
+|   gpuls <= 1333: 0 (1989.0/53.0)
+|   gpuls > 1333
+|   |   nbumps3 <= 0
+|   |   |   genergy <= 47470: 1 (3.0/1.0)
+|   |   |   genergy > 47470: 0 (62.0/4.0)
+|   |   nbumps3 > 0
+|   |   |   genergy <= 1138340
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   genergy <= 415690: 1 (7.0)
+|   |   |   |   |   genergy > 415690: 0 (4.0/1.0)
+|   |   |   |   seismoacoustic = b: 1 (3.0)
+|   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   seismoacoustic = d: 1 (0.0)
+|   |   |   genergy > 1138340: 0 (6.0)
+nbumps > 1
+|   nbumps3 <= 3
+|   |   nbumps2 <= 0
+|   |   |   gdenergy <= -7
+|   |   |   |   gdenergy <= -17: 0 (35.0/3.0)
+|   |   |   |   gdenergy > -17: 1 (5.0/1.0)
+|   |   |   gdenergy > -7: 0 (45.0/1.0)
+|   |   nbumps2 > 0
+|   |   |   gpuls <= 1016
+|   |   |   |   gdenergy <= -41
+|   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   gdenergy <= -42
+|   |   |   |   |   |   |   gdenergy <= -57
+|   |   |   |   |   |   |   |   maxenergy <= 3000: 0 (5.0)
+|   |   |   |   |   |   |   |   maxenergy > 3000: 1 (9.0/1.0)
+|   |   |   |   |   |   |   gdenergy > -57: 0 (24.0)
+|   |   |   |   |   |   gdenergy > -42: 1 (2.0)
+|   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   nbumps2 <= 2
+|   |   |   |   |   |   |   maxenergy <= 3000
+|   |   |   |   |   |   |   |   maxenergy <= 2000: 1 (2.0)
+|   |   |   |   |   |   |   |   maxenergy > 2000: 0 (5.0)
+|   |   |   |   |   |   |   maxenergy > 3000: 1 (8.0)
+|   |   |   |   |   |   nbumps2 > 2: 0 (3.0)
+|   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   gdenergy > -41
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   seismoacoustic = a: 0 (114.0/8.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   maxenergy <= 4000: 0 (60.0/3.0)
+|   |   |   |   |   |   |   maxenergy > 4000
+|   |   |   |   |   |   |   |   nbumps4 <= 0: 1 (9.0/1.0)
+|   |   |   |   |   |   |   |   nbumps4 > 0
+|   |   |   |   |   |   |   |   |   maxenergy <= 60000: 0 (15.0/1.0)
+|   |   |   |   |   |   |   |   |   maxenergy > 60000: 1 (3.0/1.0)
+|   |   |   |   |   |   seismoacoustic = c: 1 (1.0)
+|   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   shift = N: 0 (13.0)
+|   |   |   gpuls > 1016
+|   |   |   |   seismic = a
+|   |   |   |   |   gdenergy <= -29: 1 (4.0)
+|   |   |   |   |   gdenergy > -29
+|   |   |   |   |   |   genergy <= 80210: 1 (3.0)
+|   |   |   |   |   |   genergy > 80210: 0 (37.0/5.0)
+|   |   |   |   seismic = b
+|   |   |   |   |   gpuls <= 2159
+|   |   |   |   |   |   gpuls <= 1893
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   nbumps <= 4
+|   |   |   |   |   |   |   |   |   nbumps3 <= 0
+|   |   |   |   |   |   |   |   |   |   gdpuls <= -19: 1 (4.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > -19: 0 (7.0)
+|   |   |   |   |   |   |   |   |   nbumps3 > 0
+|   |   |   |   |   |   |   |   |   |   gdpuls <= -11: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   gdpuls > -11: 1 (13.0)
+|   |   |   |   |   |   |   |   nbumps > 4: 0 (3.0)
+|   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   nbumps <= 4: 0 (11.0)
+|   |   |   |   |   |   |   |   nbumps > 4: 1 (4.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 0 (1.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   |   gpuls > 1893: 0 (16.0)
+|   |   |   |   |   gpuls > 2159
+|   |   |   |   |   |   nbumps <= 3: 1 (15.0/1.0)
+|   |   |   |   |   |   nbumps > 3: 0 (4.0/1.0)
+|   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   seismic = d: 0 (0.0)
+|   nbumps3 > 3
+|   |   gpuls <= 364: 0 (9.0)
+|   |   gpuls > 364
+|   |   |   energy <= 17800
+|   |   |   |   gdpuls <= 14
+|   |   |   |   |   gdenergy <= -39: 0 (2.0)
+|   |   |   |   |   gdenergy > -39: 1 (5.0)
+|   |   |   |   gdpuls > 14: 0 (5.0)
+|   |   |   energy > 17800: 1 (7.0)
+
+Number of Leaves  : 	52
+
+Size of the tree : 	93
+
+
+J48 pruned tree
+------------------
+
+nbumps <= 1: 0 (2106.0/65.0)
+nbumps > 1
+|   seismic = a
+|   |   gpuls <= 693
+|   |   |   ghazard = a: 0 (166.0/9.0)
+|   |   |   ghazard = b
+|   |   |   |   gpuls <= 529: 1 (3.0)
+|   |   |   |   gpuls > 529: 0 (3.0)
+|   |   |   ghazard = c: 0 (1.0)
+|   |   |   ghazard = d: 0 (0.0)
+|   |   gpuls > 693
+|   |   |   gdenergy <= -28
+|   |   |   |   gdpuls <= -34: 0 (4.0/1.0)
+|   |   |   |   gdpuls > -34: 1 (8.0)
+|   |   |   gdenergy > -28
+|   |   |   |   nbumps <= 5
+|   |   |   |   |   gdenergy <= 87: 0 (62.0/3.0)
+|   |   |   |   |   gdenergy > 87
+|   |   |   |   |   |   gdpuls <= 61: 1 (5.0)
+|   |   |   |   |   |   gdpuls > 61: 0 (14.0/3.0)
+|   |   |   |   nbumps > 5
+|   |   |   |   |   nbumps <= 6: 1 (7.0/1.0)
+|   |   |   |   |   nbumps > 6: 0 (2.0)
+|   seismic = b
+|   |   nbumps2 <= 0
+|   |   |   nbumps3 <= 2: 0 (31.0/1.0)
+|   |   |   nbumps3 > 2
+|   |   |   |   genergy <= 286300: 1 (2.0)
+|   |   |   |   genergy > 286300: 0 (4.0)
+|   |   nbumps2 > 0
+|   |   |   genergy <= 108010
+|   |   |   |   ghazard = a
+|   |   |   |   |   nbumps3 <= 2
+|   |   |   |   |   |   gdpuls <= -68
+|   |   |   |   |   |   |   gdenergy <= -79: 0 (2.0)
+|   |   |   |   |   |   |   gdenergy > -79: 1 (5.0)
+|   |   |   |   |   |   gdpuls > -68
+|   |   |   |   |   |   |   seismoacoustic = a
+|   |   |   |   |   |   |   |   gpuls <= 930: 0 (44.0/3.0)
+|   |   |   |   |   |   |   |   gpuls > 930: 1 (3.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   |   shift = W
+|   |   |   |   |   |   |   |   |   genergy <= 40030
+|   |   |   |   |   |   |   |   |   |   genergy <= 28930: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   genergy > 28930: 1 (4.0)
+|   |   |   |   |   |   |   |   |   genergy > 40030: 0 (28.0/2.0)
+|   |   |   |   |   |   |   |   shift = N: 1 (2.0/1.0)
+|   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   nbumps3 > 2
+|   |   |   |   |   |   maxenergy <= 8000
+|   |   |   |   |   |   |   gdpuls <= -16: 0 (8.0)
+|   |   |   |   |   |   |   gdpuls > -16
+|   |   |   |   |   |   |   |   genergy <= 56940: 1 (4.0)
+|   |   |   |   |   |   |   |   genergy > 56940: 0 (3.0)
+|   |   |   |   |   |   maxenergy > 8000: 1 (5.0)
+|   |   |   |   ghazard = b
+|   |   |   |   |   shift = W
+|   |   |   |   |   |   nbumps2 <= 2: 1 (6.0/1.0)
+|   |   |   |   |   |   nbumps2 > 2: 0 (3.0)
+|   |   |   |   |   shift = N: 0 (2.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   genergy > 108010
+|   |   |   |   seismoacoustic = a
+|   |   |   |   |   gpuls <= 1946: 1 (18.0/2.0)
+|   |   |   |   |   gpuls > 1946
+|   |   |   |   |   |   nbumps <= 3: 1 (6.0/1.0)
+|   |   |   |   |   |   nbumps > 3: 0 (5.0)
+|   |   |   |   seismoacoustic = b
+|   |   |   |   |   ghazard = a
+|   |   |   |   |   |   maxenergy <= 3000: 1 (3.0)
+|   |   |   |   |   |   maxenergy > 3000: 0 (7.0)
+|   |   |   |   |   ghazard = b: 1 (3.0/1.0)
+|   |   |   |   |   ghazard = c: 0 (2.0)
+|   |   |   |   |   ghazard = d: 0 (0.0)
+|   |   |   |   seismoacoustic = c: 1 (0.0)
+|   |   |   |   seismoacoustic = d: 1 (0.0)
+|   seismic = c: 0 (0.0)
+|   seismic = d: 0 (0.0)
+
+Number of Leaves  : 	47
+
+Size of the tree : 	81
+
+
+J48 pruned tree
+------------------
+
+gpuls <= 1252
+|   nbumps <= 1
+|   |   energy <= 7300: 0 (1923.0/48.0)
+|   |   energy > 7300
+|   |   |   gdpuls <= -51
+|   |   |   |   gdpuls <= -77: 0 (2.0)
+|   |   |   |   gdpuls > -77: 1 (7.0)
+|   |   |   gdpuls > -51: 0 (53.0)
+|   nbumps > 1
+|   |   maxenergy <= 20000
+|   |   |   gpuls <= 749
+|   |   |   |   gdenergy <= -41
+|   |   |   |   |   genergy <= 21910
+|   |   |   |   |   |   genergy <= 19420
+|   |   |   |   |   |   |   maxenergy <= 3000: 0 (17.0/1.0)
+|   |   |   |   |   |   |   maxenergy > 3000: 1 (4.0)
+|   |   |   |   |   |   genergy > 19420: 1 (9.0)
+|   |   |   |   |   genergy > 21910
+|   |   |   |   |   |   gdenergy <= -84: 1 (2.0)
+|   |   |   |   |   |   gdenergy > -84: 0 (35.0/1.0)
+|   |   |   |   gdenergy > -41
+|   |   |   |   |   nbumps3 <= 3
+|   |   |   |   |   |   seismoacoustic = a: 0 (105.0/2.0)
+|   |   |   |   |   |   seismoacoustic = b
+|   |   |   |   |   |   |   seismic = a: 0 (53.0/2.0)
+|   |   |   |   |   |   |   seismic = b
+|   |   |   |   |   |   |   |   gdpuls <= 8
+|   |   |   |   |   |   |   |   |   nbumps4 <= 0: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   nbumps4 > 0: 0 (2.0)
+|   |   |   |   |   |   |   |   gdpuls > 8: 0 (20.0/1.0)
+|   |   |   |   |   |   |   seismic = c: 0 (0.0)
+|   |   |   |   |   |   |   seismic = d: 0 (0.0)
+|   |   |   |   |   |   seismoacoustic = c: 0 (3.0)
+|   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   |   nbumps3 > 3
+|   |   |   |   |   |   gdpuls <= -2: 0 (5.0)
+|   |   |   |   |   |   gdpuls > -2: 1 (5.0/1.0)
+|   |   |   gpuls > 749
+|   |   |   |   ghazard = a
+|   |   |   |   |   nbumps <= 5
+|   |   |   |   |   |   nbumps <= 3
+|   |   |   |   |   |   |   nbumps <= 2: 0 (37.0/6.0)
+|   |   |   |   |   |   |   nbumps > 2
+|   |   |   |   |   |   |   |   gdpuls <= 19
+|   |   |   |   |   |   |   |   |   gpuls <= 1141: 1 (15.0/2.0)
+|   |   |   |   |   |   |   |   |   gpuls > 1141: 0 (3.0)
+|   |   |   |   |   |   |   |   gdpuls > 19: 0 (6.0)
+|   |   |   |   |   |   nbumps > 3: 0 (9.0)
+|   |   |   |   |   nbumps > 5: 1 (4.0)
+|   |   |   |   ghazard = b: 1 (2.0)
+|   |   |   |   ghazard = c: 0 (0.0)
+|   |   |   |   ghazard = d: 0 (0.0)
+|   |   maxenergy > 20000: 0 (48.0/1.0)
+gpuls > 1252
+|   nbumps <= 4
+|   |   gdenergy <= -30
+|   |   |   nbumps2 <= 0
+|   |   |   |   nbumps4 <= 0
+|   |   |   |   |   gpuls <= 1668: 1 (5.0)
+|   |   |   |   |   gpuls > 1668: 0 (4.0/1.0)
+|   |   |   |   nbumps4 > 0: 0 (8.0/1.0)
+|   |   |   nbumps2 > 0: 1 (10.0/1.0)
+|   |   gdenergy > -30
+|   |   |   nbumps2 <= 0: 0 (76.0/6.0)
+|   |   |   nbumps2 > 0
+|   |   |   |   genergy <= 820600
+|   |   |   |   |   gpuls <= 2055: 0 (41.0/7.0)
+|   |   |   |   |   gpuls > 2055
+|   |   |   |   |   |   genergy <= 401730: 0 (6.0)
+|   |   |   |   |   |   genergy > 401730
+|   |   |   |   |   |   |   gdenergy <= 32: 1 (16.0)
+|   |   |   |   |   |   |   gdenergy > 32
+|   |   |   |   |   |   |   |   seismoacoustic = a: 0 (3.0)
+|   |   |   |   |   |   |   |   seismoacoustic = b: 1 (2.0)
+|   |   |   |   |   |   |   |   seismoacoustic = c: 0 (0.0)
+|   |   |   |   |   |   |   |   seismoacoustic = d: 0 (0.0)
+|   |   |   |   genergy > 820600: 0 (16.0)
+|   nbumps > 4
+|   |   genergy <= 182210: 0 (6.0/1.0)
+|   |   genergy > 182210: 1 (14.0/1.0)
+
+Number of Leaves  : 	45
+
+Size of the tree : 	81
+
+
+
+
+Time taken to build model: 0.9 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2398               92.8019 %
+Incorrectly Classified Instances       186                7.1981 %
+Kappa statistic                          0.0342
+Mean absolute error                      0.1115
+Root mean squared error                  0.2436
+Relative absolute error                 90.4848 %
+Root relative squared error             98.2626 %
+Coverage of cases (0.95 level)          97.5232 %
+Mean rel. region size (0.95 level)      63.1772 %
+Total Number of Instances             2584     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.029    0.009    0.192      0.029    0.051      0.051    0.730     0.192     1
+                 0.991    0.971    0.935      0.991    0.963      0.051    0.730     0.967     0
+Weighted Avg.    0.928    0.907    0.887      0.928    0.903      0.051    0.730     0.916     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    5  165 |    a = 1
+   21 2393 |    b = 0
+
+

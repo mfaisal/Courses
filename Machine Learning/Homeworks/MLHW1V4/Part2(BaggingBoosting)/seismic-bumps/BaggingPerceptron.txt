@@ -1,0 +1,2103 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.functions.MultilayerPerceptron -- -L 0.01 -M 0.2 -N 100 -V 0 -S 0 -E 20 -H 0
+Relation:     seismic-bumps
+Instances:    2584
+Attributes:   19
+              seismic
+              seismoacoustic
+              shift
+              genergy
+              gpuls
+              gdenergy
+              gdpuls
+              ghazard
+              nbumps
+              nbumps2
+              nbumps3
+              nbumps4
+              nbumps5
+              nbumps6
+              nbumps7
+              nbumps89
+              energy
+              maxenergy
+              class
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+All the base classifiers: 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4178154339135719
+    Attrib seismic=a    -0.2103730515730157
+    Attrib seismic=b    0.19791524123807594
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.1563516684932397
+    Attrib seismoacoustic=b    0.17650729004218055
+    Attrib seismoacoustic=c    0.07847604579958303
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.1708670408050125
+    Attrib genergy    0.6006091354421359
+    Attrib gpuls    1.1440101913002232
+    Attrib gdenergy    -0.3469936120716555
+    Attrib gdpuls    -0.5006053075552284
+    Attrib ghazard=a    0.11103657076467077
+    Attrib ghazard=b    0.23730691744136875
+    Attrib ghazard=c    0.02801440573575322
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.4994744228990561
+    Attrib nbumps2    0.7854407330927283
+    Attrib nbumps3    0.7870439592314205
+    Attrib nbumps4    -0.604849622094683
+    Attrib nbumps5    0.1282548254228751
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.03748705463444487
+    Attrib maxenergy    0.010945920191073766
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3781769157403936
+    Attrib seismic=a    0.17776674939888076
+    Attrib seismic=b    -0.22884788823326518
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.12737770829108164
+    Attrib seismoacoustic=b    -0.14772224243631943
+    Attrib seismoacoustic=c    -0.058166409286445744
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.1697087767795251
+    Attrib genergy    -0.5992095044100733
+    Attrib gpuls    -1.1452439622141752
+    Attrib gdenergy    0.3359879528860958
+    Attrib gdpuls    0.5119489604358031
+    Attrib ghazard=a    -0.15240628212259008
+    Attrib ghazard=b    -0.27920754951020643
+    Attrib ghazard=c    -0.07086398653545926
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.5066686471569122
+    Attrib nbumps2    -0.7818883886051082
+    Attrib nbumps3    -0.7777134891672158
+    Attrib nbumps4    0.6099160473057742
+    Attrib nbumps5    -0.10211558872171783
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.010190872041565801
+    Attrib maxenergy    -0.03738822777915353
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.295747751767671
+    Attrib seismic=a    -0.0356611408632661
+    Attrib seismic=b    0.06703547229401344
+    Attrib seismic=c    -0.040456776340573666
+    Attrib seismic=d    -0.0022924806497118255
+    Attrib seismoacoustic=a    0.13723643014232012
+    Attrib seismoacoustic=b    0.06909096086742321
+    Attrib seismoacoustic=c    0.16368409978696258
+    Attrib seismoacoustic=d    0.048005194979791374
+    Attrib shift    -0.4413985346253403
+    Attrib genergy    -0.024990681339353976
+    Attrib gpuls    0.9946707472978917
+    Attrib gdenergy    -0.03894718604881348
+    Attrib gdpuls    -0.23985277449678707
+    Attrib ghazard=a    0.11786490612178184
+    Attrib ghazard=b    0.09808927985171621
+    Attrib ghazard=c    0.04994596635735466
+    Attrib ghazard=d    0.027049409415645903
+    Attrib nbumps    0.6446365976983927
+    Attrib nbumps2    0.581183500192877
+    Attrib nbumps3    0.689453242183637
+    Attrib nbumps4    -0.15449836963480756
+    Attrib nbumps5    0.09713320920077174
+    Attrib nbumps6    -0.013601947725108136
+    Attrib nbumps7    0.03266336520803563
+    Attrib nbumps89    0.003777845937097103
+    Attrib energy    0.10702641277355081
+    Attrib maxenergy    0.15454790053556436
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3404180014975576
+    Attrib seismic=a    0.08615496741539762
+    Attrib seismic=b    -0.017489204992730763
+    Attrib seismic=c    0.04771003983083709
+    Attrib seismic=d    -0.007817391850868348
+    Attrib seismoacoustic=a    -0.13560765900730434
+    Attrib seismoacoustic=b    -0.06858422760135759
+    Attrib seismoacoustic=c    -0.14136899473517373
+    Attrib seismoacoustic=d    0.04712725631778829
+    Attrib shift    0.4504889704353514
+    Attrib genergy    0.040533183126048346
+    Attrib gpuls    -1.0164368753884636
+    Attrib gdenergy    0.015045795762137298
+    Attrib gdpuls    0.29661469889242914
+    Attrib ghazard=a    -0.13661434514806667
+    Attrib ghazard=b    -0.11403711553160134
+    Attrib ghazard=c    -0.08728557266071958
+    Attrib ghazard=d    -0.03982467162951489
+    Attrib nbumps    -0.614384938037641
+    Attrib nbumps2    -0.6018975454582656
+    Attrib nbumps3    -0.7104945164866652
+    Attrib nbumps4    0.16582410828789831
+    Attrib nbumps5    -0.05759285328421075
+    Attrib nbumps6    0.020684130917285076
+    Attrib nbumps7    0.017016548239228005
+    Attrib nbumps89    -0.01395189960611326
+    Attrib energy    -0.1627179766216301
+    Attrib maxenergy    -0.10515357403651812
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4018253092874196
+    Attrib seismic=a    -0.06516791642331536
+    Attrib seismic=b    0.02812909929063682
+    Attrib seismic=c    -0.04174934550459182
+    Attrib seismic=d    -0.02744253079783048
+    Attrib seismoacoustic=a    0.15279637096445814
+    Attrib seismoacoustic=b    0.16262702654291467
+    Attrib seismoacoustic=c    0.06130286230522302
+    Attrib seismoacoustic=d    -0.0010661220706192492
+    Attrib shift    -0.4193870898074093
+    Attrib genergy    0.27822988683375066
+    Attrib gpuls    0.48575433527941864
+    Attrib gdenergy    0.07774258846941863
+    Attrib gdpuls    -0.024933306356556585
+    Attrib ghazard=a    0.18055927646754266
+    Attrib ghazard=b    0.10265551727389907
+    Attrib ghazard=c    0.1246527089789554
+    Attrib ghazard=d    0.027170480420698057
+    Attrib nbumps    0.5358847811918911
+    Attrib nbumps2    0.4835829892818629
+    Attrib nbumps3    0.666760373333503
+    Attrib nbumps4    0.34483437189503446
+    Attrib nbumps5    -0.010075228322786053
+    Attrib nbumps6    -0.0013191938115320462
+    Attrib nbumps7    -0.047139140609131415
+    Attrib nbumps89    -0.022332224731022067
+    Attrib energy    0.015355755629263834
+    Attrib maxenergy    0.0298886773052773
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.36394040219756973
+    Attrib seismic=a    0.06035780591040086
+    Attrib seismic=b    -0.028264618432300055
+    Attrib seismic=c    0.02582654405046657
+    Attrib seismic=d    -0.031728688502651745
+    Attrib seismoacoustic=a    -0.17057708889072448
+    Attrib seismoacoustic=b    -0.17983653336568267
+    Attrib seismoacoustic=c    -0.08463809446100191
+    Attrib seismoacoustic=d    0.01656172642014543
+    Attrib shift    0.40950346904399326
+    Attrib genergy    -0.2654827455372731
+    Attrib gpuls    -0.4998840186687667
+    Attrib gdenergy    -0.08712941242244915
+    Attrib gdpuls    -0.0033819582208321794
+    Attrib ghazard=a    -0.16561219353561252
+    Attrib ghazard=b    -0.08915601280257546
+    Attrib ghazard=c    -0.1295853317134646
+    Attrib ghazard=d    0.026894769861331158
+    Attrib nbumps    -0.5807726503891634
+    Attrib nbumps2    -0.4329999998588237
+    Attrib nbumps3    -0.6398489095219297
+    Attrib nbumps4    -0.3329723358601327
+    Attrib nbumps5    0.026243376255074165
+    Attrib nbumps6    -0.0208925640943203
+    Attrib nbumps7    0.03647160481247251
+    Attrib nbumps89    -0.02884073771229998
+    Attrib energy    -0.0651076590581857
+    Attrib maxenergy    -0.022415102144375
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.08580836414947109
+    Attrib seismic=a    -0.027587815846209018
+    Attrib seismic=b    0.060389998553278965
+    Attrib seismic=c    0.029223815788699398
+    Attrib seismic=d    -0.006547540433632412
+    Attrib seismoacoustic=a    -0.005726198211458471
+    Attrib seismoacoustic=b    0.018302965767315212
+    Attrib seismoacoustic=c    0.11595981628805285
+    Attrib seismoacoustic=d    -0.042346259685769765
+    Attrib shift    -0.5009142816359129
+    Attrib genergy    0.24487745583501774
+    Attrib gpuls    0.9151040899300477
+    Attrib gdenergy    -0.00279741338794748
+    Attrib gdpuls    -0.012680448966731176
+    Attrib ghazard=a    0.052048825883076695
+    Attrib ghazard=b    0.23038131778627996
+    Attrib ghazard=c    -0.18359026674735798
+    Attrib ghazard=d    -0.028977294142301283
+    Attrib nbumps    0.7359230215546178
+    Attrib nbumps2    0.6839276941917622
+    Attrib nbumps3    0.3809666806558874
+    Attrib nbumps4    0.14995601934674918
+    Attrib nbumps5    0.08887409056088645
+    Attrib nbumps6    -0.02202847788013207
+    Attrib nbumps7    0.027131391807646496
+    Attrib nbumps89    0.04966517252983857
+    Attrib energy    0.14334774402003106
+    Attrib maxenergy    0.0462005174342973
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.07226509480467218
+    Attrib seismic=a    0.038301544947192394
+    Attrib seismic=b    -0.05057802947948243
+    Attrib seismic=c    -0.01138025274369818
+    Attrib seismic=d    -0.0197838784112954
+    Attrib seismoacoustic=a    -0.022347987788949225
+    Attrib seismoacoustic=b    -0.046696737134307595
+    Attrib seismoacoustic=c    -0.1412586927037027
+    Attrib seismoacoustic=d    0.04320204975504738
+    Attrib shift    0.49960553420197723
+    Attrib genergy    -0.2506651081489755
+    Attrib gpuls    -0.9121335050146914
+    Attrib gdenergy    0.009687012808090865
+    Attrib gdpuls    0.04021058838859898
+    Attrib ghazard=a    -0.06949659177222417
+    Attrib ghazard=b    -0.2509894730699106
+    Attrib ghazard=c    0.17078724696560033
+    Attrib ghazard=d    -0.027372719709554974
+    Attrib nbumps    -0.7428251398238395
+    Attrib nbumps2    -0.6758859563314779
+    Attrib nbumps3    -0.3806228332897682
+    Attrib nbumps4    -0.14421368290884257
+    Attrib nbumps5    -0.07734928376051296
+    Attrib nbumps6    0.04685433324213144
+    Attrib nbumps7    -0.0159140197982409
+    Attrib nbumps89    0.03252105780786467
+    Attrib energy    -0.11901029053138215
+    Attrib maxenergy    -0.08555316083554006
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.24583199650059187
+    Attrib seismic=a    -0.12757884337019662
+    Attrib seismic=b    0.1194115001268092
+    Attrib seismic=c    -0.04693941878840905
+    Attrib seismic=d    0.040442225239189014
+    Attrib seismoacoustic=a    -0.01364343313440319
+    Attrib seismoacoustic=b    0.19697969119885889
+    Attrib seismoacoustic=c    0.10925599885999786
+    Attrib seismoacoustic=d    0.01314180346680316
+    Attrib shift    -0.29489372483596277
+    Attrib genergy    0.2696216429698714
+    Attrib gpuls    1.4192798550036905
+    Attrib gdenergy    -0.16525002063527314
+    Attrib gdpuls    -0.09060555066334716
+    Attrib ghazard=a    0.27263809062533023
+    Attrib ghazard=b    0.09103422541518215
+    Attrib ghazard=c    -0.12448692765873712
+    Attrib ghazard=d    -0.014418573266166447
+    Attrib nbumps    0.9218019005895173
+    Attrib nbumps2    1.199042562009668
+    Attrib nbumps3    0.1255320895331792
+    Attrib nbumps4    -0.211875452800925
+    Attrib nbumps5    0.22783294709734894
+    Attrib nbumps6    0.04547895194639241
+    Attrib nbumps7    0.004976220146766117
+    Attrib nbumps89    -0.040122253091852106
+    Attrib energy    -0.07978549753983957
+    Attrib maxenergy    -0.09589965517757755
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.2646912003984059
+    Attrib seismic=a    0.12895523214175797
+    Attrib seismic=b    -0.11933320566777608
+    Attrib seismic=c    0.036748456003515326
+    Attrib seismic=d    0.04236734357766232
+    Attrib seismoacoustic=a    0.05603471325493233
+    Attrib seismoacoustic=b    -0.1555915399820967
+    Attrib seismoacoustic=c    -0.05961502983279651
+    Attrib seismoacoustic=d    0.012375628420772479
+    Attrib shift    0.292109140803689
+    Attrib genergy    -0.2843712323949379
+    Attrib gpuls    -1.4130960863681319
+    Attrib gdenergy    0.1761147268714157
+    Attrib gdpuls    0.12468393972493778
+    Attrib ghazard=a    -0.2528371124064647
+    Attrib ghazard=b    -0.0781147371513407
+    Attrib ghazard=c    0.11011036461799627
+    Attrib ghazard=d    0.024730233148214598
+    Attrib nbumps    -0.9414321351054253
+    Attrib nbumps2    -1.1911753555570779
+    Attrib nbumps3    -0.11264222141974554
+    Attrib nbumps4    0.20471321657951083
+    Attrib nbumps5    -0.28877148042553685
+    Attrib nbumps6    -0.01054867832250965
+    Attrib nbumps7    0.031899106788545836
+    Attrib nbumps89    -0.040484659105615065
+    Attrib energy    0.12469925726495011
+    Attrib maxenergy    0.07974814436459716
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4833442052265839
+    Attrib seismic=a    -0.16785120907133314
+    Attrib seismic=b    0.15068875274038598
+    Attrib seismic=c    0.0023913463679012467
+    Attrib seismic=d    -0.02845805886991908
+    Attrib seismoacoustic=a    0.0913964940852229
+    Attrib seismoacoustic=b    0.23260612377669573
+    Attrib seismoacoustic=c    0.264280237021926
+    Attrib seismoacoustic=d    -0.021418472475442676
+    Attrib shift    -0.20501979764517317
+    Attrib genergy    -0.012688197557041259
+    Attrib gpuls    1.0772578495157568
+    Attrib gdenergy    -0.19637446991713042
+    Attrib gdpuls    -0.3716455158125804
+    Attrib ghazard=a    0.30976053307773105
+    Attrib ghazard=b    0.042619565080466666
+    Attrib ghazard=c    0.16843188603561335
+    Attrib ghazard=d    -0.005921574535941429
+    Attrib nbumps    0.6137984506044235
+    Attrib nbumps2    0.48623430265163875
+    Attrib nbumps3    0.8901866841462495
+    Attrib nbumps4    -0.09704369234521414
+    Attrib nbumps5    -0.06847363346191938
+    Attrib nbumps6    0.03469377720690346
+    Attrib nbumps7    0.01948432440600499
+    Attrib nbumps89    0.017886043160480813
+    Attrib energy    0.13084399735928856
+    Attrib maxenergy    0.12487235309116457
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.4560530503273562
+    Attrib seismic=a    0.14912213082332126
+    Attrib seismic=b    -0.1685879617796826
+    Attrib seismic=c    0.006195932636890257
+    Attrib seismic=d    0.01782277896943016
+    Attrib seismoacoustic=a    -0.08955704656299236
+    Attrib seismoacoustic=b    -0.23015495009886078
+    Attrib seismoacoustic=c    -0.2654928217488814
+    Attrib seismoacoustic=d    -0.03819836030410019
+    Attrib shift    0.20582033442754336
+    Attrib genergy    0.04305732755308014
+    Attrib gpuls    -1.1013903780987193
+    Attrib gdenergy    0.18786274778182624
+    Attrib gdpuls    0.35948922255279997
+    Attrib ghazard=a    -0.3013147543177596
+    Attrib ghazard=b    -0.02864443434319292
+    Attrib ghazard=c    -0.15280402895223802
+    Attrib ghazard=d    0.029367032493225392
+    Attrib nbumps    -0.5543404563563471
+    Attrib nbumps2    -0.5322630878389217
+    Attrib nbumps3    -0.9408236887548312
+    Attrib nbumps4    0.10397972275406318
+    Attrib nbumps5    0.11629004321736314
+    Attrib nbumps6    -0.021017600746703793
+    Attrib nbumps7    0.017399102783892034
+    Attrib nbumps89    0.04777166785029502
+    Attrib energy    -0.14762925770329127
+    Attrib maxenergy    -0.165255404456862
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4376237002358054
+    Attrib seismic=a    -0.11416549434210603
+    Attrib seismic=b    0.0785571532987472
+    Attrib seismic=c    -0.009523828691002913
+    Attrib seismic=d    -0.01757401345341019
+    Attrib seismoacoustic=a    0.09922839723817173
+    Attrib seismoacoustic=b    0.02488948947036547
+    Attrib seismoacoustic=c    0.23133756063331193
+    Attrib seismoacoustic=d    -0.04151374832785625
+    Attrib shift    -0.3651723713001264
+    Attrib genergy    0.2882383867940305
+    Attrib gpuls    1.0387717466320585
+    Attrib gdenergy    -0.047912448371920206
+    Attrib gdpuls    -0.062069391099408046
+    Attrib ghazard=a    0.18108445074517893
+    Attrib ghazard=b    0.19511283245817118
+    Attrib ghazard=c    -0.03626891917708402
+    Attrib ghazard=d    -0.0429724977214894
+    Attrib nbumps    0.567822307787017
+    Attrib nbumps2    0.5215520319147737
+    Attrib nbumps3    0.7450488553146016
+    Attrib nbumps4    -0.2871583998655555
+    Attrib nbumps5    0.10277793107290238
+    Attrib nbumps6    9.682626746611439E-4
+    Attrib nbumps7    -0.026946754107957195
+    Attrib nbumps89    0.01992477755153048
+    Attrib energy    -0.08404165388520006
+    Attrib maxenergy    -0.020086621879763483
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.38273217121966246
+    Attrib seismic=a    0.06378624879434397
+    Attrib seismic=b    -0.12757757981781068
+    Attrib seismic=c    0.04966120413418995
+    Attrib seismic=d    -0.02901149694062094
+    Attrib seismoacoustic=a    -0.11889128468245376
+    Attrib seismoacoustic=b    -0.04465078458825909
+    Attrib seismoacoustic=c    -0.26321579913697174
+    Attrib seismoacoustic=d    -5.134029593329287E-4
+    Attrib shift    0.3702682640766994
+    Attrib genergy    -0.29386385243166785
+    Attrib gpuls    -1.0271273906475162
+    Attrib gdenergy    0.04742272190714414
+    Attrib gdpuls    0.018976015694719194
+    Attrib ghazard=a    -0.19936184434448326
+    Attrib ghazard=b    -0.2071523425136621
+    Attrib ghazard=c    0.038944094380812776
+    Attrib ghazard=d    0.006732975731128875
+    Attrib nbumps    -0.538700176313981
+    Attrib nbumps2    -0.5398858060644008
+    Attrib nbumps3    -0.7662275886899268
+    Attrib nbumps4    0.2898627541805539
+    Attrib nbumps5    -0.057732161239876505
+    Attrib nbumps6    -0.03329057153502127
+    Attrib nbumps7    0.001073253368139869
+    Attrib nbumps89    0.0164276088623293
+    Attrib energy    0.0032673075529502963
+    Attrib maxenergy    0.0597427667981237
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.3611666942683779
+    Attrib seismic=a    -0.17025601450094827
+    Attrib seismic=b    0.15779820416600862
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.27122739326509837
+    Attrib seismoacoustic=b    -0.006697888716526367
+    Attrib seismoacoustic=c    0.09015676014123802
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.3793515501905385
+    Attrib genergy    0.4162576126776132
+    Attrib gpuls    0.7943222147161407
+    Attrib gdenergy    -0.10304816048647052
+    Attrib gdpuls    -0.4929827068986315
+    Attrib ghazard=a    0.03411768858144731
+    Attrib ghazard=b    0.11638040961035313
+    Attrib ghazard=c    0.1692110561047951
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.7136900337061591
+    Attrib nbumps2    0.7963722698007206
+    Attrib nbumps3    0.6168735781601992
+    Attrib nbumps4    -0.14138788990660672
+    Attrib nbumps5    -0.043131724849893534
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.07664750346954617
+    Attrib maxenergy    0.13910692073513412
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.32584995708129405
+    Attrib seismic=a    0.13833148180999144
+    Attrib seismic=b    -0.18941262064437686
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.24296706581065244
+    Attrib seismoacoustic=b    0.03435580283802116
+    Attrib seismoacoustic=c    -0.07232813838213546
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.37475179674704157
+    Attrib genergy    -0.4163902516902576
+    Attrib gpuls    -0.7965861948716196
+    Attrib gdenergy    0.09181583924080046
+    Attrib gdpuls    0.5102743915062958
+    Attrib ghazard=a    -0.07643786878819363
+    Attrib ghazard=b    -0.1577227305993533
+    Attrib ghazard=c    -0.21599026012163033
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.7183594671116953
+    Attrib nbumps2    -0.7972347969406421
+    Attrib nbumps3    -0.611047392070156
+    Attrib nbumps4    0.15170961760011095
+    Attrib nbumps5    0.06901551116776608
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.09810728058760962
+    Attrib maxenergy    -0.16129775171503244
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.41873275666859017
+    Attrib seismic=a    -0.09554907585795093
+    Attrib seismic=b    0.08309126552301073
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    -0.01140108197716221
+    Attrib seismoacoustic=b    -0.1857918377212819
+    Attrib seismoacoustic=c    0.6094452467884326
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.6598697914721183
+    Attrib genergy    -0.06798267621605068
+    Attrib gpuls    0.7412530417634442
+    Attrib gdenergy    0.07232537774654525
+    Attrib gdpuls    0.01694861864552225
+    Attrib ghazard=a    0.2752086327390126
+    Attrib ghazard=b    0.3718646097427296
+    Attrib ghazard=c    -0.26979802578494133
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.5240905454135943
+    Attrib nbumps2    0.7415951673235575
+    Attrib nbumps3    0.535589954148776
+    Attrib nbumps4    -0.28361058192494126
+    Attrib nbumps5    0.3161157775548655
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.026301441692633234
+    Attrib maxenergy    0.1424228338769921
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3832972533058267
+    Attrib seismic=a    0.06352248754590878
+    Attrib seismic=b    -0.11460362638029059
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    0.036610908871228434
+    Attrib seismoacoustic=b    0.21174017919839908
+    Attrib seismoacoustic=c    -0.5867377856488908
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.6561320928239607
+    Attrib genergy    0.06578683964769674
+    Attrib gpuls    -0.7425954696678386
+    Attrib gdenergy    -0.08830852938208865
+    Attrib gdpuls    -0.005229339297548999
+    Attrib ghazard=a    -0.31921650089125797
+    Attrib ghazard=b    -0.415285372757675
+    Attrib ghazard=c    0.22690371791524844
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.5279720541219138
+    Attrib nbumps2    -0.7422672055257755
+    Attrib nbumps3    -0.5285908974827301
+    Attrib nbumps4    0.292265434780093
+    Attrib nbumps5    -0.2876431334320455
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.003495847111240277
+    Attrib maxenergy    -0.1666081395558251
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4080992951478483
+    Attrib seismic=a    -0.10582788010653874
+    Attrib seismic=b    0.09337006977159812
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    -0.009973958383791502
+    Attrib seismoacoustic=b    0.14284820818692692
+    Attrib seismoacoustic=c    0.2687446157661253
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.4432141389659869
+    Attrib genergy    0.14452883224329394
+    Attrib gpuls    1.4658632386585262
+    Attrib gdenergy    -0.3823766536955776
+    Attrib gdpuls    -0.28141488088282446
+    Attrib ghazard=a    0.06867329540718096
+    Attrib ghazard=b    0.33915577200510477
+    Attrib ghazard=c    -0.041187312236231
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.6191909019644825
+    Attrib nbumps2    0.7744209254538738
+    Attrib nbumps3    0.6490002570460133
+    Attrib nbumps4    -0.38793024642200213
+    Attrib nbumps5    0.031633373291874184
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.045171814441977584
+    Attrib maxenergy    0.06566475681445628
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3670194796390434
+    Attrib seismic=a    0.07384429237579393
+    Attrib seismic=b    -0.12492543121017605
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    0.03841070593013108
+    Attrib seismoacoustic=b    -0.11485862315894672
+    Attrib seismoacoustic=c    -0.245661006683683
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.43994837872367804
+    Attrib genergy    -0.14405790398715348
+    Attrib gpuls    -1.4687062800765551
+    Attrib gdenergy    0.37265452837385393
+    Attrib gdpuls    0.29252453153279406
+    Attrib ghazard=a    -0.1109739248136034
+    Attrib ghazard=b    -0.3816067221899669
+    Attrib ghazard=c    0.0012602649366625297
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.6265245863449411
+    Attrib nbumps2    -0.7702849116806845
+    Attrib nbumps3    -0.6438507204271309
+    Attrib nbumps4    0.39699522947199195
+    Attrib nbumps5    -0.0038560918006816398
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.014722184599343038
+    Attrib maxenergy    -0.09541847803149023
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.29211445227789906
+    Attrib seismic=a    -0.18552189458761392
+    Attrib seismic=b    0.15356187540098953
+    Attrib seismic=c    0.03787478853245291
+    Attrib seismic=d    0.049260946634641686
+    Attrib seismoacoustic=a    0.13477855223477558
+    Attrib seismoacoustic=b    -0.05443266646892765
+    Attrib seismoacoustic=c    0.17356345134140772
+    Attrib seismoacoustic=d    0.016892002909771428
+    Attrib shift    -0.39408901150559117
+    Attrib genergy    0.31739098232374857
+    Attrib gpuls    0.9059609600245899
+    Attrib gdenergy    -0.43456047764501526
+    Attrib gdpuls    -0.21126787011167583
+    Attrib ghazard=a    -0.007065645812564192
+    Attrib ghazard=b    0.354584544620032
+    Attrib ghazard=c    -0.04117971326976405
+    Attrib ghazard=d    0.009036546259936273
+    Attrib nbumps    0.6638991097914094
+    Attrib nbumps2    0.5274473272189869
+    Attrib nbumps3    0.7165654727460712
+    Attrib nbumps4    -0.4794113142398038
+    Attrib nbumps5    0.631777505065131
+    Attrib nbumps6    -0.03890408070276248
+    Attrib nbumps7    -0.0397893534263848
+    Attrib nbumps89    -0.008049677375199203
+    Attrib energy    -0.003990758277374131
+    Attrib maxenergy    0.04821831568907577
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.28170190690934455
+    Attrib seismic=a    0.1615276070164588
+    Attrib seismic=b    -0.17694640976231762
+    Attrib seismic=c    -0.016451122389471627
+    Attrib seismic=d    -0.04779431239787401
+    Attrib seismoacoustic=a    -0.14551936668533363
+    Attrib seismoacoustic=b    0.043735059750032015
+    Attrib seismoacoustic=c    -0.19335479668986474
+    Attrib seismoacoustic=d    -0.04596750909153842
+    Attrib shift    0.39564180470396004
+    Attrib genergy    -0.2997781079819916
+    Attrib gpuls    -0.9195096357026991
+    Attrib gdenergy    0.4270717017312235
+    Attrib gdpuls    0.22418703591676883
+    Attrib ghazard=a    0.006313502187929094
+    Attrib ghazard=b    -0.35278024475942577
+    Attrib ghazard=c    0.06427595930972647
+    Attrib ghazard=d    -0.03945032113426185
+    Attrib nbumps    -0.6190933595440962
+    Attrib nbumps2    -0.5648100489647632
+    Attrib nbumps3    -0.7546139907550733
+    Attrib nbumps4    0.4411650290087368
+    Attrib nbumps5    -0.6799270822848184
+    Attrib nbumps6    -0.0071490275428231845
+    Attrib nbumps7    -0.02976041179697162
+    Attrib nbumps89    -0.04577583646680621
+    Attrib energy    0.07292211668616504
+    Attrib maxenergy    -0.026294623652096786
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.43771126952158734
+    Attrib seismic=a    -0.1957908682796046
+    Attrib seismic=b    0.19587382623347663
+    Attrib seismic=c    -0.037219247979255105
+    Attrib seismic=d    0.03352250139155777
+    Attrib seismoacoustic=a    0.074725295082098
+    Attrib seismoacoustic=b    0.04703382832109197
+    Attrib seismoacoustic=c    0.32839250870108516
+    Attrib seismoacoustic=d    -0.007055423841696794
+    Attrib shift    -0.4249843446003446
+    Attrib genergy    0.4059637330455016
+    Attrib gpuls    0.9645673015035059
+    Attrib gdenergy    -0.09772006673483645
+    Attrib gdpuls    -0.5741558056005887
+    Attrib ghazard=a    0.2542847140541691
+    Attrib ghazard=b    0.035623027216888876
+    Attrib ghazard=c    0.05791342897851551
+    Attrib ghazard=d    -0.015342708733824095
+    Attrib nbumps    0.5916333545821175
+    Attrib nbumps2    0.8742656562260338
+    Attrib nbumps3    0.6201008206230701
+    Attrib nbumps4    -0.6245549611513629
+    Attrib nbumps5    0.18033810111972567
+    Attrib nbumps6    -0.03715888129122813
+    Attrib nbumps7    -0.0021089845894052273
+    Attrib nbumps89    0.03388769538538487
+    Attrib energy    0.0586566761226944
+    Attrib maxenergy    0.13761186409361284
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3873330045883524
+    Attrib seismic=a    0.18507366913013984
+    Attrib seismic=b    -0.2062698816974669
+    Attrib seismic=c    0.044089760514154835
+    Attrib seismic=d    0.03845893936723625
+    Attrib seismoacoustic=a    -0.09935518220516298
+    Attrib seismoacoustic=b    -0.07136758145854682
+    Attrib seismoacoustic=c    -0.33696427848648924
+    Attrib seismoacoustic=d    -0.029383052819947256
+    Attrib shift    0.42472917907704383
+    Attrib genergy    -0.38940178407630305
+    Attrib gpuls    -0.9774167397904323
+    Attrib gdenergy    0.116332033893971
+    Attrib gdpuls    0.5598151442391801
+    Attrib ghazard=a    -0.26326932841553635
+    Attrib ghazard=b    -0.04844069008415385
+    Attrib ghazard=c    -0.09451111937592714
+    Attrib ghazard=d    -0.020022117439311905
+    Attrib nbumps    -0.5972273925296094
+    Attrib nbumps2    -0.8613043801905488
+    Attrib nbumps3    -0.6188013928790643
+    Attrib nbumps4    0.6141332094704993
+    Attrib nbumps5    -0.21121585050614872
+    Attrib nbumps6    0.04310907939032531
+    Attrib nbumps7    -0.03881055637248594
+    Attrib nbumps89    -0.006567445776031744
+    Attrib energy    -0.08060303488705983
+    Attrib maxenergy    -0.09392437553707537
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.3821190673158822
+    Attrib seismic=a    -0.14429371187371054
+    Attrib seismic=b    0.13183590153877245
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.27067992042844835
+    Attrib seismoacoustic=b    0.19091852441901744
+    Attrib seismoacoustic=c    -0.085959807110159
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.42715861441352737
+    Attrib genergy    0.39315670793245694
+    Attrib gpuls    0.465933588527616
+    Attrib gdenergy    -0.06423724695996182
+    Attrib gdpuls    -0.3244448369976543
+    Attrib ghazard=a    0.006706928068819387
+    Attrib ghazard=b    0.16181923920258223
+    Attrib ghazard=c    0.17213536007269423
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.4785949021765168
+    Attrib nbumps2    0.5510421327170747
+    Attrib nbumps3    0.52386496124893
+    Attrib nbumps4    0.18270594924548164
+    Attrib nbumps5    0.04591167458424822
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.18893161631276534
+    Attrib maxenergy    0.2696121204946974
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.33866229248366037
+    Attrib seismic=a    0.1118542664047584
+    Attrib seismic=b    -0.16293540523914538
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.23943818694296432
+    Attrib seismoacoustic=b    -0.16100672301490368
+    Attrib seismoacoustic=c    0.10669317320073776
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.42390691782355844
+    Attrib genergy    -0.39034438391571663
+    Attrib gpuls    -0.4682817544613
+    Attrib gdenergy    0.052215623928859686
+    Attrib gdpuls    0.339252167533045
+    Attrib ghazard=a    -0.046450213261511365
+    Attrib ghazard=b    -0.20160174692922386
+    Attrib ghazard=c    -0.21491123472079843
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.4857174434989449
+    Attrib nbumps2    -0.5480058461918882
+    Attrib nbumps3    -0.5163236427129659
+    Attrib nbumps4    -0.17850214046824742
+    Attrib nbumps5    -0.017230040475334652
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.21855637689010102
+    Attrib maxenergy    -0.2983843975422207
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.33610152437047897
+    Attrib seismic=a    -0.07051033996988867
+    Attrib seismic=b    0.07665781424313907
+    Attrib seismic=c    -0.011272899847443271
+    Attrib seismic=d    -0.04009284170107971
+    Attrib seismoacoustic=a    -0.1330516655439345
+    Attrib seismoacoustic=b    -0.12579802478050228
+    Attrib seismoacoustic=c    0.49913100069110466
+    Attrib seismoacoustic=d    0.01850371209888614
+    Attrib shift    -0.4646725405640657
+    Attrib genergy    -0.2791059401300926
+    Attrib gpuls    0.6404043453697893
+    Attrib gdenergy    -0.06072036809130384
+    Attrib gdpuls    0.15747730761588508
+    Attrib ghazard=a    0.22344944409326611
+    Attrib ghazard=b    0.2545209868873993
+    Attrib ghazard=c    -0.11975990234159956
+    Attrib ghazard=d    -0.006023336115327939
+    Attrib nbumps    0.6886688476189957
+    Attrib nbumps2    7.925562755093106E-4
+    Attrib nbumps3    1.3748744771289139
+    Attrib nbumps4    0.031579894928496076
+    Attrib nbumps5    0.007593526311951852
+    Attrib nbumps6    -0.026436136711157823
+    Attrib nbumps7    0.045448192275039254
+    Attrib nbumps89    -0.030672601320080786
+    Attrib energy    0.15552593058572786
+    Attrib maxenergy    0.045438590372291615
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3620051168121876
+    Attrib seismic=a    0.08730162865137822
+    Attrib seismic=b    -0.06267127531989129
+    Attrib seismic=c    0.04544846945026551
+    Attrib seismic=d    0.04129733282740257
+    Attrib seismoacoustic=a    0.0918635599868664
+    Attrib seismoacoustic=b    0.08631337198301778
+    Attrib seismoacoustic=c    -0.5410502105660895
+    Attrib seismoacoustic=d    0.017229290356380003
+    Attrib shift    0.4691471884391985
+    Attrib genergy    0.23308954897834197
+    Attrib gpuls    -0.5731957304100147
+    Attrib gdenergy    0.008041232086479843
+    Attrib gdpuls    -0.15056971880888476
+    Attrib ghazard=a    -0.19910871366602137
+    Attrib ghazard=b    -0.22879171851138977
+    Attrib ghazard=c    0.1523478617621813
+    Attrib ghazard=d    0.013124374273666112
+    Attrib nbumps    -0.7309197899740711
+    Attrib nbumps2    0.02932017675429209
+    Attrib nbumps3    -1.346846612393975
+    Attrib nbumps4    -0.022305000610357527
+    Attrib nbumps5    0.006850885970078541
+    Attrib nbumps6    -0.04636303908639847
+    Attrib nbumps7    -0.008768455094590955
+    Attrib nbumps89    -0.039548778632813086
+    Attrib energy    -0.11585936223737758
+    Attrib maxenergy    -0.07110197347716198
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4422512331468969
+    Attrib seismic=a    -0.2536226343917023
+    Attrib seismic=b    0.2411648240567614
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.254470481151364
+    Attrib seismoacoustic=b    0.2959153602519401
+    Attrib seismoacoustic=c    -0.1146150378349828
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.3745926694546837
+    Attrib genergy    0.5946791553125975
+    Attrib gpuls    0.8123196165579759
+    Attrib gdenergy    -0.20321653688113395
+    Attrib gdpuls    -0.23456096816966523
+    Attrib ghazard=a    -0.00910652479061444
+    Attrib ghazard=b    0.21639796766829456
+    Attrib ghazard=c    0.1935022502974345
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.6368175495523183
+    Attrib nbumps2    0.7743412410072308
+    Attrib nbumps3    0.8130093697242349
+    Attrib nbumps4    -0.4911249049812022
+    Attrib nbumps5    -0.07715279158773419
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.06498983172231491
+    Attrib maxenergy    0.0710457259797786
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.4035009837778978
+    Attrib seismic=a    0.22133920749018512
+    Attrib seismic=b    -0.2724203463245543
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.2257448714384959
+    Attrib seismoacoustic=b    -0.2678827950478331
+    Attrib seismoacoustic=c    0.135037238434971
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.3726788825147182
+    Attrib genergy    -0.5954871145073852
+    Attrib gpuls    -0.8119965722338413
+    Attrib gdenergy    0.18919380000961883
+    Attrib gdpuls    0.24720679400976525
+    Attrib ghazard=a    -0.0307030879917534
+    Attrib ghazard=b    -0.25572184144487087
+    Attrib ghazard=c    -0.2413769567691503
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.6419184359383854
+    Attrib nbumps2    -0.7734073580772897
+    Attrib nbumps3    -0.8033353239877813
+    Attrib nbumps4    0.4958498865002973
+    Attrib nbumps5    0.10855741431323764
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.04014260871349835
+    Attrib maxenergy    -0.09585876840068369
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.3844934104492938
+    Attrib seismic=a    -0.1769352499800419
+    Attrib seismic=b    0.1644774396451018
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.18847059007513847
+    Attrib seismoacoustic=b    0.20206322627658108
+    Attrib seismoacoustic=c    -0.012520835480995458
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.39370406739280084
+    Attrib genergy    0.6253110475292425
+    Attrib gpuls    0.45653211593043386
+    Attrib gdenergy    -0.5556795127085292
+    Attrib gdpuls    -0.7811280128522431
+    Attrib ghazard=a    0.09069746551503602
+    Attrib ghazard=b    0.10304432026670031
+    Attrib ghazard=c    0.14929408469578095
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.7419906653161635
+    Attrib nbumps2    0.6594168365057198
+    Attrib nbumps3    0.762640926710104
+    Attrib nbumps4    -0.05289684313365953
+    Attrib nbumps5    0.24976847740734004
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.10015589278084894
+    Attrib maxenergy    0.12214621588942094
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3439365241477253
+    Attrib seismic=a    0.14454202249979387
+    Attrib seismic=b    -0.19562316133417812
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.15752558285992388
+    Attrib seismoacoustic=b    -0.17129737701303252
+    Attrib seismoacoustic=c    0.02979699145178082
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.39148600531961536
+    Attrib genergy    -0.62586772158262
+    Attrib gpuls    -0.4573860721685259
+    Attrib gdenergy    0.5434587303351344
+    Attrib gdpuls    0.7941343309063437
+    Attrib ghazard=a    -0.13003022116528443
+    Attrib ghazard=b    -0.14090298928636882
+    Attrib ghazard=c    -0.1973042161239441
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.7485940147895087
+    Attrib nbumps2    -0.6596038132365061
+    Attrib nbumps3    -0.7517839760334231
+    Attrib nbumps4    0.058835837780970054
+    Attrib nbumps5    -0.21674231701940927
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.12615204563771154
+    Attrib maxenergy    -0.14780767269276915
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.460296774882809
+    Attrib seismic=a    -0.21530667960015987
+    Attrib seismic=b    0.20284886926521856
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.1850095930102808
+    Attrib seismoacoustic=b    0.19109284580269698
+    Attrib seismoacoustic=c    0.07771390649125051
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.35161218475736333
+    Attrib genergy    0.2537105037423073
+    Attrib gpuls    0.5719069947793828
+    Attrib gdenergy    0.05352535514924668
+    Attrib gdpuls    0.07783254522558677
+    Attrib ghazard=a    0.12032652347483633
+    Attrib ghazard=b    0.09778730887369003
+    Attrib ghazard=c    0.20072540256249538
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.36413320793070203
+    Attrib nbumps2    0.5349937014441316
+    Attrib nbumps3    0.7971087948627991
+    Attrib nbumps4    -0.3695853920169462
+    Attrib nbumps5    0.107591516682257
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.02563421845543887
+    Attrib maxenergy    0.07415608144004218
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.4192398390350052
+    Attrib seismic=a    0.18295439240753228
+    Attrib seismic=b    -0.23403553124191714
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.15579419375812906
+    Attrib seismoacoustic=b    -0.16241538682714388
+    Attrib seismoacoustic=c    -0.0561197027231904
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.34909939917132493
+    Attrib genergy    -0.25522469813980214
+    Attrib gpuls    -0.572392195000928
+    Attrib gdenergy    -0.06703867692410863
+    Attrib gdpuls    -0.06324856867279728
+    Attrib ghazard=a    -0.16081635993713056
+    Attrib ghazard=b    -0.1375218238963006
+    Attrib ghazard=c    -0.2452025576294561
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.3699381581392373
+    Attrib nbumps2    -0.5329386459550803
+    Attrib nbumps3    -0.7915255262172868
+    Attrib nbumps4    0.37672559478267276
+    Attrib nbumps5    -0.07788741245468991
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.0020838818037703984
+    Attrib maxenergy    -0.10182004626690562
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.2679051871917408
+    Attrib seismic=a    -0.21886313553026016
+    Attrib seismic=b    0.20640532519532
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.021649770180432844
+    Attrib seismoacoustic=b    0.1598702936319018
+    Attrib seismoacoustic=c    0.07990469380082613
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.10440195665625707
+    Attrib genergy    0.07679151914349348
+    Attrib gpuls    1.1293419397937134
+    Attrib gdenergy    -0.13995337942042496
+    Attrib gdpuls    -0.13141595453339838
+    Attrib ghazard=a    0.1884123508140878
+    Attrib ghazard=b    0.11212155714704483
+    Attrib ghazard=c    -0.07408626074116575
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.9820593337511252
+    Attrib nbumps2    0.6165134604495159
+    Attrib nbumps3    1.1225587132142552
+    Attrib nbumps4    -0.320425491008883
+    Attrib nbumps5    0.011629234738315222
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.10490231857655276
+    Attrib maxenergy    -0.05589350822354321
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.2296037525194328
+    Attrib seismic=a    0.18559633693566324
+    Attrib seismic=b    -0.23667747577004777
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    0.007530143010353908
+    Attrib seismoacoustic=b    -0.1306356655968744
+    Attrib seismoacoustic=c    -0.06158767420636912
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.10413412133490813
+    Attrib genergy    -0.07608349575663928
+    Attrib gpuls    -1.12910003595528
+    Attrib gdenergy    0.12499811952257787
+    Attrib gdpuls    0.14179065178429814
+    Attrib ghazard=a    -0.22974749030156585
+    Attrib ghazard=b    -0.1525133242450536
+    Attrib ghazard=c    0.02835615959931227
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.9855101666352292
+    Attrib nbumps2    -0.6142499463537584
+    Attrib nbumps3    -1.1124206568203738
+    Attrib nbumps4    0.3234092396477738
+    Attrib nbumps5    0.020100216420801217
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.07913393771766603
+    Attrib maxenergy    0.03056438441080093
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.36309092148807703
+    Attrib seismic=a    -0.16866926660683249
+    Attrib seismic=b    0.156211456271893
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.18850527760229185
+    Attrib seismoacoustic=b    0.14453521712073303
+    Attrib seismoacoustic=c    0.02356999718647622
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.5624720557689669
+    Attrib genergy    0.11467465251599826
+    Attrib gpuls    0.9265249727959997
+    Attrib gdenergy    -0.04194533871513765
+    Attrib gdpuls    -0.160577937301098
+    Attrib ghazard=a    0.07596555750074888
+    Attrib ghazard=b    0.12792027308846105
+    Attrib ghazard=c    0.11774755092709062
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.5257581376550327
+    Attrib nbumps2    0.6060730825515809
+    Attrib nbumps3    0.5374988426269258
+    Attrib nbumps4    -0.02959931139808279
+    Attrib nbumps5    0.09946962536767656
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.10690740677959489
+    Attrib maxenergy    0.17514165511475047
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.3243359591338072
+    Attrib seismic=a    0.1364441208055754
+    Attrib seismic=b    -0.18752525963996225
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.1599988071730998
+    Attrib seismoacoustic=b    -0.11661341448398195
+    Attrib seismoacoustic=c    -0.002813181750173151
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.5579143576341633
+    Attrib genergy    -0.11543950805787562
+    Attrib gpuls    -0.9266733047785448
+    Attrib gdenergy    0.02712877879214765
+    Attrib gdpuls    0.172333187596289
+    Attrib ghazard=a    -0.11793029243516054
+    Attrib ghazard=b    -0.16878571343033966
+    Attrib ghazard=c    -0.16192085569617504
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.5309477023350516
+    Attrib nbumps2    -0.6062942533041599
+    Attrib nbumps3    -0.5274065447482723
+    Attrib nbumps4    0.035551146726676267
+    Attrib nbumps5    -0.06687771334917006
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.13338669908681966
+    Attrib maxenergy    -0.20132766799138443
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.08291789442715392
+    Attrib seismic=a    -0.13917289122356843
+    Attrib seismic=b    0.12433084416234552
+    Attrib seismic=c    0.03252085724777112
+    Attrib seismic=d    -0.0364670100438407
+    Attrib seismoacoustic=a    -0.08899924589191685
+    Attrib seismoacoustic=b    -0.2856236257755803
+    Attrib seismoacoustic=c    0.45762720855244415
+    Attrib seismoacoustic=d    -0.010044902304736057
+    Attrib shift    -0.48318149759324536
+    Attrib genergy    -0.09376316524856654
+    Attrib gpuls    1.039957323269486
+    Attrib gdenergy    -0.16102353097245542
+    Attrib gdpuls    -0.11747992973719801
+    Attrib ghazard=a    0.019001839350411474
+    Attrib ghazard=b    0.3858478794683608
+    Attrib ghazard=c    -0.35155307142821457
+    Attrib ghazard=d    -0.032327957422440545
+    Attrib nbumps    0.9285940764151402
+    Attrib nbumps2    0.2530408742331154
+    Attrib nbumps3    1.0701410084256935
+    Attrib nbumps4    0.40829950752020466
+    Attrib nbumps5    -0.14154381319445475
+    Attrib nbumps6    0.03199508886863282
+    Attrib nbumps7    0.020434086199659723
+    Attrib nbumps89    0.014608878961652833
+    Attrib energy    0.10281607124364664
+    Attrib maxenergy    0.0299067760110204
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.12473444217187893
+    Attrib seismic=a    0.1762958526508263
+    Attrib seismic=b    -0.08731059680672934
+    Attrib seismic=c    0.03963339403300481
+    Attrib seismic=d    0.04670765261728588
+    Attrib seismoacoustic=a    0.07682541855900611
+    Attrib seismoacoustic=b    0.2732903212806312
+    Attrib seismoacoustic=c    -0.46901809913455583
+    Attrib seismoacoustic=d    -0.03781142672712724
+    Attrib shift    0.4812866120341987
+    Attrib genergy    0.09662755849115112
+    Attrib gpuls    -1.0468441696420423
+    Attrib gdenergy    0.1885905594994713
+    Attrib gdpuls    0.14132459239102868
+    Attrib ghazard=a    -0.0275520570452309
+    Attrib ghazard=b    -0.3984201835778696
+    Attrib ghazard=c    0.33923817178615373
+    Attrib ghazard=d    -0.017226794384568755
+    Attrib nbumps    -0.9940779860558085
+    Attrib nbumps2    -0.21868062790017107
+    Attrib nbumps3    -1.0172553867287961
+    Attrib nbumps4    -0.38791282615277295
+    Attrib nbumps5    0.12398460987844492
+    Attrib nbumps6    -0.008376103723051295
+    Attrib nbumps7    0.011764308629047149
+    Attrib nbumps89    -0.022396948640473247
+    Attrib energy    -0.12575782015023498
+    Attrib maxenergy    -0.0011054160441530752
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.27647221185071325
+    Attrib seismic=a    -0.13715090304343805
+    Attrib seismic=b    0.14209142605213745
+    Attrib seismic=c    0.041465757159688574
+    Attrib seismic=d    0.011254447611554932
+    Attrib seismoacoustic=a    -0.0475081008403278
+    Attrib seismoacoustic=b    0.08213409297916838
+    Attrib seismoacoustic=c    0.20880244188169383
+    Attrib seismoacoustic=d    -0.014810929933957488
+    Attrib shift    -0.4553999875823361
+    Attrib genergy    -0.27536882846783345
+    Attrib gpuls    1.0373240885724193
+    Attrib gdenergy    0.05171322566657369
+    Attrib gdpuls    0.12137398288374562
+    Attrib ghazard=a    0.14723249751430387
+    Attrib ghazard=b    0.11048759010474092
+    Attrib ghazard=c    0.008297449997422813
+    Attrib ghazard=d    -0.03311705011160951
+    Attrib nbumps    0.7988499846928943
+    Attrib nbumps2    0.2468458904161939
+    Attrib nbumps3    1.1781198119608745
+    Attrib nbumps4    -0.10472681467282056
+    Attrib nbumps5    -0.008675442903066766
+    Attrib nbumps6    0.03006495939139174
+    Attrib nbumps7    -0.02568500574655737
+    Attrib nbumps89    0.01633239439069349
+    Attrib energy    0.1385975947598793
+    Attrib maxenergy    0.10604373894386947
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.24500469098735295
+    Attrib seismic=a    0.14881277516557026
+    Attrib seismic=b    -0.13144105694551914
+    Attrib seismic=c    0.004245109946842782
+    Attrib seismic=d    -0.007876432192716921
+    Attrib seismoacoustic=a    0.018467876798913686
+    Attrib seismoacoustic=b    -0.1117434745393392
+    Attrib seismoacoustic=c    -0.2304907886459191
+    Attrib seismoacoustic=d    -0.010293993377632739
+    Attrib shift    0.4493012415063685
+    Attrib genergy    0.289670437486239
+    Attrib gpuls    -1.0605154944960593
+    Attrib gdenergy    -0.022495730956166107
+    Attrib gdpuls    -0.10028141161942138
+    Attrib ghazard=a    -0.14924628346662522
+    Attrib ghazard=b    -0.11360703394172765
+    Attrib ghazard=c    -0.030103152995172133
+    Attrib ghazard=d    -0.007761083661739013
+    Attrib nbumps    -0.7914127379002467
+    Attrib nbumps2    -0.25009732161694376
+    Attrib nbumps3    -1.188749618943456
+    Attrib nbumps4    0.11087519919168273
+    Attrib nbumps5    -0.00985741197388383
+    Attrib nbumps6    -0.018191740056864025
+    Attrib nbumps7    -0.008474569889742878
+    Attrib nbumps89    0.021614720294856074
+    Attrib energy    -0.16249890593786542
+    Attrib maxenergy    -0.08340115560067511
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.34978565871650885
+    Attrib seismic=a    -0.085264223688803
+    Attrib seismic=b    0.07280641335386286
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.05171604732224025
+    Attrib seismoacoustic=b    -0.02834555786883277
+    Attrib seismoacoustic=c    0.31993473968454017
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.4621493639295712
+    Attrib genergy    -0.060526914772363494
+    Attrib gpuls    1.14834395335508
+    Attrib gdenergy    -0.3656712517246282
+    Attrib gdpuls    -0.32765968054506495
+    Attrib ghazard=a    0.045319027410857506
+    Attrib ghazard=b    0.37956121161492756
+    Attrib ghazard=c    -0.1165521202810452
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.7272804103534214
+    Attrib nbumps2    0.7281723239967977
+    Attrib nbumps3    0.5860561601958277
+    Attrib nbumps4    -0.14049374762570502
+    Attrib nbumps5    0.35715717622291754
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    -0.10105471891164351
+    Attrib maxenergy    -0.021511363709252013
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.31285600550453085
+    Attrib seismic=a    0.05323324633916655
+    Attrib seismic=b    -0.10431438517355168
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.025865481763266036
+    Attrib seismoacoustic=b    0.053817869930242
+    Attrib seismoacoustic=c    -0.2958978379449682
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.4583513341753381
+    Attrib genergy    0.059613695211027176
+    Attrib gpuls    -1.149690932239135
+    Attrib gdenergy    0.35043096463702283
+    Attrib gdpuls    0.3390108992874277
+    Attrib ghazard=a    -0.0876536443187602
+    Attrib ghazard=b    -0.4218721049311048
+    Attrib ghazard=c    0.07236884131747619
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.7339592349004171
+    Attrib nbumps2    -0.7271099996121065
+    Attrib nbumps3    -0.5778976773599073
+    Attrib nbumps4    0.14797152453304468
+    Attrib nbumps5    -0.32415391792185017
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    0.07408155777090146
+    Attrib maxenergy    -0.004341114171132843
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.40689529687256526
+    Attrib seismic=a    -0.06922530193634957
+    Attrib seismic=b    0.05489262914986347
+    Attrib seismic=c    0.03753061573522043
+    Attrib seismic=d    0.007295278473709185
+    Attrib seismoacoustic=a    0.200732514782858
+    Attrib seismoacoustic=b    0.19782732225030336
+    Attrib seismoacoustic=c    0.04240138082466017
+    Attrib seismoacoustic=d    0.02156829327379009
+    Attrib shift    -0.2431214215446821
+    Attrib genergy    -0.08150940538753121
+    Attrib gpuls    1.2576728911578587
+    Attrib gdenergy    -0.07912087008971386
+    Attrib gdpuls    -0.28097987718713413
+    Attrib ghazard=a    0.2331535369721728
+    Attrib ghazard=b    0.10998549810213823
+    Attrib ghazard=c    0.12449415466818455
+    Attrib ghazard=d    -0.03990160258190026
+    Attrib nbumps    0.5467784762816839
+    Attrib nbumps2    0.7732567475733146
+    Attrib nbumps3    0.49578430289131065
+    Attrib nbumps4    0.0834703232200406
+    Attrib nbumps5    -0.001559138072055304
+    Attrib nbumps6    0.04555696297127575
+    Attrib nbumps7    0.0411625583817711
+    Attrib nbumps89    -0.029777401789808325
+    Attrib energy    0.13621895275578824
+    Attrib maxenergy    0.1491562567999057
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.41487908485013913
+    Attrib seismic=a    0.04832602543200688
+    Attrib seismic=b    -0.07958784810205798
+    Attrib seismic=c    0.025696294470803516
+    Attrib seismic=d    0.002057713035148498
+    Attrib seismoacoustic=a    -0.21172670728149245
+    Attrib seismoacoustic=b    -0.20803892777385596
+    Attrib seismoacoustic=c    -0.04415331758376743
+    Attrib seismoacoustic=d    -0.0453786326181703
+    Attrib shift    0.24580315286254917
+    Attrib genergy    0.05715248851951272
+    Attrib gpuls    -1.2304961818063676
+    Attrib gdenergy    0.09986617927697845
+    Attrib gdpuls    0.210840128043121
+    Attrib ghazard=a    -0.20146219752131034
+    Attrib ghazard=b    -0.07305764184960355
+    Attrib ghazard=c    -0.09912624597861
+    Attrib ghazard=d    -0.02445139016746053
+    Attrib nbumps    -0.5278288238987002
+    Attrib nbumps2    -0.7821162616745233
+    Attrib nbumps3    -0.5143728281036688
+    Attrib nbumps4    -0.0754209866378156
+    Attrib nbumps5    0.006005777828186326
+    Attrib nbumps6    0.026940655122897006
+    Attrib nbumps7    0.01506815037103007
+    Attrib nbumps89    0.015031500557512997
+    Attrib energy    -0.11977258118412634
+    Attrib maxenergy    -0.1485675264637633
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5376173941402834
+    Attrib seismic=a    -0.18121281409912704
+    Attrib seismic=b    0.19222108823217127
+    Attrib seismic=c    -0.02723918651790134
+    Attrib seismic=d    0.007110990333557207
+    Attrib seismoacoustic=a    0.20847152090846513
+    Attrib seismoacoustic=b    0.20537632957696808
+    Attrib seismoacoustic=c    0.1687875328633549
+    Attrib seismoacoustic=d    -0.01574481398823816
+    Attrib shift    -0.35151107235906914
+    Attrib genergy    0.385012323740212
+    Attrib gpuls    0.696808431020477
+    Attrib gdenergy    -0.2553788175270168
+    Attrib gdpuls    -0.6129038648320068
+    Attrib ghazard=a    0.05412415023081889
+    Attrib ghazard=b    0.19374917145019582
+    Attrib ghazard=c    0.29164615757462453
+    Attrib ghazard=d    -0.04058760743656892
+    Attrib nbumps    0.45089837425994733
+    Attrib nbumps2    0.48349362566091014
+    Attrib nbumps3    0.9382011038105255
+    Attrib nbumps4    -0.214388156680771
+    Attrib nbumps5    0.07026007104699111
+    Attrib nbumps6    0.012375010091531913
+    Attrib nbumps7    0.03596121757985338
+    Attrib nbumps89    0.017480597880265847
+    Attrib energy    0.020580501448965133
+    Attrib maxenergy    0.07382904107175987
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.5532551298833946
+    Attrib seismic=a    0.19903606300616716
+    Attrib seismic=b    -0.176621327743413
+    Attrib seismic=c    0.04026786996276435
+    Attrib seismic=d    0.026463363800806508
+    Attrib seismoacoustic=a    -0.20593344810706812
+    Attrib seismoacoustic=b    -0.20089253637387502
+    Attrib seismoacoustic=c    -0.13939972899927044
+    Attrib seismoacoustic=d    -0.007385120475164653
+    Attrib shift    0.3494439871797303
+    Attrib genergy    -0.3867182477757988
+    Attrib gpuls    -0.7027945688652428
+    Attrib gdenergy    0.2412127875104494
+    Attrib gdpuls    0.6546331455875369
+    Attrib ghazard=a    -0.04575582133299895
+    Attrib ghazard=b    -0.1956625364164128
+    Attrib ghazard=c    -0.3203632500672793
+    Attrib ghazard=d    0.015171024761297391
+    Attrib nbumps    -0.4837703431680172
+    Attrib nbumps2    -0.46545160562960475
+    Attrib nbumps3    -0.9017105612163584
+    Attrib nbumps4    0.2109125683007191
+    Attrib nbumps5    -0.0910297380714717
+    Attrib nbumps6    -0.04762498558515047
+    Attrib nbumps7    -0.03722878230669905
+    Attrib nbumps89    -0.03218406197984487
+    Attrib energy    0.017036267314762155
+    Attrib maxenergy    -0.09524684415354057
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.14821153748346777
+    Attrib seismic=a    -0.09965916844411962
+    Attrib seismic=b    0.054126623298925605
+    Attrib seismic=c    0.0299093835603874
+    Attrib seismic=d    -0.01845072611243092
+    Attrib seismoacoustic=a    -0.05088706004843427
+    Attrib seismoacoustic=b    -0.15981816905687
+    Attrib seismoacoustic=c    0.2716565283194529
+    Attrib seismoacoustic=d    0.048907667748465056
+    Attrib shift    -0.4940128652817054
+    Attrib genergy    -0.0035601885965278386
+    Attrib gpuls    0.9450586092637627
+    Attrib gdenergy    -0.18249170136529297
+    Attrib gdpuls    -0.21871231325721177
+    Attrib ghazard=a    0.024212792989826756
+    Attrib ghazard=b    0.3473884933671475
+    Attrib ghazard=c    -0.2013661493296467
+    Attrib ghazard=d    0.021596551724945887
+    Attrib nbumps    0.810522114070434
+    Attrib nbumps2    0.43378778074475727
+    Attrib nbumps3    0.6845852554274197
+    Attrib nbumps4    0.013710379198949291
+    Attrib nbumps5    0.23287067986160878
+    Attrib nbumps6    -0.007850314174407423
+    Attrib nbumps7    -0.014898584118508605
+    Attrib nbumps89    -0.01052428415042489
+    Attrib energy    0.15192160685836043
+    Attrib maxenergy    0.11545549234331352
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.15479398141665443
+    Attrib seismic=a    0.08488287175404442
+    Attrib seismic=b    -0.06909160666246791
+    Attrib seismic=c    0.037280953387598764
+    Attrib seismic=d    0.014626228148175505
+    Attrib seismoacoustic=a    0.012995271157773313
+    Attrib seismoacoustic=b    0.12193680618650106
+    Attrib seismoacoustic=c    -0.3101487394353498
+    Attrib seismoacoustic=d    -0.005146959918320246
+    Attrib shift    0.4923384981765899
+    Attrib genergy    0.015585453138203286
+    Attrib gpuls    -0.9613448914467168
+    Attrib gdenergy    0.1834931380011199
+    Attrib gdpuls    0.24299002086947669
+    Attrib ghazard=a    9.096552783587648E-4
+    Attrib ghazard=b    -0.3226983421778307
+    Attrib ghazard=c    0.2357602832390581
+    Attrib ghazard=d    0.02291866494542051
+    Attrib nbumps    -0.8239765400074279
+    Attrib nbumps2    -0.43453399638739004
+    Attrib nbumps3    -0.6670414884536152
+    Attrib nbumps4    -0.021414397070472314
+    Attrib nbumps5    -0.27973735350079054
+    Attrib nbumps6    0.02668245603668483
+    Attrib nbumps7    -0.017385156031286757
+    Attrib nbumps89    0.03120718751463017
+    Attrib energy    -0.10077244086321047
+    Attrib maxenergy    -0.12172620443196912
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5100416336566985
+    Attrib seismic=a    -0.10746778834885462
+    Attrib seismic=b    0.1780841715562049
+    Attrib seismic=c    0.03839509441135784
+    Attrib seismic=d    7.986438654790651E-4
+    Attrib seismoacoustic=a    0.3745375542394351
+    Attrib seismoacoustic=b    0.16937986186593063
+    Attrib seismoacoustic=c    0.01596594445891366
+    Attrib seismoacoustic=d    0.04519521348875637
+    Attrib shift    -0.396436753656367
+    Attrib genergy    0.25931021243981567
+    Attrib gpuls    0.8199724411278223
+    Attrib gdenergy    0.17785582106639541
+    Attrib gdpuls    0.22262169480382077
+    Attrib ghazard=a    0.13463724275305175
+    Attrib ghazard=b    0.10065577460871228
+    Attrib ghazard=c    0.2445466999585113
+    Attrib ghazard=d    -0.04212575954655184
+    Attrib nbumps    0.4843596916281938
+    Attrib nbumps2    0.7088325074718209
+    Attrib nbumps3    0.5262698864482243
+    Attrib nbumps4    -0.5621452553232739
+    Attrib nbumps5    0.28736297433863145
+    Attrib nbumps6    -0.026865754881653173
+    Attrib nbumps7    0.032061544933621566
+    Attrib nbumps89    -0.03273418042086272
+    Attrib energy    -0.06789622629218794
+    Attrib maxenergy    -0.015876589834904753
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.5315815360197192
+    Attrib seismic=a    0.12440877004959389
+    Attrib seismic=b    -0.160497926913772
+    Attrib seismic=c    -0.039547598072315865
+    Attrib seismic=d    0.03762364451077567
+    Attrib seismoacoustic=a    -0.3484024774073872
+    Attrib seismoacoustic=b    -0.1444042458925985
+    Attrib seismoacoustic=c    0.022559936367423615
+    Attrib seismoacoustic=d    -0.00420954525383125
+    Attrib shift    0.39755925862489094
+    Attrib genergy    -0.2664356089167584
+    Attrib gpuls    -0.8193831921726739
+    Attrib gdenergy    -0.12950477926627568
+    Attrib gdpuls    -0.1705006501436871
+    Attrib ghazard=a    -0.13714718014305727
+    Attrib ghazard=b    -0.11592323023849901
+    Attrib ghazard=c    -0.28019511604385955
+    Attrib ghazard=d    0.02470170178530806
+    Attrib nbumps    -0.471380186319533
+    Attrib nbumps2    -0.7241470548395237
+    Attrib nbumps3    -0.5293132380670728
+    Attrib nbumps4    0.5571435715336704
+    Attrib nbumps5    -0.3071478695040017
+    Attrib nbumps6    0.03423742306764192
+    Attrib nbumps7    -0.02658109024615949
+    Attrib nbumps89    -0.04531138456256276
+    Attrib energy    0.04898480756674999
+    Attrib maxenergy    0.020796938309512396
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5135475158349632
+    Attrib seismic=a    -0.11611864812472976
+    Attrib seismic=b    0.10366083778978988
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.07495663939080247
+    Attrib seismoacoustic=b    0.011212391849840148
+    Attrib seismoacoustic=c    0.420898055015754
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.4368273684866992
+    Attrib genergy    0.14915752971715265
+    Attrib gpuls    0.9877394813671575
+    Attrib gdenergy    -0.04792922453146835
+    Attrib gdpuls    -0.007108057080670067
+    Attrib ghazard=a    0.21272406071716232
+    Attrib ghazard=b    0.19185765373040473
+    Attrib ghazard=c    0.06750826141561792
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.3008390840021353
+    Attrib nbumps2    0.5310376757932849
+    Attrib nbumps3    0.5554841043307057
+    Attrib nbumps4    -0.3241475399481902
+    Attrib nbumps5    0.09381008877212023
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.07589984650935075
+    Attrib maxenergy    0.15951946705427902
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.47409868153635426
+    Attrib seismic=a    0.0840099757136323
+    Attrib seismic=b    -0.13509111454801834
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.04632078902470046
+    Attrib seismoacoustic=b    0.016355803994568624
+    Attrib seismoacoustic=c    -0.39922314077967985
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.4334074899743844
+    Attrib genergy    -0.15066947302067016
+    Attrib gpuls    -0.9873876083379789
+    Attrib gdenergy    0.03324643093170772
+    Attrib gdpuls    0.019738730807738122
+    Attrib ghazard=a    -0.25579728450860495
+    Attrib ghazard=b    -0.23464613840421822
+    Attrib ghazard=c    -0.107956161051417
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.30925856526156137
+    Attrib nbumps2    -0.5323601223790304
+    Attrib nbumps3    -0.5422670212833887
+    Attrib nbumps4    0.32746696513291024
+    Attrib nbumps5    -0.06131155640952799
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.10429396257892366
+    Attrib maxenergy    -0.18699180270119647
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.3332678662166987
+    Attrib seismic=a    -0.2129528576088414
+    Attrib seismic=b    0.20049504727390152
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    -0.021059192236238408
+    Attrib seismoacoustic=b    0.06700913720970886
+    Attrib seismoacoustic=c    0.2808374916646519
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.2503176851910192
+    Attrib genergy    0.20085084405932474
+    Attrib gpuls    1.0982788210720302
+    Attrib gdenergy    -0.23825398313377855
+    Attrib gdpuls    -0.5376409475810845
+    Attrib ghazard=a    0.20055920508543837
+    Attrib ghazard=b    0.11197785666843292
+    Attrib ghazard=c    -0.020726735508947464
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.48784161320045805
+    Attrib nbumps2    0.4176579659998929
+    Attrib nbumps3    0.8759573993643466
+    Attrib nbumps4    -0.1810978663709647
+    Attrib nbumps5    0.13444191968275554
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.06959273972199181
+    Attrib maxenergy    0.14055587595166355
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.29642077515199655
+    Attrib seismic=a    0.18058327218057885
+    Attrib seismic=b    -0.2316644110149647
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    0.049167879002517324
+    Attrib seismoacoustic=b    -0.03923968562972145
+    Attrib seismoacoustic=c    -0.26143841279824764
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.24781289676852591
+    Attrib genergy    -0.20060737896757694
+    Attrib gpuls    -1.1012743498107285
+    Attrib gdenergy    0.22410193399401057
+    Attrib gdpuls    0.5512787013376392
+    Attrib ghazard=a    -0.24398225205974203
+    Attrib ghazard=b    -0.1553044548000796
+    Attrib ghazard=c    -0.021434970720052134
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.49243828032449966
+    Attrib nbumps2    -0.4190078886620142
+    Attrib nbumps3    -0.8704637426913813
+    Attrib nbumps4    0.19077726135435039
+    Attrib nbumps5    -0.10678097708431808
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.09183388134902658
+    Attrib maxenergy    -0.16525776528592342
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4342646431626332
+    Attrib seismic=a    -0.21460292995851593
+    Attrib seismic=b    0.27190428234651387
+    Attrib seismic=c    -0.03565484655675177
+    Attrib seismic=d    -0.015506922336717181
+    Attrib seismoacoustic=a    0.18194798716306096
+    Attrib seismoacoustic=b    0.07265413318394601
+    Attrib seismoacoustic=c    0.06565391375583887
+    Attrib seismoacoustic=d    -0.034429746153060575
+    Attrib shift    -0.27961119108908195
+    Attrib genergy    0.12887734625629976
+    Attrib gpuls    1.211279033206924
+    Attrib gdenergy    -0.16690162182311125
+    Attrib gdpuls    -0.510965713841025
+    Attrib ghazard=a    0.09561658954248689
+    Attrib ghazard=b    0.19119162765985373
+    Attrib ghazard=c    0.1605302500026026
+    Attrib ghazard=d    0.046403254995218884
+    Attrib nbumps    0.5862068325036806
+    Attrib nbumps2    0.9093514519925537
+    Attrib nbumps3    0.517460676627664
+    Attrib nbumps4    -0.29840149800730054
+    Attrib nbumps5    0.289904674794081
+    Attrib nbumps6    0.03035925036867823
+    Attrib nbumps7    0.029477034278736977
+    Attrib nbumps89    0.009248989364835002
+    Attrib energy    -0.046491556977652435
+    Attrib maxenergy    -0.031841344338992085
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.42021632360845357
+    Attrib seismic=a    0.26013745628415547
+    Attrib seismic=b    -0.2259402816400731
+    Attrib seismic=c    -0.0038297279197002237
+    Attrib seismic=d    0.033534215921261476
+    Attrib seismoacoustic=a    -0.22286258839830472
+    Attrib seismoacoustic=b    -0.11474494991640205
+    Attrib seismoacoustic=c    -0.10973807580825062
+    Attrib seismoacoustic=d    0.030363833226135756
+    Attrib shift    0.2821803736928078
+    Attrib genergy    -0.10454984223855175
+    Attrib gpuls    -1.2386436145593984
+    Attrib gdenergy    0.13751469921277013
+    Attrib gdpuls    0.5383904863750835
+    Attrib ghazard=a    -0.10105251888580377
+    Attrib ghazard=b    -0.19279666296617615
+    Attrib ghazard=c    -0.12972650046605957
+    Attrib ghazard=d    -0.006073868111672279
+    Attrib nbumps    -0.5652236329008925
+    Attrib nbumps2    -0.9244221587421497
+    Attrib nbumps3    -0.5342289060349513
+    Attrib nbumps4    0.2997694855640243
+    Attrib nbumps5    -0.29068221421955254
+    Attrib nbumps6    -0.047809036782674987
+    Attrib nbumps7    -0.02987789189349538
+    Attrib nbumps89    -0.0209463906014991
+    Attrib energy    0.12950179905927478
+    Attrib maxenergy    -0.04326247325470416
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5116758129752168
+    Attrib seismic=a    -0.1688337634630164
+    Attrib seismic=b    0.1563759531280757
+    Attrib seismic=c    -0.020735085108825935
+    Attrib seismic=d    0.04817782273272303
+    Attrib seismoacoustic=a    0.26220843934207155
+    Attrib seismoacoustic=b    0.1353208405220405
+    Attrib seismoacoustic=c    0.10766610353253324
+    Attrib seismoacoustic=d    0.0016401932141234532
+    Attrib shift    -0.31390945603431125
+    Attrib genergy    0.2901514650438454
+    Attrib gpuls    1.3558636227392724
+    Attrib gdenergy    -0.3104161980626411
+    Attrib gdpuls    -0.8287577052703465
+    Attrib ghazard=a    0.13032014867607597
+    Attrib ghazard=b    0.13083522204527437
+    Attrib ghazard=c    0.20906290228208427
+    Attrib ghazard=d    0.009217572140862475
+    Attrib nbumps    0.6203834244484637
+    Attrib nbumps2    0.9036623894067025
+    Attrib nbumps3    0.6734885647136711
+    Attrib nbumps4    -0.5071156110808547
+    Attrib nbumps5    -0.09384158906652725
+    Attrib nbumps6    0.010124472959849098
+    Attrib nbumps7    0.038412736656330645
+    Attrib nbumps89    -0.038733675982628724
+    Attrib energy    0.014284613742754772
+    Attrib maxenergy    0.1516738802143283
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.4727197796196011
+    Attrib seismic=a    0.1368558452365085
+    Attrib seismic=b    -0.1879369840708916
+    Attrib seismic=c    0.04042072075955254
+    Attrib seismic=d    -0.03196227482978578
+    Attrib seismoacoustic=a    -0.23366897729012423
+    Attrib seismoacoustic=b    -0.10674506659859567
+    Attrib seismoacoustic=c    -0.0873951800043361
+    Attrib seismoacoustic=d    -0.00804389442090462
+    Attrib shift    0.3112203576519952
+    Attrib genergy    -0.2915395036696744
+    Attrib gpuls    -1.3583091758603094
+    Attrib gdenergy    0.29723851091190506
+    Attrib gdpuls    0.8418740830200823
+    Attrib ghazard=a    -0.17173688851243904
+    Attrib ghazard=b    -0.1731776988257942
+    Attrib ghazard=c    -0.25210609470925177
+    Attrib ghazard=d    -0.0280191152791349
+    Attrib nbumps    -0.6270593354099889
+    Attrib nbumps2    -0.9020006633881102
+    Attrib nbumps3    -0.6669766469098878
+    Attrib nbumps4    0.5162221325389584
+    Attrib nbumps5    0.12477529895958987
+    Attrib nbumps6    -0.032974850496120534
+    Attrib nbumps7    0.006098232880173263
+    Attrib nbumps89    0.02010068622603431
+    Attrib energy    -0.04067102542217669
+    Attrib maxenergy    -0.17749607374112086
+Class 1
+    Input
+    Node 0
+Class 0
+    Input
+    Node 1
+
+
+
+
+Time taken to build model: 10.22 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2412               93.3437 %
+Incorrectly Classified Instances       172                6.6563 %
+Kappa statistic                          0.028 
+Mean absolute error                      0.1178
+Root mean squared error                  0.2398
+Relative absolute error                 95.6171 %
+Root relative squared error             96.7162 %
+Coverage of cases (0.95 level)          98.8777 %
+Mean rel. region size (0.95 level)      74.3421 %
+Total Number of Instances             2584     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.018    0.002    0.375      0.018    0.034      0.070    0.760     0.197     1
+                 0.998    0.982    0.935      0.998    0.966      0.070    0.760     0.972     0
+Weighted Avg.    0.933    0.918    0.898      0.933    0.904      0.070    0.760     0.921     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    3  167 |    a = 1
+    5 2409 |    b = 0
+
+

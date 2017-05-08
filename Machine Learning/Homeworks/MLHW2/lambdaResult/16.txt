@@ -1,0 +1,37 @@
+************Naive Bayes***************
+True Spam: 130.0 Detected Spam: 125.0
+True ham: 348.0 Detected ham: 328.0
+Accuracy: 0.9476987447698745
+************Logistic Regression***************
+True Spam: 130.0 Detected Spam: 117.0
+True ham: 348.0 Detected ham: 18.0
+Accuracy: 0.2824267782426778
+--------------------------------
+------------Modifying smoothing---------
+************Naive Bayes***************
+True Spam: 130.0 Detected Spam: 126.0
+True ham: 348.0 Detected ham: 319.0
+Accuracy: 0.9309623430962343
+************Logistic Regression***************
+True Spam: 130.0 Detected Spam: 117.0
+True ham: 348.0 Detected ham: 18.0
+Accuracy: 0.2824267782426778
+Stop words used: 
++++++++++++++++++++++++++++
+************Naive Bayes***************
+True Spam: 130.0 Detected Spam: 123.0
+True ham: 348.0 Detected ham: 327.0
+Accuracy: 0.9414225941422594
+************Logistic Regression***************
+True Spam: 130.0 Detected Spam: 103.0
+True ham: 348.0 Detected ham: 148.0
+Accuracy: 0.5251046025104602
+.........Eliminate less frequent word...........
+************Naive Bayes***************
+True Spam: 130.0 Detected Spam: 126.0
+True ham: 348.0 Detected ham: 318.0
+Accuracy: 0.9288702928870293
+************Logistic Regression***************
+True Spam: 130.0 Detected Spam: 36.0
+True ham: 348.0 Detected ham: 284.0
+Accuracy: 0.6694560669456067
